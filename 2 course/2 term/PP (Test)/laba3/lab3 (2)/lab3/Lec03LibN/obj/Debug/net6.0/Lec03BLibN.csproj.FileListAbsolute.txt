@@ -1,0 +1,36 @@
+E:\Studies\4Sem\PP\lab3\Lec03LibN\bin\Debug\net6.0\Lec03BLibN.deps.json
+E:\Studies\4Sem\PP\lab3\Lec03LibN\bin\Debug\net6.0\Lec03BLibN.dll
+E:\Studies\4Sem\PP\lab3\Lec03LibN\bin\Debug\net6.0\Lec03BLibN.pdb
+E:\Studies\4Sem\PP\lab3\Lec03LibN\obj\Debug\net6.0\Lec03BLibN.csproj.AssemblyReference.cache
+E:\Studies\4Sem\PP\lab3\Lec03LibN\obj\Debug\net6.0\Lec03BLibN.GeneratedMSBuildEditorConfig.editorconfig
+E:\Studies\4Sem\PP\lab3\Lec03LibN\obj\Debug\net6.0\Lec03BLibN.AssemblyInfoInputs.cache
+E:\Studies\4Sem\PP\lab3\Lec03LibN\obj\Debug\net6.0\Lec03BLibN.AssemblyInfo.cs
+E:\Studies\4Sem\PP\lab3\Lec03LibN\obj\Debug\net6.0\Lec03BLibN.csproj.CoreCompileInputs.cache
+E:\Studies\4Sem\PP\lab3\Lec03LibN\obj\Debug\net6.0\Lec03BLibN.dll
+E:\Studies\4Sem\PP\lab3\Lec03LibN\obj\Debug\net6.0\refint\Lec03BLibN.dll
+E:\Studies\4Sem\PP\lab3\Lec03LibN\obj\Debug\net6.0\Lec03BLibN.pdb
+E:\Studies\4Sem\PP\lab3\Lec03LibN\obj\Debug\net6.0\ref\Lec03BLibN.dll
+F:\.Уник\4 сем\ПП\Лабы\lab3\Lec03LibN\bin\Debug\net6.0\Lec03BLibN.deps.json
+F:\.Уник\4 сем\ПП\Лабы\lab3\Lec03LibN\bin\Debug\net6.0\Lec03BLibN.dll
+F:\.Уник\4 сем\ПП\Лабы\lab3\Lec03LibN\bin\Debug\net6.0\Lec03BLibN.pdb
+F:\.Уник\4 сем\ПП\Лабы\lab3\Lec03LibN\obj\Debug\net6.0\Lec03BLibN.csproj.AssemblyReference.cache
+F:\.Уник\4 сем\ПП\Лабы\lab3\Lec03LibN\obj\Debug\net6.0\Lec03BLibN.GeneratedMSBuildEditorConfig.editorconfig
+F:\.Уник\4 сем\ПП\Лабы\lab3\Lec03LibN\obj\Debug\net6.0\Lec03BLibN.AssemblyInfoInputs.cache
+F:\.Уник\4 сем\ПП\Лабы\lab3\Lec03LibN\obj\Debug\net6.0\Lec03BLibN.AssemblyInfo.cs
+F:\.Уник\4 сем\ПП\Лабы\lab3\Lec03LibN\obj\Debug\net6.0\Lec03BLibN.csproj.CoreCompileInputs.cache
+F:\.Уник\4 сем\ПП\Лабы\lab3\Lec03LibN\obj\Debug\net6.0\Lec03BLibN.dll
+F:\.Уник\4 сем\ПП\Лабы\lab3\Lec03LibN\obj\Debug\net6.0\refint\Lec03BLibN.dll
+F:\.Уник\4 сем\ПП\Лабы\lab3\Lec03LibN\obj\Debug\net6.0\Lec03BLibN.pdb
+F:\.Уник\4 сем\ПП\Лабы\lab3\Lec03LibN\obj\Debug\net6.0\ref\Lec03BLibN.dll
+D:\Study\ПП (Зачет)\laba3\lab3 (2)\lab3\Lec03LibN\bin\Debug\net6.0\Lec03BLibN.deps.json
+D:\Study\ПП (Зачет)\laba3\lab3 (2)\lab3\Lec03LibN\bin\Debug\net6.0\Lec03BLibN.dll
+D:\Study\ПП (Зачет)\laba3\lab3 (2)\lab3\Lec03LibN\bin\Debug\net6.0\Lec03BLibN.pdb
+D:\Study\ПП (Зачет)\laba3\lab3 (2)\lab3\Lec03LibN\obj\Debug\net6.0\Lec03BLibN.csproj.AssemblyReference.cache
+D:\Study\ПП (Зачет)\laba3\lab3 (2)\lab3\Lec03LibN\obj\Debug\net6.0\Lec03BLibN.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\ПП (Зачет)\laba3\lab3 (2)\lab3\Lec03LibN\obj\Debug\net6.0\Lec03BLibN.AssemblyInfoInputs.cache
+D:\Study\ПП (Зачет)\laba3\lab3 (2)\lab3\Lec03LibN\obj\Debug\net6.0\Lec03BLibN.AssemblyInfo.cs
+D:\Study\ПП (Зачет)\laba3\lab3 (2)\lab3\Lec03LibN\obj\Debug\net6.0\Lec03BLibN.csproj.CoreCompileInputs.cache
+D:\Study\ПП (Зачет)\laba3\lab3 (2)\lab3\Lec03LibN\obj\Debug\net6.0\Lec03BLibN.dll
+D:\Study\ПП (Зачет)\laba3\lab3 (2)\lab3\Lec03LibN\obj\Debug\net6.0\refint\Lec03BLibN.dll
+D:\Study\ПП (Зачет)\laba3\lab3 (2)\lab3\Lec03LibN\obj\Debug\net6.0\Lec03BLibN.pdb
+D:\Study\ПП (Зачет)\laba3\lab3 (2)\lab3\Lec03LibN\obj\Debug\net6.0\ref\Lec03BLibN.dll
