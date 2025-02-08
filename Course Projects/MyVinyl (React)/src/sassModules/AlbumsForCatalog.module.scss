@@ -1,0 +1,63 @@
+.albums {
+  //width: 90vw;
+  // width: 92vw;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 3vw;
+  // padding-right: 5.5vw;
+
+  .block {
+    width: 17vw;
+    display: inline-block;
+    margin-bottom: 10vh;
+    margin-left: 2vw;
+    position: relative;
+
+    .link {
+      .first {
+        width: 17vw;
+        position: relative;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+    .add {
+      color: rgb(246, 243, 255);
+      transform: scale(2);
+      float: right;
+      position: absolute;
+      top: 5%;
+      right: 5%;
+      cursor: pointer;
+      transition: transform 0.15s linear;
+
+      &:hover {
+        transform: scale(2.3);
+      }
+    }
+
+    .second {
+      .link {
+        text-decoration: none;
+        color: inherit;
+
+        &:visited {
+          color: inherit;
+        }
+      }
+
+      p {
+        text-align: center;
+      }
+    }
+
+    .hideBlock {
+      display: none;
+      position: absolute;
+    }
+  }
+}

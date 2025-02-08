@@ -1,0 +1,254 @@
+@font-face {
+  font-family: HelveticaNeueCyr;
+  src: url("../fonts/HelveticaNeueCyr-Medium.ttf");
+}
+
+body {
+  background-color: #edfffd;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  padding-top: 20vh;
+  width: 100vw;
+  height: 46vh;
+  background-color: #f3fffe;
+  background-image: url("../images/other/catalogBack.jpg");
+
+  background-position: center -200px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  .breadcrumbs {
+    margin: 0;
+    position: absolute;
+    top: 14vh;
+    left: 3vw;
+    color: white;
+    font-weight: 300;
+    font-family: HelveticaNeueCyr;
+
+    .linkHome {
+      text-decoration: underline;
+      color: white;
+      font-weight: bold;
+    }
+  }
+
+  .centralText {
+    font-size: 3vw;
+    text-decoration: overline;
+    font-weight: bold;
+    font-family: HelveticaNeueCyr;
+    color: white;
+  }
+}
+
+.cont {
+  display: flex;
+  flex-direction: row;
+  width: 86vw;
+  margin: auto;
+  background-color: #edfffd;
+  margin-top: 10vh;
+  .left {
+    margin-right: 6vw;
+    .options {
+      position: sticky;
+      top: 17vh;
+
+      .findBlock {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1vh;
+
+        form {
+          margin-bottom: 0.5vh;
+          width: 20vw;
+          height: 5vh;
+          position: relative;
+
+          .searchInput {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            outline: none;
+            padding-left: 3vw;
+            background-color: white;
+            box-shadow: 1px 1px 5px black;
+          }
+          .searchInput2 {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            outline: none;
+            padding-left: 3vw;
+            background-color: orange;
+            box-shadow: 1px 1px 5px black;
+          }
+
+          .autocomplete {
+            position: absolute;
+            width: 20vw;
+            left: 0;
+            top: 5.25vh;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+            box-shadow: 1px 1px 5px black;
+            z-index: 111;
+            max-height: 30vh;
+            height: auto;
+            overflow: auto;
+            .item {
+              padding: 0.4vw;
+
+              &:hover {
+                background-color: red;
+                cursor: pointer;
+                transition: cubic-bezier(1, 0, 0, 1) 0.3s all;
+              }
+            }
+          }
+
+          .findImg {
+            width: 1.4vw;
+            height: 100%;
+            position: absolute;
+            z-index: 100;
+            top: 0.5vh;
+            left: 0.5vw;
+          }
+        }
+      }
+      .genresBlock {
+        .genresList {
+          // max-height: 20vh;
+          // overflow: hidden;
+          margin-top: 2vh;
+          .genre {
+            // .genreCheckbox {
+            // }
+            .genreLabel {
+              font-size: 1vw;
+            }
+          }
+        }
+        .genresToggle {
+          margin-top: 2vh;
+          cursor: pointer;
+        }
+      }
+      .priceBlock {
+        margin-top: 5vh;
+
+        > p {
+          font-weight: bold;
+        }
+        .prices {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+        }
+      }
+      .yearBlock {
+        margin-top: 5vh;
+
+        > p {
+          font-weight: bold;
+        }
+        .years {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+        }
+      }
+    }
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // align-items: self-start;
+    .words {
+      display: flex;
+      margin: 0;
+      margin-bottom: 5vh;
+      padding: 0;
+      position: relative;
+      // align-items: flex-start;
+      justify-content: flex-end;
+      right: 0;
+
+      div {
+        margin-left: 2vw;
+        cursor: pointer;
+        p {
+          margin-right: 0.5vw;
+          padding: 0;
+          margin-top: 1vh;
+          margin-bottom: 1vh;
+          display: inline-block;
+        }
+        .genres {
+          margin-right: 0;
+        }
+      }
+
+      .genresBlock {
+        margin-right: 0;
+      }
+    }
+
+    .pagination {
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding-left: 3vw;
+
+      .pageItem {
+        display: flex;
+        border: 1px solid black;
+        margin: 0.5vw;
+        padding: 5px 5px;
+        // width: 2vw;
+        // height: 2vw;
+        justify-content: center;
+        align-self: center;
+        transition: 0.3s linear background-color;
+
+        .pageLink {
+          color: black;
+          float: left;
+          padding: 5px 10px;
+          text-decoration: none;
+        }
+      }
+
+      .pageItem.active {
+        background-color: rgb(156, 156, 156);
+      }
+
+      .pageItem:hover {
+        cursor: pointer;
+        background-color: rgb(201, 201, 201);
+      }
+    }
+  }
+}

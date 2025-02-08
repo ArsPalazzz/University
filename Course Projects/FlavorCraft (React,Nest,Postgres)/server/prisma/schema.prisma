@@ -1,0 +1,154 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model categories {
+  id      Int       @id @default(autoincrement())
+  name    String    @db.VarChar(100)
+  recipes recipes[]
+}
+
+model comments {
+  id         Int       @id @default(autoincrement())
+  recipe_id  String    @db.Uuid
+  user_id    String    @db.Uuid
+  content    String
+  status     String    @default("active")
+  created_at DateTime? @default(now()) @db.Timestamp(6)
+  recipes    recipes   @relation(fields: [recipe_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  users      users     @relation(fields: [user_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+}
+
+model favorites {
+  id         Int       @id @default(autoincrement())
+  user_id    String    @db.Uuid
+  recipe_id  String    @db.Uuid
+  created_at DateTime? @default(now()) @db.Timestamp(6)
+  recipes    recipes   @relation(fields: [recipe_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  users      users     @relation(fields: [user_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+
+  @@unique([user_id, recipe_id])
+}
+
+model followings {
+  id                                  Int       @id @default(autoincrement())
+  follower_id                         String    @db.Uuid
+  followed_id                         String    @db.Uuid
+  created_at                          DateTime? @default(now()) @db.Timestamp(6)
+  users_followings_followed_idTousers users     @relation("followings_followed_idTousers", fields: [followed_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  users_followings_follower_idTousers users     @relation("followings_follower_idTousers", fields: [follower_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+
+  @@unique([follower_id, followed_id])
+}
+
+model ingredients {
+  id                  Int                   @id @default(autoincrement())
+  name                String                @unique @db.VarChar(80)
+  recipes_ingredients recipes_ingredients[]
+}
+
+/// This table contains check constraints and requires additional setup for migrations. Visit https://pris.ly/d/check-constraints for more info.
+model ratings {
+  id         Int       @id @default(autoincrement())
+  recipe_id  String    @db.Uuid
+  user_id    String    @db.Uuid
+  rating     Int?
+  created_at DateTime? @default(now()) @db.Timestamp(6)
+  recipes    recipes   @relation(fields: [recipe_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  users      users     @relation(fields: [user_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+
+  @@unique([recipe_id, user_id])
+}
+
+model recipes {
+  id                  String                @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  user_id             String                @db.Uuid
+  cuisine_id          Int?
+  category_id         Int?
+  title               String                @db.VarChar(100)
+  description         String
+  image_path          String?
+  instructions        String[]
+  created_at          DateTime?             @default(now()) @db.Timestamp(6)
+  prep_time           Int
+  portions_min        Int
+  portions_max        Int?
+  difficulty_level    String?               @db.VarChar(10)
+  calories            Int?
+  protein             Int
+  fat                 Int
+  carbs               Int
+  avg_rating          Decimal?              @default(0) @db.Decimal(3, 2)
+  status              String?               @default("pending") @db.VarChar(20)
+  comments            comments[]
+  favorites           favorites[]
+  ratings             ratings[]
+  categories          categories?           @relation(fields: [category_id], references: [id], onUpdate: NoAction)
+  cuisines            cuisines?             @relation(fields: [cuisine_id], references: [id], onUpdate: NoAction)
+  users               users                 @relation(fields: [user_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  recipes_ingredients recipes_ingredients[]
+  recipes_tags        recipes_tags[]
+}
+
+model recipes_ingredients {
+  recipe_id     String      @db.Uuid
+  ingredient_id Int
+  quantity      String      @db.VarChar(50)
+  ingredients   ingredients @relation(fields: [ingredient_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  recipes       recipes     @relation(fields: [recipe_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+
+  @@id([recipe_id, ingredient_id])
+}
+
+model users {
+  id                                       String        @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  username                                 String        @db.VarChar(50)
+  email                                    String        @unique @db.VarChar(255)
+  password_hash                            String        @db.VarChar(255)
+  avatar_url                               String?
+  role                                     String?       @default("user") @db.VarChar(20)
+  is_blocked                               Boolean?      @default(false)
+  created_at                               DateTime?     @default(now()) @db.Timestamp(6)
+  banned_users                             banned_users?
+  comments                                 comments[]
+  favorites                                favorites[]
+  followings_followings_followed_idTousers followings[]  @relation("followings_followed_idTousers")
+  followings_followings_follower_idTousers followings[]  @relation("followings_follower_idTousers")
+  ratings                                  ratings[]
+  recipes                                  recipes[]
+}
+
+model banned_users {
+  id        Int       @id @default(autoincrement())
+  user_id   String    @unique(map: "unique_user_ban") @db.Uuid
+  reason    String
+  banned_at DateTime? @default(now()) @db.Timestamp(6)
+  users     users     @relation(fields: [user_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+}
+
+model cuisines {
+  id      Int       @id @default(autoincrement())
+  name    String    @db.VarChar(255)
+  recipes recipes[]
+}
+
+model tags {
+  id           Int            @id @default(autoincrement())
+  name         String         @unique @db.VarChar(100)
+  query_key    String         @unique @db.VarChar(100)
+  recipes_tags recipes_tags[]
+}
+
+model recipes_tags {
+  recipe_id String  @db.Uuid
+  tag_id    Int
+  recipes   recipes @relation(fields: [recipe_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  tags      tags    @relation(fields: [tag_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+
+  @@id([recipe_id, tag_id])
+}

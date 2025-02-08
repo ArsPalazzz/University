@@ -1,0 +1,747 @@
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  width: 100%;
+  /* height: 14vh; */
+  background-color: rgba(0, 0, 0, 0.703);
+  position: fixed;
+  z-index: 100;
+  /*max-height: 14.5%;
+  min-height: 2%;*/
+  max-height: 14.5vh;
+  min-height: 2vh;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+header:hover {
+  background-color: rgba(0, 0, 0, 0.896);
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header .picNP {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 50vw;
+}
+.header .picNP .pic {
+  width: 4.8vw;
+  max-height: 100%;
+  margin: 2% 0 0.5% 0%;
+  display: inline-block;
+}
+.header .picNP .pic img {
+  width: 100%;
+  max-height: 105px;
+}
+.header .picNP a {
+  display: inline-block;
+  font-size: 2vw;
+  text-transform: uppercase;
+  margin: 0;
+  text-shadow: 2px 2px 2px black;
+  padding-right: 5%;
+  -webkit-transition: 0.1s all linear;
+  transition: 0.1s all linear;
+}
+.header .picNP a:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  text-shadow: 0 0 3px;
+}
+.header .menu {
+  width: 50vw;
+}
+.header .menu nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 100%;
+  width: 100%;
+}
+.header .menu nav ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.header .menu nav ul li {
+  list-style-type: none;
+  margin-right: 20px;
+  display: inline-block;
+  text-shadow: 2px 2px 2px black;
+  text-decoration: none;
+  -webkit-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+.header .menu nav ul li:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  text-shadow: 0 0 3px;
+}
+.header .menu nav ul li a {
+  font-size: 2vw;
+}
+
+a {
+  text-decoration: none;
+}
+a:link, a:visited {
+  color: white;
+}
+
+@media (min-width: 320px) and (max-width: 560px) {
+  header .header .picNP {
+    width: 15vw;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-top: 2%;
+  }
+  header .header .picNP .pic {
+    width: 5vh;
+    height: 5vh;
+    margin: 1.2% 0.5% 10% 7px;
+  }
+  header .header .picNP .pic img {
+    max-height: 250px;
+  }
+  header .header .picNP .tbut {
+    display: none;
+    position: absolute;
+  }
+  header .header .menu {
+    width: 85vw;
+  }
+  header .header .menu nav ul li {
+    margin-right: 20px;
+    text-shadow: 4px 4px 4px black;
+  }
+  header .header .menu nav ul li a {
+    font-size: 3vw;
+  }
+}
+@media (min-width: 560px) and (max-width: 1000px) {
+  header .header .picNP {
+    width: 15vw;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-top: 2%;
+  }
+  header .header .picNP .pic {
+    width: 7.5vh;
+    height: 7.5vh;
+    margin: 1.2% 0 8% 12px;
+  }
+  header .header .picNP .pic a {
+    height: 100%;
+    display: inline-block;
+  }
+  header .header .picNP .pic img {
+    max-height: 250px;
+  }
+  header .header .picNP .tbut {
+    display: none;
+    position: absolute;
+  }
+  header .header .menu {
+    width: 85vw;
+  }
+  header .header .menu nav ul li {
+    margin-right: 25px;
+    text-shadow: 4px 4px 4px black;
+  }
+  header .header .menu nav ul li a {
+    font-size: 3.2vw;
+  }
+}
+.line {
+  border-bottom: 1.5px solid black;
+  margin-top: 5vh;
+}
+
+.news {
+  margin-top: 5vh;
+  margin-bottom: 15vh;
+}
+.news .newsFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.news .newsFlex .form {
+  margin: auto;
+  width: 34vw;
+}
+.news .newsFlex .form .formFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.news .newsFlex .form .formFlex .text {
+  text-align: center;
+  font-size: 2.2vw;
+}
+.news .newsFlex .form .formFlex .buttons .buttonsFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.news .newsFlex .form .formFlex .buttons .buttonsFlex input[type=text] {
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.1vw;
+  width: 14vw;
+}
+.news .newsFlex .form .formFlex .buttons .buttonsFlex input[type=submit] {
+  font-size: 1.1vw;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px 50px 10px 50px;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: all 0.15s linear;
+  transition: all 0.15s linear;
+}
+.news .newsFlex .form .formFlex .buttons .buttonsFlex input[type=submit]:hover {
+  background-color: #363636;
+}
+
+@media (min-width: 560px) and (max-width: 1000px) {
+  .line {
+    border-bottom: 2px solid black;
+    margin-top: 2vw;
+  }
+
+  .news {
+    margin-top: 2vh;
+    margin-bottom: 6vh;
+  }
+  .news .newsFlex .form {
+    width: 56vw;
+  }
+  .news .newsFlex .form .formFlex .text {
+    font-size: 3.5vw;
+  }
+  .news .newsFlex .form .formFlex .buttons .buttonsFlex input[type=text] {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.8vw;
+    width: 25vw;
+  }
+  .news .newsFlex .form .formFlex .buttons .buttonsFlex input[type=submit] {
+    font-size: 1.8vw;
+    border-radius: 15px;
+    padding: 10px 50px 10px 50px;
+  }
+}
+@media (min-width: 320px) and (max-width: 560px) {
+  .line {
+    border-bottom: 1.5px solid black;
+    margin-top: 2vw;
+  }
+
+  .news {
+    margin-top: 2vh;
+    margin-bottom: 6vh;
+  }
+  .news .newsFlex .form {
+    width: 86vw;
+  }
+  .news .newsFlex .form .formFlex .text {
+    font-size: 5.5vw;
+  }
+  .news .newsFlex .form .formFlex .buttons .buttonsFlex input[type=text] {
+    padding: 6px;
+    border-radius: 6px;
+    font-size: 2.5vw;
+    width: 40vw;
+  }
+  .news .newsFlex .form .formFlex .buttons .buttonsFlex input[type=submit] {
+    font-size: 2.5vw;
+    border-radius: 10px;
+    padding: 8px 40px 8px 40px;
+  }
+}
+footer .footerFlex .part1 {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+footer .footerFlex .part1 .part1Flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer .footerFlex .part1 .part1Flex .footInf {
+  margin-left: 2vw;
+  border-right: 2px solid black;
+  width: 50vw;
+}
+footer .footerFlex .part1 .part1Flex .footInf .footInfFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+footer .footerFlex .part1 .part1Flex .footInf .footInfFlex h2 {
+  font-size: 2.5vw;
+  font-weight: normal;
+  text-shadow: 2px 2px 2px black;
+}
+footer .footerFlex .part1 .part1Flex .footInf .footInfFlex p {
+  font-size: 1.2vw;
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
+  padding-right: 1vw;
+  text-shadow: 1px 1px 1px black;
+}
+footer .footerFlex .part1 .part1Flex .footCont {
+  width: 50vw;
+  margin-left: 2vw;
+}
+footer .footerFlex .part1 .part1Flex .footCont .footContFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+footer .footerFlex .part1 .part1Flex .footCont .footContFlex .phNemail h2 {
+  font-size: 2.5vw;
+  font-weight: normal;
+  text-shadow: 2px 2px 2px black;
+}
+footer .footerFlex .part1 .part1Flex .footCont .footContFlex .phNemail p {
+  font-size: 1.2vw;
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
+  text-shadow: 1px 1px 1px black;
+}
+footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages {
+  margin-left: 2vw;
+  padding-bottom: 0.5vh;
+}
+footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .youtube, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .inst, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .vk {
+  width: 3vw;
+  margin-right: 1vw;
+  -webkit-transition: 0.1s all linear;
+  transition: 0.1s all linear;
+}
+footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .youtube:hover, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .inst:hover, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .vk:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .youtube svg, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .inst svg, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .vk svg {
+  width: 100%;
+}
+footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .inst {
+  -webkit-filter: brightness(85%);
+          filter: brightness(85%);
+}
+footer .footerFlex .part2 {
+  background-color: black;
+}
+footer .footerFlex .part2 .part2Flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .footerFlex .part2 .part2Flex p {
+  font-size: 1.1vw;
+}
+
+@media (min-width: 560px) and (max-width: 1000px) {
+  footer .footerFlex .part1 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+  footer .footerFlex .part1 .part1Flex .footInf {
+    margin-left: 2vw;
+    border-right: 2px solid black;
+    width: 50vw;
+  }
+  footer .footerFlex .part1 .part1Flex .footInf .footInfFlex h2 {
+    font-size: 4vw;
+    margin-bottom: 1vh;
+  }
+  footer .footerFlex .part1 .part1Flex .footInf .footInfFlex p {
+    font-size: 2vw;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont {
+    width: 50vw;
+    margin-left: 2vw;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex .phNemail h2 {
+    font-size: 4vw;
+    margin-bottom: 1vh;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex .phNemail p {
+    font-size: 2vw;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages {
+    margin-left: 0vw;
+    padding-bottom: 0.5vh;
+    margin-top: 1.2vh;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex {
+    width: 100%;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .youtube, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .inst, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .vk {
+    width: 5.5vw;
+    margin-right: 2.5vw;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .youtube svg, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .inst svg, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .vk svg {
+    width: 100%;
+  }
+  footer .footerFlex .part2 .part2Flex p {
+    font-size: 1.8vw;
+  }
+}
+@media (min-width: 320px) and (max-width: 560px) {
+  footer .footerFlex .part1 {
+    padding-top: 0.5%;
+    padding-bottom: 1%;
+  }
+  footer .footerFlex .part1 .part1Flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  footer .footerFlex .part1 .part1Flex .footInf {
+    margin-left: 4vw;
+    border-bottom: 2px solid black;
+    border-right: none;
+    width: 92vw;
+  }
+  footer .footerFlex .part1 .part1Flex .footInf .footInfFlex h2 {
+    font-size: 6.5vw;
+    margin-bottom: 2.5vw;
+  }
+  footer .footerFlex .part1 .part1Flex .footInf .footInfFlex p {
+    font-size: 3.5vw;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    padding-right: 5vw;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont {
+    width: 92vw;
+    margin-left: 4vw;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex .phNemail h2 {
+    font-size: 6.5vw;
+    margin-bottom: 2.5vw;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex .phNemail p {
+    font-size: 3.5vw;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages {
+    margin-right: 2vw;
+    margin-left: 0;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex {
+    width: 100%;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .youtube, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .inst, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .vk {
+    width: 8vw;
+    margin-right: 2vw;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .youtube svg, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .inst svg, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .vk svg {
+    width: 100%;
+  }
+  footer .footerFlex .part2 .part2Flex p {
+    font-size: 2.7vw;
+  }
+}
+@font-face {
+  font-family: "Reem Kufi";
+  src: url("../../fonts/ReemKufi-Regular.ttf");
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+
+body {
+  color: white;
+  font-family: "Reem Kufi";
+  background-image: url("../../img/BackgroundsForActors/pathetic.jpg");
+  background-size: cover;
+  background-position: center -10vh;
+  background-repeat: no-repeat;
+  background-color: #464646;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+.mainBlock {
+  width: 100vw;
+  height: 55vh;
+}
+
+.myAct {
+  background-color: #EFEBE1;
+  color: black;
+}
+.myAct .myActFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+  width: 94%;
+}
+.myAct .myActFlex .nameOfAct h1 {
+  text-align: center;
+  font-size: 6vw;
+  font-weight: normal;
+  margin-top: 4vh;
+}
+.myAct .myActFlex .inf img {
+  width: 20%;
+  float: left;
+  margin-right: 2vw;
+  margin-bottom: 1vh;
+}
+.myAct .myActFlex .inf p {
+  padding-right: 5vw;
+  font-size: 1.8vw;
+  margin-top: 0;
+}
+.myAct .myActFlex .starredIn h2 {
+  font-weight: normal;
+  font-size: 4vw;
+}
+.myAct .myActFlex .perf {
+  margin-bottom: 3vh;
+}
+.myAct .myActFlex .perf .perfFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.myAct .myActFlex .perf .perfFlex .firPic, .myAct .myActFlex .perf .perfFlex .secPic, .myAct .myActFlex .perf .perfFlex .thirPic {
+  width: 30vw;
+}
+.myAct .myActFlex .perf .perfFlex .firPic img, .myAct .myActFlex .perf .perfFlex .secPic img, .myAct .myActFlex .perf .perfFlex .thirPic img {
+  width: 100%;
+  -webkit-transition: 0.15s all linear;
+  transition: 0.15s all linear;
+}
+.myAct .myActFlex .perf .perfFlex .firPic img:hover, .myAct .myActFlex .perf .perfFlex .secPic img:hover, .myAct .myActFlex .perf .perfFlex .thirPic img:hover {
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transform: scale(1.015);
+          transform: scale(1.015);
+}
+.myAct .myActFlex .perf .perfFlex .firPic a:link, .myAct .myActFlex .perf .perfFlex .secPic a:link, .myAct .myActFlex .perf .perfFlex .thirPic a:link {
+  color: black;
+}
+.myAct .myActFlex .perf .perfFlex .firPic a:visited, .myAct .myActFlex .perf .perfFlex .secPic a:visited, .myAct .myActFlex .perf .perfFlex .thirPic a:visited {
+  color: black;
+}
+.myAct .myActFlex .perf .perfFlex .firPic p, .myAct .myActFlex .perf .perfFlex .secPic p, .myAct .myActFlex .perf .perfFlex .thirPic p {
+  font-size: 2vw;
+  text-align: center;
+  margin-top: 1vh;
+}
+
+@media (min-width: 560px) and (max-width: 1000px) {
+  body {
+    background-size: 125%;
+    background-position: -10vw 0vh;
+  }
+
+  .mainBlock {
+    width: 100vw;
+    height: 40vh;
+  }
+
+  .myAct .myActFlex {
+    width: 94%;
+  }
+  .myAct .myActFlex .nameOfAct h1 {
+    font-size: 7vw;
+    margin-top: 2vh;
+  }
+  .myAct .myActFlex .inf img {
+    width: 30%;
+    margin-right: 4vw;
+  }
+  .myAct .myActFlex .inf p {
+    padding-right: 5vw;
+    font-size: 2.5vw;
+  }
+  .myAct .myActFlex .starredIn h2 {
+    font-size: 5.5vw;
+  }
+  .myAct .myActFlex .perf .perfFlex .firPic, .myAct .myActFlex .perf .perfFlex .secPic, .myAct .myActFlex .perf .perfFlex .thirPic {
+    width: 30vw;
+  }
+  .myAct .myActFlex .perf .perfFlex .firPic p, .myAct .myActFlex .perf .perfFlex .secPic p, .myAct .myActFlex .perf .perfFlex .thirPic p {
+    font-size: 2.5vw;
+    margin-top: 0.3vh;
+  }
+}
+@media (min-width: 320px) and (max-width: 560px) {
+  body {
+    background-size: 110%;
+    background-position: -5vw 0vh;
+  }
+
+  .mainBlock {
+    width: 100vw;
+    height: 25vh;
+  }
+
+  .myAct .myActFlex {
+    width: 94%;
+  }
+  .myAct .myActFlex .nameOfAct h1 {
+    font-size: 9vw;
+    margin-top: 2vh;
+  }
+  .myAct .myActFlex .inf img {
+    width: 40%;
+    margin-right: 5vw;
+  }
+  .myAct .myActFlex .inf p {
+    padding-right: 5vw;
+    font-size: 3.5vw;
+  }
+  .myAct .myActFlex .starredIn h2 {
+    font-size: 7vw;
+  }
+  .myAct .myActFlex .perf .perfFlex {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .myAct .myActFlex .perf .perfFlex .firPic, .myAct .myActFlex .perf .perfFlex .secPic, .myAct .myActFlex .perf .perfFlex .thirPic {
+    width: 44vw;
+  }
+  .myAct .myActFlex .perf .perfFlex .firPic p, .myAct .myActFlex .perf .perfFlex .secPic p, .myAct .myActFlex .perf .perfFlex .thirPic p {
+    font-size: 4.5vw;
+    margin-top: 0.2vh;
+  }
+  .myAct .myActFlex .perf .perfFlex .firPic, .myAct .myActFlex .perf .perfFlex .secPic {
+    margin-bottom: 2vh;
+  }
+}

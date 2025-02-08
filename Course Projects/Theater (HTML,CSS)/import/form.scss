@@ -1,0 +1,123 @@
+.line {
+    border-bottom: 1.5px solid black;
+    margin-top: 5vh;
+  }
+  .news {
+    margin-top: 5vh;
+    margin-bottom: 15vh;
+    .newsFlex {
+      display: flex;
+      .form {
+        margin: auto;
+        width: 34vw;
+        .formFlex {
+          display: flex;
+          flex-direction: column;
+          .text {
+            text-align: center;
+            font-size: 2.2vw;
+          }
+          .buttons {
+            .buttonsFlex {
+              display: flex;
+              flex-direction: row;
+              justify-content: space-around;
+              input[type="text"] {
+                outline: none;
+                border: none;
+                padding: 10px;
+                border-radius: 5px;
+                font-size: 1.1vw;
+                width: 14vw;
+              }
+              input[type="submit"] {
+                font-size: 1.1vw;
+                background-color: black;
+                border-radius: 10px;
+                padding: 10px 50px 10px 50px;
+                color: white;
+                cursor: pointer;
+                transition: all 0.15s linear;
+
+                &:hover {
+                  background-color: #363636;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (min-width: 560px) and (max-width: 1000px) {
+    .line {
+        border-bottom: 2px solid black;
+        margin-top: 2vw;
+      }
+      .news {
+        margin-top: 2vh;
+        margin-bottom: 6vh;
+        .newsFlex {
+          .form {
+            width: 56vw;
+            .formFlex {
+              .text {
+                font-size: 3.5vw;
+              }
+              .buttons {
+                .buttonsFlex {
+                  input[type="text"] {
+                    padding: 10px;
+                    border-radius: 10px;
+                    font-size: 1.8vw;
+                    width: 25vw;
+                  }
+                  input[type="submit"] {
+                    font-size: 1.8vw;
+                    border-radius: 15px;
+                    padding: 10px 50px 10px 50px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+  }
+
+  @media (min-width: 320px) and (max-width: 560px) {
+    .line {
+        border-bottom: 1.5px solid black;
+        margin-top: 2vw;
+      }
+      .news {
+        margin-top: 2vh;
+        margin-bottom: 6vh;
+        .newsFlex {
+          .form {
+            width: 86vw;
+            .formFlex {
+              .text {
+                font-size: 5.5vw;
+              }
+              .buttons {
+                .buttonsFlex {
+                  input[type="text"] {
+                    padding: 6px;
+                    border-radius: 6px;
+                    font-size: 2.5vw;
+                    width: 40vw;
+                  }
+                  input[type="submit"] {
+                    font-size: 2.5vw;
+                    border-radius: 10px;
+                    padding: 8px 40px 8px 40px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+  }

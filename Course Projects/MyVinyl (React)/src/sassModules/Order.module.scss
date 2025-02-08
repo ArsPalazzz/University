@@ -1,0 +1,136 @@
+.item {
+    width: 100%;
+    float: left;
+    margin-bottom: 3vh;
+
+    &:hover {
+        background-color: rgb(50, 41, 41);
+    }
+
+    
+        .linkStylesAbout {
+            text-decoration: none;
+            transition: transform 0.25s ease-in-out;
+            color: white;
+
+            &:active {
+                color: inherit;
+            }
+
+            &:visited {
+                color: white;
+            }
+
+            &:hover {
+                // color: rgb(24, 24, 24);
+                color: rgb(231, 231, 231);
+                transform: scale(1.05);
+                
+            }
+            p {
+                font-size: 1.2vw;
+                margin-top: 0;
+                margin-bottom: 0;
+                padding-top: 0;
+                padding-bottom: 0;
+                display: flex;
+                align-items: center;
+                font-weight: bold;
+                text-decoration: none;
+                transition: transform 0.3s ease-in-out;
+
+                // &:hover {
+                //     // color: rgb(24, 24, 24);
+                //     color: rgb(231, 231, 231);
+                //     transform: scale(1.1);
+                // }
+            }
+
+            img {
+                width: 5vw;
+                float: left;
+                margin-right: 0.5vw;
+            }
+        
+            h2 {
+                font-size: 1vw;
+                margin-bottom: 1.5vh;
+                margin-top: 0;
+            }
+        
+            p {
+                color: #797979;
+                font-weight: 600;
+            }
+        }
+
+       
+    
+
+
+    .deleteIcon {
+        color: rgb(190, 25, 25);
+        float: right;
+        position: relative;
+        top: -5vh;
+        transform: scale(1.4);
+        cursor: pointer;
+        transition: transform .15s linear;
+
+        &:hover {
+          transform: scale(1.7);
+          color: red;
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 560px) {
+    .item {
+        width: 100%;
+        margin-bottom: 3vh;
+    
+        
+            .linkStylesAbout {
+    
+                &:hover {
+                    transform: scale(1.05);
+                    
+                }
+                p {
+                    margin-top: 0;
+                    margin-bottom: 0;
+                    padding-top: 0;
+                    padding-bottom: 0;
+                    transition: transform 0.3s ease-in-out;
+                }
+    
+                img {
+                    width: 20vw;
+                    margin-right: 1.5vw;
+                }
+            
+                h2 {
+                    font-size: 3vw;
+                    margin-bottom: 1.5vh;
+                    margin-top: 0;
+                }
+            
+                p {
+                    font-size: 3vw;
+                }
+            }
+    
+           
+        
+    
+    
+        .deleteIcon {
+            top: -2vh;
+            transform: scale(1.4);
+    
+            &:hover {
+              transform: scale(1.6);
+            }
+        }
+    }
+}

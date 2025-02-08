@@ -1,0 +1,200 @@
+@import '../../import/header';
+@import '../../import/form';
+@import '../../import/footer';
+
+@font-face {
+    font-family: "Reem Kufi";
+    src: url("../../fonts/ReemKufi-Regular.ttf");
+}
+  
+::-webkit-scrollbar {
+    width: 0;
+}
+  
+body {
+    color: white;
+    font-family: "Reem Kufi";
+    background-image: url("../../img/BackgroundsForActors/walter.jpg");
+    background-size: cover;
+    background-position: center -15vh;
+    background-repeat: no-repeat;
+    background-color: #464646;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.mainBlock {
+    width: 100vw;
+    height: 55vh;
+}
+
+.myAct {
+    background-color: #EFEBE1;
+    color: black;
+    .myActFlex {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 94%;
+        .nameOfAct {
+            h1 {
+                text-align: center;
+                font-size: 6vw;
+                font-weight: normal;
+                margin-top: 4vh;
+            }
+        }
+        .inf {
+            img {
+                width: 20%;
+                float: left;
+                margin-right: 2vw;
+                margin-bottom: 1vh;
+            }
+            p { 
+                padding-right: 5vw;
+                font-size: 1.8vw;
+                margin-top: 0;
+            }
+        }
+        .starredIn {
+            h2 {
+                font-weight: normal;
+                font-size: 4vw;
+            }
+        }
+        .perf {
+            margin-bottom: 3vh;
+            .perfFlex {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                .firPic, .secPic, .thirPic {
+                    width: 30vw;
+                    img {
+                        width: 100%;
+                        transition: 0.15s all linear;
+                    }
+                    img:hover {
+                        filter: brightness(80%);
+                        transform: scale(1.015);
+                    }
+                    a:link {
+                        color: black;
+                    }
+                    a:visited {
+                        color: black;
+                    }
+                    p {
+                        font-size: 2vw;
+                        text-align: center;
+                        margin-top: 1vh;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 560px) and (max-width: 1000px) {
+    body {
+        background-size: cover;
+        background-position: -90vw -20vh;
+    }
+    .mainBlock {
+        width: 100vw;
+        height: 40vh;
+    }
+    .myAct {
+        .myActFlex {
+            width: 94%;
+            .nameOfAct {
+                h1 {
+                    font-size: 7vw;
+                    margin-top: 2vh;
+                }
+            }
+            .inf {
+                img {
+                    width: 30%;
+                    margin-right: 4vw;
+                }
+                p {
+                    padding-right: 5vw;
+                    font-size: 2.5vw;
+                }
+            }
+            .starredIn {
+                h2 {
+                    font-size: 5.5vw;
+                }
+            }
+            .perf {
+                .perfFlex {
+                    .firPic, .secPic, .thirPic {
+                        width: 30vw;
+                        p {
+                            font-size: 2.5vw;
+                            margin-top: 0.3vh;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 560px) {
+    body {
+        background-size: cover;
+        background-position: -170vw -20vh;
+    }
+    .mainBlock {
+        width: 100vw;
+        height: 25vh;
+    }
+    .myAct {
+        .myActFlex {
+            width: 94%;
+            .nameOfAct {
+                h1 {
+                    font-size: 9vw;
+                    margin-top: 2vh;
+                }
+            }
+            .inf {
+                img {
+                    width: 40%;
+                    margin-right: 5vw;
+                }
+                p {
+                    padding-right: 5vw;
+                    font-size: 3.5vw;
+                }
+            }
+            .starredIn {
+                h2 {
+                    font-size: 7vw;
+                }
+            }
+            .perf {
+                .perfFlex {
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                    .firPic, .secPic, .thirPic {
+                        width: 44vw;
+                        p {
+                            font-size: 4.5vw;
+                            margin-top: 0.2vh;
+                        }
+                    }
+                    .firPic, .secPic {
+                        margin-bottom: 2vh;
+                    }
+                }
+            }
+        }
+    }
+}

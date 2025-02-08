@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style/xml.css"?>
+<SECTION>
+    <PERFORMANCES>
+        <DANGEROUS_TIES>Dangerous ties</DANGEROUS_TIES>
+        <GRIEF_FROM_THE_MIND>Grief from the mind</GRIEF_FROM_THE_MIND>
+        <HEN-PARTY>Hen-party</HEN-PARTY>
+        <IDEAL_HUSBAND>Ideal Husband</IDEAL_HUSBAND>
+        <KREUTZER_SONATA>Kreutzer sonata</KREUTZER_SONATA>
+        <LADY_FOR_A_DAY>Lady for a day</LADY_FOR_A_DAY>
+        <OEDIPUS>Oedipus</OEDIPUS>
+        <PESNIAR>Pesniar</PESNIAR>
+        <PYGMALION>Pygmalion</PYGMALION>
+        <THE_BROTHERS_KARAMAZOV>The Brothers Karamazov</THE_BROTHERS_KARAMAZOV>
+        <THE_TAMING_OF_THE_SHREWS>The Taming of the Shrews</THE_TAMING_OF_THE_SHREWS>
+        <TRAM_DESIRE>Tram "Desire"</TRAM_DESIRE>
+    </PERFORMANCES>
+    <ACTORS>
+        <ANA_DE_ARMAS>Ana de Armas</ANA_DE_ARMAS>
+        <BATMAN>Batman</BATMAN>
+        <CILLIAN_MURPHY>Cillian Murphy</CILLIAN_MURPHY>
+        <DWAYNE_JOHNSON>Dwayne Johnson</DWAYNE_JOHNSON>
+        <JARED_LETO>Jared Leto</JARED_LETO>
+        <JOAQUIN_PHOENIX>Joaquin Phoenix</JOAQUIN_PHOENIX>
+        <JOHNNY_DEPP>Johnny Depp</JOHNNY_DEPP>
+        <JOHNNY_JOESTAR>Johnny Joestar</JOHNNY_JOESTAR>
+        <KOBENI_HIGASHIYAMA>Kobeni Higashiyama</KOBENI_HIGASHIYAMA>
+        <MAKIMA>Makima</MAKIMA>
+        <MARGOT_ROBBIE>Margot Robbie</MARGOT_ROBBIE>
+        <MISATO_KATSURAGI>Misato Katsuragi</MISATO_KATSURAGI>
+        <MITSKI>Mitski</MITSKI>
+        <PATHETIC>Pathetic</PATHETIC>
+        <PATRICK_BATEMAN>Patrick Bateman</PATRICK_BATEMAN>
+        <POWER>Power</POWER>
+        <RYAN_GOSLING>Ryan Gosling</RYAN_GOSLING>
+        <SHINJI_IKARI>Shinji Ikari</SHINJI_IKARI>
+        <SLIDAN>Slidan</SLIDAN>
+        <STEVE_CARELL>Steve Carell</STEVE_CARELL>
+        <TRAVIS_SCOTT>Travis Scott</TRAVIS_SCOTT>
+        <TYLER_DURDEN>Tyler Durden</TYLER_DURDEN>
+        <WALTER_WHITE>Walter White</WALTER_WHITE>
+        <ZAZIE_BEETZ>Zazie Beetz</ZAZIE_BEETZ>
+    </ACTORS>
+</SECTION>

@@ -1,0 +1,963 @@
+@charset "UTF-8";
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  width: 100%;
+  /* height: 14vh; */
+  background-color: rgba(0, 0, 0, 0.703);
+  position: fixed;
+  z-index: 100;
+  /*max-height: 14.5%;
+  min-height: 2%;*/
+  max-height: 14.5vh;
+  min-height: 2vh;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+header:hover {
+  background-color: rgba(0, 0, 0, 0.896);
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header .picNP {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 50vw;
+}
+.header .picNP .pic {
+  width: 4.8vw;
+  max-height: 100%;
+  margin: 2% 0 0.5% 0%;
+  display: inline-block;
+}
+.header .picNP .pic img {
+  width: 100%;
+  max-height: 105px;
+}
+.header .picNP a {
+  display: inline-block;
+  font-size: 2vw;
+  text-transform: uppercase;
+  margin: 0;
+  text-shadow: 2px 2px 2px black;
+  padding-right: 5%;
+  -webkit-transition: 0.1s all linear;
+  transition: 0.1s all linear;
+}
+.header .picNP a:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  text-shadow: 0 0 3px;
+}
+.header .menu {
+  width: 50vw;
+}
+.header .menu nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 100%;
+  width: 100%;
+}
+.header .menu nav ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.header .menu nav ul li {
+  list-style-type: none;
+  margin-right: 20px;
+  display: inline-block;
+  text-shadow: 2px 2px 2px black;
+  text-decoration: none;
+  -webkit-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+.header .menu nav ul li:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  text-shadow: 0 0 3px;
+}
+.header .menu nav ul li a {
+  font-size: 2vw;
+}
+
+a {
+  text-decoration: none;
+}
+a:link, a:visited {
+  color: white;
+}
+
+@media (min-width: 320px) and (max-width: 560px) {
+  header .header .picNP {
+    width: 15vw;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-top: 2%;
+  }
+  header .header .picNP .pic {
+    width: 5vh;
+    height: 5vh;
+    margin: 1.2% 0.5% 10% 7px;
+  }
+  header .header .picNP .pic img {
+    max-height: 250px;
+  }
+  header .header .picNP .tbut {
+    display: none;
+    position: absolute;
+  }
+  header .header .menu {
+    width: 85vw;
+  }
+  header .header .menu nav ul li {
+    margin-right: 20px;
+    text-shadow: 4px 4px 4px black;
+  }
+  header .header .menu nav ul li a {
+    font-size: 3vw;
+  }
+}
+@media (min-width: 560px) and (max-width: 1000px) {
+  header .header .picNP {
+    width: 15vw;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-top: 2%;
+  }
+  header .header .picNP .pic {
+    width: 7.5vh;
+    height: 7.5vh;
+    margin: 1.2% 0 8% 12px;
+  }
+  header .header .picNP .pic a {
+    height: 100%;
+    display: inline-block;
+  }
+  header .header .picNP .pic img {
+    max-height: 250px;
+  }
+  header .header .picNP .tbut {
+    display: none;
+    position: absolute;
+  }
+  header .header .menu {
+    width: 85vw;
+  }
+  header .header .menu nav ul li {
+    margin-right: 25px;
+    text-shadow: 4px 4px 4px black;
+  }
+  header .header .menu nav ul li a {
+    font-size: 3.2vw;
+  }
+}
+footer .footerFlex .part1 {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+footer .footerFlex .part1 .part1Flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer .footerFlex .part1 .part1Flex .footInf {
+  margin-left: 2vw;
+  border-right: 2px solid black;
+  width: 50vw;
+}
+footer .footerFlex .part1 .part1Flex .footInf .footInfFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+footer .footerFlex .part1 .part1Flex .footInf .footInfFlex h2 {
+  font-size: 2.5vw;
+  font-weight: normal;
+  text-shadow: 2px 2px 2px black;
+}
+footer .footerFlex .part1 .part1Flex .footInf .footInfFlex p {
+  font-size: 1.2vw;
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
+  padding-right: 1vw;
+  text-shadow: 1px 1px 1px black;
+}
+footer .footerFlex .part1 .part1Flex .footCont {
+  width: 50vw;
+  margin-left: 2vw;
+}
+footer .footerFlex .part1 .part1Flex .footCont .footContFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+footer .footerFlex .part1 .part1Flex .footCont .footContFlex .phNemail h2 {
+  font-size: 2.5vw;
+  font-weight: normal;
+  text-shadow: 2px 2px 2px black;
+}
+footer .footerFlex .part1 .part1Flex .footCont .footContFlex .phNemail p {
+  font-size: 1.2vw;
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
+  text-shadow: 1px 1px 1px black;
+}
+footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages {
+  margin-left: 2vw;
+  padding-bottom: 0.5vh;
+}
+footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .youtube, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .inst, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .vk {
+  width: 3vw;
+  margin-right: 1vw;
+  -webkit-transition: 0.1s all linear;
+  transition: 0.1s all linear;
+}
+footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .youtube:hover, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .inst:hover, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .vk:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .youtube svg, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .inst svg, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .vk svg {
+  width: 100%;
+}
+footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .inst {
+  -webkit-filter: brightness(85%);
+          filter: brightness(85%);
+}
+footer .footerFlex .part2 {
+  background-color: black;
+}
+footer .footerFlex .part2 .part2Flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .footerFlex .part2 .part2Flex p {
+  font-size: 1.1vw;
+}
+
+@media (min-width: 560px) and (max-width: 1000px) {
+  footer .footerFlex .part1 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+  footer .footerFlex .part1 .part1Flex .footInf {
+    margin-left: 2vw;
+    border-right: 2px solid black;
+    width: 50vw;
+  }
+  footer .footerFlex .part1 .part1Flex .footInf .footInfFlex h2 {
+    font-size: 4vw;
+    margin-bottom: 1vh;
+  }
+  footer .footerFlex .part1 .part1Flex .footInf .footInfFlex p {
+    font-size: 2vw;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont {
+    width: 50vw;
+    margin-left: 2vw;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex .phNemail h2 {
+    font-size: 4vw;
+    margin-bottom: 1vh;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex .phNemail p {
+    font-size: 2vw;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages {
+    margin-left: 0vw;
+    padding-bottom: 0.5vh;
+    margin-top: 1.2vh;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex {
+    width: 100%;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .youtube, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .inst, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .vk {
+    width: 5.5vw;
+    margin-right: 2.5vw;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .youtube svg, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .inst svg, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .vk svg {
+    width: 100%;
+  }
+  footer .footerFlex .part2 .part2Flex p {
+    font-size: 1.8vw;
+  }
+}
+@media (min-width: 320px) and (max-width: 560px) {
+  footer .footerFlex .part1 {
+    padding-top: 0.5%;
+    padding-bottom: 1%;
+  }
+  footer .footerFlex .part1 .part1Flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  footer .footerFlex .part1 .part1Flex .footInf {
+    margin-left: 4vw;
+    border-bottom: 2px solid black;
+    border-right: none;
+    width: 92vw;
+  }
+  footer .footerFlex .part1 .part1Flex .footInf .footInfFlex h2 {
+    font-size: 6.5vw;
+    margin-bottom: 2.5vw;
+  }
+  footer .footerFlex .part1 .part1Flex .footInf .footInfFlex p {
+    font-size: 3.5vw;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    padding-right: 5vw;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont {
+    width: 92vw;
+    margin-left: 4vw;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex .phNemail h2 {
+    font-size: 6.5vw;
+    margin-bottom: 2.5vw;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex .phNemail p {
+    font-size: 3.5vw;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages {
+    margin-right: 2vw;
+    margin-left: 0;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex {
+    width: 100%;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .youtube, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .inst, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .vk {
+    width: 8vw;
+    margin-right: 2vw;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .youtube svg, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .inst svg, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .vk svg {
+    width: 100%;
+  }
+  footer .footerFlex .part2 .part2Flex p {
+    font-size: 2.7vw;
+  }
+}
+@font-face {
+  font-family: "Reem Kufi";
+  src: url("../fonts/ReemKufi-Regular.ttf");
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+
+body {
+  color: white;
+  font-family: "Reem Kufi";
+  background-image: url("../img/BookYourPlace/seats.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #464646;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+.mainBlock {
+  width: 100vw;
+  height: 100vh;
+}
+.mainBlock .mainText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+  top: 50vh;
+  position: relative;
+  margin: auto;
+}
+.mainBlock .mainText .firstP {
+  font-size: 3.5vw;
+  text-shadow: 2px 2px 2px black;
+  margin: 0;
+}
+
+.secBlock {
+  color: black;
+  width: 100vw;
+  height: 110vh;
+  background-image: url("../img/BookYourPlace/secBack.png");
+  background-size: 115%;
+  background-position: -15vw -15vh;
+}
+.secBlock .secBlockFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.secBlock .secBlockFlex .form {
+  background-color: white;
+  width: 38%;
+}
+.secBlock .secBlockFlex .form .formFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.secBlock .secBlockFlex .form .formFlex .formTitle {
+  text-align: center;
+  font-weight: normal;
+  font-size: 2.5vw;
+  margin-top: 1.5vw;
+}
+.secBlock .secBlockFlex .form .formFlex .formGroupSelectsNimg {
+  margin-bottom: 3%;
+}
+.secBlock .secBlockFlex .form .formFlex .formGroupSelectsNimg .formGroupSelectsNimgFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.secBlock .secBlockFlex .form .formFlex .formGroupSelectsNimg .formGroupSelectsNimgFlex .selects .selectsFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+.secBlock .secBlockFlex .form .formFlex .formGroupSelectsNimg .formGroupSelectsNimgFlex .selects .selectsFlex div {
+  min-width: 22vw;
+}
+.secBlock .secBlockFlex .form .formFlex .formGroupSelectsNimg .formGroupSelectsNimgFlex .selects .selectsFlex div label {
+  font-size: 1.5vw;
+  display: inline-block;
+  width: 33%;
+  margin-bottom: 2.5vh;
+  margin-right: 10%;
+}
+.secBlock .secBlockFlex .form .formFlex .formGroupSelectsNimg .formGroupSelectsNimgFlex .selects .selectsFlex div select {
+  border: 2px solid black;
+  height: 2.5vw;
+  width: 45%;
+  font-size: 0.95vw;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url("../img/BookYourPlace/triangle-svg.svg") 96%/8% no-repeat;
+  padding-right: 8%;
+  font-family: "Reem Kufi";
+}
+.secBlock .secBlockFlex .form .formFlex .formGroupSelectsNimg .formGroupSelectsNimgFlex .selects .selectsFlex div select::-ms-expand {
+  display: none;
+  /* удалите стрелку по умолчанию в IE 10 и 11 */
+}
+.secBlock .secBlockFlex .form .formFlex .formGroupSelectsNimg .formGroupSelectsNimgFlex .selects .selectsFlex div option {
+  text-align: right;
+}
+.secBlock .secBlockFlex .form .formFlex .formGroupSelectsNimg .img {
+  width: 11vw;
+}
+.secBlock .secBlockFlex .form .formFlex .formGroupSelectsNimg .img .notDark {
+  width: 100%;
+  -webkit-transition: 0.2s linear all;
+  transition: 0.2s linear all;
+}
+.secBlock .secBlockFlex .form .formFlex .formGroupSelectsNimg .img .dark {
+  position: absolute;
+  width: 11vw;
+  right: 32.25%;
+  opacity: 0;
+  -webkit-transition: 0.2s linear all;
+  transition: 0.2s linear all;
+}
+.secBlock .secBlockFlex .form .formFlex .formGroupSelectsNimg .img p {
+  position: absolute;
+  top: 150vh;
+  z-index: 100;
+  font-size: 1.5vw;
+  right: 34vw;
+  opacity: 0;
+  color: white;
+  text-shadow: 1.5px 1.5px 1.5px black;
+  -webkit-transition: 0.2s linear all;
+  transition: 0.2s linear all;
+}
+.secBlock .secBlockFlex .form .formFlex .formGroupSelectsNimg .img:hover p, .secBlock .secBlockFlex .form .formFlex .formGroupSelectsNimg .img:hover .dark {
+  opacity: 1;
+}
+.secBlock .secBlockFlex .form .formFlex .formGroupSelectsNimg .img:hover .notDark {
+  opacity: 0;
+}
+.secBlock .secBlockFlex .form .formGroupButtons .formGroupButtonsFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.secBlock .secBlockFlex .form .formGroupButtons .formGroupButtonsFlex .pay {
+  margin-right: 3%;
+  display: inline-block;
+  margin-bottom: 5%;
+  width: 18%;
+  margin-left: 5%;
+}
+.secBlock .secBlockFlex .form .formGroupButtons .formGroupButtonsFlex .pay input {
+  width: 100%;
+  display: inline-block;
+  padding: 6% 3% 6% 3%;
+  border-radius: 12px;
+  color: #fff;
+  background-color: #005bc4;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 1.2vw;
+}
+.secBlock .secBlockFlex .form .formGroupButtons .formGroupButtonsFlex .pay input:hover {
+  background-color: #004697;
+}
+.secBlock .secBlockFlex .form .formGroupButtons .formGroupButtonsFlex .cancel {
+  margin-right: 3%;
+  display: inline-block;
+  margin-bottom: 5%;
+  width: 18%;
+}
+.secBlock .secBlockFlex .form .formGroupButtons .formGroupButtonsFlex .cancel input {
+  width: 100%;
+  display: inline-block;
+  padding: 6% 3% 6% 3%;
+  border-radius: 12px;
+  background-color: white;
+  color: black;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 1.2vw;
+}
+.secBlock .secBlockFlex .form .formGroupButtons .formGroupButtonsFlex .cancel input:hover {
+  background-color: rgb(226, 226, 226);
+}
+
+.thirdBlock {
+  background-color: #605e6d;
+  display: inline-block;
+}
+.thirdBlock .thirdBlockFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 100%;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+}
+.thirdBlock .text {
+  width: 35%;
+  margin-left: 10%;
+  margin-top: 0%;
+  display: inline-block;
+}
+.thirdBlock .text .main {
+  font-size: 4.5vw;
+  text-shadow: 2px 2px 2px black;
+  margin-bottom: 1vw;
+}
+.thirdBlock .text .dop {
+  font-size: 2.25vw;
+  text-shadow: 1.5px 1.5px 1.5px black;
+  display: inline-block;
+}
+.thirdBlock .jot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 65vw;
+  height: 100%;
+  margin-top: 8%;
+}
+.thirdBlock .jot img {
+  width: 100%;
+}
+
+@media (min-width: 560px) and (max-width: 1000px) {
+  .mainBlock .mainText .firstP {
+    font-size: 7vw;
+    text-shadow: 4px 4px 4px black;
+    margin: 0;
+  }
+
+  .secBlock {
+    background-position-y: -47.5%;
+    background-position-x: -115%;
+    height: 80vh;
+    width: 100vw;
+    background-size: cover;
+  }
+  .secBlock .secBlockFlex {
+    height: 100%;
+  }
+  .secBlock .secBlockFlex .form {
+    width: 80%;
+  }
+  .secBlock .secBlockFlex .form .formFlex .formTitle {
+    font-size: 4.5vw;
+    margin-top: 2vh;
+  }
+  .secBlock .secBlockFlex .form .formFlex .formGroupSelectsNimg {
+    margin-bottom: 5%;
+  }
+  .secBlock .secBlockFlex .form .formFlex .formGroupSelectsNimg .formGroupSelectsNimgFlex .selects {
+    width: 45%;
+  }
+  .secBlock .secBlockFlex .form .formFlex .formGroupSelectsNimg .formGroupSelectsNimgFlex .selects .selectsFlex div {
+    min-width: 15vw;
+  }
+  .secBlock .secBlockFlex .form .formFlex .formGroupSelectsNimg .formGroupSelectsNimgFlex .selects .selectsFlex div label {
+    font-size: 3.3vw;
+    width: 33%;
+    margin-bottom: 2.5vh;
+    margin-right: 20%;
+  }
+  .secBlock .secBlockFlex .form .formFlex .formGroupSelectsNimg .formGroupSelectsNimgFlex .selects .selectsFlex div select {
+    height: 4vw;
+    width: 45%;
+    font-size: 1.9vw;
+    padding-right: 8%;
+    background: url("../img/Book your place/triangle-svg.svg") 96%/10% no-repeat;
+  }
+  .secBlock .secBlockFlex .form .formFlex .formGroupSelectsNimg .img {
+    width: 26.4vw;
+  }
+  .secBlock .secBlockFlex .form .formFlex .formGroupSelectsNimg .img .notDark {
+    width: 100%;
+  }
+  .secBlock .secBlockFlex .form .formFlex .formGroupSelectsNimg .img .dark {
+    width: 26.4vw;
+    right: 14.4%;
+  }
+  .secBlock .secBlockFlex .form .formFlex .formGroupSelectsNimg .img p {
+    top: 135vh;
+    font-size: 3vw;
+    right: 20vw;
+    text-shadow: 2px 2px 2px black;
+  }
+  .secBlock .secBlockFlex .form .formGroupButtons .formGroupButtonsFlex .pay {
+    margin-right: 3%;
+    margin-bottom: 8%;
+    width: 23%;
+    margin-left: 7%;
+  }
+  .secBlock .secBlockFlex .form .formGroupButtons .formGroupButtonsFlex .pay input {
+    width: 100%;
+    padding: 6% 3% 6% 3%;
+    border-radius: 15px;
+    font-size: 1.8vw;
+  }
+  .secBlock .secBlockFlex .form .formGroupButtons .formGroupButtonsFlex .cancel {
+    margin-right: 3%;
+    margin-bottom: 8%;
+    width: 23%;
+  }
+  .secBlock .secBlockFlex .form .formGroupButtons .formGroupButtonsFlex .cancel input {
+    width: 100%;
+    padding: 6% 3% 6% 3%;
+    border-radius: 15px;
+    font-size: 1.8vw;
+  }
+
+  .thirdBlock {
+    width: 100vw;
+    height: 40vh;
+  }
+  .thirdBlock .thirdBlockFlex {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  .thirdBlock .text {
+    width: 55%;
+    margin-left: 7%;
+    margin-top: 0;
+    position: absolute;
+  }
+  .thirdBlock .text .main {
+    font-size: 6.5vw;
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 2vw;
+  }
+  .thirdBlock .text .dop {
+    font-size: 2.5vw;
+    text-shadow: 1.5px 1.5px 1.5px black;
+  }
+  .thirdBlock .jot {
+    width: 87vw;
+    height: 100%;
+    margin-top: 0%;
+    margin-left: 15vw;
+    overflow: hidden;
+  }
+  .thirdBlock .jot img {
+    width: 100%;
+  }
+
+  footer {
+    margin-top: -0.75vh;
+  }
+}
+@media (min-width: 320px) and (max-width: 560px) {
+  .mainBlock .mainText .firstP {
+    font-size: 9vw;
+    text-shadow: 4px 4px 4px black;
+    margin: 0;
+  }
+
+  .secBlock {
+    background-position-y: -20%;
+    background-position-x: -52%;
+    height: 80vh;
+    width: 100vw;
+    background-size: cover;
+  }
+  .secBlock .secBlockFlex {
+    height: 100%;
+  }
+  .secBlock .secBlockFlex .form {
+    width: 86%;
+  }
+  .secBlock .secBlockFlex .form .formFlex .formTitle {
+    font-size: 6vw;
+    margin-top: 2vh;
+  }
+  .secBlock .secBlockFlex .form .formFlex .formGroupSelectsNimg {
+    margin-bottom: 5%;
+  }
+  .secBlock .secBlockFlex .form .formFlex .formGroupSelectsNimg .formGroupSelectsNimgFlex .selects {
+    width: 59%;
+  }
+  .secBlock .secBlockFlex .form .formFlex .formGroupSelectsNimg .formGroupSelectsNimgFlex .selects .selectsFlex div {
+    min-width: 15vw;
+  }
+  .secBlock .secBlockFlex .form .formFlex .formGroupSelectsNimg .formGroupSelectsNimgFlex .selects .selectsFlex div label {
+    font-size: 4vw;
+    width: 30%;
+    margin-bottom: 2.3vh;
+    margin-right: 20%;
+  }
+  .secBlock .secBlockFlex .form .formFlex .formGroupSelectsNimg .formGroupSelectsNimgFlex .selects .selectsFlex div select {
+    height: 5.8vw;
+    width: 45%;
+    font-size: 2.75vw;
+    padding-right: 8%;
+    padding-top: 0.25vh;
+    background: url("../img/Book your place/triangle-svg.svg") 96%/8% no-repeat;
+  }
+  .secBlock .secBlockFlex .form .formFlex .formGroupSelectsNimg .img {
+    width: 28vw;
+  }
+  .secBlock .secBlockFlex .form .formFlex .formGroupSelectsNimg .img .notDark {
+    width: 100%;
+  }
+  .secBlock .secBlockFlex .form .formFlex .formGroupSelectsNimg .img .dark {
+    width: 28vw;
+    right: 8.8%;
+  }
+  .secBlock .secBlockFlex .form .formFlex .formGroupSelectsNimg .img p {
+    top: 135vh;
+    font-size: 3.6vw;
+    right: 14vw;
+    text-shadow: 2px 2px 2px black;
+  }
+  .secBlock .secBlockFlex .form .formGroupButtons .formGroupButtonsFlex .pay {
+    margin-right: 3%;
+    margin-bottom: 8%;
+    width: 25%;
+    margin-left: 4%;
+  }
+  .secBlock .secBlockFlex .form .formGroupButtons .formGroupButtonsFlex .pay input {
+    width: 100%;
+    padding: 7% 3% 7% 3%;
+    border-radius: 15px;
+    font-size: 2.7vw;
+  }
+  .secBlock .secBlockFlex .form .formGroupButtons .formGroupButtonsFlex .cancel {
+    margin-right: 3%;
+    margin-bottom: 8%;
+    width: 25%;
+  }
+  .secBlock .secBlockFlex .form .formGroupButtons .formGroupButtonsFlex .cancel input {
+    width: 100%;
+    padding: 7% 3% 7% 3%;
+    border-radius: 15px;
+    font-size: 2.7vw;
+  }
+
+  .thirdBlock .thirdBlockFlex {
+    height: 30vh;
+    width: 100vw;
+    position: relative;
+  }
+  .thirdBlock .text {
+    width: 45%;
+    margin-left: 7%;
+    margin-top: 0;
+    position: absolute;
+  }
+  .thirdBlock .text .main {
+    font-size: 6vw;
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 2vw;
+  }
+  .thirdBlock .text .dop {
+    font-size: 3.5vw;
+    text-shadow: 1.5px 1.5px 1.5px black;
+  }
+  .thirdBlock .jot {
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    margin-left: 5%;
+  }
+  .thirdBlock .jot img {
+    width: 100%;
+  }
+
+  footer {
+    margin-top: -1vh;
+  }
+}

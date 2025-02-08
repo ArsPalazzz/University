@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model5" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CART">
+    <Key>
+      <PropertyRef Name="CLIENT_ID" />
+      <PropertyRef Name="RECORD_ID" />
+    </Key>
+    <Property Name="RECORD_IN_CART_ID" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="CLIENT_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="RECORD_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="AMOUNT" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DATE_ADDED_TO_CART" Type="DateTime" Precision="6" />
+    <NavigationProperty Name="CLIENT" Relationship="Self.FK_CART_CLIENT" FromRole="CART" ToRole="CLIENT" />
+    <NavigationProperty Name="RECORD" Relationship="Self.FK_CART_RECORD" FromRole="CART" ToRole="RECORD" />
+  </EntityType>
+  <EntityType Name="CLIENT">
+    <Key>
+      <PropertyRef Name="CLIENT_ID" />
+    </Key>
+    <Property Name="CLIENT_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="LOGIN_CLIENT" Type="String" MaxLength="32" FixedLength="false" Unicode="false" />
+    <Property Name="PASSWORD_CLIENT" Type="String" MaxLength="16" FixedLength="false" Unicode="false" />
+    <Property Name="PHONE_NUMBER" Type="String" MaxLength="16" FixedLength="false" Unicode="false" />
+    <Property Name="EMAIL" Type="String" MaxLength="64" FixedLength="false" Unicode="false" />
+    <Property Name="SEX" Type="String" MaxLength="1" FixedLength="true" Unicode="true" />
+    <Property Name="DATE_OF_BIRTH" Type="DateTime" Precision="6" />
+    <NavigationProperty Name="CART" Relationship="Self.FK_CART_CLIENT" FromRole="CLIENT" ToRole="CART" />
+    <NavigationProperty Name="COMMENTS" Relationship="Self.FK_COMMENT_CLIENT" FromRole="CLIENT" ToRole="COMMENTS" />
+    <NavigationProperty Name="ORDER_CARD" Relationship="Self.FK_ORDERCARD_CLIENT" FromRole="CLIENT" ToRole="ORDER_CARD" />
+    <NavigationProperty Name="RECORD" Relationship="Self.FK_RECORD_SUPPLIER" FromRole="CLIENT" ToRole="RECORD" />
+  </EntityType>
+  <EntityType Name="COMMENTS">
+    <Key>
+      <PropertyRef Name="COMMENT_ID" />
+    </Key>
+    <Property Name="COMMENT_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="COMMENT_DATE" Type="DateTime" Precision="6" />
+    <Property Name="USER_ID" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="RECORD_ID" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="CONTENT" Type="String" MaxLength="128" FixedLength="false" Unicode="false" />
+    <Property Name="LIKES" Type="Decimal" Precision="38" Scale="0" />
+    <NavigationProperty Name="CLIENT" Relationship="Self.FK_COMMENT_CLIENT" FromRole="COMMENTS" ToRole="CLIENT" />
+    <NavigationProperty Name="RECORD" Relationship="Self.FK_COMMENT_RECORD" FromRole="COMMENTS" ToRole="RECORD" />
+  </EntityType>
+  <EntityType Name="FACULTY">
+    <Key>
+      <PropertyRef Name="FACULTY1" />
+    </Key>
+    <Property Name="FACULTY1" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="FACULTY_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="GENRE">
+    <Key>
+      <PropertyRef Name="GENRE_ID" />
+    </Key>
+    <Property Name="GENRE_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="GENRE_NAME" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="RECORD" Relationship="Self.GENRE_DETAILS" FromRole="GENRE" ToRole="RECORD" />
+  </EntityType>
+  <EntityType Name="ORDER_CARD">
+    <Key>
+      <PropertyRef Name="ORDER_ID" />
+    </Key>
+    <Property Name="ORDER_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="ACCOUNT_ID" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DELIVERY_CHECKBOX" Type="String" MaxLength="1" FixedLength="true" Unicode="true" />
+    <Property Name="COST" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="ORDER_DATE" Type="DateTime" Precision="6" />
+    <Property Name="STATUS" Type="String" MaxLength="16" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CLIENT" Relationship="Self.FK_ORDERCARD_CLIENT" FromRole="ORDER_CARD" ToRole="CLIENT" />
+    <NavigationProperty Name="ORDER_CARD_DETAILS" Relationship="Self.FK_ORDERCARDDET_ORDERCARD" FromRole="ORDER_CARD" ToRole="ORDER_CARD_DETAILS" />
+  </EntityType>
+  <EntityType Name="ORDER_CARD_DETAILS">
+    <Key>
+      <PropertyRef Name="ORDER_DETAILS_ID" />
+    </Key>
+    <Property Name="ORDER_DETAILS_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="ORDER_ID" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="RECORD_ID" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="AMOUNT" Type="Decimal" Precision="38" Scale="0" />
+    <NavigationProperty Name="ORDER_CARD" Relationship="Self.FK_ORDERCARDDET_ORDERCARD" FromRole="ORDER_CARD_DETAILS" ToRole="ORDER_CARD" />
+    <NavigationProperty Name="RECORD" Relationship="Self.FK_ORDERCARDDETAILS_RECORD" FromRole="ORDER_CARD_DETAILS" ToRole="RECORD" />
+  </EntityType>
+  <EntityType Name="RECORD">
+    <Key>
+      <PropertyRef Name="RECORD_ID" />
+    </Key>
+    <Property Name="RECORD_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="YEAR" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="COST" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="AMOUNT" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="SUPPLIER_ID" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DESCRIPTION" Type="String" MaxLength="512" FixedLength="false" Unicode="false" />
+    <Property Name="ARTIST_NAME" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="ALBUM_NAME" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="PICTURE" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="STATUS" Type="String" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="IS_DELETED" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="DATE_OF_DELIV_TO_WAREHOUSE" Type="DateTime" Precision="6" />
+    <NavigationProperty Name="CART" Relationship="Self.FK_CART_RECORD" FromRole="RECORD" ToRole="CART" />
+    <NavigationProperty Name="CLIENT" Relationship="Self.FK_RECORD_SUPPLIER" FromRole="RECORD" ToRole="CLIENT" />
+    <NavigationProperty Name="COMMENTS" Relationship="Self.FK_COMMENT_RECORD" FromRole="RECORD" ToRole="COMMENTS" />
+    <NavigationProperty Name="ORDER_CARD_DETAILS" Relationship="Self.FK_ORDERCARDDETAILS_RECORD" FromRole="RECORD" ToRole="ORDER_CARD_DETAILS" />
+    <NavigationProperty Name="GENRE" Relationship="Self.GENRE_DETAILS" FromRole="RECORD" ToRole="GENRE" />
+    <NavigationProperty Name="SONG" Relationship="Self.SONG_RECORD" FromRole="RECORD" ToRole="SONG" />
+  </EntityType>
+  <EntityType Name="SONG">
+    <Key>
+      <PropertyRef Name="SONG_ID" />
+    </Key>
+    <Property Name="SONG_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="SONG_NAME" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="ARTIST_NAME" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="ALBUM_NAME" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="SIDE" Type="String" MaxLength="1" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="RECORD" Relationship="Self.SONG_RECORD" FromRole="SONG" ToRole="RECORD" />
+  </EntityType>
+  <Association Name="FK_CART_CLIENT">
+    <End Role="CLIENT" Type="Self.CLIENT" Multiplicity="1" />
+    <End Role="CART" Type="Self.CART" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CLIENT">
+        <PropertyRef Name="CLIENT_ID" />
+      </Principal>
+      <Dependent Role="CART">
+        <PropertyRef Name="CLIENT_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CART_RECORD">
+    <End Role="RECORD" Type="Self.RECORD" Multiplicity="1" />
+    <End Role="CART" Type="Self.CART" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RECORD">
+        <PropertyRef Name="RECORD_ID" />
+      </Principal>
+      <Dependent Role="CART">
+        <PropertyRef Name="RECORD_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_COMMENT_CLIENT">
+    <End Role="CLIENT" Type="Self.CLIENT" Multiplicity="0..1" />
+    <End Role="COMMENTS" Type="Self.COMMENTS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CLIENT">
+        <PropertyRef Name="CLIENT_ID" />
+      </Principal>
+      <Dependent Role="COMMENTS">
+        <PropertyRef Name="USER_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ORDERCARD_CLIENT">
+    <End Role="CLIENT" Type="Self.CLIENT" Multiplicity="0..1" />
+    <End Role="ORDER_CARD" Type="Self.ORDER_CARD" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CLIENT">
+        <PropertyRef Name="CLIENT_ID" />
+      </Principal>
+      <Dependent Role="ORDER_CARD">
+        <PropertyRef Name="ACCOUNT_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RECORD_SUPPLIER">
+    <End Role="CLIENT" Type="Self.CLIENT" Multiplicity="0..1" />
+    <End Role="RECORD" Type="Self.RECORD" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CLIENT">
+        <PropertyRef Name="CLIENT_ID" />
+      </Principal>
+      <Dependent Role="RECORD">
+        <PropertyRef Name="SUPPLIER_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_COMMENT_RECORD">
+    <End Role="RECORD" Type="Self.RECORD" Multiplicity="0..1" />
+    <End Role="COMMENTS" Type="Self.COMMENTS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RECORD">
+        <PropertyRef Name="RECORD_ID" />
+      </Principal>
+      <Dependent Role="COMMENTS">
+        <PropertyRef Name="RECORD_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ORDERCARDDET_ORDERCARD">
+    <End Role="ORDER_CARD" Type="Self.ORDER_CARD" Multiplicity="0..1" />
+    <End Role="ORDER_CARD_DETAILS" Type="Self.ORDER_CARD_DETAILS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ORDER_CARD">
+        <PropertyRef Name="ORDER_ID" />
+      </Principal>
+      <Dependent Role="ORDER_CARD_DETAILS">
+        <PropertyRef Name="ORDER_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ORDERCARDDETAILS_RECORD">
+    <End Role="RECORD" Type="Self.RECORD" Multiplicity="0..1" />
+    <End Role="ORDER_CARD_DETAILS" Type="Self.ORDER_CARD_DETAILS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RECORD">
+        <PropertyRef Name="RECORD_ID" />
+      </Principal>
+      <Dependent Role="ORDER_CARD_DETAILS">
+        <PropertyRef Name="RECORD_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="GENRE_DETAILS">
+    <End Role="GENRE" Type="Self.GENRE" Multiplicity="*" />
+    <End Role="RECORD" Type="Self.RECORD" Multiplicity="*" />
+  </Association>
+  <Association Name="SONG_RECORD">
+    <End Role="RECORD" Type="Self.RECORD" Multiplicity="*" />
+    <End Role="SONG" Type="Self.SONG" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="Entities5" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CART" EntityType="Self.CART" />
+    <EntitySet Name="CLIENT" EntityType="Self.CLIENT" />
+    <EntitySet Name="COMMENTS" EntityType="Self.COMMENTS" />
+    <EntitySet Name="FACULTY" EntityType="Self.FACULTY" />
+    <EntitySet Name="GENRE" EntityType="Self.GENRE" />
+    <EntitySet Name="ORDER_CARD" EntityType="Self.ORDER_CARD" />
+    <EntitySet Name="ORDER_CARD_DETAILS" EntityType="Self.ORDER_CARD_DETAILS" />
+    <EntitySet Name="RECORD" EntityType="Self.RECORD" />
+    <EntitySet Name="SONG" EntityType="Self.SONG" />
+    <AssociationSet Name="FK_CART_CLIENT" Association="Self.FK_CART_CLIENT">
+      <End Role="CLIENT" EntitySet="CLIENT" />
+      <End Role="CART" EntitySet="CART" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CART_RECORD" Association="Self.FK_CART_RECORD">
+      <End Role="RECORD" EntitySet="RECORD" />
+      <End Role="CART" EntitySet="CART" />
+    </AssociationSet>
+    <AssociationSet Name="FK_COMMENT_CLIENT" Association="Self.FK_COMMENT_CLIENT">
+      <End Role="CLIENT" EntitySet="CLIENT" />
+      <End Role="COMMENTS" EntitySet="COMMENTS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ORDERCARD_CLIENT" Association="Self.FK_ORDERCARD_CLIENT">
+      <End Role="CLIENT" EntitySet="CLIENT" />
+      <End Role="ORDER_CARD" EntitySet="ORDER_CARD" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RECORD_SUPPLIER" Association="Self.FK_RECORD_SUPPLIER">
+      <End Role="CLIENT" EntitySet="CLIENT" />
+      <End Role="RECORD" EntitySet="RECORD" />
+    </AssociationSet>
+    <AssociationSet Name="FK_COMMENT_RECORD" Association="Self.FK_COMMENT_RECORD">
+      <End Role="RECORD" EntitySet="RECORD" />
+      <End Role="COMMENTS" EntitySet="COMMENTS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ORDERCARDDET_ORDERCARD" Association="Self.FK_ORDERCARDDET_ORDERCARD">
+      <End Role="ORDER_CARD" EntitySet="ORDER_CARD" />
+      <End Role="ORDER_CARD_DETAILS" EntitySet="ORDER_CARD_DETAILS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ORDERCARDDETAILS_RECORD" Association="Self.FK_ORDERCARDDETAILS_RECORD">
+      <End Role="RECORD" EntitySet="RECORD" />
+      <End Role="ORDER_CARD_DETAILS" EntitySet="ORDER_CARD_DETAILS" />
+    </AssociationSet>
+    <AssociationSet Name="GENRE_DETAILS" Association="Self.GENRE_DETAILS">
+      <End Role="GENRE" EntitySet="GENRE" />
+      <End Role="RECORD" EntitySet="RECORD" />
+    </AssociationSet>
+    <AssociationSet Name="SONG_RECORD" Association="Self.SONG_RECORD">
+      <End Role="RECORD" EntitySet="RECORD" />
+      <End Role="SONG" EntitySet="SONG" />
+    </AssociationSet>
+    <FunctionImport Name="GETRECORDSINFO" ReturnType="Collection(Model5.GETRECORDSINFO_Result)" />
+    <FunctionImport Name="GET_RECORDS_WITH_SONGS" />
+    <FunctionImport Name="GETSONGSFORRECORD">
+      <Parameter Name="ID_FROM_APP" Mode="Out" Type="Decimal" />
+    </FunctionImport>
+    <FunctionImport Name="GETSONGSINFO" />
+    <FunctionImport Name="REGNEWUSER">
+      <Parameter Name="APPCLIENTID" Mode="In" Type="Decimal" />
+      <Parameter Name="APPLOGIN" Mode="In" Type="String" />
+      <Parameter Name="APPPASSWORD" Mode="In" Type="String" />
+      <Parameter Name="APPPHONE" Mode="In" Type="String" />
+      <Parameter Name="APPEMAIL" Mode="In" Type="String" />
+      <Parameter Name="APPSEX" Mode="In" Type="String" />
+      <Parameter Name="APPDATEOFBIRTH" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="SONGSFORID">
+      <Parameter Name="ID22" Mode="In" Type="Decimal" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="GETRECORDSINFO_Result">
+    <Property Type="Decimal" Name="RECORD_ID" Nullable="false" />
+    <Property Type="Decimal" Name="YEAR" Nullable="true" />
+    <Property Type="Decimal" Name="COST" Nullable="true" />
+    <Property Type="Decimal" Name="AMOUNT" Nullable="true" />
+    <Property Type="Decimal" Name="SUPPLIER_ID" Nullable="true" />
+    <Property Type="String" Name="DESCRIPTION" Nullable="true" />
+    <Property Type="String" Name="ARTIST_NAME" Nullable="true" />
+    <Property Type="String" Name="ALBUM_NAME" Nullable="true" />
+    <Property Type="String" Name="PICTURE" Nullable="true" />
+    <Property Type="String" Name="STATUS" Nullable="true" />
+    <Property Type="DateTime" Name="DATE_OF_DELIV_TO_WAREHOUSE" Nullable="true" />
+  </ComplexType>
+</Schema>

@@ -1,0 +1,244 @@
+    footer {
+        .footerFlex {
+            .part1 {
+                padding-top: 1%;
+                padding-bottom: 1%;
+               
+                .part1Flex {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    .footInf {
+                        margin-left: 2vw;
+                        border-right: 2px solid black;
+                        width: 50vw;
+                        .footInfFlex {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: flex-start;
+                            h2 {
+                                font-size: 2.5vw;
+                                font-weight: normal;
+                                text-shadow: 2px 2px 2px black;
+                            }
+                            p {
+                                font-size: 1.2vw;
+                                margin-top: 0.5vh;
+                                margin-bottom: 0.5vh;
+                                padding-right: 1vw;
+                                text-shadow: 1px 1px 1px black;
+                            }
+                        }
+                    }
+                    .footCont {
+                        width: 50vw;
+                        margin-left: 2vw;
+                        .footContFlex {
+                            display: flex;
+                            flex-direction: row;
+                            align-items: flex-end;
+                            .phNemail {
+                                h2 {
+                                    font-size: 2.5vw;
+                                    font-weight: normal;
+                                    text-shadow: 2px 2px 2px black;
+                                }
+                                p {
+                                    font-size: 1.2vw;
+                                    margin-top: 0.5vh;
+                                    margin-bottom: 0.5vh;
+                                    text-shadow: 1px 1px 1px black;
+                                }
+                            }
+                            .messages {
+                                margin-left: 2vw;
+                                padding-bottom: 0.5vh;
+                                .messagesFlex {
+                                    width: 100%;
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: flex-end;
+                                    .youtube, .inst, .vk {
+                                        width: 3vw;
+                                        margin-right: 1vw;
+                                        transition: 0.1s all linear;
+                                        
+                                        &:hover {
+                                            transform: scale(1.1);
+                                        }
+
+                                        svg {
+                                            width: 100%;
+                                        }
+                                    }
+                        
+                                    .inst {
+                                        filter: brightness(85%);
+                                        
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .part2 {
+                background-color: black;
+                .part2Flex {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    p {
+                        font-size: 1.1vw;
+                    }
+                }
+            }
+        }
+    }
+
+
+    @media (min-width: 560px) and (max-width: 1000px) {
+        footer {
+            .footerFlex {
+                .part1 {
+                    padding-top: 1%;
+                    padding-bottom: 1%;
+                    .part1Flex {
+                        .footInf {
+                            margin-left: 2vw;
+                            border-right: 2px solid black;
+                            width: 50vw;
+                            .footInfFlex {
+                                h2 {
+                                    font-size: 4vw;
+                                    margin-bottom: 1vh;
+                                }
+                                p {
+                                    font-size: 2vw;
+                                    margin-top: 0.5vh;
+                                    margin-bottom: 0.5vh;
+                                }
+                            }
+                        }
+                        .footCont {
+                            width: 50vw;
+                            margin-left: 2vw;
+                            .footContFlex {
+                                flex-direction: column;
+                                justify-content: flex-start;
+                                align-items: flex-start;
+                                .phNemail {
+                                    h2 {
+                                        font-size: 4vw;
+                                        margin-bottom: 1vh;
+                                    }
+                                    p {
+                                        font-size: 2vw;
+                                        margin-top: 0.5vh;
+                                        margin-bottom: 0.5vh;
+                                    }
+                                }
+                                .messages {
+                                    margin-left: 0vw;
+                                    padding-bottom: 0.5vh;
+                                    margin-top: 1.2vh;
+                                    .messagesFlex {
+                                        width: 100%;
+                                        .youtube, .inst, .vk {
+                                            width: 5.5vw;
+                                            margin-right: 2.5vw;
+                                            svg {
+                                                width: 100%;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .part2 {
+                    .part2Flex {
+                        p {
+                            font-size: 1.8vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media (min-width: 320px) and (max-width: 560px) {
+        footer {
+            .footerFlex {
+                .part1 {
+                    padding-top: 0.5%;
+                    padding-bottom: 1%;
+                    .part1Flex {
+                        flex-direction: column;
+                        justify-content: space-around;
+                        .footInf {
+                            margin-left: 4vw;
+                            border-bottom: 2px solid black;
+                            border-right: none;
+                            width: 92vw;
+                            .footInfFlex {
+                                h2 {
+                                    font-size: 6.5vw;
+                                    margin-bottom: 2.5vw;
+                                }
+                                p {
+                                    font-size: 3.5vw;
+                                    margin-top: 0.5vh;
+                                    margin-bottom: 0.5vh;
+                                    padding-right: 5vw;
+                                }
+                            }
+                        }
+                        .footCont {
+                            width: 92vw;
+                            margin-left: 4vw;
+                            .footContFlex {
+                                flex-direction: row;
+                                justify-content: space-between;
+                                align-items: flex-end;
+                                .phNemail {
+                                    h2 {
+                                        font-size: 6.5vw;
+                                        margin-bottom: 2.5vw;
+                                    }
+                                    p {
+                                        font-size: 3.5vw;
+                                        margin-top: 0.5vh;
+                                        margin-bottom: 0.5vh;
+                                    }
+                                }
+                                .messages {
+                                    margin-right: 2vw;
+                                    margin-left: 0;
+                                    
+                                    .messagesFlex {
+                                        width: 100%;
+                                        .youtube, .inst, .vk {
+                                            width: 8vw;
+                                            margin-right: 2vw;
+                                            svg {
+                                                width: 100%;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .part2 {
+                    .part2Flex {
+                        p {
+                            font-size: 2.7vw;
+                        }
+                    }
+                }
+            }
+        }
+    }

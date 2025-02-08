@@ -1,0 +1,61 @@
+.allPerformances {
+  background-color: #EFEBE1;
+  color: black;
+}
+.allPerformances a {
+  color: black;
+}
+.allPerformances .premiere {
+  border: 2px solid black;
+}
+.allPerformances .premiere:hover {
+  background-color: black;
+}
+.allPerformances .premiere:hover p {
+  color: white;
+}
+
+.theme-button {
+  position: fixed;
+  top: 92vh;
+  left: 1.5vw;
+}
+
+.place {
+  border: 3px solid black;
+}
+.place:hover {
+  background-color: #EFEBE1;
+}
+.place:hover p {
+  color: black;
+}
+
+.thIs {
+  background-color: #EFEBE1;
+}
+.thIs #theaterIs {
+  color: white;
+}
+
+.words {
+  background-color: #EFEBE1;
+}
+
+#circ {
+  fill: black;
+}
+
+.firstPer, .secondPer, .thirdPer, .fourthPer, .fifthPer, .sixthPer, .seventhPer, .eighthPer, .ninethPer, .tenthPer, .eleventhPer, .twelfthPer {
+  border: solid black;
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  border-width: 2px 0 2px 0;
+}
+.firstPer:hover, .secondPer:hover, .thirdPer:hover, .fourthPer:hover, .fifthPer:hover, .sixthPer:hover, .seventhPer:hover, .eighthPer:hover, .ninethPer:hover, .tenthPer:hover, .eleventhPer:hover, .twelfthPer:hover {
+  background-color: black;
+  color: white;
+}
+.firstPer:hover a, .secondPer:hover a, .thirdPer:hover a, .fourthPer:hover a, .fifthPer:hover a, .sixthPer:hover a, .seventhPer:hover a, .eighthPer:hover a, .ninethPer:hover a, .tenthPer:hover a, .eleventhPer:hover a, .twelfthPer:hover a {
+  color: white;
+}

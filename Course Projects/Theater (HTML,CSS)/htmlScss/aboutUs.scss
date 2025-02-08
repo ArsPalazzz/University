@@ -1,0 +1,249 @@
+@import '../import/header';
+@import '../import/footer';
+
+
+@font-face {
+    font-family: "Reem Kufi";
+    src: url("../fonts/ReemKufi-Regular.ttf");
+}
+  
+::-webkit-scrollbar {
+    width: 0;
+}
+
+$gor: center;
+$ver: center;
+
+@mixin gorNverFlex($gor, $ver) {
+  justify-content: $gor;
+  align-items: $ver;
+}
+  
+body {
+    color: white;
+    font-family: "Reem Kufi";
+    background-image: url("../img/AboutUs/back.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #464646;
+    background-attachment: fixed;
+    margin: 0;
+}
+  
+  
+.mainBlock {
+    width: 100vw;
+    height: 100vh;
+  
+    .mainText {
+      display: flex;
+      @include gorNverFlex($gor, $ver);
+      flex-direction: column;
+      width: 90%;
+      top: 50vh;
+      position: relative;
+      margin: auto;
+  
+      .firstP {
+        font-size: 3.5vw;
+        text-shadow: 2px 2px 2px black;
+        margin: 0;
+      }
+  
+    }
+}
+
+    .allInf {
+        background-color: #EFEBE1;
+        color: black;
+        .allInfFlex {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            h1 {
+                font-size: 5.5vw;
+                font-weight: normal;
+                text-align: center;
+                margin-bottom: 1vw;
+            }
+            p {
+                font-size: 1.7vw;
+            }
+            .photos {
+                display: flex;
+                flex-direction: row;
+                width: 18vw;
+                margin-left: 19%;
+                img {
+                    width: 100%;
+                }
+            }
+            h2 {
+                font-size: 3vw;
+                font-weight: normal;
+                text-align: center;
+                margin-bottom: 1vw;
+                margin-top: 7vw;
+            } 
+            .onePhoto {
+                margin: auto;
+                width: 40vw;
+                img {
+                    width: 100%;
+                }
+            }
+            .threePhotos {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 25vw;
+                margin-top: 3%;
+                margin-left: 11%;
+                margin-bottom: 5%;
+                img {
+                    width: 100%;
+                    padding-right: 8%;
+                }
+            }
+        }
+    }
+
+  .firBlock, .secBlock, .thirBlock, .fourBlock {
+      width: 60%;
+      margin: auto;
+  }
+
+  .fifBlock {
+      width: 100%;
+      p {
+          width: 60%;
+          margin: auto;
+      }
+  }
+
+  .firBlockFlex, .secBlockFlex, .thirBlockFlex, .fourBlockFlex, .fifBlockFlex {
+      display: flex;
+      flex-direction: column;
+        width: 100%;
+  }
+
+  @media (min-width: 560px) and (max-width: 1000px) {
+      .mainBlock {
+          .mainText {
+              .firstP {
+                  font-size: 6.5vw;
+                  text-shadow: 3px 3px 3px black;
+              }
+          }
+      }
+
+    .allInf {
+        .allInfFlex {
+            h1 {
+                font-size: 8vw;
+                margin-bottom: 1.5vw;
+            }
+            p {
+                font-size: 3vw;
+            }
+            .photos {
+                width: 24vw;
+                margin-left: 11%;
+                img {
+                    width: 100%;
+                }
+            }
+            h2 {
+                font-size: 4.5vw;
+                margin-bottom: 1vw;
+                margin-top: 7vw;
+            }
+            .onePhoto {
+                width: 50vw;
+                img {
+                    width: 100%;
+                }
+            }
+            .threePhotos {
+                width: 29vw;
+                margin-left: 4.5%;
+                img {
+                    padding-right: 8%;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 560px) {
+    .mainBlock {
+        .mainText {
+            .firstP {
+                font-size: 10vw;
+                text-shadow: 3px 3px 3px black;
+            }
+        }
+    }
+
+    .allInf {
+        .allInfFlex {
+            h1 {
+                font-size: 11vw;
+                margin-bottom: 1.5vw;
+            }
+            p {
+                font-size: 5vw;
+            }
+            .photos {
+                width: 32vw;
+                margin-left: 10%;
+                img {
+                    width: 100%;
+                }
+            }
+            h2 {
+                font-size: 6.5vw;
+                margin-bottom: 1vw;
+                margin-top: 12vw;
+            }
+            .onePhoto {
+                width: 66vw;
+                img {
+                    width: 100%;
+                }
+            }
+            .threePhotos {
+                width: 40vw;
+                margin-left: 9%;
+                img {
+                    padding-right: 8%;
+                }
+            }
+        }
+    }
+
+    .firBlock, .secBlock, .thirBlock, .fourBlock {
+        width: 80%;
+        margin: auto;
+    }
+
+    .secPic {
+        display: none;
+        position: absolute;
+    }
+  
+    .fifBlock {
+        width: 100%;
+        p {
+            width: 80%;
+            margin: auto;
+        }
+    }
+  
+    .firBlockFlex, .secBlockFlex, .thirBlockFlex, .fourBlockFlex, .fifBlockFlex {
+        display: flex;
+        flex-direction: column;
+          width: 100%;
+    }
+}

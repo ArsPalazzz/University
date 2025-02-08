@@ -1,0 +1,120 @@
+.line {
+  border-bottom: 1.5px solid black;
+  margin-top: 5vh;
+}
+
+.news {
+  margin-top: 5vh;
+  margin-bottom: 15vh;
+}
+.news .newsFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.news .newsFlex .form {
+  margin: auto;
+  width: 34vw;
+}
+.news .newsFlex .form .formFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.news .newsFlex .form .formFlex .text {
+  text-align: center;
+  font-size: 2.2vw;
+}
+.news .newsFlex .form .formFlex .buttons .buttonsFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.news .newsFlex .form .formFlex .buttons .buttonsFlex input[type=text] {
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.1vw;
+  width: 14vw;
+}
+.news .newsFlex .form .formFlex .buttons .buttonsFlex input[type=submit] {
+  font-size: 1.1vw;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px 50px 10px 50px;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: all 0.15s linear;
+  transition: all 0.15s linear;
+}
+.news .newsFlex .form .formFlex .buttons .buttonsFlex input[type=submit]:hover {
+  background-color: #363636;
+}
+
+@media (min-width: 560px) and (max-width: 1000px) {
+  .line {
+    border-bottom: 2px solid black;
+    margin-top: 2vw;
+  }
+
+  .news {
+    margin-top: 2vh;
+    margin-bottom: 6vh;
+  }
+  .news .newsFlex .form {
+    width: 56vw;
+  }
+  .news .newsFlex .form .formFlex .text {
+    font-size: 3.5vw;
+  }
+  .news .newsFlex .form .formFlex .buttons .buttonsFlex input[type=text] {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.8vw;
+    width: 25vw;
+  }
+  .news .newsFlex .form .formFlex .buttons .buttonsFlex input[type=submit] {
+    font-size: 1.8vw;
+    border-radius: 15px;
+    padding: 10px 50px 10px 50px;
+  }
+}
+@media (min-width: 320px) and (max-width: 560px) {
+  .line {
+    border-bottom: 1.5px solid black;
+    margin-top: 2vw;
+  }
+
+  .news {
+    margin-top: 2vh;
+    margin-bottom: 6vh;
+  }
+  .news .newsFlex .form {
+    width: 86vw;
+  }
+  .news .newsFlex .form .formFlex .text {
+    font-size: 5.5vw;
+  }
+  .news .newsFlex .form .formFlex .buttons .buttonsFlex input[type=text] {
+    padding: 6px;
+    border-radius: 6px;
+    font-size: 2.5vw;
+    width: 40vw;
+  }
+  .news .newsFlex .form .formFlex .buttons .buttonsFlex input[type=submit] {
+    font-size: 2.5vw;
+    border-radius: 10px;
+    padding: 8px 40px 8px 40px;
+  }
+}

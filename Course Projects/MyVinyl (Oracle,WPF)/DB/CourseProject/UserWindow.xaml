@@ -1,0 +1,871 @@
+﻿<Window
+    x:Class="CourseProject.UserWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:CourseProject"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="UserWindow"
+    Width="1300"
+    Height="650"
+    FontFamily="Inter"
+    Icon="./Assets/vinyl3.png"
+    mc:Ignorable="d">
+
+    <Window.Background>
+        <ImageBrush ImageSource="./Assets/background.jpg" />
+    </Window.Background>
+    <!--<Window.CommandBindings>
+        <CommandBinding Command="local:WindowCommands.EngSelect" Executed="EngLocal_Selected" />
+        <CommandBinding Command="local:WindowCommands.RusSelect" Executed="RusLocal_Selected" />
+    </Window.CommandBindings>-->
+    <Border BorderThickness="0" CornerRadius="130">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50" />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid Style="{DynamicResource HeaderStyle}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*" />
+                    <ColumnDefinition Width="9*" />
+
+                </Grid.ColumnDefinitions>
+            </Grid>
+            <TextBlock
+                Margin="20,0,0,0"
+                VerticalAlignment="Center"
+                FontSize="24"
+                FontWeight="Bold"
+                Foreground="White"
+                Text="PureVinyl" />
+            <Border
+                Height="40"
+                MaxWidth="370"
+                Margin="0,0,550,0"
+                CornerRadius="5"
+                Style="{DynamicResource SearchStyle}">
+                <Grid Grid.Column="1">
+                    <TextBox
+                        x:Name="SearchBoxUser"
+                        Margin="1"
+                        Padding="5"
+                        VerticalContentAlignment="Center"
+                        Background="Transparent"
+                        BorderThickness="0"
+                        Foreground="White"
+                        TextChanged="SearchBox_TextChanged">
+                        <TextBox.InputBindings>
+                            <KeyBinding Key="Return" Command="{Binding EnterSearch}" />
+                        </TextBox.InputBindings>
+                    </TextBox>
+
+                </Grid>
+            </Border>
+
+            <Grid Margin="130,0,0,0" HorizontalAlignment="Center">
+                <!--<Image
+                    x:Name="UndoUser"
+                    MaxHeight="40"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Center"
+                    Cursor="Hand"
+                    MouseDown="msUndo_Click"
+                    Source="./Assets/undo.png" />-->
+            </Grid>
+
+
+            <Grid Margin="250,0,0,0" HorizontalAlignment="Center">
+                <!--<Image
+                    x:Name="Redo"
+                    MaxHeight="40"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Center"
+                    Cursor="Hand"
+                    MouseDown="msRedo_Click"
+                    Source="./Assets/redo.png" />-->
+            </Grid>
+
+            <Button
+                Width="100"
+                Height="40"
+                Margin="0,5,270,5"
+                Padding="10,5"
+                HorizontalAlignment="Right"
+                BorderThickness="0"
+                Click="FilterWin_Open"
+                Content="{DynamicResource h_Tab5}"
+                FontSize="14"
+                FontWeight="Medium"
+                Foreground="White"
+                Style="{DynamicResource FilterStyle}" />
+
+            <Button
+                Width="150"
+                Height="40"
+                Margin="0,0,90,0"
+                HorizontalAlignment="Right"
+                Click="SingUpOpen_Click"
+                Content="Sign Out"
+                FontWeight="Medium"
+                Style="{DynamicResource ButtonStyle}" />
+            <Image
+                Width="40"
+                Height="40"
+                Margin="0,0,30,0"
+                HorizontalAlignment="Right"
+                Source="Assets/profile.png"
+                MouseDown="ProfileOpen_Click"/>
+            <!--<Button
+                Width="150"
+                Height="40"
+                Margin="0,0,10,0"
+                HorizontalAlignment="Right"
+                Click="SingUpOpen_Click"
+                Content="Profile"
+                FontWeight="Medium"
+                Style="{DynamicResource ButtonStyle}" />-->
+
+            <Button
+                Width="150"
+                Height="40"
+                Margin="0,0,400,0"
+                HorizontalAlignment="Right"
+                Click="AddItemFunc_Click"
+                Content="Add a record"
+                FontWeight="Medium"
+                Style="{DynamicResource ButtonStyle}" />
+
+            <Button
+                Width="100"
+                Height="40"
+                Margin="0,0,580,0"
+                Padding="10,5"
+                HorizontalAlignment="Right"
+                BorderThickness="0"
+                Click="RefreshClick"
+                Content="Refresh"
+                FontWeight="Medium"
+                Style="{DynamicResource ButtonStyle}" />
+
+
+
+
+            <TabControl
+                Grid.Row="1"
+                Grid.Column="0"
+                Grid.ColumnSpan="5"
+                HorizontalAlignment="Center"
+                HorizontalContentAlignment="Center"
+                Style="{DynamicResource TabControlStyle}">
+
+                <TabItem
+                    Width="500"
+                    Height="30"
+                    Header="{DynamicResource h_Tab1}"
+                    Style="{DynamicResource TabItemBg}">
+                    <TabItem.Content>
+                        <ListBox
+                            Name="Records"
+                            Grid.Row="1"
+                            Grid.ColumnSpan="5"
+                            MaxWidth="1000"
+                            ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                            Style="{DynamicResource WinBg}">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="250" />
+                                            <ColumnDefinition Width="530" />
+                                            <ColumnDefinition Width="200" />
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition />
+                                            <RowDefinition />
+                                        </Grid.RowDefinitions>
+
+
+                                        <Grid Grid.Row="0" Grid.Column="0">
+                                            <Image
+                                                x:Name="ProductsPhoto"
+                                                Width="250"
+                                                Height="200"
+                                                Margin="10,35"
+                                                VerticalAlignment="Top"
+                                                Source="{Binding PICTURE}" />
+                                        </Grid>
+
+
+                                        <Grid
+                                            Grid.Row="0"
+                                            Grid.Column="2"
+                                            HorizontalAlignment="Left">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition />
+
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="1*" />
+                                                <RowDefinition Height="2*" />
+                                            </Grid.RowDefinitions>
+                                            <Button
+                                                Grid.Row="0"
+                                                Width="150"
+                                                Height="40"
+                                                Margin="0,35,0,35"
+                                                HorizontalAlignment="Left"
+                                                VerticalAlignment="Top"
+                                                Click="BuyRecord_Click"
+                                                Content="Buy a record"
+                                                FontWeight="Medium"
+                                                Style="{DynamicResource ButtonStyle}" />
+                                            <Button
+                                                Grid.Row="1"
+                                                Width="150"
+                                                Height="40"
+                                                HorizontalAlignment="Left"
+                                                VerticalAlignment="Top"
+                                                Background="Aqua"
+                                                Click="MoreInfo_Click"
+                                                Content="More Info"
+                                                FontWeight="Medium"
+                                                Foreground="Black"
+                                                Style="{DynamicResource ButtonStyle}" />
+                                        </Grid>
+
+                                        <Grid Grid.Row="0" Grid.Column="1">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="0.8*" />
+                                                <!--<ColumnDefinition Width="0.3*"/>-->
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="0.75*" />
+                                                <RowDefinition Height="0.3*" />
+                                                <RowDefinition Height="0.3*" />
+                                                <RowDefinition Height="0.3*" />
+                                                <RowDefinition Height="0.3*" />
+                                                <RowDefinition Height="0.3*" />
+                                                <RowDefinition Height="0.3*" />
+                                            </Grid.RowDefinitions>
+                                            <Grid
+                                                Grid.Row="0"
+                                                Grid.Column="0"
+                                                Margin="0,35,0,0">
+
+
+
+
+
+
+                                                <!--<TextBlock
+                                                        x:Name="amountNameInput"
+                                                         Margin="0,0,0,5"
+                                                        FontSize="24"
+                                                        Style="{DynamicResource TextBlockStyle}"
+                                                        Text="{Binding AMOUNT}"
+                                                        />-->
+                                                <StackPanel VerticalAlignment="Center" Orientation="Horizontal">
+
+                                                    <TextBlock
+                                                        x:Name="artistNameInput"
+                                                        Margin="0,0,0,5"
+                                                        FontSize="24"
+                                                        Style="{DynamicResource TextBlockStyle}"
+                                                        Text="{Binding ARTIST_NAME}" />
+                                                    <TextBlock
+                                                        Margin="0,0,0,5"
+                                                        FontSize="24"
+                                                        Style="{DynamicResource TextBlockStyle}"
+                                                        Text=" - " />
+                                                    <TextBlock
+                                                        x:Name="albumNameInput"
+                                                        Margin="0,0,0,5"
+                                                        FontSize="24"
+                                                        Style="{DynamicResource TextBlockStyle}"
+                                                        Text="{Binding ALBUM_NAME}" />
+
+
+                                                    <!--<Image
+                                                        Height="20"
+                                                        Margin="25,0,0,0"
+                                                        Source="./Assets/bin2.png" />
+                                                    <Image
+                                                        Height="20"
+                                                        Margin="10,0,0,0"
+                                                        Source="./Assets/edit2.png" />-->
+
+                                                </StackPanel>
+                                            </Grid>
+
+
+
+                                            <Grid Grid.Row="1" Grid.Column="0">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <TextBlock
+                                                        FontSize="18"
+                                                        Style="{DynamicResource TextBlockStyle}"
+                                                        Text="{DynamicResource b_Article}" />
+                                                    <TextBlock
+                                                        FontSize="18"
+                                                        Style="{DynamicResource TextBlockStyle}"
+                                                        Text=": " />
+                                                    <TextBlock
+                                                        x:Name="articleInput"
+                                                        FontSize="18"
+                                                        Style="{DynamicResource TextBlockStyle}"
+                                                        Text="{Binding RECORD_ID}" />
+                                                </StackPanel>
+                                            </Grid>
+
+                                            <Grid Grid.Row="2" Grid.Column="0">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <TextBlock
+                                                        FontSize="18"
+                                                        Style="{DynamicResource TextBlockStyle}"
+                                                        Text="{DynamicResource b_Cost}" />
+                                                    <TextBlock
+                                                        FontSize="18"
+                                                        Style="{DynamicResource TextBlockStyle}"
+                                                        Text=": " />
+                                                    <TextBlock
+                                                        x:Name="costInputUser"
+                                                        FontSize="18"
+                                                        Style="{DynamicResource TextBlockStyle}"
+                                                        Text="{Binding COST}" />
+                                                    <TextBlock
+                                                        FontSize="18"
+                                                        Style="{DynamicResource TextBlockStyle}"
+                                                        Text="$" />
+                                                </StackPanel>
+                                            </Grid>
+
+
+
+                                            <Grid Grid.Row="3" Grid.Column="0">
+                                                <Grid>
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition MaxWidth="120" />
+
+                                                        <ColumnDefinition />
+                                                    </Grid.ColumnDefinitions>
+                                                    <TextBlock
+                                                        Grid.Column="0"
+                                                        FontSize="18"
+                                                        Style="{DynamicResource TextBlockStyle}"
+                                                        Text="Songs (side A): " />
+                                                    <!--<TextBlock
+                                                        Grid.Column="1"
+                                                        FontSize="18"
+                                                        Style="{DynamicResource TextBlockStyle}"
+                                                        Text=": " />-->
+
+                                                    <TextBlock
+                                                        Name="songsInputGuest"
+                                                        Grid.Column="1"
+                                                        FontSize="18"
+                                                        Style="{DynamicResource TextBlockStyle}"
+                                                        Text="{Binding SongsAString}"
+                                                        TextAlignment="Left"
+                                                        TextWrapping="Wrap" />
+
+
+
+
+
+                                                </Grid>
+                                            </Grid>
+
+
+                                            <Grid Grid.Row="4" Grid.Column="0">
+                                                <Grid>
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition MaxWidth="120" />
+
+                                                        <ColumnDefinition />
+                                                    </Grid.ColumnDefinitions>
+                                                    <TextBlock
+                                                        Grid.Column="0"
+                                                        FontSize="18"
+                                                        Style="{DynamicResource TextBlockStyle}"
+                                                        Text="Songs (side B): " />
+                                                    <!--<TextBlock
+                                                        Grid.Column="1"
+                                                        FontSize="18"
+                                                        Style="{DynamicResource TextBlockStyle}"
+                                                        Text=": " />-->
+
+                                                    <TextBlock
+                                                        Name="songsInputGuestB"
+                                                        Grid.Column="1"
+                                                        FontSize="18"
+                                                        Style="{DynamicResource TextBlockStyle}"
+                                                        Text="{Binding SongsBString}"
+                                                        TextAlignment="Left"
+                                                        TextWrapping="Wrap" />
+
+
+
+
+
+                                                </Grid>
+                                            </Grid>
+
+
+                                            <Grid Grid.Row="5" Grid.Column="0">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <TextBlock
+                                                        FontSize="18"
+                                                        Style="{DynamicResource TextBlockStyle}"
+                                                        Text="Genres: " />
+
+                                                    <TextBlock
+                                                        x:Name="genreInput"
+                                                        FontSize="18"
+                                                        Style="{DynamicResource TextBlockStyle}"
+                                                        Text="{Binding GenresString}" />
+                                                </StackPanel>
+                                            </Grid>
+
+                                            <Grid Grid.Row="6" Grid.Column="0">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <TextBlock
+                                                        FontSize="18"
+                                                        Style="{DynamicResource TextBlockStyle}"
+                                                        Text="{DynamicResource b_Year}" />
+                                                    <TextBlock
+                                                        FontSize="18"
+                                                        Style="{DynamicResource TextBlockStyle}"
+                                                        Text=": " />
+                                                    <TextBlock
+                                                        x:Name="yearInput"
+                                                        FontSize="18"
+                                                        Style="{DynamicResource TextBlockStyle}"
+                                                        Text="{Binding YEAR}" />
+                                                </StackPanel>
+                                            </Grid>
+
+
+                                        </Grid>
+                                    </Grid>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                    </TabItem.Content>
+                </TabItem>
+                <TabItem
+                    Width="500"
+                    Height="30"
+                    Header="Your Records">
+                    <TabItem.Content>
+                        <ListBox
+                            Name="Records2"
+                            Grid.Row="1"
+                            Grid.ColumnSpan="5"
+                            MaxWidth="1000"
+                            ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                            Style="{DynamicResource WinBg}">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="0.6*" />
+                                            <ColumnDefinition Width="*" />
+
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition />
+                                            <RowDefinition />
+                                        </Grid.RowDefinitions>
+
+
+                                        <Grid Grid.Row="0" Grid.Column="0">
+                                            <Image
+                                                x:Name="ProductsPhoto"
+                                                Width="250"
+                                                Height="200"
+                                                Margin="10,35"
+                                                VerticalAlignment="Top"
+                                                Source="{Binding PICTURE}" />
+                                        </Grid>
+
+                                        <Grid Grid.Row="0" Grid.Column="1">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition />
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="0.75*" />
+                                                <RowDefinition Height="0.3*" />
+                                                <RowDefinition Height="0.3*" />
+                                                <RowDefinition Height="0.3*" />
+                                                <RowDefinition Height="0.3*" />
+                                                <RowDefinition Height="0.3*" />
+                                                <RowDefinition Height="0.3*" />
+                                            </Grid.RowDefinitions>
+                                            <Grid
+                                                Grid.Row="0"
+                                                Grid.Column="0"
+                                                Margin="0,35,0,0">
+                                                <StackPanel VerticalAlignment="Center" Orientation="Horizontal">
+                                                    <TextBlock
+                                                        x:Name="artistNameInput"
+                                                        Margin="0,0,0,5"
+                                                        FontSize="24"
+                                                        Style="{DynamicResource TextBlockStyle}"
+                                                        Text="{Binding ARTIST_NAME}" />
+                                                    <TextBlock
+                                                        Margin="0,0,0,5"
+                                                        FontSize="24"
+                                                        Style="{DynamicResource TextBlockStyle}"
+                                                        Text=" - " />
+                                                    <TextBlock
+                                                        x:Name="albumNameInput"
+                                                        Margin="0,0,0,5"
+                                                        FontSize="24"
+                                                        Style="{DynamicResource TextBlockStyle}"
+                                                        Text="{Binding ALBUM_NAME}" />
+                                                    <Image
+                                                        Height="20"
+                                                        Margin="25,0,0,0"
+                                                        MouseDown="DeleteItem_Click"
+                                                        Source="./Assets/bin2.png" />
+                                                    <Image
+                                                        Height="20"
+                                                        Margin="10,0,0,0"
+                                                        MouseDown="EditItem_Click"
+                                                        Source="./Assets/edit2.png" />
+
+                                                </StackPanel>
+                                            </Grid>
+
+                                            <Grid Grid.Row="1" Grid.Column="0">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <TextBlock
+                                                        FontSize="18"
+                                                        Style="{DynamicResource TextBlockStyle}"
+                                                        Text="ID: " />
+
+                                                    <TextBlock
+                                                        x:Name="articleInput"
+                                                        FontSize="18"
+                                                        Style="{DynamicResource TextBlockStyle}"
+                                                        Text="{Binding RECORD_ID}" />
+                                                </StackPanel>
+                                            </Grid>
+
+                                            <Grid Grid.Row="2" Grid.Column="0">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <TextBlock
+                                                        FontSize="18"
+                                                        Style="{DynamicResource TextBlockStyle}"
+                                                        Text="Cost: " />
+
+                                                    <TextBlock
+                                                        x:Name="costInputUser"
+                                                        FontSize="18"
+                                                        Style="{DynamicResource TextBlockStyle}"
+                                                        Text="{Binding COST}" />
+                                                    <TextBlock
+                                                        FontSize="18"
+                                                        Style="{DynamicResource TextBlockStyle}"
+                                                        Text="$" />
+                                                </StackPanel>
+                                            </Grid>
+
+
+
+                                            <Grid Grid.Row="3" Grid.Column="0">
+                                                <Grid>
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition MaxWidth="120" />
+
+                                                        <ColumnDefinition />
+                                                    </Grid.ColumnDefinitions>
+                                                    <TextBlock
+                                                        Grid.Column="0"
+                                                        FontSize="18"
+                                                        Style="{DynamicResource TextBlockStyle}"
+                                                        Text="Songs (side A): " />
+                                                    <!--<TextBlock
+                                                        Grid.Column="1"
+                                                        FontSize="18"
+                                                        Style="{DynamicResource TextBlockStyle}"
+                                                        Text=": " />-->
+
+                                                    <TextBlock
+                                                        Name="songsInputGuest"
+                                                        Grid.Column="1"
+                                                        FontSize="18"
+                                                        Style="{DynamicResource TextBlockStyle}"
+                                                        Text="{Binding SongsAString}"
+                                                        TextAlignment="Left"
+                                                        TextWrapping="Wrap" />
+
+
+
+
+
+                                                </Grid>
+                                            </Grid>
+
+
+                                            <Grid Grid.Row="4" Grid.Column="0">
+                                                <Grid>
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition MaxWidth="120" />
+
+                                                        <ColumnDefinition />
+                                                    </Grid.ColumnDefinitions>
+                                                    <TextBlock
+                                                        Grid.Column="0"
+                                                        FontSize="18"
+                                                        Style="{DynamicResource TextBlockStyle}"
+                                                        Text="Songs (side B): " />
+                                                    <!--<TextBlock
+                                                        Grid.Column="1"
+                                                        FontSize="18"
+                                                        Style="{DynamicResource TextBlockStyle}"
+                                                        Text=": " />-->
+
+                                                    <TextBlock
+                                                        Name="songsInputGuestB"
+                                                        Grid.Column="1"
+                                                        FontSize="18"
+                                                        Style="{DynamicResource TextBlockStyle}"
+                                                        Text="{Binding SongsBString}"
+                                                        TextAlignment="Left"
+                                                        TextWrapping="Wrap" />
+
+
+
+
+
+                                                </Grid>
+                                            </Grid>
+
+
+                                            <Grid Grid.Row="5" Grid.Column="0">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <TextBlock
+                                                        FontSize="18"
+                                                        Style="{DynamicResource TextBlockStyle}"
+                                                        Text="Genres: " />
+
+                                                    <TextBlock
+                                                        x:Name="genreInput"
+                                                        FontSize="18"
+                                                        Style="{DynamicResource TextBlockStyle}"
+                                                        Text="{Binding GenresString}" />
+                                                </StackPanel>
+                                            </Grid>
+
+                                            <Grid Grid.Row="6" Grid.Column="0">
+                                                <StackPanel Orientation="Horizontal">
+                                                    <TextBlock
+                                                        FontSize="18"
+                                                        Style="{DynamicResource TextBlockStyle}"
+                                                        Text="{DynamicResource b_Year}" />
+                                                    <TextBlock
+                                                        FontSize="18"
+                                                        Style="{DynamicResource TextBlockStyle}"
+                                                        Text=": " />
+                                                    <TextBlock
+                                                        x:Name="yearInput"
+                                                        FontSize="18"
+                                                        Style="{DynamicResource TextBlockStyle}"
+                                                        Text="{Binding YEAR}" />
+                                                </StackPanel>
+                                            </Grid>
+
+
+                                        </Grid>
+                                    </Grid>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                    </TabItem.Content>
+                </TabItem>
+
+                <!--<TabItem
+                    Style="{DynamicResource TabItemBg}"
+                    Width="465"
+                    Height="30"
+                    HorizontalAlignment="Right"
+                    HorizontalContentAlignment="Center"
+                    Header="{DynamicResource h_Tab3}">
+                    <TabItem.Content>
+
+                        <Grid  Style="{DynamicResource GridBg}">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="0.2*" />
+
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="1.35*" />
+                                <RowDefinition Height="1.2*" />
+                                <RowDefinition Height="0.5*" />
+                            </Grid.RowDefinitions>
+
+                            <WrapPanel
+                                Grid.RowSpan="2"
+                                Grid.ColumnSpan="2"
+                                Width="800"
+
+                                VerticalAlignment="Top"
+                                Orientation="Horizontal"
+                                Style="{DynamicResource settingsStyle}">
+
+                                <TextBlock
+                                    Margin="10,10,10,0"
+                                    Style="{DynamicResource SettingsTxtBlck}"
+                                    Text="{DynamicResource h_Exp3}" />
+                                <WrapPanel
+                                    Width="Auto"
+                                    Margin="270,0,60,20"
+                                    HorizontalAlignment="Center"
+                                    Orientation="Horizontal">
+                                    <Button
+                                        x:Name="RusLocal"
+                                        Width="130"
+                                        Height="35"
+                                        Margin="10,0,10,0"
+                                        Padding="5"
+
+                                        Content="{DynamicResource cbi_rus}"
+                                        Template="{StaticResource ButtonTemplate}" />
+
+                                    <Button
+                                        x:Name="EnLocal"
+                                        Width="130"
+                                        Height="35"
+                                        Margin="10,0,10,0"
+                                        Padding="5"
+
+                                        Content="{DynamicResource cbi_en}"
+                                        Template="{StaticResource ButtonTemplate}" />
+                                </WrapPanel>
+
+                                <TextBlock
+                                    Margin="10,0,0,0"
+                                    Style="{DynamicResource SettingsTxtBlck}"
+                                    Text="{DynamicResource h_Exp1}" />
+                                <WrapPanel
+                                    Margin="270,0,60,10"
+                                    HorizontalAlignment="Left"
+                                    Orientation="Horizontal">
+                                    <Button
+                                        x:Name="btnGeometric"
+                                        Margin="10,0,10,0"
+                                        Padding="5"
+                                        Click="btnGeometric_Click"
+                                        Content="{DynamicResource but_DiamondCur}"
+                                        Style="{DynamicResource SettingsBtn}"
+                                        Template="{StaticResource ButtonTemplate}" />
+                                    <Button
+                                        x:Name="btnPixel"
+                                        Width="130"
+                                        Margin="10,0,10,0"
+                                        Padding="5"
+                                        Click="btnGeometric_Click"
+                                        Content="{DynamicResource but_LatteCur}"
+                                        Template="{StaticResource ButtonTemplate}" />
+                                </WrapPanel>
+                                <TextBlock
+                                    Margin="10,0,0,0"
+                                    Style="{DynamicResource SettingsTxtBlck}"
+                                    Text="{DynamicResource h_Exp2}" />
+                                <WrapPanel
+                                    Margin="270,0,60,20"
+                                    HorizontalAlignment="Center"
+                                    Orientation="Horizontal">
+                                    <Button
+                                        x:Name="btnGeometric2"
+                                        Margin="10,0,10,0"
+                                        Padding="5"
+                                        Click="Dark_Selected"
+                                        Content="{DynamicResource cbi_dark}"
+                                        Style="{DynamicResource SettingsBtn}"
+                                        Template="{StaticResource ButtonTemplate}" />
+                                    <Button
+                                        x:Name="btnPixel2"
+                                        Width="130"
+                                        Margin="10,0,10,0"
+                                        Padding="5"
+                                        Click="Light_Selected"
+                                        Content="{DynamicResource cbi_light}"
+                                        Template="{StaticResource ButtonTemplate}" />
+                                </WrapPanel>
+                            </WrapPanel>
+
+                            <Grid Grid.Row="1" Width="500" HorizontalAlignment="Center">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition />
+                                    <RowDefinition />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition />
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+
+                                <TextBox TextAlignment="Center"
+                                    x:Name="tb"
+                                    Grid.ColumnSpan="2"
+                                    Grid.Row="0"
+                                    Text="Here is some sample text" />
+                                <WrapPanel Grid.Row="1" HorizontalAlignment="Center">
+                                    <Button
+                                    x:Name="btnFocusTrue"
+                                    Content="Set True" />
+                                    <Button
+                                    x:Name="btnFocusFalse"
+                                    Content="Set False" />
+                                </WrapPanel>
+                -->
+                <!--<control:MyCustomControl Grid.Row="1" Grid.Column="1"/>-->
+                <!--
+
+                                <Grid.Triggers>
+                                    <EventTrigger RoutedEvent="Button.Click" SourceName="btnFocusTrue">
+                                        <BeginStoryboard Name="FocusTrueStoryboard">
+                                            <Storyboard>
+                                                <BooleanAnimationUsingKeyFrames Storyboard.TargetName="tb" Storyboard.TargetProperty="(TextBox.Focusable)">
+                                                    <DiscreteBooleanKeyFrame KeyTime="00:00:01" Value="True" />
+                                                </BooleanAnimationUsingKeyFrames>
+                                            </Storyboard>
+                                        </BeginStoryboard>
+                                    </EventTrigger>
+                                    <EventTrigger RoutedEvent="Button.Click" SourceName="btnFocusFalse">
+                                        <BeginStoryboard Name="FoucsFalseStoryboard">
+                                            <Storyboard>
+                                                <BooleanAnimationUsingKeyFrames Storyboard.TargetName="tb" Storyboard.TargetProperty="(TextBox.Focusable)">
+                                                    <DiscreteBooleanKeyFrame KeyTime="00:00:01" Value="False" />
+                                                </BooleanAnimationUsingKeyFrames>
+                                            </Storyboard>
+                                        </BeginStoryboard>
+                                    </EventTrigger>
+                                </Grid.Triggers>
+                            </Grid>
+                            <WrapPanel Margin="70,0,0,10"
+                                    HorizontalAlignment="Center"
+                                    Orientation="Horizontal" Grid.Column="0" Grid.Row="2" >
+                                <TextBlock Text="{DynamicResource Block}"/>
+                -->
+                <!--<CheckBox
+                                        x:Name="checkBoxDis"
+                                        Margin="10,5,0,0"
+                                        VerticalContentAlignment="Center"
+                                        Content="{DynamicResource checkBoxDis}" />-->
+                <!--
+                            </WrapPanel>
+                        </Grid>
+                    </TabItem.Content>
+                </TabItem>-->
+
+            </TabControl>
+        </Grid>
+    </Border>
+    <!--<Grid>
+        <Button Click="SingUpOpen_Click" Content="Sign Up"/>
+    </Grid>-->
+</Window>
+

@@ -1,0 +1,95 @@
+﻿<Window
+    x:Class="CourseProject.ProfilePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:CourseProject"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="ProfilePage"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <Grid>
+        <StackPanel Margin="30,20,30,20">
+            <WrapPanel Loaded="ProfilePage_Loaded">
+                <Image
+                    Width="100"
+                    Height="100"
+                    Margin="0,0,20,0"
+                    Source="Assets/user.png" />
+                <StackPanel>
+                    <WrapPanel>
+                        <TextBlock FontSize="16" Text="Login: " />
+                        <TextBlock Name="profileLogin" FontSize="16" />
+                    </WrapPanel>
+                    <WrapPanel>
+                        <TextBlock FontSize="16" Text="Phone Number: " />
+                        <TextBlock Name="profilePhone" FontSize="16" />
+                    </WrapPanel>
+                    <WrapPanel>
+                        <TextBlock FontSize="16" Text="Email: " />
+                        <TextBlock Name="profileEmail" FontSize="16" />
+                    </WrapPanel>
+                    <WrapPanel>
+                        <TextBlock FontSize="16" Text="Sex: " />
+                        <TextBlock Name="profileSex" FontSize="16" />
+                    </WrapPanel>
+                    <WrapPanel>
+                        <TextBlock FontSize="16" Text="Date of birth: " />
+                        <TextBlock Name="profileDate" FontSize="16" />
+                    </WrapPanel>
+                </StackPanel>
+            </WrapPanel>
+            <TabControl>
+                <TabItem Width="300">
+                    <TabItem.Content>
+                        <Grid>
+                            <ListBox Name="ordersWithDelete">
+                                <ListBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <WrapPanel>
+                                            <Image Source="{Binding PICTURE}"/>
+                                            <TextBlock Name="artistProfileOrder" Text="{Binding ALRTIST_NAME}" />
+                                            <TextBlock Text=" - " />
+                                            <TextBlock Name="albumProfileOrder" Text="{Binding ALBUM_NAME}" />
+                                            <TextBlock Text="Amount: " />
+                                            <TextBlock Name="amountProfileOrder" Text="{Binding AMOUNT}" />
+                                            <TextBlock Text="Cost: " />
+                                            <TextBlock Name="recordsCostProfileOrder" Text="{Binding RecordsCost}" />
+                                            <TextBlock
+                                                Name="cancelOrder"
+                                                Background="Red"
+                                                Text="X" />
+                                        </WrapPanel>
+                                    </DataTemplate>
+                                </ListBox.ItemTemplate>
+                            </ListBox>
+                            <ListBox>
+                                <ListBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <WrapPanel>
+                                            <TextBlock Name="artistProfileOrder" Text="{Binding ALRTIST_NAME}" />
+                                            <TextBlock Text=" - " />
+                                            <TextBlock Name="albumProfileOrder" Text="{Binding ALBUM_NAME}" />
+                                            <TextBlock Text="Amount: " />
+                                            <TextBlock Name="amountProfileOrder" Text="{Binding AMOUNT}" />
+                                            <TextBlock Text="Cost: " />
+                                            <TextBlock Name="recordsCostProfileOrder" Text="{Binding RecordsCost}" />
+                                        </WrapPanel>
+                                    </DataTemplate>
+                                </ListBox.ItemTemplate>
+                            </ListBox>
+                        </Grid>
+
+
+                    </TabItem.Content>
+                </TabItem>
+                <TabItem Width="300">
+                    <TabItem.Content>
+                        <Grid />
+                    </TabItem.Content>
+                </TabItem>
+            </TabControl>
+        </StackPanel>
+    </Grid>
+</Window>

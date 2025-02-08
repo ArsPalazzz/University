@@ -1,0 +1,69 @@
+.allPerformances {
+    background-color: #EFEBE1; 
+    color: black;
+    a {
+        color: black;
+    }
+    .premiere {
+        border: 2px solid black;
+
+        &:hover {
+            background-color: black;
+
+            p {
+              color: white;
+            }
+          }
+    }
+}
+
+.theme-button {
+    position: fixed;
+    top: 92vh;
+    left: 1.5vw;
+}
+
+.place {
+    border: 3px solid black;
+
+    &:hover {
+        background-color: #EFEBE1;
+
+        p {
+          color: black;
+        }
+      }
+}
+
+
+.thIs {
+    background-color: #EFEBE1;
+
+    #theaterIs {
+      color: white;
+    }
+}
+
+.words {
+    background-color: #EFEBE1;
+}
+
+#circ {
+    fill: black;
+}
+
+.firstPer, .secondPer, .thirdPer, .fourthPer, .fifthPer, .sixthPer, .seventhPer, .eighthPer, .ninethPer, .tenthPer, .eleventhPer, .twelfthPer {
+    border:solid black;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-width: 2px 0 2px 0;
+
+    &:hover {
+        background-color: black;
+        color: white;
+    
+        a {
+          color: white;
+        }
+      }
+}

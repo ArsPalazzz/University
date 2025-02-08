@@ -1,0 +1,676 @@
+@font-face {
+  font-family: proserpina;
+  src: url("fonts/Proserpina\ Deco/Proserpina-Deco.ttf");
+}
+
+@font-face {
+  font-family: rose;
+  src: url("fonts/Rose-Mystica/Rose-Mystica.ttf");
+}
+
+@font-face {
+  font-family: partita;
+  src: url("fonts/Partita\ Deco/Partita-Deco.ttf");
+}
+
+@font-face {
+  font-family: sonata;
+  src: url("fonts/Sonatina-script.ttf");
+}
+
+@font-face {
+  font-family: bulgeria;
+  src: url("fonts/Bulgeria.ttf");
+}
+
+@font-face {
+  font-family: HelveticaNeueCyr;
+  src: url("fonts/HelveticaNeueCyr-Medium.ttf");
+}
+
+.container {
+  width: 100vw;
+  height: 60vh;
+
+  .mainInf {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    height: 100%;
+
+    .myvideo {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      filter: brightness(60%);
+    }
+
+    .myVinyl,
+    .theLargest {
+      z-index: 10;
+      position: absolute;
+    }
+
+    .myVinyl {
+      top: 0;
+      left: 14%;
+      font-size: 7vw;
+      font-family: sonata;
+      color: white;
+      text-shadow: 3px 1px 1px black;
+      font-weight: bolder;
+    }
+
+    .theLargest {
+      top: 46%;
+      left: 14%;
+      font-size: 2.8vw;
+      font-family: sonata;
+      color: white;
+      text-shadow: 3px 1px 1px black;
+      font-weight: bolder;
+    }
+  }
+
+  .options {
+    display: flex;
+    flex-direction: row;
+    padding-top: 7vh;
+    padding-bottom: 10vh;
+    // width: 90vw;
+    // margin: auto;
+    justify-content: space-between;
+    padding-left: 5.5vw;
+    padding-right: 5.5vw;
+    background-color: #edfffd;
+
+    .findBlock {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 1vh;
+
+      form {
+        margin-bottom: 0.5vh;
+        width: 20vw;
+        height: 5vh;
+        position: relative;
+
+        .searchInput {
+          display: flex;
+          width: 100%;
+          height: 100%;
+          justify-content: center;
+          align-items: center;
+          border: none;
+          outline: none;
+          padding-left: 3vw;
+          background-color: white;
+          box-shadow: 1px 1px 5px black;
+        }
+        .searchInput2 {
+          display: flex;
+          width: 100%;
+          height: 100%;
+          justify-content: center;
+          align-items: center;
+          border: none;
+          outline: none;
+          padding-left: 3vw;
+          background-color: orange;
+          box-shadow: 1px 1px 5px black;
+        }
+
+        .autocomplete {
+          position: absolute;
+          width: 23.13vw;
+          left: 0;
+          top: 5.25vh;
+          background-color: white;
+          margin: 0;
+          padding: 0;
+          box-shadow: 1px 1px 5px black;
+          z-index: 111;
+          max-height: 30vh;
+          height: auto;
+          overflow: auto;
+          .item {
+            padding: 0.4vw;
+
+            &:hover {
+              background-color: red;
+              cursor: pointer;
+              transition: cubic-bezier(1, 0, 0, 1) 0.3s all;
+            }
+          }
+        }
+
+        .findImg {
+          width: 1.4vw;
+          height: 100%;
+          position: absolute;
+          z-index: 100;
+          top: 0.5vh;
+          left: 0.5vw;
+        }
+      }
+    }
+
+    .words {
+      display: flex;
+      margin: 0;
+      padding: 0;
+
+      div {
+        margin-right: 2vw;
+        cursor: pointer;
+        p {
+          margin-right: 0.5vw;
+          padding: 0;
+          margin-top: 1vh;
+          margin-bottom: 1vh;
+          display: inline-block;
+        }
+        .genres {
+          margin-right: 0;
+        }
+      }
+
+      .genresBlock {
+        margin-right: 0;
+      }
+    }
+  }
+
+  // font-family: proserpina;
+
+  // font-family: rose;
+
+  // font-family: partita;
+
+  // font-family: sonata;
+
+  .titleUpperAlbums {
+    text-align: center;
+    font-weight: bold;
+    font-size: 4vw;
+    text-transform: capitalize;
+    margin-top: 12vh;
+    margin-bottom: 8vh;
+    // font-family: HelveticaNeueCyr;
+    font-family: sonata;
+  }
+
+  .albums {
+    background-color: #edfffd;
+    //width: 90vw;
+    // width: 92vw;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 5.5vw;
+    padding-right: 2.5vw;
+
+    .block {
+      width: 20vw;
+      display: inline-block;
+      margin-bottom: 10vh;
+      margin-right: 3vw;
+
+      .link {
+        .first {
+          width: 20vw;
+          position: relative;
+
+          img {
+            width: 100%;
+          }
+        }
+      }
+      .add {
+        color: rgb(246, 243, 255);
+        transform: scale(2);
+        float: right;
+        position: absolute;
+        top: 5%;
+        right: 5%;
+        cursor: pointer;
+        transition: transform 0.15s linear;
+
+        &:hover {
+          transform: scale(2.3);
+        }
+      }
+
+      .second {
+        .link {
+          text-decoration: none;
+          color: inherit;
+
+          &:visited {
+            color: inherit;
+          }
+        }
+
+        p {
+          text-align: center;
+        }
+      }
+
+      .hideBlock {
+        display: none;
+        position: absolute;
+      }
+    }
+  }
+
+  .showAllLink {
+    display: flex;
+    width: 10vw;
+    margin: auto;
+    justify-content: center;
+    text-decoration: none;
+
+    .showAllBtn {
+      appearance: none;
+      border: 2px solid black;
+      padding: 2vh 2vw;
+      font-size: 1.2vw;
+      width: 10vw;
+      text-decoration: none;
+      transition: 0.3s all linear;
+      cursor: pointer;
+      margin-bottom: 10vh;
+      font-family: HelveticaNeueCyr;
+    }
+
+    .showAllBtn:hover {
+      background: black;
+      color: white;
+    }
+
+    .showAllBtn:focus {
+      outline: none;
+      box-shadow: 0 0 0 4px #cbd6ee;
+    }
+  }
+
+  .showAllLink:visited {
+    text-decoration: none;
+  }
+
+  .gladBlock {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 100vw;
+      height: 100%;
+      filter: brightness(50%);
+    }
+
+    p {
+      position: absolute;
+      font-size: 2.8vw;
+      padding: 3px 5px;
+      color: white;
+      text-shadow: 2px 2px 2px black;
+      font-family: HelveticaNeueCyr;
+    }
+  }
+
+  .addInf {
+    width: 70vw;
+    margin: auto;
+
+    .firstInf {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+      margin-top: 5vh;
+
+      .firstInfImg {
+        width: 48%;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .firstInfText {
+        width: 48%;
+        background-color: #7c89ca;
+
+        h3 {
+          font-size: 2.2vw;
+          margin-left: 1.5vw;
+        }
+
+        hr {
+          margin: 0 13vw 0 1.5vw;
+          padding: 0;
+          height: 0;
+          border: none;
+          border-top: 2px solid #333;
+        }
+
+        p {
+          font-size: 1.3vw;
+          padding-top: 2vh;
+          font-family: HelveticaNeueCyr;
+          margin-left: 1.5vw;
+          margin-right: 3.5vw;
+        }
+      }
+    }
+    .secondInf {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+      margin-top: 5vh;
+      margin-bottom: 10vh;
+
+      .secondInfImg {
+        width: 48%;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .secondInfText {
+        width: 48%;
+        background-color: #a2d95d;
+
+        h3 {
+          font-size: 2.2vw;
+          margin-left: 1.5vw;
+        }
+
+        hr {
+          margin: 0 13vw 0 1.5vw;
+          padding: 0;
+          height: 0;
+          border: none;
+          border-top: 2px solid #333;
+        }
+
+        p {
+          font-size: 1.3vw;
+          padding-top: 2vh;
+          font-family: HelveticaNeueCyr;
+          margin-left: 1.5vw;
+          margin-right: 3.5vw;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 560px) {
+  .container {
+    width: 100vw;
+    height: 60vh;
+
+    .mainInf {
+      width: 100%;
+      height: 100%;
+
+      .myvideo {
+        width: 100%;
+        height: 100%;
+      }
+
+      .myVinyl {
+        top: 26%;
+        left: 14%;
+        font-size: 11vw;
+        text-shadow: 3px 1px 1px black;
+      }
+
+      .theLargest {
+        top: 46%;
+        left: 14%;
+        font-size: 5.5vw;
+        text-shadow: 3px 1px 1px black;
+      }
+    }
+
+    .options {
+      padding-top: 5vh;
+      padding-bottom: 10vh;
+      padding-left: 5.5vw;
+      padding-right: 5.5vw;
+      flex-direction: column;
+
+      .findBlock {
+        margin-top: 1vh;
+
+        form {
+          margin-bottom: 0.5vh;
+          width: 80vw;
+          height: 5vh;
+          margin: auto;
+
+          .searchInput {
+            width: 100%;
+            height: 100%;
+            padding-left: 8vw;
+            box-shadow: 1px 1px 5px black;
+          }
+          .searchInput2 {
+            width: 100%;
+            height: 100%;
+            padding-left: 3vw;
+            box-shadow: 1px 1px 5px black;
+          }
+
+          .autocomplete {
+            width: 80vw;
+            left: 0;
+            top: 5.25vh;
+            margin: 0;
+            padding: 0;
+            box-shadow: 1px 1px 5px black;
+            max-height: 30vh;
+            height: auto;
+
+            .item {
+              padding: 0.4vw;
+              font-size: 4.5vw;
+            }
+          }
+
+          .findImg {
+            width: 4.5vw;
+            height: 100%;
+            top: 0vh;
+            left: 2vw;
+          }
+        }
+      }
+
+      .words {
+        padding: 0;
+        width: 80vw;
+        margin: auto;
+        justify-content: space-between;
+
+        div {
+          margin-right: 2vw;
+          p {
+            margin-right: 0.5vw;
+            padding: 0;
+            font-size: 4vw;
+            margin-top: 1vh;
+            margin-bottom: 1vh;
+          }
+
+          svg {
+            transform: scale(1);
+            padding-top: 0.8vh;
+          }
+          .genres {
+            margin-right: 0;
+          }
+        }
+        .yearBlock {
+          margin-right: 0;
+        }
+      }
+    }
+
+    .albums {
+      padding-left: 10vw;
+      padding-right: 10vw;
+      justify-content: space-between;
+      margin: auto;
+
+      .block {
+        width: 36vw;
+        margin-bottom: 5vh;
+        margin-right: 0;
+
+        .link {
+          .first {
+            width: 36vw;
+
+            img {
+              width: 100%;
+            }
+          }
+        }
+        .second {
+          .link {
+            text-decoration: none;
+            color: inherit;
+            width: 30vw;
+
+            &:visited {
+              color: inherit;
+            }
+            p {
+              font-size: 3vw;
+            }
+          }
+
+          p {
+            text-align: center;
+            font-size: 2.5vw;
+          }
+        }
+        .add {
+          top: 5%;
+          right: 6%;
+          transform: scale(1.6);
+
+          &:hover {
+            transform: scale(1.8);
+          }
+        }
+      }
+    }
+
+    .gladBlock {
+      height: 36vh;
+      img {
+        width: 100vw;
+        height: 100%;
+      }
+
+      p {
+        font-size: 5vw;
+        padding: 3px 5px;
+      }
+    }
+
+    .addInf {
+      width: 100vw;
+      margin: auto;
+
+      .firstInf {
+        width: 100%;
+        margin-top: 0vh;
+        height: 30vh;
+
+        .firstInfImg {
+          width: 50%;
+
+          img {
+            width: 100%;
+          }
+        }
+
+        .firstInfText {
+          width: 50%;
+          height: 30.4vh;
+
+          h3 {
+            font-size: 3vw;
+            margin-left: 1.5vw;
+          }
+
+          hr {
+            margin: 0 13vw 0 1.5vw;
+            padding: 0;
+            height: 0;
+            border: none;
+            border-top: 2px solid #333;
+          }
+
+          p {
+            font-size: 2.2vw;
+            padding-top: 1vh;
+            margin-left: 1.5vw;
+            margin-right: 3.5vw;
+          }
+        }
+      }
+      .secondInf {
+        width: 100%;
+        margin-top: 0vh;
+        height: 17.6vh;
+        margin-bottom: 0;
+
+        .secondInfImg {
+          width: 50%;
+
+          img {
+            width: 100%;
+          }
+        }
+
+        .secondInfText {
+          width: 50%;
+
+          h3 {
+            font-size: 2.8vw;
+            margin-left: 1.5vw;
+            margin-bottom: 2;
+          }
+
+          hr {
+            margin: 0 13vw 0 1.5vw;
+            padding: 0;
+            height: 0;
+            border: none;
+            border-top: 2px solid #333;
+          }
+
+          p {
+            font-size: 1.9vw;
+            padding-top: 1vh;
+            margin-left: 1.5vw;
+            margin-right: 2vw;
+          }
+        }
+      }
+    }
+  }
+}

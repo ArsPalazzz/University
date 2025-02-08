@@ -1,0 +1,73 @@
+.allPerformances {
+    // background-color: #060606; 
+    background-color: #121212;
+    color: #EFEBE1;
+    a {
+        color: #EFEBE1;
+    }
+    .premiere {
+        border: 2px solid #EFEBE1;
+
+        &:hover {
+            background-color: #EFEBE1;
+
+            p {
+            //   color: #060606;
+            color: #121212;
+            }
+          }
+    }
+}
+
+.theme-button {
+    position: fixed;
+    top: 92vh;
+    left: 1.5vw;
+}
+
+
+.place {
+    border: 3px solid #EFEBE1;
+
+    &:hover {
+        background-color: #EFEBE1;
+
+        p {
+          color: black;
+        }
+      }
+}
+
+.thIs {
+    background-color: #121212;
+
+    #theaterIs {
+        color: black;
+      }
+}
+.words {
+    background-color: #121212;
+    span {
+        color: #EFEBE1;
+    }
+}
+
+#circ {
+    fill: #EFEBE1;
+}
+
+.firstPer, .secondPer, .thirdPer, .fourthPer, .fifthPer, .sixthPer, .seventhPer, .eighthPer, .ninethPer, .tenthPer, .eleventhPer, .twelfthPer {
+    border:solid white;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-width: 2px 0 2px 0;
+
+    &:hover {
+        background-color: black;
+        color: white;
+    
+        a {
+          color: white;
+        }
+      }
+}

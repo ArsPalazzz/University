@@ -1,0 +1,168 @@
+.justh3 {
+    position: relative;
+    overflow: hidden;
+    padding: 0.5em 0;
+    text-align: center;
+    content: '';
+    border-bottom: 3px solid white;
+}
+
+.justh3::before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    content: '';
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  
+}
+
+.notActive {
+    background-color: green;
+ 
+}
+
+.emptyFirst {
+    color: red; 
+    background-color: white;
+    top: 10vh;
+    left: 25vw; 
+    font-size: 0.8vw; 
+    position: absolute;
+}
+
+.minFirst {
+    color: red; 
+    background-color: white;
+    top: 10vh;
+    left: 20vw; 
+    font-size: 0.8vw; 
+    position: absolute;
+}
+
+.maxFirst {
+    color: red; 
+    background-color: white;
+    top: 10vh;
+    left: 17vw; 
+    font-size: 0.8vw; 
+    position: absolute;
+}
+
+
+.emptySecond {
+    color: red; 
+    background-color: white;
+    top: 18vh;
+    left: 25vw; 
+    font-size: 0.8vw; 
+    position: absolute;
+}
+
+.minSecond {
+    color: red; 
+    background-color: white;
+    top: 18vh;
+    left: 20vw; 
+    font-size: 0.8vw; 
+    position: absolute;
+}
+
+.maxSecond {
+    color: red; 
+    background-color: white;
+    top: 18vh;
+    left: 17vw; 
+    font-size: 0.8vw; 
+    position: absolute;
+}
+
+.emailError {
+    color: red; 
+    background-color: white;
+    top: 26vh;
+    left: 29.8vw; 
+    font-size: 0.8vw; 
+    position: absolute;
+}
+
+.emptyThird {
+    color: red; 
+    background-color: white;
+    top: 18vh;
+    left: 25vw; 
+    font-size: 0.8vw; 
+    position: absolute;
+}
+
+.minThird {
+    color: red; 
+    background-color: white;
+    top: 26vh;
+    left: 20vw; 
+    font-size: 0.8vw; 
+    position: absolute;
+}
+
+@media (min-width: 320px) and (max-width: 560px) {
+
+    .emptyFirst {
+        top: 10.5vh;
+        left: 50vw; 
+        font-size: 2.4vw; 
+    }
+    
+    .minFirst {
+        top: 10.5vh;
+        left: 35vw; 
+        font-size: 2.4vw; 
+    }
+    
+    .maxFirst {
+        top: 10.5vh;
+        left: 26vw; 
+        font-size: 2.4vw;
+    }
+    
+    
+    .emptySecond {   
+        top: 18.5vh;
+        left: 50vw;  
+        font-size: 2.4vw; 
+    }
+    
+    .minSecond {  
+        top: 18.5vh;
+        left: 20vw; 
+        font-size: 2.4vw;  
+    }
+    
+    .maxSecond { 
+        top: 18.5vh;
+        left: 17vw; 
+        font-size: 2.4vw;  
+    }
+    
+    .emailError { 
+        top: 26.5vh;
+        left: 64vw; 
+        font-size: 2.4vw; 
+    }
+    
+    .emptyThird {   
+        top: 26.5vh;
+        left: 50vw; 
+        font-size: 2.4vw;  
+    }
+    
+    .minThird {
+        top: 26.5vh;
+        left: 35vw; 
+        font-size: 2.4vw; 
+    }
+}

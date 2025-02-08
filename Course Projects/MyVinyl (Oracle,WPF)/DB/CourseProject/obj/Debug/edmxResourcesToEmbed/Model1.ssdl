@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище Model1" Provider="Oracle.ManagedDataAccess.Client" ProviderManifestToken="18.0" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CLIENT">
+    <Key>
+      <PropertyRef Name="CLIENT_ID" />
+    </Key>
+    <Property Name="CLIENT_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="LOGIN_CLIENT" Type="varchar2" MaxLength="32" />
+    <Property Name="PASSWORD_CLIENT" Type="varchar2" MaxLength="16" />
+    <Property Name="PHONE_NUMBER" Type="varchar2" MaxLength="16" />
+    <Property Name="EMAIL" Type="varchar2" MaxLength="64" />
+    <Property Name="SEX" Type="nchar" MaxLength="1" />
+    <Property Name="DATE_OF_BIRTH" Type="timestamp" Precision="6" />
+  </EntityType>
+  <EntityType Name="COMMENTS">
+    <Key>
+      <PropertyRef Name="COMMENT_ID" />
+    </Key>
+    <Property Name="COMMENT_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="COMMENT_DATE" Type="timestamp" Precision="6" />
+    <Property Name="USER_ID" Type="number" Precision="38" Scale="0" />
+    <Property Name="RECORD_ID" Type="number" Precision="38" Scale="0" />
+    <Property Name="CONTENT" Type="varchar2" MaxLength="128" />
+  </EntityType>
+  <EntityType Name="GENRE">
+    <Key>
+      <PropertyRef Name="GENRE_ID" />
+    </Key>
+    <Property Name="GENRE_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="GENRE_NAME" Type="varchar2" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="GENRE_DETAILS">
+    <Key>
+      <PropertyRef Name="RECORD_ID" />
+      <PropertyRef Name="GENRE_ID" />
+    </Key>
+    <Property Name="RECORD_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="GENRE_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="HUGEAMOUNTROWS">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="CONTENT" Type="nvarchar2" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="ORDER_CARD">
+    <Key>
+      <PropertyRef Name="ORDER_ID" />
+    </Key>
+    <Property Name="ORDER_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="ACCOUNT_ID" Type="number" Precision="38" Scale="0" />
+    <Property Name="DELIVERY_CHECKBOX" Type="nchar" MaxLength="1" />
+    <Property Name="COST" Type="float" Precision="126" Scale="0" />
+    <Property Name="ORDER_DATE" Type="timestamp" Precision="6" />
+    <Property Name="STATUS" Type="varchar2" MaxLength="16" />
+    <Property Name="BOOK_A_RECORD" Type="nchar" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="ORDER_CARD_DETAILS">
+    <Key>
+      <PropertyRef Name="ORDER_DETAILS_ID" />
+    </Key>
+    <Property Name="ORDER_DETAILS_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="ORDER_ID" Type="number" Precision="38" Scale="0" />
+    <Property Name="RECORD_ID" Type="number" Precision="38" Scale="0" />
+    <Property Name="AMOUNT" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="RECORD">
+    <Key>
+      <PropertyRef Name="RECORD_ID" />
+    </Key>
+    <Property Name="RECORD_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="YEAR" Type="number" Precision="38" Scale="0" />
+    <Property Name="COST" Type="float" Precision="126" Scale="0" />
+    <Property Name="AMOUNT" Type="number" Precision="38" Scale="0" />
+    <Property Name="SUPPLIER_ID" Type="number" Precision="38" Scale="0" />
+    <Property Name="DESCRIPTION" Type="varchar2" MaxLength="512" />
+    <Property Name="ARTIST_NAME" Type="varchar2" MaxLength="30" />
+    <Property Name="ALBUM_NAME" Type="varchar2" MaxLength="30" />
+    <Property Name="PICTURE" Type="varchar2" MaxLength="40" />
+    <Property Name="STATUS" Type="char" MaxLength="3" />
+    <Property Name="IS_DELETED" Type="char" MaxLength="1" />
+    <Property Name="DATE_OF_DELIV_TO_WAREHOUSE" Type="timestamp" Precision="6" />
+  </EntityType>
+  <EntityType Name="SONG">
+    <Key>
+      <PropertyRef Name="SONG_ID" />
+    </Key>
+    <Property Name="SONG_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="SONG_NAME" Type="varchar2" MaxLength="30" />
+    <Property Name="ARTIST_NAME" Type="varchar2" MaxLength="30" />
+    <Property Name="ALBUM_NAME" Type="varchar2" MaxLength="30" />
+    <Property Name="SIDE" Type="nchar" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="SONG_RECORD">
+    <Key>
+      <PropertyRef Name="SONG_ID" />
+      <PropertyRef Name="RECORD_ID" />
+    </Key>
+    <Property Name="SONG_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="RECORD_ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_COMMENT_CLIENT">
+    <End Role="CLIENT" Type="Self.CLIENT" Multiplicity="0..1" />
+    <End Role="COMMENTS" Type="Self.COMMENTS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CLIENT">
+        <PropertyRef Name="CLIENT_ID" />
+      </Principal>
+      <Dependent Role="COMMENTS">
+        <PropertyRef Name="USER_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_COMMENT_RECORD">
+    <End Role="RECORD" Type="Self.RECORD" Multiplicity="0..1" />
+    <End Role="COMMENTS" Type="Self.COMMENTS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RECORD">
+        <PropertyRef Name="RECORD_ID" />
+      </Principal>
+      <Dependent Role="COMMENTS">
+        <PropertyRef Name="RECORD_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GENREDETAILS_GENRE">
+    <End Role="GENRE" Type="Self.GENRE" Multiplicity="1" />
+    <End Role="GENRE_DETAILS" Type="Self.GENRE_DETAILS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GENRE">
+        <PropertyRef Name="GENRE_ID" />
+      </Principal>
+      <Dependent Role="GENRE_DETAILS">
+        <PropertyRef Name="GENRE_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GENREDETAILS_RECORD">
+    <End Role="RECORD" Type="Self.RECORD" Multiplicity="1" />
+    <End Role="GENRE_DETAILS" Type="Self.GENRE_DETAILS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RECORD">
+        <PropertyRef Name="RECORD_ID" />
+      </Principal>
+      <Dependent Role="GENRE_DETAILS">
+        <PropertyRef Name="RECORD_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ORDERCARD_CLIENT">
+    <End Role="CLIENT" Type="Self.CLIENT" Multiplicity="0..1" />
+    <End Role="ORDER_CARD" Type="Self.ORDER_CARD" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CLIENT">
+        <PropertyRef Name="CLIENT_ID" />
+      </Principal>
+      <Dependent Role="ORDER_CARD">
+        <PropertyRef Name="ACCOUNT_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ORDERCARDDET_ORDERCARD">
+    <End Role="ORDER_CARD" Type="Self.ORDER_CARD" Multiplicity="0..1" />
+    <End Role="ORDER_CARD_DETAILS" Type="Self.ORDER_CARD_DETAILS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ORDER_CARD">
+        <PropertyRef Name="ORDER_ID" />
+      </Principal>
+      <Dependent Role="ORDER_CARD_DETAILS">
+        <PropertyRef Name="ORDER_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ORDERCARDDETAILS_RECORD">
+    <End Role="RECORD" Type="Self.RECORD" Multiplicity="0..1" />
+    <End Role="ORDER_CARD_DETAILS" Type="Self.ORDER_CARD_DETAILS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RECORD">
+        <PropertyRef Name="RECORD_ID" />
+      </Principal>
+      <Dependent Role="ORDER_CARD_DETAILS">
+        <PropertyRef Name="RECORD_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RECORD_SUPPLIER">
+    <End Role="CLIENT" Type="Self.CLIENT" Multiplicity="0..1" />
+    <End Role="RECORD" Type="Self.RECORD" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CLIENT">
+        <PropertyRef Name="CLIENT_ID" />
+      </Principal>
+      <Dependent Role="RECORD">
+        <PropertyRef Name="SUPPLIER_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SONGRECORD_RECORD">
+    <End Role="RECORD" Type="Self.RECORD" Multiplicity="1" />
+    <End Role="SONG_RECORD" Type="Self.SONG_RECORD" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="RECORD">
+        <PropertyRef Name="RECORD_ID" />
+      </Principal>
+      <Dependent Role="SONG_RECORD">
+        <PropertyRef Name="RECORD_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SONGRECORD_SONG">
+    <End Role="SONG" Type="Self.SONG" Multiplicity="1" />
+    <End Role="SONG_RECORD" Type="Self.SONG_RECORD" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SONG">
+        <PropertyRef Name="SONG_ID" />
+      </Principal>
+      <Dependent Role="SONG_RECORD">
+        <PropertyRef Name="SONG_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="ADD_NEW_RECORD" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="OTHERUSERCORE">
+    <Parameter Name="P_YEAR" Type="number" Mode="In" />
+    <Parameter Name="P_COST" Type="float" Mode="In" />
+    <Parameter Name="P_AMOUNT" Type="number" Mode="In" />
+    <Parameter Name="P_SUPPLIER_ID" Type="number" Mode="In" />
+    <Parameter Name="P_DESCRIPTION" Type="varchar2" Mode="In" />
+    <Parameter Name="P_ARTIST_NAME" Type="varchar2" Mode="In" />
+    <Parameter Name="P_ALBUM_NAME" Type="varchar2" Mode="In" />
+    <Parameter Name="P_PICTURE" Type="varchar2" Mode="In" />
+    <Parameter Name="P_STATUS" Type="char" Mode="In" />
+    <Parameter Name="P_DATE" Type="timestamp" Mode="In" />
+  </Function>
+  <Function Name="DELETE_RECORD" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="OTHERUSERCORE">
+    <Parameter Name="P_ID" Type="number" Mode="In" />
+  </Function>
+  <Function Name="FILTERBYCOST" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="OTHERUSERCORE" />
+  <Function Name="FILTERBYIDASC" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="OTHERUSERCORE" />
+  <Function Name="FILTERBYYEAR" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="OTHERUSERCORE" />
+  <Function Name="GETALLCOMMENTS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="OTHERUSERCORE" />
+  <Function Name="GETRECORDSINFO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="OTHERUSERCORE" />
+  <Function Name="GETSONGSFORRECORD" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="OTHERUSERCORE">
+    <Parameter Name="P_RECORD_ID" Type="number" Mode="In" />
+    <Parameter Name="P_SIDE" Type="nchar" Mode="In" />
+  </Function>
+  <Function Name="GETSUPPLIERNAME" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="OTHERUSERCORE">
+    <Parameter Name="P_RECORD_ID" Type="number" Mode="In" />
+    <Parameter Name="P_SUPPLIER_ID" Type="number" Mode="In" />
+  </Function>
+  <Function Name="GETUSERINFO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="OTHERUSERCORE" />
+  <Function Name="GETUSERS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="OTHERUSERCORE" />
+  <Function Name="INSERT_GENRES" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="OTHERUSERCORE">
+    <Parameter Name="P_GENRES" Type="varchar2" Mode="In" />
+  </Function>
+  <Function Name="INSERT_SONGS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="OTHERUSERCORE">
+    <Parameter Name="P_SONGS" Type="varchar2" Mode="In" />
+    <Parameter Name="P_ARTIST_NAME" Type="varchar2" Mode="In" />
+    <Parameter Name="P_ALBUM_NAME" Type="varchar2" Mode="In" />
+    <Parameter Name="P_SIDE" Type="nchar" Mode="In" />
+  </Function>
+  <Function Name="REDUCEAMOUNTOFRECORD" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="OTHERUSERCORE">
+    <Parameter Name="P_ID" Type="number" Mode="In" />
+    <Parameter Name="P_REDUCEAMOUNT" Type="number" Mode="In" />
+  </Function>
+  <Function Name="REGNEWUSER" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="OTHERUSERCORE">
+    <Parameter Name="APPCLIENTID" Type="number" Mode="In" />
+    <Parameter Name="APPLOGIN" Type="varchar2" Mode="In" />
+    <Parameter Name="APPPASSWORD" Type="varchar2" Mode="In" />
+    <Parameter Name="APPPHONE" Type="varchar2" Mode="In" />
+    <Parameter Name="APPEMAIL" Type="varchar2" Mode="In" />
+    <Parameter Name="APPSEX" Type="nchar" Mode="In" />
+    <Parameter Name="APPDATEOFBIRTH" Type="timestamp" Mode="In" />
+  </Function>
+  <Function Name="UPDATE_GENRES" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="OTHERUSERCORE">
+    <Parameter Name="P_ID" Type="number" Mode="In" />
+    <Parameter Name="P_GENRES" Type="varchar2" Mode="In" />
+  </Function>
+  <Function Name="UPDATE_RECORD" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="OTHERUSERCORE">
+    <Parameter Name="P_ID" Type="number" Mode="In" />
+    <Parameter Name="P_YEAR" Type="number" Mode="In" />
+    <Parameter Name="P_COST" Type="float" Mode="In" />
+    <Parameter Name="P_AMOUNT" Type="number" Mode="In" />
+    <Parameter Name="P_DESCRIPTION" Type="varchar2" Mode="In" />
+    <Parameter Name="P_ARTIST_NAME" Type="varchar2" Mode="In" />
+    <Parameter Name="P_ALBUM_NAME" Type="varchar2" Mode="In" />
+    <Parameter Name="P_PICTURE" Type="varchar2" Mode="In" />
+    <Parameter Name="P_STATUS" Type="char" Mode="In" />
+    <Parameter Name="P_DATE" Type="timestamp" Mode="In" />
+  </Function>
+  <Function Name="UPDATE_SONGS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="OTHERUSERCORE">
+    <Parameter Name="P_ID" Type="number" Mode="In" />
+    <Parameter Name="P_SONGS" Type="varchar2" Mode="In" />
+    <Parameter Name="P_ARTIST_NAME" Type="varchar2" Mode="In" />
+    <Parameter Name="P_ALBUM_NAME" Type="varchar2" Mode="In" />
+    <Parameter Name="P_SIDE" Type="nchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="Хранилище Model1Container">
+    <EntitySet Name="CLIENT" EntityType="Self.CLIENT" Schema="OTHERUSERCORE" store:Type="Tables" />
+    <EntitySet Name="COMMENTS" EntityType="Self.COMMENTS" Schema="OTHERUSERCORE" store:Type="Tables" />
+    <EntitySet Name="GENRE" EntityType="Self.GENRE" Schema="OTHERUSERCORE" store:Type="Tables" />
+    <EntitySet Name="GENRE_DETAILS" EntityType="Self.GENRE_DETAILS" Schema="OTHERUSERCORE" store:Type="Tables" />
+    <EntitySet Name="HUGEAMOUNTROWS" EntityType="Self.HUGEAMOUNTROWS" Schema="OTHERUSERCORE" store:Type="Tables" />
+    <EntitySet Name="ORDER_CARD" EntityType="Self.ORDER_CARD" Schema="OTHERUSERCORE" store:Type="Tables" />
+    <EntitySet Name="ORDER_CARD_DETAILS" EntityType="Self.ORDER_CARD_DETAILS" Schema="OTHERUSERCORE" store:Type="Tables" />
+    <EntitySet Name="RECORD" EntityType="Self.RECORD" Schema="OTHERUSERCORE" store:Type="Tables" />
+    <EntitySet Name="SONG" EntityType="Self.SONG" Schema="OTHERUSERCORE" store:Type="Tables" />
+    <EntitySet Name="SONG_RECORD" EntityType="Self.SONG_RECORD" Schema="OTHERUSERCORE" store:Type="Tables" />
+    <AssociationSet Name="FK_COMMENT_CLIENT" Association="Self.FK_COMMENT_CLIENT">
+      <End Role="CLIENT" EntitySet="CLIENT" />
+      <End Role="COMMENTS" EntitySet="COMMENTS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_COMMENT_RECORD" Association="Self.FK_COMMENT_RECORD">
+      <End Role="RECORD" EntitySet="RECORD" />
+      <End Role="COMMENTS" EntitySet="COMMENTS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GENREDETAILS_GENRE" Association="Self.FK_GENREDETAILS_GENRE">
+      <End Role="GENRE" EntitySet="GENRE" />
+      <End Role="GENRE_DETAILS" EntitySet="GENRE_DETAILS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GENREDETAILS_RECORD" Association="Self.FK_GENREDETAILS_RECORD">
+      <End Role="RECORD" EntitySet="RECORD" />
+      <End Role="GENRE_DETAILS" EntitySet="GENRE_DETAILS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ORDERCARD_CLIENT" Association="Self.FK_ORDERCARD_CLIENT">
+      <End Role="CLIENT" EntitySet="CLIENT" />
+      <End Role="ORDER_CARD" EntitySet="ORDER_CARD" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ORDERCARDDET_ORDERCARD" Association="Self.FK_ORDERCARDDET_ORDERCARD">
+      <End Role="ORDER_CARD" EntitySet="ORDER_CARD" />
+      <End Role="ORDER_CARD_DETAILS" EntitySet="ORDER_CARD_DETAILS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ORDERCARDDETAILS_RECORD" Association="Self.FK_ORDERCARDDETAILS_RECORD">
+      <End Role="RECORD" EntitySet="RECORD" />
+      <End Role="ORDER_CARD_DETAILS" EntitySet="ORDER_CARD_DETAILS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RECORD_SUPPLIER" Association="Self.FK_RECORD_SUPPLIER">
+      <End Role="CLIENT" EntitySet="CLIENT" />
+      <End Role="RECORD" EntitySet="RECORD" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SONGRECORD_RECORD" Association="Self.FK_SONGRECORD_RECORD">
+      <End Role="RECORD" EntitySet="RECORD" />
+      <End Role="SONG_RECORD" EntitySet="SONG_RECORD" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SONGRECORD_SONG" Association="Self.FK_SONGRECORD_SONG">
+      <End Role="SONG" EntitySet="SONG" />
+      <End Role="SONG_RECORD" EntitySet="SONG_RECORD" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

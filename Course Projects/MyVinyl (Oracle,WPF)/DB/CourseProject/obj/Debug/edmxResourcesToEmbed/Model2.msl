@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище Model1Container" CdmEntityContainer="Entities2">
+    <EntitySetMapping Name="CLIENT">
+      <EntityTypeMapping TypeName="Model1.CLIENT">
+        <MappingFragment StoreEntitySet="CLIENT">
+          <ScalarProperty Name="CLIENT_ID" ColumnName="CLIENT_ID" />
+          <ScalarProperty Name="LOGIN_CLIENT" ColumnName="LOGIN_CLIENT" />
+          <ScalarProperty Name="PASSWORD_CLIENT" ColumnName="PASSWORD_CLIENT" />
+          <ScalarProperty Name="PHONE_NUMBER" ColumnName="PHONE_NUMBER" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="SEX" ColumnName="SEX" />
+          <ScalarProperty Name="DATE_OF_BIRTH" ColumnName="DATE_OF_BIRTH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RECORD">
+      <EntityTypeMapping TypeName="Model1.RECORD">
+        <MappingFragment StoreEntitySet="RECORD">
+          <ScalarProperty Name="RECORD_ID" ColumnName="RECORD_ID" />
+          <ScalarProperty Name="YEAR" ColumnName="YEAR" />
+          <ScalarProperty Name="COST" ColumnName="COST" />
+          <ScalarProperty Name="AMOUNT" ColumnName="AMOUNT" />
+          <ScalarProperty Name="SUPPLIER_ID" ColumnName="SUPPLIER_ID" />
+          <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+          <ScalarProperty Name="ARTIST_NAME" ColumnName="ARTIST_NAME" />
+          <ScalarProperty Name="ALBUM_NAME" ColumnName="ALBUM_NAME" />
+          <ScalarProperty Name="PICTURE" ColumnName="PICTURE" />
+          <ScalarProperty Name="STATUS" ColumnName="STATUS" />
+          <ScalarProperty Name="IS_DELETED" ColumnName="IS_DELETED" />
+          <ScalarProperty Name="DATE_OF_DELIV_TO_WAREHOUSE" ColumnName="DATE_OF_DELIV_TO_WAREHOUSE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="REGNEWUSER" FunctionName="Хранилище Model1.REGNEWUSER" />
+    <FunctionImportMapping FunctionImportName="GETRECORDSINFO" FunctionName="Хранилище Model1.GETRECORDSINFO">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model1.GETRECORDSINFO_Result">
+          <ScalarProperty Name="RECORD_ID" ColumnName="RECORD_ID" />
+          <ScalarProperty Name="YEAR" ColumnName="YEAR" />
+          <ScalarProperty Name="COST" ColumnName="COST" />
+          <ScalarProperty Name="AMOUNT" ColumnName="AMOUNT" />
+          <ScalarProperty Name="SUPPLIER_ID" ColumnName="SUPPLIER_ID" />
+          <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+          <ScalarProperty Name="ARTIST_NAME" ColumnName="ARTIST_NAME" />
+          <ScalarProperty Name="ALBUM_NAME" ColumnName="ALBUM_NAME" />
+          <ScalarProperty Name="PICTURE" ColumnName="PICTURE" />
+          <ScalarProperty Name="STATUS" ColumnName="STATUS" />
+          <ScalarProperty Name="DATE_OF_DELIV_TO_WAREHOUSE" ColumnName="DATE_OF_DELIV_TO_WAREHOUSE" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

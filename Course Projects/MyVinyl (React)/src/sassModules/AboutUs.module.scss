@@ -1,0 +1,60 @@
+.container1 {
+  width: 100vw;
+  height: 120vh;
+  background-image: url("./../images/other/aboutUsBackground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 60%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -10vh;
+
+  .container2 {
+    width: 60%;
+    margin: auto;
+    margin-top: 0;
+
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+    h1 {
+      position: relative;
+      top: 20vh;
+      font-size: 3.4vw;
+      text-shadow: 2px 2px 2px black;
+    }
+
+    p {
+      position: relative;
+      top: 20vh;
+      font-size: 1.2vw;
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 560px) {
+  .container1 {
+    width: 100vw;
+    height: 100vh;
+    background-position: 0 60%;
+
+    .container2 {
+      width: 80%;
+      margin: auto;
+      margin-top: 0;
+
+      h1 {
+        top: 20vh;
+        font-size: 8vw;
+        text-align: center;
+      }
+
+      p {
+        top: 20vh;
+        font-size: 5vw;
+        text-shadow: 2px 2px 2px black;
+      }
+    }
+  }
+}

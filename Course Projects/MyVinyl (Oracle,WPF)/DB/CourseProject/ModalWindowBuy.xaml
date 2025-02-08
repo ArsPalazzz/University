@@ -1,0 +1,32 @@
+﻿<Window x:Class="CourseProject.ModalWindowBuy"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CourseProject"
+        mc:Ignorable="d"
+        Title="ModalWindowBuy"  SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid Margin="10" Width="400" Height="210">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <WrapPanel HorizontalAlignment="Center">
+                <TextBlock FontSize="18" FontWeight="Bold" HorizontalAlignment="Center"  Margin="0 20 10 0">Total amount:</TextBlock>
+                <TextBlock x:Name="amountModalTextBlock" Loaded="ModalWindowBuy_Loaded" Grid.Row="1" FontSize="18" FontWeight="Bold" HorizontalAlignment="Center"  Margin="0 20 0 0"></TextBlock>
+            </WrapPanel>
+            <WrapPanel Grid.Row="1" HorizontalAlignment="Center">
+                <TextBlock VerticalAlignment="Center" FontSize="12" FontWeight="Bold" HorizontalAlignment="Center"  Margin="0 20 10 0">Enter the number of records you want to buy:</TextBlock>
+                <TextBox x:Name="amountBuyTextBox" FontSize="12" Height="20" FontWeight="Bold" HorizontalAlignment="Center" Width="50" VerticalAlignment="Center" Margin="0 20 0 0"></TextBox>
+            </WrapPanel>
+
+            <WrapPanel Grid.Row="2" HorizontalAlignment="Center" Margin="0,50,0,0">
+                <Button FontSize="14" FontWeight="SemiBold" IsDefault="True" Click="Accept_Click" MinWidth="120" MinHeight="40" Margin="0,0,30,0" Background="Blue" Foreground="White">Buy</Button>
+                <Button FontSize="14" FontWeight="SemiBold" IsCancel="True" Background="Transparent" MinWidth="120" MinHeight="40">Cancel</Button>
+            </WrapPanel>
+
+        </Grid>
+    </Grid>
+</Window>

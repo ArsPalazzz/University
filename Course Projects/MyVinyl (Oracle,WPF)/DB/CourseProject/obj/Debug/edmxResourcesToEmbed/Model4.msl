@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище Model4Container" CdmEntityContainer="Entities4">
+    <EntitySetMapping Name="CART">
+      <EntityTypeMapping TypeName="Model4.CART">
+        <MappingFragment StoreEntitySet="CART">
+          <ScalarProperty Name="RECORD_IN_CART_ID" ColumnName="RECORD_IN_CART_ID" />
+          <ScalarProperty Name="CLIENT_ID" ColumnName="CLIENT_ID" />
+          <ScalarProperty Name="RECORD_ID" ColumnName="RECORD_ID" />
+          <ScalarProperty Name="AMOUNT" ColumnName="AMOUNT" />
+          <ScalarProperty Name="DATE_ADDED_TO_CART" ColumnName="DATE_ADDED_TO_CART" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CLIENT">
+      <EntityTypeMapping TypeName="Model4.CLIENT">
+        <MappingFragment StoreEntitySet="CLIENT">
+          <ScalarProperty Name="CLIENT_ID" ColumnName="CLIENT_ID" />
+          <ScalarProperty Name="LOGIN_CLIENT" ColumnName="LOGIN_CLIENT" />
+          <ScalarProperty Name="PASSWORD_CLIENT" ColumnName="PASSWORD_CLIENT" />
+          <ScalarProperty Name="PHONE_NUMBER" ColumnName="PHONE_NUMBER" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="SEX" ColumnName="SEX" />
+          <ScalarProperty Name="DATE_OF_BIRTH" ColumnName="DATE_OF_BIRTH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="COMMENTS">
+      <EntityTypeMapping TypeName="Model4.COMMENTS">
+        <MappingFragment StoreEntitySet="COMMENTS">
+          <ScalarProperty Name="COMMENT_ID" ColumnName="COMMENT_ID" />
+          <ScalarProperty Name="COMMENT_DATE" ColumnName="COMMENT_DATE" />
+          <ScalarProperty Name="USER_ID" ColumnName="USER_ID" />
+          <ScalarProperty Name="RECORD_ID" ColumnName="RECORD_ID" />
+          <ScalarProperty Name="CONTENT" ColumnName="CONTENT" />
+          <ScalarProperty Name="LIKES" ColumnName="LIKES" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GENRE">
+      <EntityTypeMapping TypeName="Model4.GENRE">
+        <MappingFragment StoreEntitySet="GENRE">
+          <ScalarProperty Name="GENRE_ID" ColumnName="GENRE_ID" />
+          <ScalarProperty Name="GENRE_NAME" ColumnName="GENRE_NAME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ORDER_CARD">
+      <EntityTypeMapping TypeName="Model4.ORDER_CARD">
+        <MappingFragment StoreEntitySet="ORDER_CARD">
+          <ScalarProperty Name="ORDER_ID" ColumnName="ORDER_ID" />
+          <ScalarProperty Name="ACCOUNT_ID" ColumnName="ACCOUNT_ID" />
+          <ScalarProperty Name="DELIVERY_CHECKBOX" ColumnName="DELIVERY_CHECKBOX" />
+          <ScalarProperty Name="COST" ColumnName="COST" />
+          <ScalarProperty Name="ORDER_DATE" ColumnName="ORDER_DATE" />
+          <ScalarProperty Name="STATUS" ColumnName="STATUS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ORDER_CARD_DETAILS">
+      <EntityTypeMapping TypeName="Model4.ORDER_CARD_DETAILS">
+        <MappingFragment StoreEntitySet="ORDER_CARD_DETAILS">
+          <ScalarProperty Name="ORDER_DETAILS_ID" ColumnName="ORDER_DETAILS_ID" />
+          <ScalarProperty Name="ORDER_ID" ColumnName="ORDER_ID" />
+          <ScalarProperty Name="RECORD_ID" ColumnName="RECORD_ID" />
+          <ScalarProperty Name="AMOUNT" ColumnName="AMOUNT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RECORD">
+      <EntityTypeMapping TypeName="Model4.RECORD">
+        <MappingFragment StoreEntitySet="RECORD">
+          <ScalarProperty Name="RECORD_ID" ColumnName="RECORD_ID" />
+          <ScalarProperty Name="YEAR" ColumnName="YEAR" />
+          <ScalarProperty Name="COST" ColumnName="COST" />
+          <ScalarProperty Name="AMOUNT" ColumnName="AMOUNT" />
+          <ScalarProperty Name="SUPPLIER_ID" ColumnName="SUPPLIER_ID" />
+          <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+          <ScalarProperty Name="ARTIST_NAME" ColumnName="ARTIST_NAME" />
+          <ScalarProperty Name="ALBUM_NAME" ColumnName="ALBUM_NAME" />
+          <ScalarProperty Name="PICTURE" ColumnName="PICTURE" />
+          <ScalarProperty Name="STATUS" ColumnName="STATUS" />
+          <ScalarProperty Name="IS_DELETED" ColumnName="IS_DELETED" />
+          <ScalarProperty Name="DATE_OF_DELIV_TO_WAREHOUSE" ColumnName="DATE_OF_DELIV_TO_WAREHOUSE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SONG">
+      <EntityTypeMapping TypeName="Model4.SONG">
+        <MappingFragment StoreEntitySet="SONG">
+          <ScalarProperty Name="SONG_ID" ColumnName="SONG_ID" />
+          <ScalarProperty Name="SONG_NAME" ColumnName="SONG_NAME" />
+          <ScalarProperty Name="ARTIST_NAME" ColumnName="ARTIST_NAME" />
+          <ScalarProperty Name="ALBUM_NAME" ColumnName="ALBUM_NAME" />
+          <ScalarProperty Name="SIDE" ColumnName="SIDE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="GENRE_DETAILS" TypeName="Model4.GENRE_DETAILS" StoreEntitySet="GENRE_DETAILS">
+      <EndProperty Name="GENRE">
+        <ScalarProperty Name="GENRE_ID" ColumnName="GENRE_ID" />
+      </EndProperty>
+      <EndProperty Name="RECORD">
+        <ScalarProperty Name="RECORD_ID" ColumnName="RECORD_ID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="SONG_RECORD" TypeName="Model4.SONG_RECORD" StoreEntitySet="SONG_RECORD">
+      <EndProperty Name="RECORD">
+        <ScalarProperty Name="RECORD_ID" ColumnName="RECORD_ID" />
+      </EndProperty>
+      <EndProperty Name="SONG">
+        <ScalarProperty Name="SONG_ID" ColumnName="SONG_ID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <FunctionImportMapping FunctionImportName="GET_ALBUM_SONGS" FunctionName="Хранилище Model4.GET_ALBUM_SONGS" />
+    <FunctionImportMapping FunctionImportName="GET_ALBUM_SONGS_TBL" FunctionName="Хранилище Model4.GET_ALBUM_SONGS_TBL" />
+    <FunctionImportMapping FunctionImportName="GETRECORDSINFO" FunctionName="Хранилище Model4.GETRECORDSINFO">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model4.GETRECORDSINFO_Result">
+          <ScalarProperty Name="RECORD_ID" ColumnName="RECORD_ID" />
+          <ScalarProperty Name="YEAR" ColumnName="YEAR" />
+          <ScalarProperty Name="COST" ColumnName="COST" />
+          <ScalarProperty Name="AMOUNT" ColumnName="AMOUNT" />
+          <ScalarProperty Name="SUPPLIER_ID" ColumnName="SUPPLIER_ID" />
+          <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+          <ScalarProperty Name="ARTIST_NAME" ColumnName="ARTIST_NAME" />
+          <ScalarProperty Name="ALBUM_NAME" ColumnName="ALBUM_NAME" />
+          <ScalarProperty Name="PICTURE" ColumnName="PICTURE" />
+          <ScalarProperty Name="STATUS" ColumnName="STATUS" />
+          <ScalarProperty Name="DATE_OF_DELIV_TO_WAREHOUSE" ColumnName="DATE_OF_DELIV_TO_WAREHOUSE" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GETSONGSINFO" FunctionName="Хранилище Model4.GETSONGSINFO" />
+    <FunctionImportMapping FunctionImportName="REGNEWUSER" FunctionName="Хранилище Model4.REGNEWUSER" />
+    <FunctionImportMapping FunctionImportName="SONGSFORID" FunctionName="Хранилище Model4.SONGSFORID" />
+  </EntityContainerMapping>
+</Mapping>

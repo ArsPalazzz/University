@@ -1,0 +1,660 @@
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  width: 100%;
+  /* height: 14vh; */
+  background-color: rgba(0, 0, 0, 0.703);
+  position: fixed;
+  z-index: 100;
+  /*max-height: 14.5%;
+  min-height: 2%;*/
+  max-height: 14.5vh;
+  min-height: 2vh;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+header:hover {
+  background-color: rgba(0, 0, 0, 0.896);
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header .picNP {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 50vw;
+}
+.header .picNP .pic {
+  width: 4.8vw;
+  max-height: 100%;
+  margin: 2% 0 0.5% 0%;
+  display: inline-block;
+}
+.header .picNP .pic img {
+  width: 100%;
+  max-height: 105px;
+}
+.header .picNP a {
+  display: inline-block;
+  font-size: 2vw;
+  text-transform: uppercase;
+  margin: 0;
+  text-shadow: 2px 2px 2px black;
+  padding-right: 5%;
+  -webkit-transition: 0.1s all linear;
+  transition: 0.1s all linear;
+}
+.header .picNP a:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  text-shadow: 0 0 3px;
+}
+.header .menu {
+  width: 50vw;
+}
+.header .menu nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 100%;
+  width: 100%;
+}
+.header .menu nav ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.header .menu nav ul li {
+  list-style-type: none;
+  margin-right: 20px;
+  display: inline-block;
+  text-shadow: 2px 2px 2px black;
+  text-decoration: none;
+  -webkit-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+.header .menu nav ul li:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  text-shadow: 0 0 3px;
+}
+.header .menu nav ul li a {
+  font-size: 2vw;
+}
+
+a {
+  text-decoration: none;
+}
+a:link, a:visited {
+  color: white;
+}
+
+@media (min-width: 320px) and (max-width: 560px) {
+  header .header .picNP {
+    width: 15vw;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-top: 2%;
+  }
+  header .header .picNP .pic {
+    width: 5vh;
+    height: 5vh;
+    margin: 1.2% 0.5% 10% 7px;
+  }
+  header .header .picNP .pic img {
+    max-height: 250px;
+  }
+  header .header .picNP .tbut {
+    display: none;
+    position: absolute;
+  }
+  header .header .menu {
+    width: 85vw;
+  }
+  header .header .menu nav ul li {
+    margin-right: 20px;
+    text-shadow: 4px 4px 4px black;
+  }
+  header .header .menu nav ul li a {
+    font-size: 3vw;
+  }
+}
+@media (min-width: 560px) and (max-width: 1000px) {
+  header .header .picNP {
+    width: 15vw;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-top: 2%;
+  }
+  header .header .picNP .pic {
+    width: 7.5vh;
+    height: 7.5vh;
+    margin: 1.2% 0 8% 12px;
+  }
+  header .header .picNP .pic a {
+    height: 100%;
+    display: inline-block;
+  }
+  header .header .picNP .pic img {
+    max-height: 250px;
+  }
+  header .header .picNP .tbut {
+    display: none;
+    position: absolute;
+  }
+  header .header .menu {
+    width: 85vw;
+  }
+  header .header .menu nav ul li {
+    margin-right: 25px;
+    text-shadow: 4px 4px 4px black;
+  }
+  header .header .menu nav ul li a {
+    font-size: 3.2vw;
+  }
+}
+footer .footerFlex .part1 {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+footer .footerFlex .part1 .part1Flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer .footerFlex .part1 .part1Flex .footInf {
+  margin-left: 2vw;
+  border-right: 2px solid black;
+  width: 50vw;
+}
+footer .footerFlex .part1 .part1Flex .footInf .footInfFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+footer .footerFlex .part1 .part1Flex .footInf .footInfFlex h2 {
+  font-size: 2.5vw;
+  font-weight: normal;
+  text-shadow: 2px 2px 2px black;
+}
+footer .footerFlex .part1 .part1Flex .footInf .footInfFlex p {
+  font-size: 1.2vw;
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
+  padding-right: 1vw;
+  text-shadow: 1px 1px 1px black;
+}
+footer .footerFlex .part1 .part1Flex .footCont {
+  width: 50vw;
+  margin-left: 2vw;
+}
+footer .footerFlex .part1 .part1Flex .footCont .footContFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+footer .footerFlex .part1 .part1Flex .footCont .footContFlex .phNemail h2 {
+  font-size: 2.5vw;
+  font-weight: normal;
+  text-shadow: 2px 2px 2px black;
+}
+footer .footerFlex .part1 .part1Flex .footCont .footContFlex .phNemail p {
+  font-size: 1.2vw;
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
+  text-shadow: 1px 1px 1px black;
+}
+footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages {
+  margin-left: 2vw;
+  padding-bottom: 0.5vh;
+}
+footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .youtube, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .inst, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .vk {
+  width: 3vw;
+  margin-right: 1vw;
+  -webkit-transition: 0.1s all linear;
+  transition: 0.1s all linear;
+}
+footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .youtube:hover, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .inst:hover, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .vk:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .youtube svg, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .inst svg, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .vk svg {
+  width: 100%;
+}
+footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .inst {
+  -webkit-filter: brightness(85%);
+          filter: brightness(85%);
+}
+footer .footerFlex .part2 {
+  background-color: black;
+}
+footer .footerFlex .part2 .part2Flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .footerFlex .part2 .part2Flex p {
+  font-size: 1.1vw;
+}
+
+@media (min-width: 560px) and (max-width: 1000px) {
+  footer .footerFlex .part1 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+  footer .footerFlex .part1 .part1Flex .footInf {
+    margin-left: 2vw;
+    border-right: 2px solid black;
+    width: 50vw;
+  }
+  footer .footerFlex .part1 .part1Flex .footInf .footInfFlex h2 {
+    font-size: 4vw;
+    margin-bottom: 1vh;
+  }
+  footer .footerFlex .part1 .part1Flex .footInf .footInfFlex p {
+    font-size: 2vw;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont {
+    width: 50vw;
+    margin-left: 2vw;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex .phNemail h2 {
+    font-size: 4vw;
+    margin-bottom: 1vh;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex .phNemail p {
+    font-size: 2vw;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages {
+    margin-left: 0vw;
+    padding-bottom: 0.5vh;
+    margin-top: 1.2vh;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex {
+    width: 100%;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .youtube, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .inst, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .vk {
+    width: 5.5vw;
+    margin-right: 2.5vw;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .youtube svg, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .inst svg, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .vk svg {
+    width: 100%;
+  }
+  footer .footerFlex .part2 .part2Flex p {
+    font-size: 1.8vw;
+  }
+}
+@media (min-width: 320px) and (max-width: 560px) {
+  footer .footerFlex .part1 {
+    padding-top: 0.5%;
+    padding-bottom: 1%;
+  }
+  footer .footerFlex .part1 .part1Flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  footer .footerFlex .part1 .part1Flex .footInf {
+    margin-left: 4vw;
+    border-bottom: 2px solid black;
+    border-right: none;
+    width: 92vw;
+  }
+  footer .footerFlex .part1 .part1Flex .footInf .footInfFlex h2 {
+    font-size: 6.5vw;
+    margin-bottom: 2.5vw;
+  }
+  footer .footerFlex .part1 .part1Flex .footInf .footInfFlex p {
+    font-size: 3.5vw;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    padding-right: 5vw;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont {
+    width: 92vw;
+    margin-left: 4vw;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex .phNemail h2 {
+    font-size: 6.5vw;
+    margin-bottom: 2.5vw;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex .phNemail p {
+    font-size: 3.5vw;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages {
+    margin-right: 2vw;
+    margin-left: 0;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex {
+    width: 100%;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .youtube, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .inst, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .vk {
+    width: 8vw;
+    margin-right: 2vw;
+  }
+  footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .youtube svg, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .inst svg, footer .footerFlex .part1 .part1Flex .footCont .footContFlex .messages .messagesFlex .vk svg {
+    width: 100%;
+  }
+  footer .footerFlex .part2 .part2Flex p {
+    font-size: 2.7vw;
+  }
+}
+@font-face {
+  font-family: "Reem Kufi";
+  src: url("../fonts/ReemKufi-Regular.ttf");
+}
+.mainBlock .mainText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+body {
+  color: white;
+  font-family: "Reem Kufi";
+  background-image: url("../img/Partners/back.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #464646;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+.mainBlock {
+  width: 100vw;
+  height: 100vh;
+}
+.mainBlock .mainText {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  top: 50vh;
+  position: relative;
+  margin: auto;
+}
+.mainBlock .mainText .firstP {
+  font-size: 3.5vw;
+  text-shadow: 2px 2px 2px black;
+  margin: 0;
+}
+
+.allPartners {
+  background-color: black;
+  width: 100vw;
+}
+.allPartners .allPartnersFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 0;
+}
+.allPartners .allPartnersFlex .paramount, .allPartners .allPartnersFlex .twthCentFox, .allPartners .allPartnersFlex .univStudio, .allPartners .allPartnersFlex .wb, .allPartners .allPartnersFlex .columbPic {
+  width: 100%;
+  margin-bottom: 10vh;
+}
+.allPartners .allPartnersFlex .paramount .paramountFlex, .allPartners .allPartnersFlex .paramount .twthCentFoxFlex, .allPartners .allPartnersFlex .paramount .univStudioFlex, .allPartners .allPartnersFlex .paramount .wbFlex, .allPartners .allPartnersFlex .paramount .columbPicFlex, .allPartners .allPartnersFlex .twthCentFox .paramountFlex, .allPartners .allPartnersFlex .twthCentFox .twthCentFoxFlex, .allPartners .allPartnersFlex .twthCentFox .univStudioFlex, .allPartners .allPartnersFlex .twthCentFox .wbFlex, .allPartners .allPartnersFlex .twthCentFox .columbPicFlex, .allPartners .allPartnersFlex .univStudio .paramountFlex, .allPartners .allPartnersFlex .univStudio .twthCentFoxFlex, .allPartners .allPartnersFlex .univStudio .univStudioFlex, .allPartners .allPartnersFlex .univStudio .wbFlex, .allPartners .allPartnersFlex .univStudio .columbPicFlex, .allPartners .allPartnersFlex .wb .paramountFlex, .allPartners .allPartnersFlex .wb .twthCentFoxFlex, .allPartners .allPartnersFlex .wb .univStudioFlex, .allPartners .allPartnersFlex .wb .wbFlex, .allPartners .allPartnersFlex .wb .columbPicFlex, .allPartners .allPartnersFlex .columbPic .paramountFlex, .allPartners .allPartnersFlex .columbPic .twthCentFoxFlex, .allPartners .allPartnersFlex .columbPic .univStudioFlex, .allPartners .allPartnersFlex .columbPic .wbFlex, .allPartners .allPartnersFlex .columbPic .columbPicFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.allPartners .allPartnersFlex .paramount .paramountFlex .bookmark, .allPartners .allPartnersFlex .paramount .twthCentFoxFlex .bookmark, .allPartners .allPartnersFlex .paramount .univStudioFlex .bookmark, .allPartners .allPartnersFlex .paramount .wbFlex .bookmark, .allPartners .allPartnersFlex .paramount .columbPicFlex .bookmark, .allPartners .allPartnersFlex .twthCentFox .paramountFlex .bookmark, .allPartners .allPartnersFlex .twthCentFox .twthCentFoxFlex .bookmark, .allPartners .allPartnersFlex .twthCentFox .univStudioFlex .bookmark, .allPartners .allPartnersFlex .twthCentFox .wbFlex .bookmark, .allPartners .allPartnersFlex .twthCentFox .columbPicFlex .bookmark, .allPartners .allPartnersFlex .univStudio .paramountFlex .bookmark, .allPartners .allPartnersFlex .univStudio .twthCentFoxFlex .bookmark, .allPartners .allPartnersFlex .univStudio .univStudioFlex .bookmark, .allPartners .allPartnersFlex .univStudio .wbFlex .bookmark, .allPartners .allPartnersFlex .univStudio .columbPicFlex .bookmark, .allPartners .allPartnersFlex .wb .paramountFlex .bookmark, .allPartners .allPartnersFlex .wb .twthCentFoxFlex .bookmark, .allPartners .allPartnersFlex .wb .univStudioFlex .bookmark, .allPartners .allPartnersFlex .wb .wbFlex .bookmark, .allPartners .allPartnersFlex .wb .columbPicFlex .bookmark, .allPartners .allPartnersFlex .columbPic .paramountFlex .bookmark, .allPartners .allPartnersFlex .columbPic .twthCentFoxFlex .bookmark, .allPartners .allPartnersFlex .columbPic .univStudioFlex .bookmark, .allPartners .allPartnersFlex .columbPic .wbFlex .bookmark, .allPartners .allPartnersFlex .columbPic .columbPicFlex .bookmark {
+  position: relative;
+  margin-top: 0;
+}
+.allPartners .allPartnersFlex .paramount .paramountFlex .bookmark .pic, .allPartners .allPartnersFlex .paramount .twthCentFoxFlex .bookmark .pic, .allPartners .allPartnersFlex .paramount .univStudioFlex .bookmark .pic, .allPartners .allPartnersFlex .paramount .wbFlex .bookmark .pic, .allPartners .allPartnersFlex .paramount .columbPicFlex .bookmark .pic, .allPartners .allPartnersFlex .twthCentFox .paramountFlex .bookmark .pic, .allPartners .allPartnersFlex .twthCentFox .twthCentFoxFlex .bookmark .pic, .allPartners .allPartnersFlex .twthCentFox .univStudioFlex .bookmark .pic, .allPartners .allPartnersFlex .twthCentFox .wbFlex .bookmark .pic, .allPartners .allPartnersFlex .twthCentFox .columbPicFlex .bookmark .pic, .allPartners .allPartnersFlex .univStudio .paramountFlex .bookmark .pic, .allPartners .allPartnersFlex .univStudio .twthCentFoxFlex .bookmark .pic, .allPartners .allPartnersFlex .univStudio .univStudioFlex .bookmark .pic, .allPartners .allPartnersFlex .univStudio .wbFlex .bookmark .pic, .allPartners .allPartnersFlex .univStudio .columbPicFlex .bookmark .pic, .allPartners .allPartnersFlex .wb .paramountFlex .bookmark .pic, .allPartners .allPartnersFlex .wb .twthCentFoxFlex .bookmark .pic, .allPartners .allPartnersFlex .wb .univStudioFlex .bookmark .pic, .allPartners .allPartnersFlex .wb .wbFlex .bookmark .pic, .allPartners .allPartnersFlex .wb .columbPicFlex .bookmark .pic, .allPartners .allPartnersFlex .columbPic .paramountFlex .bookmark .pic, .allPartners .allPartnersFlex .columbPic .twthCentFoxFlex .bookmark .pic, .allPartners .allPartnersFlex .columbPic .univStudioFlex .bookmark .pic, .allPartners .allPartnersFlex .columbPic .wbFlex .bookmark .pic, .allPartners .allPartnersFlex .columbPic .columbPicFlex .bookmark .pic {
+  width: 40vw;
+  margin-top: -0.35%;
+}
+.allPartners .allPartnersFlex .paramount .paramountFlex .bookmark .pic img, .allPartners .allPartnersFlex .paramount .twthCentFoxFlex .bookmark .pic img, .allPartners .allPartnersFlex .paramount .univStudioFlex .bookmark .pic img, .allPartners .allPartnersFlex .paramount .wbFlex .bookmark .pic img, .allPartners .allPartnersFlex .paramount .columbPicFlex .bookmark .pic img, .allPartners .allPartnersFlex .twthCentFox .paramountFlex .bookmark .pic img, .allPartners .allPartnersFlex .twthCentFox .twthCentFoxFlex .bookmark .pic img, .allPartners .allPartnersFlex .twthCentFox .univStudioFlex .bookmark .pic img, .allPartners .allPartnersFlex .twthCentFox .wbFlex .bookmark .pic img, .allPartners .allPartnersFlex .twthCentFox .columbPicFlex .bookmark .pic img, .allPartners .allPartnersFlex .univStudio .paramountFlex .bookmark .pic img, .allPartners .allPartnersFlex .univStudio .twthCentFoxFlex .bookmark .pic img, .allPartners .allPartnersFlex .univStudio .univStudioFlex .bookmark .pic img, .allPartners .allPartnersFlex .univStudio .wbFlex .bookmark .pic img, .allPartners .allPartnersFlex .univStudio .columbPicFlex .bookmark .pic img, .allPartners .allPartnersFlex .wb .paramountFlex .bookmark .pic img, .allPartners .allPartnersFlex .wb .twthCentFoxFlex .bookmark .pic img, .allPartners .allPartnersFlex .wb .univStudioFlex .bookmark .pic img, .allPartners .allPartnersFlex .wb .wbFlex .bookmark .pic img, .allPartners .allPartnersFlex .wb .columbPicFlex .bookmark .pic img, .allPartners .allPartnersFlex .columbPic .paramountFlex .bookmark .pic img, .allPartners .allPartnersFlex .columbPic .twthCentFoxFlex .bookmark .pic img, .allPartners .allPartnersFlex .columbPic .univStudioFlex .bookmark .pic img, .allPartners .allPartnersFlex .columbPic .wbFlex .bookmark .pic img, .allPartners .allPartnersFlex .columbPic .columbPicFlex .bookmark .pic img {
+  width: 100%;
+}
+.allPartners .allPartnersFlex .paramount .paramountFlex .bookmark p, .allPartners .allPartnersFlex .paramount .twthCentFoxFlex .bookmark p, .allPartners .allPartnersFlex .paramount .univStudioFlex .bookmark p, .allPartners .allPartnersFlex .paramount .wbFlex .bookmark p, .allPartners .allPartnersFlex .paramount .columbPicFlex .bookmark p, .allPartners .allPartnersFlex .twthCentFox .paramountFlex .bookmark p, .allPartners .allPartnersFlex .twthCentFox .twthCentFoxFlex .bookmark p, .allPartners .allPartnersFlex .twthCentFox .univStudioFlex .bookmark p, .allPartners .allPartnersFlex .twthCentFox .wbFlex .bookmark p, .allPartners .allPartnersFlex .twthCentFox .columbPicFlex .bookmark p, .allPartners .allPartnersFlex .univStudio .paramountFlex .bookmark p, .allPartners .allPartnersFlex .univStudio .twthCentFoxFlex .bookmark p, .allPartners .allPartnersFlex .univStudio .univStudioFlex .bookmark p, .allPartners .allPartnersFlex .univStudio .wbFlex .bookmark p, .allPartners .allPartnersFlex .univStudio .columbPicFlex .bookmark p, .allPartners .allPartnersFlex .wb .paramountFlex .bookmark p, .allPartners .allPartnersFlex .wb .twthCentFoxFlex .bookmark p, .allPartners .allPartnersFlex .wb .univStudioFlex .bookmark p, .allPartners .allPartnersFlex .wb .wbFlex .bookmark p, .allPartners .allPartnersFlex .wb .columbPicFlex .bookmark p, .allPartners .allPartnersFlex .columbPic .paramountFlex .bookmark p, .allPartners .allPartnersFlex .columbPic .twthCentFoxFlex .bookmark p, .allPartners .allPartnersFlex .columbPic .univStudioFlex .bookmark p, .allPartners .allPartnersFlex .columbPic .wbFlex .bookmark p, .allPartners .allPartnersFlex .columbPic .columbPicFlex .bookmark p {
+  position: absolute;
+  top: -12%;
+  left: 9%;
+  font-size: 1.7vw;
+}
+.allPartners .allPartnersFlex .paramount .paramountFlex .imgNtext, .allPartners .allPartnersFlex .paramount .twthCentFoxFlex .imgNtext, .allPartners .allPartnersFlex .paramount .univStudioFlex .imgNtext, .allPartners .allPartnersFlex .paramount .wbFlex .imgNtext, .allPartners .allPartnersFlex .paramount .columbPicFlex .imgNtext, .allPartners .allPartnersFlex .twthCentFox .paramountFlex .imgNtext, .allPartners .allPartnersFlex .twthCentFox .twthCentFoxFlex .imgNtext, .allPartners .allPartnersFlex .twthCentFox .univStudioFlex .imgNtext, .allPartners .allPartnersFlex .twthCentFox .wbFlex .imgNtext, .allPartners .allPartnersFlex .twthCentFox .columbPicFlex .imgNtext, .allPartners .allPartnersFlex .univStudio .paramountFlex .imgNtext, .allPartners .allPartnersFlex .univStudio .twthCentFoxFlex .imgNtext, .allPartners .allPartnersFlex .univStudio .univStudioFlex .imgNtext, .allPartners .allPartnersFlex .univStudio .wbFlex .imgNtext, .allPartners .allPartnersFlex .univStudio .columbPicFlex .imgNtext, .allPartners .allPartnersFlex .wb .paramountFlex .imgNtext, .allPartners .allPartnersFlex .wb .twthCentFoxFlex .imgNtext, .allPartners .allPartnersFlex .wb .univStudioFlex .imgNtext, .allPartners .allPartnersFlex .wb .wbFlex .imgNtext, .allPartners .allPartnersFlex .wb .columbPicFlex .imgNtext, .allPartners .allPartnersFlex .columbPic .paramountFlex .imgNtext, .allPartners .allPartnersFlex .columbPic .twthCentFoxFlex .imgNtext, .allPartners .allPartnersFlex .columbPic .univStudioFlex .imgNtext, .allPartners .allPartnersFlex .columbPic .wbFlex .imgNtext, .allPartners .allPartnersFlex .columbPic .columbPicFlex .imgNtext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-left: 5vw;
+}
+.allPartners .allPartnersFlex .paramount .paramountFlex .imgNtext .img, .allPartners .allPartnersFlex .paramount .twthCentFoxFlex .imgNtext .img, .allPartners .allPartnersFlex .paramount .univStudioFlex .imgNtext .img, .allPartners .allPartnersFlex .paramount .wbFlex .imgNtext .img, .allPartners .allPartnersFlex .paramount .columbPicFlex .imgNtext .img, .allPartners .allPartnersFlex .twthCentFox .paramountFlex .imgNtext .img, .allPartners .allPartnersFlex .twthCentFox .twthCentFoxFlex .imgNtext .img, .allPartners .allPartnersFlex .twthCentFox .univStudioFlex .imgNtext .img, .allPartners .allPartnersFlex .twthCentFox .wbFlex .imgNtext .img, .allPartners .allPartnersFlex .twthCentFox .columbPicFlex .imgNtext .img, .allPartners .allPartnersFlex .univStudio .paramountFlex .imgNtext .img, .allPartners .allPartnersFlex .univStudio .twthCentFoxFlex .imgNtext .img, .allPartners .allPartnersFlex .univStudio .univStudioFlex .imgNtext .img, .allPartners .allPartnersFlex .univStudio .wbFlex .imgNtext .img, .allPartners .allPartnersFlex .univStudio .columbPicFlex .imgNtext .img, .allPartners .allPartnersFlex .wb .paramountFlex .imgNtext .img, .allPartners .allPartnersFlex .wb .twthCentFoxFlex .imgNtext .img, .allPartners .allPartnersFlex .wb .univStudioFlex .imgNtext .img, .allPartners .allPartnersFlex .wb .wbFlex .imgNtext .img, .allPartners .allPartnersFlex .wb .columbPicFlex .imgNtext .img, .allPartners .allPartnersFlex .columbPic .paramountFlex .imgNtext .img, .allPartners .allPartnersFlex .columbPic .twthCentFoxFlex .imgNtext .img, .allPartners .allPartnersFlex .columbPic .univStudioFlex .imgNtext .img, .allPartners .allPartnersFlex .columbPic .wbFlex .imgNtext .img, .allPartners .allPartnersFlex .columbPic .columbPicFlex .imgNtext .img {
+  width: 46vw;
+}
+.allPartners .allPartnersFlex .paramount .paramountFlex .imgNtext .img img, .allPartners .allPartnersFlex .paramount .twthCentFoxFlex .imgNtext .img img, .allPartners .allPartnersFlex .paramount .univStudioFlex .imgNtext .img img, .allPartners .allPartnersFlex .paramount .wbFlex .imgNtext .img img, .allPartners .allPartnersFlex .paramount .columbPicFlex .imgNtext .img img, .allPartners .allPartnersFlex .twthCentFox .paramountFlex .imgNtext .img img, .allPartners .allPartnersFlex .twthCentFox .twthCentFoxFlex .imgNtext .img img, .allPartners .allPartnersFlex .twthCentFox .univStudioFlex .imgNtext .img img, .allPartners .allPartnersFlex .twthCentFox .wbFlex .imgNtext .img img, .allPartners .allPartnersFlex .twthCentFox .columbPicFlex .imgNtext .img img, .allPartners .allPartnersFlex .univStudio .paramountFlex .imgNtext .img img, .allPartners .allPartnersFlex .univStudio .twthCentFoxFlex .imgNtext .img img, .allPartners .allPartnersFlex .univStudio .univStudioFlex .imgNtext .img img, .allPartners .allPartnersFlex .univStudio .wbFlex .imgNtext .img img, .allPartners .allPartnersFlex .univStudio .columbPicFlex .imgNtext .img img, .allPartners .allPartnersFlex .wb .paramountFlex .imgNtext .img img, .allPartners .allPartnersFlex .wb .twthCentFoxFlex .imgNtext .img img, .allPartners .allPartnersFlex .wb .univStudioFlex .imgNtext .img img, .allPartners .allPartnersFlex .wb .wbFlex .imgNtext .img img, .allPartners .allPartnersFlex .wb .columbPicFlex .imgNtext .img img, .allPartners .allPartnersFlex .columbPic .paramountFlex .imgNtext .img img, .allPartners .allPartnersFlex .columbPic .twthCentFoxFlex .imgNtext .img img, .allPartners .allPartnersFlex .columbPic .univStudioFlex .imgNtext .img img, .allPartners .allPartnersFlex .columbPic .wbFlex .imgNtext .img img, .allPartners .allPartnersFlex .columbPic .columbPicFlex .imgNtext .img img {
+  width: 100%;
+}
+.allPartners .allPartnersFlex .paramount .paramountFlex .imgNtext .text1, .allPartners .allPartnersFlex .paramount .twthCentFoxFlex .imgNtext .text1, .allPartners .allPartnersFlex .paramount .univStudioFlex .imgNtext .text1, .allPartners .allPartnersFlex .paramount .wbFlex .imgNtext .text1, .allPartners .allPartnersFlex .paramount .columbPicFlex .imgNtext .text1, .allPartners .allPartnersFlex .twthCentFox .paramountFlex .imgNtext .text1, .allPartners .allPartnersFlex .twthCentFox .twthCentFoxFlex .imgNtext .text1, .allPartners .allPartnersFlex .twthCentFox .univStudioFlex .imgNtext .text1, .allPartners .allPartnersFlex .twthCentFox .wbFlex .imgNtext .text1, .allPartners .allPartnersFlex .twthCentFox .columbPicFlex .imgNtext .text1, .allPartners .allPartnersFlex .univStudio .paramountFlex .imgNtext .text1, .allPartners .allPartnersFlex .univStudio .twthCentFoxFlex .imgNtext .text1, .allPartners .allPartnersFlex .univStudio .univStudioFlex .imgNtext .text1, .allPartners .allPartnersFlex .univStudio .wbFlex .imgNtext .text1, .allPartners .allPartnersFlex .univStudio .columbPicFlex .imgNtext .text1, .allPartners .allPartnersFlex .wb .paramountFlex .imgNtext .text1, .allPartners .allPartnersFlex .wb .twthCentFoxFlex .imgNtext .text1, .allPartners .allPartnersFlex .wb .univStudioFlex .imgNtext .text1, .allPartners .allPartnersFlex .wb .wbFlex .imgNtext .text1, .allPartners .allPartnersFlex .wb .columbPicFlex .imgNtext .text1, .allPartners .allPartnersFlex .columbPic .paramountFlex .imgNtext .text1, .allPartners .allPartnersFlex .columbPic .twthCentFoxFlex .imgNtext .text1, .allPartners .allPartnersFlex .columbPic .univStudioFlex .imgNtext .text1, .allPartners .allPartnersFlex .columbPic .wbFlex .imgNtext .text1, .allPartners .allPartnersFlex .columbPic .columbPicFlex .imgNtext .text1 {
+  padding-left: 5vw;
+}
+.allPartners .allPartnersFlex .paramount .paramountFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .paramount .twthCentFoxFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .paramount .univStudioFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .paramount .wbFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .paramount .columbPicFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .twthCentFox .paramountFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .twthCentFox .twthCentFoxFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .twthCentFox .univStudioFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .twthCentFox .wbFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .twthCentFox .columbPicFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .univStudio .paramountFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .univStudio .twthCentFoxFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .univStudio .univStudioFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .univStudio .wbFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .univStudio .columbPicFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .wb .paramountFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .wb .twthCentFoxFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .wb .univStudioFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .wb .wbFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .wb .columbPicFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .columbPic .paramountFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .columbPic .twthCentFoxFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .columbPic .univStudioFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .columbPic .wbFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .columbPic .columbPicFlex .imgNtext .text1 p {
+  font-size: 1.4vw;
+  margin-top: 0;
+}
+.allPartners .allPartnersFlex .paramount .paramountFlex .text2, .allPartners .allPartnersFlex .paramount .twthCentFoxFlex .text2, .allPartners .allPartnersFlex .paramount .univStudioFlex .text2, .allPartners .allPartnersFlex .paramount .wbFlex .text2, .allPartners .allPartnersFlex .paramount .columbPicFlex .text2, .allPartners .allPartnersFlex .twthCentFox .paramountFlex .text2, .allPartners .allPartnersFlex .twthCentFox .twthCentFoxFlex .text2, .allPartners .allPartnersFlex .twthCentFox .univStudioFlex .text2, .allPartners .allPartnersFlex .twthCentFox .wbFlex .text2, .allPartners .allPartnersFlex .twthCentFox .columbPicFlex .text2, .allPartners .allPartnersFlex .univStudio .paramountFlex .text2, .allPartners .allPartnersFlex .univStudio .twthCentFoxFlex .text2, .allPartners .allPartnersFlex .univStudio .univStudioFlex .text2, .allPartners .allPartnersFlex .univStudio .wbFlex .text2, .allPartners .allPartnersFlex .univStudio .columbPicFlex .text2, .allPartners .allPartnersFlex .wb .paramountFlex .text2, .allPartners .allPartnersFlex .wb .twthCentFoxFlex .text2, .allPartners .allPartnersFlex .wb .univStudioFlex .text2, .allPartners .allPartnersFlex .wb .wbFlex .text2, .allPartners .allPartnersFlex .wb .columbPicFlex .text2, .allPartners .allPartnersFlex .columbPic .paramountFlex .text2, .allPartners .allPartnersFlex .columbPic .twthCentFoxFlex .text2, .allPartners .allPartnersFlex .columbPic .univStudioFlex .text2, .allPartners .allPartnersFlex .columbPic .wbFlex .text2, .allPartners .allPartnersFlex .columbPic .columbPicFlex .text2 {
+  padding-left: 5vw;
+}
+.allPartners .allPartnersFlex .paramount .paramountFlex .text2 p, .allPartners .allPartnersFlex .paramount .twthCentFoxFlex .text2 p, .allPartners .allPartnersFlex .paramount .univStudioFlex .text2 p, .allPartners .allPartnersFlex .paramount .wbFlex .text2 p, .allPartners .allPartnersFlex .paramount .columbPicFlex .text2 p, .allPartners .allPartnersFlex .twthCentFox .paramountFlex .text2 p, .allPartners .allPartnersFlex .twthCentFox .twthCentFoxFlex .text2 p, .allPartners .allPartnersFlex .twthCentFox .univStudioFlex .text2 p, .allPartners .allPartnersFlex .twthCentFox .wbFlex .text2 p, .allPartners .allPartnersFlex .twthCentFox .columbPicFlex .text2 p, .allPartners .allPartnersFlex .univStudio .paramountFlex .text2 p, .allPartners .allPartnersFlex .univStudio .twthCentFoxFlex .text2 p, .allPartners .allPartnersFlex .univStudio .univStudioFlex .text2 p, .allPartners .allPartnersFlex .univStudio .wbFlex .text2 p, .allPartners .allPartnersFlex .univStudio .columbPicFlex .text2 p, .allPartners .allPartnersFlex .wb .paramountFlex .text2 p, .allPartners .allPartnersFlex .wb .twthCentFoxFlex .text2 p, .allPartners .allPartnersFlex .wb .univStudioFlex .text2 p, .allPartners .allPartnersFlex .wb .wbFlex .text2 p, .allPartners .allPartnersFlex .wb .columbPicFlex .text2 p, .allPartners .allPartnersFlex .columbPic .paramountFlex .text2 p, .allPartners .allPartnersFlex .columbPic .twthCentFoxFlex .text2 p, .allPartners .allPartnersFlex .columbPic .univStudioFlex .text2 p, .allPartners .allPartnersFlex .columbPic .wbFlex .text2 p, .allPartners .allPartnersFlex .columbPic .columbPicFlex .text2 p {
+  font-size: 1.4vw;
+}
+
+@media (min-width: 560px) and (max-width: 1000px) {
+  .mainBlock {
+    height: 101vh;
+  }
+  .mainBlock .mainText .firstP {
+    font-size: 7.5vw;
+    text-shadow: 3px 3px 3px black;
+  }
+
+  .allPartners .allPartnersFlex .paramount, .allPartners .allPartnersFlex .twthCentFox, .allPartners .allPartnersFlex .univStudio, .allPartners .allPartnersFlex .wb, .allPartners .allPartnersFlex .columbPic {
+    margin-bottom: 5vh;
+  }
+  .allPartners .allPartnersFlex .paramount .paramountFlex .bookmark .pic, .allPartners .allPartnersFlex .paramount .twthCentFoxFlex .bookmark .pic, .allPartners .allPartnersFlex .paramount .univStudioFlex .bookmark .pic, .allPartners .allPartnersFlex .paramount .wbFlex .bookmark .pic, .allPartners .allPartnersFlex .paramount .columbPicFlex .bookmark .pic, .allPartners .allPartnersFlex .twthCentFox .paramountFlex .bookmark .pic, .allPartners .allPartnersFlex .twthCentFox .twthCentFoxFlex .bookmark .pic, .allPartners .allPartnersFlex .twthCentFox .univStudioFlex .bookmark .pic, .allPartners .allPartnersFlex .twthCentFox .wbFlex .bookmark .pic, .allPartners .allPartnersFlex .twthCentFox .columbPicFlex .bookmark .pic, .allPartners .allPartnersFlex .univStudio .paramountFlex .bookmark .pic, .allPartners .allPartnersFlex .univStudio .twthCentFoxFlex .bookmark .pic, .allPartners .allPartnersFlex .univStudio .univStudioFlex .bookmark .pic, .allPartners .allPartnersFlex .univStudio .wbFlex .bookmark .pic, .allPartners .allPartnersFlex .univStudio .columbPicFlex .bookmark .pic, .allPartners .allPartnersFlex .wb .paramountFlex .bookmark .pic, .allPartners .allPartnersFlex .wb .twthCentFoxFlex .bookmark .pic, .allPartners .allPartnersFlex .wb .univStudioFlex .bookmark .pic, .allPartners .allPartnersFlex .wb .wbFlex .bookmark .pic, .allPartners .allPartnersFlex .wb .columbPicFlex .bookmark .pic, .allPartners .allPartnersFlex .columbPic .paramountFlex .bookmark .pic, .allPartners .allPartnersFlex .columbPic .twthCentFoxFlex .bookmark .pic, .allPartners .allPartnersFlex .columbPic .univStudioFlex .bookmark .pic, .allPartners .allPartnersFlex .columbPic .wbFlex .bookmark .pic, .allPartners .allPartnersFlex .columbPic .columbPicFlex .bookmark .pic {
+    width: 50vw;
+  }
+  .allPartners .allPartnersFlex .paramount .paramountFlex .bookmark .pic img, .allPartners .allPartnersFlex .paramount .twthCentFoxFlex .bookmark .pic img, .allPartners .allPartnersFlex .paramount .univStudioFlex .bookmark .pic img, .allPartners .allPartnersFlex .paramount .wbFlex .bookmark .pic img, .allPartners .allPartnersFlex .paramount .columbPicFlex .bookmark .pic img, .allPartners .allPartnersFlex .twthCentFox .paramountFlex .bookmark .pic img, .allPartners .allPartnersFlex .twthCentFox .twthCentFoxFlex .bookmark .pic img, .allPartners .allPartnersFlex .twthCentFox .univStudioFlex .bookmark .pic img, .allPartners .allPartnersFlex .twthCentFox .wbFlex .bookmark .pic img, .allPartners .allPartnersFlex .twthCentFox .columbPicFlex .bookmark .pic img, .allPartners .allPartnersFlex .univStudio .paramountFlex .bookmark .pic img, .allPartners .allPartnersFlex .univStudio .twthCentFoxFlex .bookmark .pic img, .allPartners .allPartnersFlex .univStudio .univStudioFlex .bookmark .pic img, .allPartners .allPartnersFlex .univStudio .wbFlex .bookmark .pic img, .allPartners .allPartnersFlex .univStudio .columbPicFlex .bookmark .pic img, .allPartners .allPartnersFlex .wb .paramountFlex .bookmark .pic img, .allPartners .allPartnersFlex .wb .twthCentFoxFlex .bookmark .pic img, .allPartners .allPartnersFlex .wb .univStudioFlex .bookmark .pic img, .allPartners .allPartnersFlex .wb .wbFlex .bookmark .pic img, .allPartners .allPartnersFlex .wb .columbPicFlex .bookmark .pic img, .allPartners .allPartnersFlex .columbPic .paramountFlex .bookmark .pic img, .allPartners .allPartnersFlex .columbPic .twthCentFoxFlex .bookmark .pic img, .allPartners .allPartnersFlex .columbPic .univStudioFlex .bookmark .pic img, .allPartners .allPartnersFlex .columbPic .wbFlex .bookmark .pic img, .allPartners .allPartnersFlex .columbPic .columbPicFlex .bookmark .pic img {
+    width: 100%;
+  }
+  .allPartners .allPartnersFlex .paramount .paramountFlex .bookmark p, .allPartners .allPartnersFlex .paramount .twthCentFoxFlex .bookmark p, .allPartners .allPartnersFlex .paramount .univStudioFlex .bookmark p, .allPartners .allPartnersFlex .paramount .wbFlex .bookmark p, .allPartners .allPartnersFlex .paramount .columbPicFlex .bookmark p, .allPartners .allPartnersFlex .twthCentFox .paramountFlex .bookmark p, .allPartners .allPartnersFlex .twthCentFox .twthCentFoxFlex .bookmark p, .allPartners .allPartnersFlex .twthCentFox .univStudioFlex .bookmark p, .allPartners .allPartnersFlex .twthCentFox .wbFlex .bookmark p, .allPartners .allPartnersFlex .twthCentFox .columbPicFlex .bookmark p, .allPartners .allPartnersFlex .univStudio .paramountFlex .bookmark p, .allPartners .allPartnersFlex .univStudio .twthCentFoxFlex .bookmark p, .allPartners .allPartnersFlex .univStudio .univStudioFlex .bookmark p, .allPartners .allPartnersFlex .univStudio .wbFlex .bookmark p, .allPartners .allPartnersFlex .univStudio .columbPicFlex .bookmark p, .allPartners .allPartnersFlex .wb .paramountFlex .bookmark p, .allPartners .allPartnersFlex .wb .twthCentFoxFlex .bookmark p, .allPartners .allPartnersFlex .wb .univStudioFlex .bookmark p, .allPartners .allPartnersFlex .wb .wbFlex .bookmark p, .allPartners .allPartnersFlex .wb .columbPicFlex .bookmark p, .allPartners .allPartnersFlex .columbPic .paramountFlex .bookmark p, .allPartners .allPartnersFlex .columbPic .twthCentFoxFlex .bookmark p, .allPartners .allPartnersFlex .columbPic .univStudioFlex .bookmark p, .allPartners .allPartnersFlex .columbPic .wbFlex .bookmark p, .allPartners .allPartnersFlex .columbPic .columbPicFlex .bookmark p {
+    font-size: 2.5vw;
+    top: -20%;
+  }
+  .allPartners .allPartnersFlex .paramount .paramountFlex .imgNtext, .allPartners .allPartnersFlex .paramount .twthCentFoxFlex .imgNtext, .allPartners .allPartnersFlex .paramount .univStudioFlex .imgNtext, .allPartners .allPartnersFlex .paramount .wbFlex .imgNtext, .allPartners .allPartnersFlex .paramount .columbPicFlex .imgNtext, .allPartners .allPartnersFlex .twthCentFox .paramountFlex .imgNtext, .allPartners .allPartnersFlex .twthCentFox .twthCentFoxFlex .imgNtext, .allPartners .allPartnersFlex .twthCentFox .univStudioFlex .imgNtext, .allPartners .allPartnersFlex .twthCentFox .wbFlex .imgNtext, .allPartners .allPartnersFlex .twthCentFox .columbPicFlex .imgNtext, .allPartners .allPartnersFlex .univStudio .paramountFlex .imgNtext, .allPartners .allPartnersFlex .univStudio .twthCentFoxFlex .imgNtext, .allPartners .allPartnersFlex .univStudio .univStudioFlex .imgNtext, .allPartners .allPartnersFlex .univStudio .wbFlex .imgNtext, .allPartners .allPartnersFlex .univStudio .columbPicFlex .imgNtext, .allPartners .allPartnersFlex .wb .paramountFlex .imgNtext, .allPartners .allPartnersFlex .wb .twthCentFoxFlex .imgNtext, .allPartners .allPartnersFlex .wb .univStudioFlex .imgNtext, .allPartners .allPartnersFlex .wb .wbFlex .imgNtext, .allPartners .allPartnersFlex .wb .columbPicFlex .imgNtext, .allPartners .allPartnersFlex .columbPic .paramountFlex .imgNtext, .allPartners .allPartnersFlex .columbPic .twthCentFoxFlex .imgNtext, .allPartners .allPartnersFlex .columbPic .univStudioFlex .imgNtext, .allPartners .allPartnersFlex .columbPic .wbFlex .imgNtext, .allPartners .allPartnersFlex .columbPic .columbPicFlex .imgNtext {
+    padding-left: 2vw;
+  }
+  .allPartners .allPartnersFlex .paramount .paramountFlex .imgNtext .img, .allPartners .allPartnersFlex .paramount .twthCentFoxFlex .imgNtext .img, .allPartners .allPartnersFlex .paramount .univStudioFlex .imgNtext .img, .allPartners .allPartnersFlex .paramount .wbFlex .imgNtext .img, .allPartners .allPartnersFlex .paramount .columbPicFlex .imgNtext .img, .allPartners .allPartnersFlex .twthCentFox .paramountFlex .imgNtext .img, .allPartners .allPartnersFlex .twthCentFox .twthCentFoxFlex .imgNtext .img, .allPartners .allPartnersFlex .twthCentFox .univStudioFlex .imgNtext .img, .allPartners .allPartnersFlex .twthCentFox .wbFlex .imgNtext .img, .allPartners .allPartnersFlex .twthCentFox .columbPicFlex .imgNtext .img, .allPartners .allPartnersFlex .univStudio .paramountFlex .imgNtext .img, .allPartners .allPartnersFlex .univStudio .twthCentFoxFlex .imgNtext .img, .allPartners .allPartnersFlex .univStudio .univStudioFlex .imgNtext .img, .allPartners .allPartnersFlex .univStudio .wbFlex .imgNtext .img, .allPartners .allPartnersFlex .univStudio .columbPicFlex .imgNtext .img, .allPartners .allPartnersFlex .wb .paramountFlex .imgNtext .img, .allPartners .allPartnersFlex .wb .twthCentFoxFlex .imgNtext .img, .allPartners .allPartnersFlex .wb .univStudioFlex .imgNtext .img, .allPartners .allPartnersFlex .wb .wbFlex .imgNtext .img, .allPartners .allPartnersFlex .wb .columbPicFlex .imgNtext .img, .allPartners .allPartnersFlex .columbPic .paramountFlex .imgNtext .img, .allPartners .allPartnersFlex .columbPic .twthCentFoxFlex .imgNtext .img, .allPartners .allPartnersFlex .columbPic .univStudioFlex .imgNtext .img, .allPartners .allPartnersFlex .columbPic .wbFlex .imgNtext .img, .allPartners .allPartnersFlex .columbPic .columbPicFlex .imgNtext .img {
+    width: 65vw;
+  }
+  .allPartners .allPartnersFlex .paramount .paramountFlex .imgNtext .img img, .allPartners .allPartnersFlex .paramount .twthCentFoxFlex .imgNtext .img img, .allPartners .allPartnersFlex .paramount .univStudioFlex .imgNtext .img img, .allPartners .allPartnersFlex .paramount .wbFlex .imgNtext .img img, .allPartners .allPartnersFlex .paramount .columbPicFlex .imgNtext .img img, .allPartners .allPartnersFlex .twthCentFox .paramountFlex .imgNtext .img img, .allPartners .allPartnersFlex .twthCentFox .twthCentFoxFlex .imgNtext .img img, .allPartners .allPartnersFlex .twthCentFox .univStudioFlex .imgNtext .img img, .allPartners .allPartnersFlex .twthCentFox .wbFlex .imgNtext .img img, .allPartners .allPartnersFlex .twthCentFox .columbPicFlex .imgNtext .img img, .allPartners .allPartnersFlex .univStudio .paramountFlex .imgNtext .img img, .allPartners .allPartnersFlex .univStudio .twthCentFoxFlex .imgNtext .img img, .allPartners .allPartnersFlex .univStudio .univStudioFlex .imgNtext .img img, .allPartners .allPartnersFlex .univStudio .wbFlex .imgNtext .img img, .allPartners .allPartnersFlex .univStudio .columbPicFlex .imgNtext .img img, .allPartners .allPartnersFlex .wb .paramountFlex .imgNtext .img img, .allPartners .allPartnersFlex .wb .twthCentFoxFlex .imgNtext .img img, .allPartners .allPartnersFlex .wb .univStudioFlex .imgNtext .img img, .allPartners .allPartnersFlex .wb .wbFlex .imgNtext .img img, .allPartners .allPartnersFlex .wb .columbPicFlex .imgNtext .img img, .allPartners .allPartnersFlex .columbPic .paramountFlex .imgNtext .img img, .allPartners .allPartnersFlex .columbPic .twthCentFoxFlex .imgNtext .img img, .allPartners .allPartnersFlex .columbPic .univStudioFlex .imgNtext .img img, .allPartners .allPartnersFlex .columbPic .wbFlex .imgNtext .img img, .allPartners .allPartnersFlex .columbPic .columbPicFlex .imgNtext .img img {
+    width: 100%;
+  }
+  .allPartners .allPartnersFlex .paramount .paramountFlex .imgNtext .text1, .allPartners .allPartnersFlex .paramount .twthCentFoxFlex .imgNtext .text1, .allPartners .allPartnersFlex .paramount .univStudioFlex .imgNtext .text1, .allPartners .allPartnersFlex .paramount .wbFlex .imgNtext .text1, .allPartners .allPartnersFlex .paramount .columbPicFlex .imgNtext .text1, .allPartners .allPartnersFlex .twthCentFox .paramountFlex .imgNtext .text1, .allPartners .allPartnersFlex .twthCentFox .twthCentFoxFlex .imgNtext .text1, .allPartners .allPartnersFlex .twthCentFox .univStudioFlex .imgNtext .text1, .allPartners .allPartnersFlex .twthCentFox .wbFlex .imgNtext .text1, .allPartners .allPartnersFlex .twthCentFox .columbPicFlex .imgNtext .text1, .allPartners .allPartnersFlex .univStudio .paramountFlex .imgNtext .text1, .allPartners .allPartnersFlex .univStudio .twthCentFoxFlex .imgNtext .text1, .allPartners .allPartnersFlex .univStudio .univStudioFlex .imgNtext .text1, .allPartners .allPartnersFlex .univStudio .wbFlex .imgNtext .text1, .allPartners .allPartnersFlex .univStudio .columbPicFlex .imgNtext .text1, .allPartners .allPartnersFlex .wb .paramountFlex .imgNtext .text1, .allPartners .allPartnersFlex .wb .twthCentFoxFlex .imgNtext .text1, .allPartners .allPartnersFlex .wb .univStudioFlex .imgNtext .text1, .allPartners .allPartnersFlex .wb .wbFlex .imgNtext .text1, .allPartners .allPartnersFlex .wb .columbPicFlex .imgNtext .text1, .allPartners .allPartnersFlex .columbPic .paramountFlex .imgNtext .text1, .allPartners .allPartnersFlex .columbPic .twthCentFoxFlex .imgNtext .text1, .allPartners .allPartnersFlex .columbPic .univStudioFlex .imgNtext .text1, .allPartners .allPartnersFlex .columbPic .wbFlex .imgNtext .text1, .allPartners .allPartnersFlex .columbPic .columbPicFlex .imgNtext .text1 {
+    padding-left: 3vw;
+    padding-right: 3vw;
+  }
+  .allPartners .allPartnersFlex .paramount .paramountFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .paramount .twthCentFoxFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .paramount .univStudioFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .paramount .wbFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .paramount .columbPicFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .twthCentFox .paramountFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .twthCentFox .twthCentFoxFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .twthCentFox .univStudioFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .twthCentFox .wbFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .twthCentFox .columbPicFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .univStudio .paramountFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .univStudio .twthCentFoxFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .univStudio .univStudioFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .univStudio .wbFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .univStudio .columbPicFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .wb .paramountFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .wb .twthCentFoxFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .wb .univStudioFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .wb .wbFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .wb .columbPicFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .columbPic .paramountFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .columbPic .twthCentFoxFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .columbPic .univStudioFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .columbPic .wbFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .columbPic .columbPicFlex .imgNtext .text1 p {
+    font-size: 1.9vw;
+    margin-bottom: 0;
+  }
+  .allPartners .allPartnersFlex .paramount .paramountFlex .text2, .allPartners .allPartnersFlex .paramount .twthCentFoxFlex .text2, .allPartners .allPartnersFlex .paramount .univStudioFlex .text2, .allPartners .allPartnersFlex .paramount .wbFlex .text2, .allPartners .allPartnersFlex .paramount .columbPicFlex .text2, .allPartners .allPartnersFlex .twthCentFox .paramountFlex .text2, .allPartners .allPartnersFlex .twthCentFox .twthCentFoxFlex .text2, .allPartners .allPartnersFlex .twthCentFox .univStudioFlex .text2, .allPartners .allPartnersFlex .twthCentFox .wbFlex .text2, .allPartners .allPartnersFlex .twthCentFox .columbPicFlex .text2, .allPartners .allPartnersFlex .univStudio .paramountFlex .text2, .allPartners .allPartnersFlex .univStudio .twthCentFoxFlex .text2, .allPartners .allPartnersFlex .univStudio .univStudioFlex .text2, .allPartners .allPartnersFlex .univStudio .wbFlex .text2, .allPartners .allPartnersFlex .univStudio .columbPicFlex .text2, .allPartners .allPartnersFlex .wb .paramountFlex .text2, .allPartners .allPartnersFlex .wb .twthCentFoxFlex .text2, .allPartners .allPartnersFlex .wb .univStudioFlex .text2, .allPartners .allPartnersFlex .wb .wbFlex .text2, .allPartners .allPartnersFlex .wb .columbPicFlex .text2, .allPartners .allPartnersFlex .columbPic .paramountFlex .text2, .allPartners .allPartnersFlex .columbPic .twthCentFoxFlex .text2, .allPartners .allPartnersFlex .columbPic .univStudioFlex .text2, .allPartners .allPartnersFlex .columbPic .wbFlex .text2, .allPartners .allPartnersFlex .columbPic .columbPicFlex .text2 {
+    padding-left: 4vw;
+  }
+  .allPartners .allPartnersFlex .paramount .paramountFlex .text2 p, .allPartners .allPartnersFlex .paramount .twthCentFoxFlex .text2 p, .allPartners .allPartnersFlex .paramount .univStudioFlex .text2 p, .allPartners .allPartnersFlex .paramount .wbFlex .text2 p, .allPartners .allPartnersFlex .paramount .columbPicFlex .text2 p, .allPartners .allPartnersFlex .twthCentFox .paramountFlex .text2 p, .allPartners .allPartnersFlex .twthCentFox .twthCentFoxFlex .text2 p, .allPartners .allPartnersFlex .twthCentFox .univStudioFlex .text2 p, .allPartners .allPartnersFlex .twthCentFox .wbFlex .text2 p, .allPartners .allPartnersFlex .twthCentFox .columbPicFlex .text2 p, .allPartners .allPartnersFlex .univStudio .paramountFlex .text2 p, .allPartners .allPartnersFlex .univStudio .twthCentFoxFlex .text2 p, .allPartners .allPartnersFlex .univStudio .univStudioFlex .text2 p, .allPartners .allPartnersFlex .univStudio .wbFlex .text2 p, .allPartners .allPartnersFlex .univStudio .columbPicFlex .text2 p, .allPartners .allPartnersFlex .wb .paramountFlex .text2 p, .allPartners .allPartnersFlex .wb .twthCentFoxFlex .text2 p, .allPartners .allPartnersFlex .wb .univStudioFlex .text2 p, .allPartners .allPartnersFlex .wb .wbFlex .text2 p, .allPartners .allPartnersFlex .wb .columbPicFlex .text2 p, .allPartners .allPartnersFlex .columbPic .paramountFlex .text2 p, .allPartners .allPartnersFlex .columbPic .twthCentFoxFlex .text2 p, .allPartners .allPartnersFlex .columbPic .univStudioFlex .text2 p, .allPartners .allPartnersFlex .columbPic .wbFlex .text2 p, .allPartners .allPartnersFlex .columbPic .columbPicFlex .text2 p {
+    font-size: 1.9vw;
+  }
+}
+@media (min-width: 320px) and (max-width: 560px) {
+  .mainBlock {
+    height: 102vh;
+  }
+  .mainBlock .mainText .firstP {
+    font-size: 10vw;
+    text-shadow: 4px 4px 4px black;
+  }
+
+  .allPartners .allPartnersFlex .paramount, .allPartners .allPartnersFlex .twthCentFox, .allPartners .allPartnersFlex .univStudio, .allPartners .allPartnersFlex .wb, .allPartners .allPartnersFlex .columbPic {
+    margin-bottom: 2.5vh;
+  }
+  .allPartners .allPartnersFlex .paramount .paramountFlex .bookmark .pic, .allPartners .allPartnersFlex .paramount .twthCentFoxFlex .bookmark .pic, .allPartners .allPartnersFlex .paramount .univStudioFlex .bookmark .pic, .allPartners .allPartnersFlex .paramount .wbFlex .bookmark .pic, .allPartners .allPartnersFlex .paramount .columbPicFlex .bookmark .pic, .allPartners .allPartnersFlex .twthCentFox .paramountFlex .bookmark .pic, .allPartners .allPartnersFlex .twthCentFox .twthCentFoxFlex .bookmark .pic, .allPartners .allPartnersFlex .twthCentFox .univStudioFlex .bookmark .pic, .allPartners .allPartnersFlex .twthCentFox .wbFlex .bookmark .pic, .allPartners .allPartnersFlex .twthCentFox .columbPicFlex .bookmark .pic, .allPartners .allPartnersFlex .univStudio .paramountFlex .bookmark .pic, .allPartners .allPartnersFlex .univStudio .twthCentFoxFlex .bookmark .pic, .allPartners .allPartnersFlex .univStudio .univStudioFlex .bookmark .pic, .allPartners .allPartnersFlex .univStudio .wbFlex .bookmark .pic, .allPartners .allPartnersFlex .univStudio .columbPicFlex .bookmark .pic, .allPartners .allPartnersFlex .wb .paramountFlex .bookmark .pic, .allPartners .allPartnersFlex .wb .twthCentFoxFlex .bookmark .pic, .allPartners .allPartnersFlex .wb .univStudioFlex .bookmark .pic, .allPartners .allPartnersFlex .wb .wbFlex .bookmark .pic, .allPartners .allPartnersFlex .wb .columbPicFlex .bookmark .pic, .allPartners .allPartnersFlex .columbPic .paramountFlex .bookmark .pic, .allPartners .allPartnersFlex .columbPic .twthCentFoxFlex .bookmark .pic, .allPartners .allPartnersFlex .columbPic .univStudioFlex .bookmark .pic, .allPartners .allPartnersFlex .columbPic .wbFlex .bookmark .pic, .allPartners .allPartnersFlex .columbPic .columbPicFlex .bookmark .pic {
+    width: 65vw;
+  }
+  .allPartners .allPartnersFlex .paramount .paramountFlex .bookmark .pic img, .allPartners .allPartnersFlex .paramount .twthCentFoxFlex .bookmark .pic img, .allPartners .allPartnersFlex .paramount .univStudioFlex .bookmark .pic img, .allPartners .allPartnersFlex .paramount .wbFlex .bookmark .pic img, .allPartners .allPartnersFlex .paramount .columbPicFlex .bookmark .pic img, .allPartners .allPartnersFlex .twthCentFox .paramountFlex .bookmark .pic img, .allPartners .allPartnersFlex .twthCentFox .twthCentFoxFlex .bookmark .pic img, .allPartners .allPartnersFlex .twthCentFox .univStudioFlex .bookmark .pic img, .allPartners .allPartnersFlex .twthCentFox .wbFlex .bookmark .pic img, .allPartners .allPartnersFlex .twthCentFox .columbPicFlex .bookmark .pic img, .allPartners .allPartnersFlex .univStudio .paramountFlex .bookmark .pic img, .allPartners .allPartnersFlex .univStudio .twthCentFoxFlex .bookmark .pic img, .allPartners .allPartnersFlex .univStudio .univStudioFlex .bookmark .pic img, .allPartners .allPartnersFlex .univStudio .wbFlex .bookmark .pic img, .allPartners .allPartnersFlex .univStudio .columbPicFlex .bookmark .pic img, .allPartners .allPartnersFlex .wb .paramountFlex .bookmark .pic img, .allPartners .allPartnersFlex .wb .twthCentFoxFlex .bookmark .pic img, .allPartners .allPartnersFlex .wb .univStudioFlex .bookmark .pic img, .allPartners .allPartnersFlex .wb .wbFlex .bookmark .pic img, .allPartners .allPartnersFlex .wb .columbPicFlex .bookmark .pic img, .allPartners .allPartnersFlex .columbPic .paramountFlex .bookmark .pic img, .allPartners .allPartnersFlex .columbPic .twthCentFoxFlex .bookmark .pic img, .allPartners .allPartnersFlex .columbPic .univStudioFlex .bookmark .pic img, .allPartners .allPartnersFlex .columbPic .wbFlex .bookmark .pic img, .allPartners .allPartnersFlex .columbPic .columbPicFlex .bookmark .pic img {
+    width: 100%;
+  }
+  .allPartners .allPartnersFlex .paramount .paramountFlex .bookmark p, .allPartners .allPartnersFlex .paramount .twthCentFoxFlex .bookmark p, .allPartners .allPartnersFlex .paramount .univStudioFlex .bookmark p, .allPartners .allPartnersFlex .paramount .wbFlex .bookmark p, .allPartners .allPartnersFlex .paramount .columbPicFlex .bookmark p, .allPartners .allPartnersFlex .twthCentFox .paramountFlex .bookmark p, .allPartners .allPartnersFlex .twthCentFox .twthCentFoxFlex .bookmark p, .allPartners .allPartnersFlex .twthCentFox .univStudioFlex .bookmark p, .allPartners .allPartnersFlex .twthCentFox .wbFlex .bookmark p, .allPartners .allPartnersFlex .twthCentFox .columbPicFlex .bookmark p, .allPartners .allPartnersFlex .univStudio .paramountFlex .bookmark p, .allPartners .allPartnersFlex .univStudio .twthCentFoxFlex .bookmark p, .allPartners .allPartnersFlex .univStudio .univStudioFlex .bookmark p, .allPartners .allPartnersFlex .univStudio .wbFlex .bookmark p, .allPartners .allPartnersFlex .univStudio .columbPicFlex .bookmark p, .allPartners .allPartnersFlex .wb .paramountFlex .bookmark p, .allPartners .allPartnersFlex .wb .twthCentFoxFlex .bookmark p, .allPartners .allPartnersFlex .wb .univStudioFlex .bookmark p, .allPartners .allPartnersFlex .wb .wbFlex .bookmark p, .allPartners .allPartnersFlex .wb .columbPicFlex .bookmark p, .allPartners .allPartnersFlex .columbPic .paramountFlex .bookmark p, .allPartners .allPartnersFlex .columbPic .twthCentFoxFlex .bookmark p, .allPartners .allPartnersFlex .columbPic .univStudioFlex .bookmark p, .allPartners .allPartnersFlex .columbPic .wbFlex .bookmark p, .allPartners .allPartnersFlex .columbPic .columbPicFlex .bookmark p {
+    font-size: 2.8vw;
+    top: -10%;
+  }
+  .allPartners .allPartnersFlex .paramount .paramountFlex .imgNtext, .allPartners .allPartnersFlex .paramount .twthCentFoxFlex .imgNtext, .allPartners .allPartnersFlex .paramount .univStudioFlex .imgNtext, .allPartners .allPartnersFlex .paramount .wbFlex .imgNtext, .allPartners .allPartnersFlex .paramount .columbPicFlex .imgNtext, .allPartners .allPartnersFlex .twthCentFox .paramountFlex .imgNtext, .allPartners .allPartnersFlex .twthCentFox .twthCentFoxFlex .imgNtext, .allPartners .allPartnersFlex .twthCentFox .univStudioFlex .imgNtext, .allPartners .allPartnersFlex .twthCentFox .wbFlex .imgNtext, .allPartners .allPartnersFlex .twthCentFox .columbPicFlex .imgNtext, .allPartners .allPartnersFlex .univStudio .paramountFlex .imgNtext, .allPartners .allPartnersFlex .univStudio .twthCentFoxFlex .imgNtext, .allPartners .allPartnersFlex .univStudio .univStudioFlex .imgNtext, .allPartners .allPartnersFlex .univStudio .wbFlex .imgNtext, .allPartners .allPartnersFlex .univStudio .columbPicFlex .imgNtext, .allPartners .allPartnersFlex .wb .paramountFlex .imgNtext, .allPartners .allPartnersFlex .wb .twthCentFoxFlex .imgNtext, .allPartners .allPartnersFlex .wb .univStudioFlex .imgNtext, .allPartners .allPartnersFlex .wb .wbFlex .imgNtext, .allPartners .allPartnersFlex .wb .columbPicFlex .imgNtext, .allPartners .allPartnersFlex .columbPic .paramountFlex .imgNtext, .allPartners .allPartnersFlex .columbPic .twthCentFoxFlex .imgNtext, .allPartners .allPartnersFlex .columbPic .univStudioFlex .imgNtext, .allPartners .allPartnersFlex .columbPic .wbFlex .imgNtext, .allPartners .allPartnersFlex .columbPic .columbPicFlex .imgNtext {
+    padding-left: 3vw;
+  }
+  .allPartners .allPartnersFlex .paramount .paramountFlex .imgNtext .img, .allPartners .allPartnersFlex .paramount .twthCentFoxFlex .imgNtext .img, .allPartners .allPartnersFlex .paramount .univStudioFlex .imgNtext .img, .allPartners .allPartnersFlex .paramount .wbFlex .imgNtext .img, .allPartners .allPartnersFlex .paramount .columbPicFlex .imgNtext .img, .allPartners .allPartnersFlex .twthCentFox .paramountFlex .imgNtext .img, .allPartners .allPartnersFlex .twthCentFox .twthCentFoxFlex .imgNtext .img, .allPartners .allPartnersFlex .twthCentFox .univStudioFlex .imgNtext .img, .allPartners .allPartnersFlex .twthCentFox .wbFlex .imgNtext .img, .allPartners .allPartnersFlex .twthCentFox .columbPicFlex .imgNtext .img, .allPartners .allPartnersFlex .univStudio .paramountFlex .imgNtext .img, .allPartners .allPartnersFlex .univStudio .twthCentFoxFlex .imgNtext .img, .allPartners .allPartnersFlex .univStudio .univStudioFlex .imgNtext .img, .allPartners .allPartnersFlex .univStudio .wbFlex .imgNtext .img, .allPartners .allPartnersFlex .univStudio .columbPicFlex .imgNtext .img, .allPartners .allPartnersFlex .wb .paramountFlex .imgNtext .img, .allPartners .allPartnersFlex .wb .twthCentFoxFlex .imgNtext .img, .allPartners .allPartnersFlex .wb .univStudioFlex .imgNtext .img, .allPartners .allPartnersFlex .wb .wbFlex .imgNtext .img, .allPartners .allPartnersFlex .wb .columbPicFlex .imgNtext .img, .allPartners .allPartnersFlex .columbPic .paramountFlex .imgNtext .img, .allPartners .allPartnersFlex .columbPic .twthCentFoxFlex .imgNtext .img, .allPartners .allPartnersFlex .columbPic .univStudioFlex .imgNtext .img, .allPartners .allPartnersFlex .columbPic .wbFlex .imgNtext .img, .allPartners .allPartnersFlex .columbPic .columbPicFlex .imgNtext .img {
+    width: 90vw;
+  }
+  .allPartners .allPartnersFlex .paramount .paramountFlex .imgNtext .img img, .allPartners .allPartnersFlex .paramount .twthCentFoxFlex .imgNtext .img img, .allPartners .allPartnersFlex .paramount .univStudioFlex .imgNtext .img img, .allPartners .allPartnersFlex .paramount .wbFlex .imgNtext .img img, .allPartners .allPartnersFlex .paramount .columbPicFlex .imgNtext .img img, .allPartners .allPartnersFlex .twthCentFox .paramountFlex .imgNtext .img img, .allPartners .allPartnersFlex .twthCentFox .twthCentFoxFlex .imgNtext .img img, .allPartners .allPartnersFlex .twthCentFox .univStudioFlex .imgNtext .img img, .allPartners .allPartnersFlex .twthCentFox .wbFlex .imgNtext .img img, .allPartners .allPartnersFlex .twthCentFox .columbPicFlex .imgNtext .img img, .allPartners .allPartnersFlex .univStudio .paramountFlex .imgNtext .img img, .allPartners .allPartnersFlex .univStudio .twthCentFoxFlex .imgNtext .img img, .allPartners .allPartnersFlex .univStudio .univStudioFlex .imgNtext .img img, .allPartners .allPartnersFlex .univStudio .wbFlex .imgNtext .img img, .allPartners .allPartnersFlex .univStudio .columbPicFlex .imgNtext .img img, .allPartners .allPartnersFlex .wb .paramountFlex .imgNtext .img img, .allPartners .allPartnersFlex .wb .twthCentFoxFlex .imgNtext .img img, .allPartners .allPartnersFlex .wb .univStudioFlex .imgNtext .img img, .allPartners .allPartnersFlex .wb .wbFlex .imgNtext .img img, .allPartners .allPartnersFlex .wb .columbPicFlex .imgNtext .img img, .allPartners .allPartnersFlex .columbPic .paramountFlex .imgNtext .img img, .allPartners .allPartnersFlex .columbPic .twthCentFoxFlex .imgNtext .img img, .allPartners .allPartnersFlex .columbPic .univStudioFlex .imgNtext .img img, .allPartners .allPartnersFlex .columbPic .wbFlex .imgNtext .img img, .allPartners .allPartnersFlex .columbPic .columbPicFlex .imgNtext .img img {
+    width: 100%;
+  }
+  .allPartners .allPartnersFlex .paramount .paramountFlex .imgNtext .text1, .allPartners .allPartnersFlex .paramount .twthCentFoxFlex .imgNtext .text1, .allPartners .allPartnersFlex .paramount .univStudioFlex .imgNtext .text1, .allPartners .allPartnersFlex .paramount .wbFlex .imgNtext .text1, .allPartners .allPartnersFlex .paramount .columbPicFlex .imgNtext .text1, .allPartners .allPartnersFlex .twthCentFox .paramountFlex .imgNtext .text1, .allPartners .allPartnersFlex .twthCentFox .twthCentFoxFlex .imgNtext .text1, .allPartners .allPartnersFlex .twthCentFox .univStudioFlex .imgNtext .text1, .allPartners .allPartnersFlex .twthCentFox .wbFlex .imgNtext .text1, .allPartners .allPartnersFlex .twthCentFox .columbPicFlex .imgNtext .text1, .allPartners .allPartnersFlex .univStudio .paramountFlex .imgNtext .text1, .allPartners .allPartnersFlex .univStudio .twthCentFoxFlex .imgNtext .text1, .allPartners .allPartnersFlex .univStudio .univStudioFlex .imgNtext .text1, .allPartners .allPartnersFlex .univStudio .wbFlex .imgNtext .text1, .allPartners .allPartnersFlex .univStudio .columbPicFlex .imgNtext .text1, .allPartners .allPartnersFlex .wb .paramountFlex .imgNtext .text1, .allPartners .allPartnersFlex .wb .twthCentFoxFlex .imgNtext .text1, .allPartners .allPartnersFlex .wb .univStudioFlex .imgNtext .text1, .allPartners .allPartnersFlex .wb .wbFlex .imgNtext .text1, .allPartners .allPartnersFlex .wb .columbPicFlex .imgNtext .text1, .allPartners .allPartnersFlex .columbPic .paramountFlex .imgNtext .text1, .allPartners .allPartnersFlex .columbPic .twthCentFoxFlex .imgNtext .text1, .allPartners .allPartnersFlex .columbPic .univStudioFlex .imgNtext .text1, .allPartners .allPartnersFlex .columbPic .wbFlex .imgNtext .text1, .allPartners .allPartnersFlex .columbPic .columbPicFlex .imgNtext .text1 {
+    position: absolute;
+    display: none;
+  }
+  .allPartners .allPartnersFlex .paramount .paramountFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .paramount .twthCentFoxFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .paramount .univStudioFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .paramount .wbFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .paramount .columbPicFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .twthCentFox .paramountFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .twthCentFox .twthCentFoxFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .twthCentFox .univStudioFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .twthCentFox .wbFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .twthCentFox .columbPicFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .univStudio .paramountFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .univStudio .twthCentFoxFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .univStudio .univStudioFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .univStudio .wbFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .univStudio .columbPicFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .wb .paramountFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .wb .twthCentFoxFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .wb .univStudioFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .wb .wbFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .wb .columbPicFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .columbPic .paramountFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .columbPic .twthCentFoxFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .columbPic .univStudioFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .columbPic .wbFlex .imgNtext .text1 p, .allPartners .allPartnersFlex .columbPic .columbPicFlex .imgNtext .text1 p {
+    font-size: 2.5vw;
+    padding-right: 0vw;
+  }
+  .allPartners .allPartnersFlex .paramount .paramountFlex .text2, .allPartners .allPartnersFlex .paramount .twthCentFoxFlex .text2, .allPartners .allPartnersFlex .paramount .univStudioFlex .text2, .allPartners .allPartnersFlex .paramount .wbFlex .text2, .allPartners .allPartnersFlex .paramount .columbPicFlex .text2, .allPartners .allPartnersFlex .twthCentFox .paramountFlex .text2, .allPartners .allPartnersFlex .twthCentFox .twthCentFoxFlex .text2, .allPartners .allPartnersFlex .twthCentFox .univStudioFlex .text2, .allPartners .allPartnersFlex .twthCentFox .wbFlex .text2, .allPartners .allPartnersFlex .twthCentFox .columbPicFlex .text2, .allPartners .allPartnersFlex .univStudio .paramountFlex .text2, .allPartners .allPartnersFlex .univStudio .twthCentFoxFlex .text2, .allPartners .allPartnersFlex .univStudio .univStudioFlex .text2, .allPartners .allPartnersFlex .univStudio .wbFlex .text2, .allPartners .allPartnersFlex .univStudio .columbPicFlex .text2, .allPartners .allPartnersFlex .wb .paramountFlex .text2, .allPartners .allPartnersFlex .wb .twthCentFoxFlex .text2, .allPartners .allPartnersFlex .wb .univStudioFlex .text2, .allPartners .allPartnersFlex .wb .wbFlex .text2, .allPartners .allPartnersFlex .wb .columbPicFlex .text2, .allPartners .allPartnersFlex .columbPic .paramountFlex .text2, .allPartners .allPartnersFlex .columbPic .twthCentFoxFlex .text2, .allPartners .allPartnersFlex .columbPic .univStudioFlex .text2, .allPartners .allPartnersFlex .columbPic .wbFlex .text2, .allPartners .allPartnersFlex .columbPic .columbPicFlex .text2 {
+    padding-left: 3vw;
+    padding-right: 3vw;
+  }
+  .allPartners .allPartnersFlex .paramount .paramountFlex .text2 p, .allPartners .allPartnersFlex .paramount .twthCentFoxFlex .text2 p, .allPartners .allPartnersFlex .paramount .univStudioFlex .text2 p, .allPartners .allPartnersFlex .paramount .wbFlex .text2 p, .allPartners .allPartnersFlex .paramount .columbPicFlex .text2 p, .allPartners .allPartnersFlex .twthCentFox .paramountFlex .text2 p, .allPartners .allPartnersFlex .twthCentFox .twthCentFoxFlex .text2 p, .allPartners .allPartnersFlex .twthCentFox .univStudioFlex .text2 p, .allPartners .allPartnersFlex .twthCentFox .wbFlex .text2 p, .allPartners .allPartnersFlex .twthCentFox .columbPicFlex .text2 p, .allPartners .allPartnersFlex .univStudio .paramountFlex .text2 p, .allPartners .allPartnersFlex .univStudio .twthCentFoxFlex .text2 p, .allPartners .allPartnersFlex .univStudio .univStudioFlex .text2 p, .allPartners .allPartnersFlex .univStudio .wbFlex .text2 p, .allPartners .allPartnersFlex .univStudio .columbPicFlex .text2 p, .allPartners .allPartnersFlex .wb .paramountFlex .text2 p, .allPartners .allPartnersFlex .wb .twthCentFoxFlex .text2 p, .allPartners .allPartnersFlex .wb .univStudioFlex .text2 p, .allPartners .allPartnersFlex .wb .wbFlex .text2 p, .allPartners .allPartnersFlex .wb .columbPicFlex .text2 p, .allPartners .allPartnersFlex .columbPic .paramountFlex .text2 p, .allPartners .allPartnersFlex .columbPic .twthCentFoxFlex .text2 p, .allPartners .allPartnersFlex .columbPic .univStudioFlex .text2 p, .allPartners .allPartnersFlex .columbPic .wbFlex .text2 p, .allPartners .allPartnersFlex .columbPic .columbPicFlex .text2 p {
+    font-size: 3vw;
+  }
+}

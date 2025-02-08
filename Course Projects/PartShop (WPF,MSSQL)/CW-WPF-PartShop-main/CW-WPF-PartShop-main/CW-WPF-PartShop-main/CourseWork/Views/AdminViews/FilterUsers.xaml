@@ -1,0 +1,167 @@
+﻿<Window x:Class="CourseWork.Views.AdminViews.FilterUsers"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CourseWork.Views.AdminViews"
+        mc:Ignorable="d"
+        Background="#29588e"
+        Title="FilterUsers" Height="600" Width="500">
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1.1*"/>
+                <RowDefinition Height="1.3*"/>
+                <RowDefinition Height="1.3*"/>
+                <RowDefinition Height="1.3*"/>
+                <RowDefinition />
+                <RowDefinition Height="0.7*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+
+            <Grid Grid.Row="0" VerticalAlignment="Top">
+                <StackPanel Orientation="Vertical">
+                    <RadioButton
+                 x:Name="radiobtnId"
+                 VerticalContentAlignment="Center"
+                 Content="По Id"
+                 FontSize="18"
+                 Background="White"
+                 Foreground="White"
+                 GroupName="FilterCategory"
+                 IsChecked="True" />
+                    <StackPanel VerticalAlignment="Center" Orientation="Horizontal">
+                        <Label
+                     Width="45"
+                     Margin="20,0,0,1"
+                     Height="30"
+                     Content="от"
+                     FontSize="16"
+                     Foreground="White" />
+                        <TextBox
+                     x:Name="idFrom"
+                     Width="45"
+                     Height="20"
+                     Margin="0,0,15,0"
+                     Background="#20436b" />
+
+                        <Label
+                     Width="30"
+                     Height="30"
+                     Margin="20,0,0,1"
+                     Content="до"
+                     FontSize="16"
+                     Foreground="White" />
+                        <TextBox
+                     x:Name="idTo"
+                     Width="55"
+                     Height="20"
+                     Background="#20436b" />
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+
+            <Grid Grid.Row="1" VerticalAlignment="Top">
+                <StackPanel Orientation="Vertical">
+                    <RadioButton
+                 x:Name="radiobtnLogin"
+                  Foreground="White"
+                 Background="White"
+                 Margin="0,0, 0 ,10"
+                 VerticalContentAlignment="Center"
+                 Content="По логину"
+                 FontSize="18"
+                 GroupName="FilterCategory" />
+                    <WrapPanel Margin="20 0 0 0" Orientation="Horizontal">
+                        <TextBlock Foreground="White">Начинается с </TextBlock>
+                        <TextBox
+                        x:Name="loginStartWith"
+                        Width="45"
+                        Height="20"
+                        Margin="20,0,15,0"
+                        Background="#20436b" />
+                    </WrapPanel>
+                </StackPanel>
+            </Grid>
+
+            <StackPanel Grid.Row="2" Orientation="Vertical">
+                <RadioButton
+                 x:Name="radiobtnFirstName"
+                 VerticalContentAlignment="Center"
+                 Content="По имени"
+                 FontSize="18"
+                 Background="White"
+                 Foreground="White"
+                 GroupName="FilterCategory"
+                 IsChecked="True" />
+                <StackPanel VerticalAlignment="Center" Orientation="Horizontal">
+
+                    <TextBlock Foreground="White">Начинается с</TextBlock>
+                    <TextBox
+                     x:Name="firstNameStartWith"
+                     Width="45"
+                     Height="20"
+                     Margin="20,0,15,0"
+                     Background="#20436b" />
+
+
+                </StackPanel>
+            </StackPanel>
+
+            <Grid Grid.Row="3" VerticalAlignment="Top">
+                <StackPanel Orientation="Vertical">
+                    <RadioButton
+                 x:Name="radiobtnLastName"
+                 VerticalContentAlignment="Center"
+                 Content="По фамилии"
+                 FontSize="18"
+                 Foreground="White"
+                 Background="White"
+                 GroupName="FilterCategory" />
+                    <StackPanel VerticalAlignment="Center" Orientation="Horizontal">
+                        <TextBlock Foreground="White">Начинается с</TextBlock>
+                        <TextBox
+                          x:Name="lastNameStartWith"
+                          Width="45"
+                          Height="20"
+                          Margin="20,0,15,0"
+                          Background="#20436b" />
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+
+            <Grid Grid.Row="4" VerticalAlignment="Top">
+                <StackPanel Orientation="Vertical">
+                    <RadioButton
+                      x:Name="radiobtnEmail"
+                      VerticalContentAlignment="Center"
+                      Content="По email"
+                      FontSize="18"
+                      Foreground="White"
+                      Background="#554E92"
+                      GroupName="FilterCategory" /> 
+                    <StackPanel VerticalAlignment="Center" Orientation="Horizontal">
+                        <TextBlock Foreground="White">Начинается с</TextBlock>
+                        <TextBox
+               x:Name="emailStartWith"
+               Width="45"
+               Height="20"
+               Margin="20,0,15,0"
+               Background="#20436b" />
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+
+            <Grid Grid.Row="5" VerticalAlignment="Top">
+                <StackPanel Orientation="Vertical">
+                    <Button Click="FilterUsers_Click" Content="Применить фильтрацию" />
+                    <Button Click="ResetFilterUsers_Click" Content="Убрать фильтрацию" />
+                </StackPanel>
+
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

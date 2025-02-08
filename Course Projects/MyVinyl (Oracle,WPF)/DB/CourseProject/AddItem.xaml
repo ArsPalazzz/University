@@ -1,0 +1,611 @@
+﻿<Window
+    x:Class="CourseProject.AddItem"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:CourseProject"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="AddItem"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <Window.Background>
+        <ImageBrush ImageSource="./Assets/background.jpg" />
+    </Window.Background>
+    <Grid HorizontalAlignment="Center" Style="{DynamicResource AddBgStyle}">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition Height="160" />
+            <RowDefinition Height="0.55*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200" />
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
+
+        <TextBlock
+            Grid.Row="0"
+            Grid.ColumnSpan="3"
+            HorizontalAlignment="Center"
+            FontSize="28"
+            FontWeight="Medium"
+            Foreground="White"
+            Text="{DynamicResource h_Add}" />
+        <!--<TextBox
+            Template="{ StaticResource TextBoxTemplate}"
+            x:Name="titleInput0"
+            Grid.Column="2"
+            Grid.Row="1" />-->
+        <!--<TextBox
+            Template="{ StaticResource TextBoxTemplate}"
+            x:Name="titleInput"
+            Grid.Column="1"
+            Grid.Row="1" />-->
+        <Image
+            x:Name="ProductsPhoto"
+            Grid.Row="1"
+            Grid.RowSpan="4"
+            Grid.Column="0"
+            Margin="0,10"
+            VerticalAlignment="Top" />
+
+        <Grid Grid.Row="1" Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="2.5*" />
+            </Grid.ColumnDefinitions>
+
+            <Label
+                Grid.Column="0"
+                Height="30"
+                Content="Artist name"
+                Foreground="White" />
+
+            <TextBox
+                x:Name="artistInputAdd"
+                Grid.Row="2"
+                Grid.Column="1"
+                 BorderBrush="black"
+            Margin="10,0"
+               Height="30"
+            MinWidth="240"
+                Background="#4C4870"
+                Foreground="White"
+               />
+
+        </Grid>
+        <Grid Grid.Row="1" Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="2.5*" />
+            </Grid.ColumnDefinitions>
+
+            <Label
+                Grid.Column="0"
+                Height="30"
+                Content="Album name"
+                Foreground="White" />
+
+            <TextBox
+                x:Name="albumInputAdd"
+                Grid.Row="2"
+                Grid.Column="1"
+                BorderBrush="black"
+                Margin="10,0"
+                Height="30"
+                MinWidth="240"
+                Background="#4C4870"
+                Foreground="White" />
+
+        </Grid>
+      
+
+        <Grid Grid.Row="2" Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="2.5*" />
+            </Grid.ColumnDefinitions>
+
+            <Label
+                Grid.Column="0"
+                Height="30"
+                Content="Cost"
+                Foreground="White" />
+            <TextBox
+                x:Name="costInputAdd"
+                Grid.Row="2"
+                Grid.Column="1"
+                BorderBrush="black"
+                Margin="10,0"
+                Height="30"
+                MinWidth="240"
+                Background="#4C4870"
+                Foreground="White"
+                />
+            <!--<TextBox
+                x:Name="costInputAdd"
+                Grid.Row="2"
+                Grid.Column="1"
+                Template="{StaticResource TextBoxTemplate}" />-->
+
+        </Grid>
+        <Grid
+            Grid.Row="4"
+            Grid.RowSpan="2"
+            Grid.Column="1"
+            VerticalAlignment="Top">
+            <Grid.RowDefinitions>
+
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="2.5*" />
+            </Grid.ColumnDefinitions>
+
+            <Label
+                Grid.Column="0"
+                Height="30"
+                Content="Description"
+                Foreground="White" />
+
+            <TextBox
+                x:Name="descriptionInputAdd"
+                Grid.Row="0"
+                Grid.Column="1"
+                 BorderBrush="black"
+                Margin="10,0"
+                Height="30"
+                MinWidth="240"
+                Background="#4C4870"
+                Foreground="White" />
+
+        </Grid>
+        <Grid Grid.Row="3" Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="2.5*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Label
+                Grid.Column="0"
+                Height="30"
+                Content="Pirture"
+                Foreground="White" />
+
+            <Button
+                x:Name="selectPhoto"
+                Grid.Row="0"
+                Grid.Column="1"
+                Height="30"
+                Margin="10,0"
+                Click="OpenExplorer"
+                Content="Choose a picture"
+                Style="{DynamicResource importImageStyle}" />
+        </Grid>
+        <Grid Grid.Row="2" Grid.Column="2">
+            <Grid.RowDefinitions>
+
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="2.5*" />
+            </Grid.ColumnDefinitions>
+
+            <Label
+                Grid.Column="0"
+                Height="30"
+                Content="Year"
+                Foreground="White" />
+
+            <TextBox
+                x:Name="yearInputAdd"
+                Grid.Row="0"
+                Grid.Column="1"
+                BorderBrush="black"
+                Margin="10,0"
+                Height="30"
+                MinWidth="240"
+                Background="#4C4870"
+                Foreground="White" />
+
+        </Grid>
+        <Grid Grid.Row="3" Grid.Column="2">
+            <Grid.RowDefinitions>
+
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="2.5*" />
+            </Grid.ColumnDefinitions>
+
+           
+
+            <Label
+                   
+                    Height="30"
+                    VerticalAlignment="Top"
+                    Content="Amount"
+                    Foreground="White" />
+
+            <TextBox
+                    x:Name="amountInputAdd"
+                   Grid.Column="1"
+                    VerticalAlignment="Top"
+                     BorderBrush="black"
+                Margin="10,0"
+                Height="30"
+                MinWidth="240"
+                Background="#4C4870"
+                Foreground="White" />
+
+        </Grid>
+        <Grid Grid.Row="4" Grid.Column="2">
+            <Grid.RowDefinitions>
+
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="2.5*" />
+            </Grid.ColumnDefinitions>
+
+            <Label
+                Grid.Column="0"
+                Height="30"
+                Content="Status"
+                Foreground="White" />
+
+            <ComboBox
+                x:Name="comboboxInput"
+                Grid.Row="10"
+                Grid.Column="1"
+                Height="30"
+                Margin="10,0"
+                FontSize="14"
+                SelectedIndex="0">
+                <ComboBoxItem Content="M (Mint)" />
+                <ComboBoxItem Content="EX (Excellent)" />
+                <ComboBoxItem Content="VG (Very Good)" />
+                <ComboBoxItem Content="G (Good)" />
+                <ComboBoxItem Content="F (Fair)" />
+                <ComboBoxItem Content="B (Bad)" />
+            </ComboBox>
+
+        </Grid>
+        <Grid Grid.Row="5" Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Row="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1.3*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label
+                Grid.Column="0"
+                Height="30"
+                Content="Songs(side a) (use ;)"
+                Foreground="White" />
+
+                <TextBox
+                x:Name="songsAInputAdd"
+    
+                Grid.Column="1"
+               BorderBrush="black"
+                Margin="10,0"
+                Height="30"
+                MinWidth="240"
+                Background="#4C4870"
+                Foreground="White" />
+
+                <Label
+                    Grid.Column="0"
+                    Grid.Row="1"
+                    Height="30"
+                    VerticalAlignment="Top"
+                    Content="Songs(side b) (use ;)"
+                    Foreground="White" />
+
+                <TextBox
+                    x:Name="songsBInputAdd"
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    VerticalAlignment="Top"
+                     BorderBrush="black"
+                Margin="10,0"
+                Height="30"
+                MinWidth="240"
+                Background="#4C4870"
+                Foreground="White" />
+            </Grid>
+
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+
+                <Label
+                    Grid.Row="0"
+                    Height="30"
+                    VerticalAlignment="Top"
+                    Content="Genres(use ;)"
+                    Foreground="White" />
+
+                <TextBox
+                    x:Name="genresInputAdd"
+                    Grid.Row="1"
+                    VerticalAlignment="Top"
+                    BorderBrush="black"
+                Margin="10,0"
+                Height="30"
+                MinWidth="240"
+                Background="#4C4870"
+                Foreground="White" />
+            </Grid>
+
+
+        </Grid>
+        <Grid
+            Grid.Row="5"
+            Grid.Column="1"
+            VerticalAlignment="Top">
+            <Grid.RowDefinitions>
+
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1.6*" />
+                <ColumnDefinition Width="2*" />
+            </Grid.ColumnDefinitions>
+
+            <Label
+                Grid.Column="0"
+                Height="60"
+                VerticalAlignment="Top"
+                Content="Delivery to warehouse"
+                Foreground="White" />
+
+            <Calendar
+                x:Name="calendar2"
+                Grid.RowSpan="5"
+                Grid.Column="1"
+                Width="200"
+                Height="200"
+                HorizontalAlignment="Center"
+                DisplayDateStart="05.08.2023"
+                DisplayDateEnd="11.08.2023"
+                FirstDayOfWeek="Monday"
+                SelectedDatesChanged="calendar_SelectedDatesChanged">
+
+                <Calendar.LayoutTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleX="0.8" ScaleY="0.9" />
+                        <SkewTransform />
+                        <RotateTransform />
+                        <TranslateTransform />
+                    </TransformGroup>
+                </Calendar.LayoutTransform>
+
+            </Calendar>
+
+        </Grid>
+
+        <Button
+            Grid.Row="6"
+            Grid.ColumnSpan="3"
+            Click="SubmitAddPage_Click"
+            Content="Submit" />
+
+
+        <!--<TextBox
+            Template="{ StaticResource TextBoxTemplate}"
+            x:Name="titleInput"
+            Grid.Column="1"
+            Grid.Row="1" />
+
+        <Image
+            VerticalAlignment="Top"
+                x:Name="ProductsPhoto"
+                Grid.Row="1"
+                Grid.RowSpan="5"
+                Grid.Column="2"
+                Margin="0,10" />
+
+        <TextBox
+             Template="{ StaticResource TextBoxTemplate}"
+
+            x:Name="articleInput"
+            Grid.Row="2"
+            Grid.Column="1"
+            />
+
+        <TextBox
+             Template="{ StaticResource TextBoxTemplate}"
+            x:Name="costInput"
+
+            Grid.Row="3"
+            Grid.Column="1"
+            />
+
+
+
+        <Grid Grid.Row="9" Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.5*" />
+
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+            <Button
+                Style="{DynamicResource importImageStyle}"
+                x:Name="selectPhoto"
+                Grid.Row="0"
+                Grid.Column="0"
+                Height="30"
+                Margin="10,0"
+                Click="OpenExplorer"
+                Content="Choose a picture" />
+
+        </Grid>
+
+        <TextBox
+
+            x:Name="songsInput"
+             Template="{ StaticResource TextBoxTemplate}"
+            Grid.Row="5"
+            Grid.Column="1"
+            />
+        <ComboBox
+            x:Name="comboboxInput"
+            Grid.Row="10"
+            Grid.Column="1"
+            Height="30"
+             Margin="10,0"
+            FontSize="14"
+            SelectedIndex="0">
+            <ComboBoxItem Content="M (Mint)" />
+            <ComboBoxItem Content="EX (Excellent)" />
+            <ComboBoxItem Content="VG (Very Good)" />
+            <ComboBoxItem Content="G (Good)" />
+            <ComboBoxItem Content="F (Fair)" />
+            <ComboBoxItem Content="B (Bad)" />
+        </ComboBox>
+
+        <TextBox
+
+            x:Name="yearInput"
+             Template="{ StaticResource TextBoxTemplate}"
+            Grid.Row="7"
+            Grid.Column="1"
+            />
+
+        <StackPanel
+            Grid.Row="5"
+            Grid.Column="2"
+            Margin="0,0,10,0"
+            Orientation="Horizontal">
+            <RadioButton
+                x:Name="radiobtn1"
+                Content="1"
+                IsChecked="True"
+                Style="{DynamicResource RatingRadioBox}" />
+            <RadioButton
+                x:Name="radiobtn2"
+                Content="2"
+                Style="{DynamicResource RatingRadioBox}" />
+            <RadioButton
+                x:Name="radiobtn3"
+                Content="3"
+                Style="{DynamicResource RatingRadioBox}" />
+            <RadioButton
+                x:Name="radiobtn4"
+                Content="4"
+                Style="{DynamicResource RatingRadioBox}" />
+            <RadioButton
+                x:Name="radiobtn5"
+                Content="5"
+                Style="{DynamicResource RatingRadioBox}" />
+        </StackPanel>-->
+
+        <!--<Label
+            Height="30"
+             Grid.Row="1"
+            Content="Artist name"
+            Foreground="White" />
+        <Label
+            Grid.Row="2"
+            Height="30"
+            Content="Album name"
+            Foreground="White" />
+
+        <Label
+            Grid.Row="3"
+            Height="30"
+            Content="Cost"
+            Foreground="White" />
+        <Label
+            Grid.Row="4"
+            Height="30"
+            Content="Description"
+            Foreground="White" />
+        <Label
+            Grid.Row="5"
+            Height="30"
+            Content="Songs"
+            Foreground="White" />
+        <Label
+            Grid.Row="6"
+            Height="30"
+            Content="Amount"
+            Foreground="White" />
+        <Label
+            Grid.Row="7"
+            Height="30"
+            Content="Genres(separated by commas)"
+            Foreground="White" />
+        <Label
+            Grid.Row="8"
+            Height="30"
+            Content="Year"
+            Foreground="White" />
+        <Label
+            Grid.Row="9"
+            Height="30"
+            Content="Pirture"
+            Foreground="White" />
+        <Label
+            Grid.Row="10"
+            Height="30"
+            Content="Status"
+            Foreground="White" />
+        <Label
+            Grid.Row="11"
+            Height="30"
+            Content="Delivery to warehouse"
+            Foreground="White" />-->
+
+        <!--<Button
+            Grid.Row="6"
+            Grid.ColumnSpan="3"
+            Click="SubmitAddPage_Click"
+            Content="{DynamicResource btn_submit}" />-->
+
+    </Grid>
+</Window>

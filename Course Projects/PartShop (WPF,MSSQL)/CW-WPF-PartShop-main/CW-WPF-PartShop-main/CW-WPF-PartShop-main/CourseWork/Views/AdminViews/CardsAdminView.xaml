@@ -1,0 +1,43 @@
+﻿<UserControl x:Class="CourseWork.Views.AdminViews.CardsAdminVM"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:local="clr-namespace:CourseWork.Views.AdminViews"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0">
+            <materialDesign:Card Margin="5" UniformCornerRadius="5" materialDesign:ShadowAssist.ShadowDepth="Depth4">
+                <DataGrid x:Name="partsGrid" VerticalAlignment="Top" ItemsSource="{Binding Cards}" SelectedItem="{Binding SelectedCard}" AutoGenerateColumns="False">
+                    <DataGrid.Columns>
+                        <DataGridTemplateColumn Header="Delete" Width="auto">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button Tag="{Binding}" Command="{Binding RelativeSource={RelativeSource AncestorType=DataGrid}, Path=DataContext.DeleteCommand}">
+                                        <materialDesign:PackIcon Kind="Delete" />
+                                    </Button>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTextColumn Header="CardId" Binding="{Binding CardId}" IsReadOnly="True" />
+                        <DataGridTextColumn Header="CardNumber" Binding="{Binding CardNumber}" />
+                        <DataGridTextColumn Header="UserId" Binding="{Binding UserId}" />
+                        <DataGridTextColumn Header="Balance" Binding="{Binding Balance}" />
+                        <DataGridTextColumn Header="CvvCode" Binding="{Binding CvvCode}" />
+                    </DataGrid.Columns>
+                </DataGrid>
+            </materialDesign:Card>
+        </Grid>
+        <Grid Grid.Column="1">
+            <materialDesign:Card Margin="5" UniformCornerRadius="5" materialDesign:ShadowAssist.ShadowDepth="Depth4">
+                <Button VerticalAlignment="Top" Margin="10" Content="{DynamicResource Save}" Command="{Binding SaveCommand}" Style="{StaticResource RoundedButtonStyle}" Height="40"/>
+            </materialDesign:Card>
+        </Grid>
+    </Grid>
+</UserControl>

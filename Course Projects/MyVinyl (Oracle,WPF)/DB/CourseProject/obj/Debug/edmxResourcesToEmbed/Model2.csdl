@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model1" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CLIENT">
+    <Key>
+      <PropertyRef Name="CLIENT_ID" />
+    </Key>
+    <Property Name="CLIENT_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="LOGIN_CLIENT" Type="String" MaxLength="32" FixedLength="false" Unicode="false" />
+    <Property Name="PASSWORD_CLIENT" Type="String" MaxLength="16" FixedLength="false" Unicode="false" />
+    <Property Name="PHONE_NUMBER" Type="String" MaxLength="16" FixedLength="false" Unicode="false" />
+    <Property Name="EMAIL" Type="String" MaxLength="32" FixedLength="false" Unicode="false" />
+    <Property Name="SEX" Type="String" MaxLength="1" FixedLength="true" Unicode="true" />
+    <Property Name="DATE_OF_BIRTH" Type="DateTime" Precision="6" />
+    <NavigationProperty Name="RECORD" Relationship="Self.FK_RECORD_SUPPLIER" FromRole="CLIENT" ToRole="RECORD" />
+  </EntityType>
+  <EntityType Name="RECORD">
+    <Key>
+      <PropertyRef Name="RECORD_ID" />
+    </Key>
+    <Property Name="RECORD_ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="YEAR" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="COST" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="AMOUNT" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="SUPPLIER_ID" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="DESCRIPTION" Type="String" MaxLength="128" FixedLength="false" Unicode="false" />
+    <Property Name="ARTIST_NAME" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ALBUM_NAME" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="PICTURE" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="STATUS" Type="String" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="IS_DELETED" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="DATE_OF_DELIV_TO_WAREHOUSE" Type="DateTime" Precision="6" />
+    <NavigationProperty Name="CLIENT" Relationship="Self.FK_RECORD_SUPPLIER" FromRole="RECORD" ToRole="CLIENT" />
+  </EntityType>
+  <Association Name="FK_RECORD_SUPPLIER">
+    <End Role="CLIENT" Type="Self.CLIENT" Multiplicity="0..1" />
+    <End Role="RECORD" Type="Self.RECORD" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CLIENT">
+        <PropertyRef Name="CLIENT_ID" />
+      </Principal>
+      <Dependent Role="RECORD">
+        <PropertyRef Name="SUPPLIER_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Entities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CLIENT" EntityType="Self.CLIENT" />
+    <EntitySet Name="RECORD" EntityType="Self.RECORD" />
+    <AssociationSet Name="FK_RECORD_SUPPLIER" Association="Self.FK_RECORD_SUPPLIER">
+      <End Role="CLIENT" EntitySet="CLIENT" />
+      <End Role="RECORD" EntitySet="RECORD" />
+    </AssociationSet>
+    <FunctionImport Name="REGNEWUSER">
+      <Parameter Name="APPCLIENTID" Mode="In" Type="Decimal" />
+      <Parameter Name="APPLOGIN" Mode="In" Type="String" />
+      <Parameter Name="APPPASSWORD" Mode="In" Type="String" />
+      <Parameter Name="APPPHONE" Mode="In" Type="String" />
+      <Parameter Name="APPEMAIL" Mode="In" Type="String" />
+      <Parameter Name="APPSEX" Mode="In" Type="String" />
+      <Parameter Name="APPDATEOFBIRTH" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="GETRECORDSINFO" ReturnType="Collection(Model1.GETRECORDSINFO_Result)" />
+  </EntityContainer>
+  <ComplexType Name="GETRECORDSINFO_Result">
+    <Property Type="Decimal" Name="RECORD_ID" Nullable="false" />
+    <Property Type="Decimal" Name="YEAR" Nullable="true" />
+    <Property Type="Decimal" Name="COST" Nullable="true" />
+    <Property Type="Decimal" Name="AMOUNT" Nullable="true" />
+    <Property Type="Decimal" Name="SUPPLIER_ID" Nullable="true" />
+    <Property Type="String" Name="DESCRIPTION" Nullable="true" />
+    <Property Type="String" Name="ARTIST_NAME" Nullable="true" />
+    <Property Type="String" Name="ALBUM_NAME" Nullable="true" />
+    <Property Type="String" Name="PICTURE" Nullable="true" />
+    <Property Type="String" Name="STATUS" Nullable="true" />
+    <Property Type="DateTime" Name="DATE_OF_DELIV_TO_WAREHOUSE" Nullable="true" />
+  </ComplexType>
+</Schema>

@@ -1,0 +1,534 @@
+@import '../import/header';
+@import '../import/footer';
+
+@font-face {
+    font-family: "Reem Kufi";
+    src: url("../fonts/ReemKufi-Regular.ttf");
+}
+  
+::-webkit-scrollbar {
+  width: 0;
+}
+
+$gor: center;
+$ver: center;
+
+@mixin gorNverFlex($gor, $ver) {
+  justify-content: $gor;
+  align-items: $ver;
+}
+  
+body {
+  color: white;
+  font-family: "Reem Kufi";
+  background-image: url("../img/BookYourPlace/seats.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #464646;
+  background-attachment: fixed;
+  margin: 0;
+}
+  
+  
+.mainBlock {
+  width: 100vw;
+  height: 100vh;
+  
+  .mainText {
+    display: flex;
+    @include gorNverFlex($gor, $ver);
+    flex-direction: column;
+    width: 90%;
+    top: 50vh;
+    position: relative;
+    margin: auto;
+  
+    .firstP {
+      font-size: 3.5vw;
+      text-shadow: 2px 2px 2px black;
+      margin: 0;
+    }
+  }
+}
+
+  .secBlock {
+    color: black;
+    width: 100vw;
+    height: 110vh;
+    background-image: url("../img/BookYourPlace/secBack.png");
+    background-size: 115%;
+    background-position: -15vw -15vh;
+
+    .secBlockFlex {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      @include gorNverFlex($gor, $ver);
+     
+      .form {
+        background-color: white;
+        width: 38%;
+        .formFlex {
+          display: flex;
+          flex-direction: column;
+          .formTitle {
+            text-align: center;
+            font-weight: normal;
+            font-size: 2.5vw;
+            margin-top: 1.5vw;
+          }
+          .formGroupSelectsNimg {
+            margin-bottom: 3%;
+            .formGroupSelectsNimgFlex {
+              display: flex;
+              flex-direction: row;
+              justify-content: space-around;
+              .selects {
+                
+                .selectsFlex {
+                  display: flex;
+                  flex-direction: column;
+                  flex-wrap: nowrap;
+                  div {
+                    min-width: 22vw;
+                    label {
+                      font-size: 1.5vw;
+                      display: inline-block;
+                      width: 33%;
+                      margin-bottom: 2.5vh;
+                      margin-right: 10%;
+                    }
+                    select {
+                      border: 2px solid black;
+                      height: 2.5vw;
+                      width: 45%;
+                      font-size: 0.95vw;
+                      -webkit-appearance: none;
+                      -moz-appearance: none;
+                      appearance: none;
+                      background: url("../img/BookYourPlace/triangle-svg.svg") 96% / 8% no-repeat ;
+                      padding-right: 8%;
+                      font-family: "Reem Kufi";
+                    }
+                    select::-ms-expand { 
+                      display: none; /* удалите стрелку по умолчанию в IE 10 и 11 */
+                    }
+                    option {
+                      text-align: right;
+                    }
+                  }
+                }
+              }
+            }
+            .img {
+              width: 11vw;
+              
+              .notDark {
+                width: 100%;
+                transition: 0.2s linear all;
+                
+              }
+              .dark {
+                position: absolute;
+                width: 11vw;
+                right: 32.25%;
+                opacity: 0;
+                transition: 0.2s linear all;
+              }
+              p {
+                position: absolute;
+                top: 150vh;
+                z-index: 100;
+                font-size: 1.5vw;
+                right: 34vw;
+                opacity: 0;
+                color: white;
+                text-shadow: 1.5px 1.5px 1.5px black;
+                transition: 0.2s linear all;
+              }
+
+              &:hover {
+                p, .dark {
+                  opacity: 1;
+                }
+                .notDark {
+                  opacity: 0;
+                }
+              }
+            }
+            
+          }
+        }
+          .formGroupButtons {
+            .formGroupButtonsFlex {
+              display: flex;
+              .pay {
+                margin-right: 3%;
+                display: inline-block;
+                margin-bottom: 5%;
+                width: 18%;
+                margin-left: 5%;
+                input {
+                  width: 100%;
+                  display: inline-block;
+                  padding: 6% 3% 6% 3%;
+                  border-radius: 12px;
+                  color: #fff;
+                  background-color: #005bc4;
+                  outline: none;
+                  cursor: pointer;
+                  transition: 0.3s;
+                  font-size: 1.2vw;
+
+                  &:hover {
+                    background-color: #004697;
+                  }
+                }
+              }
+              .cancel {
+                margin-right: 3%;
+                display: inline-block;
+                margin-bottom: 5%;
+                width: 18%;
+                input {
+                  width: 100%;
+                  display: inline-block;
+                  padding: 6% 3% 6% 3%;
+                  border-radius: 12px;
+                  background-color: white;
+                  color: black;
+                  outline: none;
+                  cursor: pointer;
+                  transition: 0.3s;
+                  font-size: 1.2vw;
+
+                  &:hover {
+                    background-color: rgb(226, 226, 226);
+                  }
+                }
+              } 
+            }
+          }
+        }
+      }
+    }
+
+    .thirdBlock {
+     
+      background-color: #605e6d;
+      display: inline-block;
+      .thirdBlockFlex {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        align-content: flex-end;
+
+      }
+      .text {
+        width: 35%;
+        margin-left: 10%;
+        margin-top: 0%;
+        display: inline-block;
+        .main {
+          font-size: 4.5vw;
+          text-shadow: 2px 2px 2px black;
+          margin-bottom: 1vw;
+        }
+        .dop {
+          font-size: 2.25vw;
+          text-shadow: 1.5px 1.5px 1.5px black;
+          display: inline-block;
+         
+        }
+      }
+      .jot {
+       display: flex;
+       align-items: flex-end;
+        width: 65vw;
+        height: 100%;
+      margin-top: 8%;
+        
+        
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+
+    @media (min-width: 560px) and (max-width: 1000px) {
+      .mainBlock .mainText .firstP {
+        font-size: 7vw;
+        text-shadow: 4px 4px 4px black;
+        margin: 0;
+      }
+      .secBlock {
+        background-position-y: -47.5%;
+        background-position-x: -115%;
+        height: 80vh;
+        width: 100vw;
+        background-size: cover;
+        .secBlockFlex {
+          height: 100%;
+          .form {
+            width: 80%;
+            .formFlex {
+              .formTitle {
+                font-size: 4.5vw;
+                margin-top: 2vh;
+              }
+              .formGroupSelectsNimg {
+                margin-bottom: 5%;
+                .formGroupSelectsNimgFlex {
+                  .selects {
+                    width: 45%;
+                    .selectsFlex {
+                      div {
+                        min-width: 15vw;
+                        label {
+                          font-size: 3.3vw;
+                          width: 33%;
+                          margin-bottom: 2.5vh;
+                          margin-right: 20%;
+                        }
+                        select {
+                          height: 4vw;
+                          width: 45%;
+                          font-size: 1.9vw;
+                          padding-right: 8%;
+                          background: url("../img/Book your place/triangle-svg.svg") 96% / 10% no-repeat ;
+                        }
+                      }
+                    }
+                  }
+                }
+                .img {
+                  width: 26.4vw;
+
+                  .notDark {
+                    width: 100%;
+                  }
+
+                  .dark {
+                    width: 26.4vw;
+                    right: 14.4%;
+                  }
+                  p {
+                    top: 135vh;
+                    font-size: 3vw;
+                    right: 20vw;
+                    text-shadow: 2px 2px 2px black;
+                  }
+                }
+              }
+            }
+
+            .formGroupButtons {
+              .formGroupButtonsFlex {
+                .pay {
+                  margin-right: 3%;
+                  margin-bottom: 8%;
+                  width: 23%;
+                  margin-left: 7%;
+                  input {
+                    width: 100%;
+                    padding: 6% 3% 6% 3%;
+                    border-radius: 15px;
+                    font-size: 1.8vw;
+                  }
+                }
+                .cancel {
+                  margin-right: 3%;
+                  margin-bottom: 8%;
+                  width: 23%;
+                  input {
+                    width: 100%;
+                    padding: 6% 3% 6% 3%;
+                    border-radius: 15px;
+                    font-size: 1.8vw;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .thirdBlock {
+        width: 100vw;
+        height: 40vh;
+        .thirdBlockFlex {
+          width: 100%;
+          position: relative;
+          overflow: hidden;
+        }
+        .text {
+          width: 55%;
+          margin-left: 7%;
+          margin-top: 0;
+          position: absolute;
+          .main {
+            font-size: 6.5vw;
+            text-shadow: 2px 2px 2px black;
+            margin-bottom: 2vw;
+          }
+          .dop {
+            font-size: 2.5vw;
+            text-shadow: 1.5px 1.5px 1.5px black;
+          }
+        }
+        .jot {
+          width: 87vw;
+          height: 100%;
+          margin-top: 0%;
+          margin-left: 15vw;
+          overflow: hidden;
+          img {
+            width: 100%;
+          }
+        }
+      }
+      footer {
+        margin-top: -0.75vh;
+      }
+    }
+
+
+    @media (min-width: 320px) and (max-width: 560px) {
+      .mainBlock .mainText .firstP {
+        font-size: 9vw;
+        text-shadow: 4px 4px 4px black;
+        margin: 0;
+      }
+      .secBlock {
+        background-position-y: -20%;
+        background-position-x: -52%;
+        height: 80vh;
+        width: 100vw;
+        background-size: cover;
+        .secBlockFlex {
+          height: 100%;
+          .form {
+            width: 86%;
+            .formFlex {
+              .formTitle {
+                font-size: 6vw;
+                margin-top: 2vh;
+              }
+              .formGroupSelectsNimg {
+                margin-bottom: 5%;
+                .formGroupSelectsNimgFlex {
+                  .selects {
+                    width: 59%;
+                    .selectsFlex {
+                      div {
+                        min-width: 15vw;
+                        label {
+                          font-size: 4vw;
+                          width: 30%;
+                          margin-bottom: 2.3vh;
+                          margin-right: 20%;
+                        }
+                        select {
+                          height: 5.8vw;
+                          width: 45%;
+                          font-size: 2.75vw;
+                          padding-right: 8%;
+                          padding-top: 0.25vh;
+                          background: url("../img/Book your place/triangle-svg.svg") 96% / 8% no-repeat ;
+                        }
+                      }
+                    }
+                  }
+                }
+                .img {
+                  width: 28vw;
+
+                  .notDark {
+                    width: 100%;
+                  }
+
+                  .dark {
+                    width: 28vw;
+                    right: 8.8%;
+                  }
+                  p {
+                    top: 135vh;
+                    font-size: 3.6vw;
+                    right: 14vw;
+                    text-shadow: 2px 2px 2px black;
+                  }
+                }
+              }
+            }
+
+            .formGroupButtons {
+              .formGroupButtonsFlex {
+                .pay {
+                  margin-right: 3%;
+                  margin-bottom: 8%;
+                  width: 25%;
+                  margin-left: 4%;
+                  input {
+                    width: 100%;
+                    padding: 7% 3% 7% 3%;
+                    border-radius: 15px;
+                    font-size: 2.7vw;
+                  }
+                }
+                .cancel {
+                  margin-right: 3%;
+                  margin-bottom: 8%;
+                  width: 25%;
+                  input {
+                    width: 100%;
+                    padding: 7% 3% 7% 3%;
+                    border-radius: 15px;
+                    font-size: 2.7vw;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .thirdBlock {
+        
+        .thirdBlockFlex {
+          height: 30vh;
+          width: 100vw;
+          position: relative;
+        }
+        .text {
+          width: 45%;
+          margin-left: 7%;
+          margin-top: 0;
+          position: absolute;
+          .main {
+            font-size: 6vw;
+            text-shadow: 2px 2px 2px black;
+            margin-bottom: 2vw;
+          }
+          .dop {
+            font-size: 3.5vw;
+            text-shadow: 1.5px 1.5px 1.5px black;
+          }
+        }
+        .jot {
+          width: 100%;
+          height: 100%;
+          margin-top: 0;
+          margin-left: 5%;
+          
+          img {
+            width: 100%;
+          }
+        }
+      }
+      footer {
+        margin-top: -1vh;
+      }
+    }
+  

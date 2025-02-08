@@ -1,0 +1,1441 @@
+@import 'import/header';
+@import 'import/footer';
+
+
+@font-face {
+  font-family: "Reem Kufi";
+  src: url("fonts/ReemKufi-Regular.ttf");
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+$w100: 100vw;
+$h100: 100vh;
+$dirRow: row;
+$dirCol: column;
+
+
+%wNh100per {
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: white;
+  font-family: "Reem Kufi";
+  //background-image: url("img/back.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #464646;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+
+.mainBlock {
+  width: $w100;
+  height: $h100;
+  .myBackgroundVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    @extend %wNh100per;
+    object-fit: cover;
+  }
+  .mainText {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: $dirCol;
+    width: 90%;
+    top: 72vh;
+    position: relative;
+    margin: auto;
+
+    .firstP {
+      font-size: 6vw;
+      text-shadow: 2px 2px 2px black;
+      margin: 0;
+    }
+
+    .secondP {
+      font-size: 2.5vw;
+      margin: 0;
+      margin-top: -2.5%;
+      text-shadow: 1px 1px 1px black;
+    }
+  }
+}
+
+.allPerformances {
+  margin-left: 0;
+  margin-right: 0;
+
+  .mainPerformance {
+    display: flex;
+    flex-flow: $dirCol wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    .fbl {
+      display: flex;
+      flex-direction: $dirRow;
+      justify-content: space-between;
+      align-items: baseline;
+      width: 100%;
+
+      .inf {
+        display: flex;
+        flex-flow: $dirCol wrap;
+        align-items: flex-start;
+        margin-left: 45px;
+        margin-top: 50px;
+        width: 50%;
+  
+        .name {
+          font-size: 4.5vw;
+          margin-top: 0;
+          margin-bottom: 25px;
+        }
+  
+        .dop{
+          display: flex;
+          flex-direction: $dirRow;
+          margin-top: -20px;
+  
+          p {
+            display: inline-block;
+            font-size: 2vw;
+          }
+  
+          .Aut {
+            margin-right: 35px;
+          }
+        }
+      }
+      .dEl {
+        width: 5vw;
+        transform: scale(-1, 1);
+        position: relative;
+        img {
+          display: inline-block;
+          width: 100%;
+          position: absolute;
+          margin-top: -85%;
+        }
+      }
+    }
+
+    .picNOther {
+      display: flex;
+      flex-direction: $dirRow;
+      justify-content: flex-end;
+      @extend %wNh100per;
+      align-items: flex-end;
+
+      .el {
+        width: 5vw;
+        left: 0;
+        margin-top: 1%;
+        position: absolute;
+      }
+
+      .premNDate {
+        display: inline-block;
+        position: relative;
+
+        .premiere {
+          border-radius: 20px;
+          width: 12vw;
+          max-height: 7.5vh;
+          margin-right: 8%;
+          /* min-height: 6vh; */
+           float: right; 
+          position: relative;
+          transition: background-color .2s linear;
+
+          p {
+            font-size: 2.5vw;
+            width: 95%;
+            margin-top: -2px;
+            margin-bottom: 0;
+            text-align: center;
+            padding: 2px;
+            display: inline-block;
+            vertical-align: middle;
+            transition: color .2s linear;
+          }
+          
+        }
+
+        .date {
+          font-size: 5vw;
+          float: right;
+          position: relative;
+          margin-right: 8%;
+          margin-bottom: 0;
+          margin-top: 20px;
+          margin-bottom: -5%;
+        }
+      }
+    }
+  }
+}
+
+.mainPerformance .picNOther .photo {
+  display: inline-block;
+  position: relative;
+  margin-top: 1%;
+  width: 50%;
+  margin-right: 40px;
+}
+
+.mainPerformance .picNOther .photo img {
+  @extend %wNh100per;
+ display: inline-block;
+ 
+}
+
+.promej {
+  height: 20vh;
+  padding-bottom: 0.5vh;
+
+  .promejFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: $dirRow;
+    @extend %wNh100per;
+
+    .circNtext {
+      width: 47.7%;
+
+      .circNtextFlex {
+        display: flex;
+        justify-content: start;
+        align-items: flex-end;
+
+        .circ {
+          margin-bottom: 1.25%;
+          margin-left: 1%;
+
+          svg {
+            width: 1.8vw;
+            display: inline-block;
+            vertical-align: bottom;
+          }
+        }
+
+        .text {
+          padding-left: 15px;
+
+          p {
+            margin-bottom: 0;
+            margin-top: 0;
+            font-size: 1.8vw;
+          }
+        }
+      }
+    }
+
+    .dateNcirc {
+      width: 52.3%;
+      .dateNcircFlex {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+
+        .date {
+          font-size: 1.5vw;
+          margin-top: 0;
+          margin-bottom: 0;
+
+          p {
+            margin: 0;
+          }
+        }
+
+        .circ {
+          margin-right: 1%;
+          margin-bottom: 1.25%;
+          svg {
+            width: 1.8vw;
+            display: inline-block;
+            vertical-align: bottom;
+          }
+        }
+      }
+    }
+  }
+}
+
+.firstFlex {
+  display: flex;
+  flex-direction: $dirRow;
+  align-items: stretch;
+  justify-content: space-around;
+  height: 100%;
+
+  .date {
+    margin-top: 0;
+    margin-right: 0;
+    padding-left: 10px;
+
+    .dFlex {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      
+      .numb {
+        font-size: 3vw;
+        margin-bottom: 0;
+      }
+      
+      .nan {
+        font-size: 1.2vw;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .agNFlex {
+    width: 50%;
+
+    .agFlex {
+      display: flex;
+      flex-direction: $dirRow;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      height: 100%;
+      justify-content: space-between;
+      margin-top: -10px;
+
+      .inf {
+        height: 100%;
+        margin-top: -13px;
+
+        .oneMoreFlex {
+          display: flex;
+          flex-direction: $dirCol;
+          justify-content: space-between;
+          height: 100%;
+
+          .name {
+            margin-top: 0;
+            margin-bottom: 0px;
+            transition: all 0.15s linear;
+
+            &:hover {
+              text-shadow: 0 0 4px;
+            }
+          }
+
+          .flex {
+            display: flex;
+            flex-direction: $dirRow;
+            justify-content: flex-start;
+            /* font-size: 2.5vw;*/ 
+
+            .notNames {
+              margin-right: 25px;
+
+              .au {
+                margin-bottom: 8px;
+              }
+            }
+
+            .fa {
+              margin-bottom: 8px;
+            }
+
+            p {
+              font-size: 1.2vw;
+            }
+          }
+        }
+
+        .age {
+          padding-left: 10px;
+        }
+      }
+
+      .place {
+        border-radius: 20px;
+        padding: 6px 25px 6px 25px;
+        margin-bottom: 1.2%;
+        transition: all 0.2s linear;
+
+        &:hover { 
+          cursor: pointer;
+        }
+
+        p {
+          font-size: 1.5vw;
+          margin-bottom: 0;
+          
+        }
+      }
+    }
+  }
+
+  .pic {
+    display: inline-block;
+    position: relative;
+    width: 25%;
+
+    img {
+      width: 100%;
+    }
+  }
+  
+  p {
+    margin-top: 0;
+  }
+}
+
+.inc, .dFlex, .inc2 {
+   font-size: 2.8vw; 
+}
+
+.au, .dir {
+  color: #828282;
+}
+
+.time, .age {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.2vw;
+}
+
+.thirdPer .pic, .fourthPer .pic, .seventhPer .pic, .eighthPer .pic {
+  margin-left: 0.7vw;
+}
+
+.fifthPer .pic, .sixthPer .pic, .twelfthPer .pic  {
+  margin-left: -0.7vw;
+}
+
+.firstPer, .secondPer, .thirdPer, .fourthPer, .fifthPer, .sixthPer, .seventhPer, .eighthPer, .ninethPer, .tenthPer, .eleventhPer, .twelfthPer {
+  padding-top: 2.5%;
+  padding-bottom: 1%;
+  transition-property: all;  
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+}
+
+
+.firstPer .clocksSvg  {
+  position: relative;
+  top: 1vh;
+  display: inline-block;
+  width: 13%;
+}
+
+.secondPer .clocksSvg {
+  position: relative;
+  top: 1vh;
+  display: inline-block;
+  width: 7.745%;
+}
+
+.thirdPer .clocksSvg {
+  position: relative;
+  top: 1vh;
+  display: inline-block;
+  width: 15.29%;
+}
+
+.fourthPer .clocksSvg {
+  position: relative;
+  top: 1vh;
+  display: inline-block;
+  width: 9%;
+}
+
+.fifthPer .clocksSvg {
+  position: relative;
+  top: 1vh;
+  display: inline-block;
+  width: 12.8%;
+}
+
+.sixthPer .clocksSvg {
+  position: relative;
+  top: 1vh;
+  display: inline-block;
+  width: 11.9%;
+}
+
+.seventhPer .clocksSvg {
+  position: relative;
+  top: 1vh;
+  display: inline-block;
+  width: 11.8%;
+}
+
+.eighthPer .clocksSvg {
+  position: relative;
+  top: 1vh;
+  display: inline-block;
+  width: 11.637%;
+}
+
+.ninethPer .clocksSvg {
+  position: relative;
+  top: 1vh;
+  display: inline-block;
+  width: 16.35%;
+}
+
+.tenthPer .clocksSvg {
+  position: relative;
+  top: 1vh;
+  display: inline-block;
+  width: 13%;
+}
+
+.eleventhPer .clocksSvg {
+  position: relative;
+  top: 1vh;
+  display: inline-block;
+  width: 13.8%;
+}
+
+.twelfthPer .clocksSvg {
+  position: relative;
+  top: 1vh;
+  display: inline-block;
+  width: 6.87%;
+}
+
+
+.firstPer:hover .agNFlex .agFlex .place, .secondPer:hover .agNFlex .agFlex .place, .thirdPer:hover .agNFlex .agFlex .place, .fourthPer:hover .agNFlex .agFlex .place, .fifthPer:hover .agNFlex .agFlex .place, .sixthPer:hover .agNFlex .agFlex .place, .seventhPer:hover .agNFlex .agFlex .place, .eighthPer:hover .agNFlex .agFlex .place, .ninethPer:hover .agNFlex .agFlex .place, .tenthPer:hover .agNFlex .agFlex .place, .eleventhPer:hover .agNFlex .agFlex .place, .twelfthPer:hover .agNFlex .agFlex .place {
+  border-color: white;
+}
+
+.allPerformances .pic img {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-left: 0;
+  border-right: 0;
+  box-sizing: border-box;
+  transition: all 0.15s linear;
+}
+.allPerformances .pic img:hover {
+  box-shadow:0 -4px 7px -3px #EFEBE1;
+}
+
+.firstPer:hover .clocksSvg .secPic1, .secondPer:hover .clocksSvg .secPic2, .thirdPer:hover .clocksSvg .secPic3, .fourthPer:hover .clocksSvg .secPic4, .fifthPer:hover .clocksSvg .secPic5, .sixthPer:hover .clocksSvg .secPic6, .seventhPer:hover .clocksSvg .secPic7, .eighthPer:hover .clocksSvg .secPic8, .ninethPer:hover .clocksSvg .secPic9, .tenthPer:hover .clocksSvg .secPic10, .eleventhPer:hover .clocksSvg .secPic11, .twelfthPer:hover .clocksSvg .secPic12  {
+  opacity: 1;
+}
+.firstPer:hover .clocksSvg .firPic1, .secondPer:hover .clocksSvg .firPic2, .thirdPer:hover .clocksSvg .firPic3, .fourthPer:hover .clocksSvg .firPic4, .firthPer:hover .clocksSvg .firPic5, .sixthPer:hover .clocksSvg .firPic6, .seventhPer:hover .clocksSvg .firPic7, .eighthPer:hover .clocksSvg .firPic8, .ninethPer:hover .clocksSvg .firPic9, .tenthPer:hover .clocksSvg .firPic10, .eleventhPer:hover .clocksSvg .firPic11, .twelfthPer:hover .clocksSvg .firPic12  {
+  opacity: 0;
+}
+
+.secPic1, .secPic2, .secPic3, .secPic4, .secPic5, .secPic6, .secPic7, .secPic8, .secPic9, .secPic10, .secPic11, .secPic12 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.2s linear;
+  width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.firPic1, .firPic2, .firPic3, .firPic4, .firPic5, .firPic6, .firPic7, .firPic8, .firPic9, .firPic10, .firPic11, .firPic12 {
+  position: absolute;
+  opacity: 1;
+  transition: all 0.2s linear;
+  width: 100%;
+  bottom: 0;
+}
+
+
+
+.thIs {
+  
+  padding-top: 7vh;
+  padding-bottom: 10vh;
+}
+
+.thIs2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.thIs .thIs2 .text {
+  width: 50%;
+  position: relative;
+
+  div {
+    position: absolute;
+    top: 25%;
+    font-size: 2vw;
+    right: 42.8%;
+  }
+
+  .secPic {
+    width: 5%;
+  }
+
+  p {
+    font-size: 2vw;
+    text-align: center;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+.fEl, .sEl {
+  width: 100%;
+}
+
+.sEl {
+  transform: scale(-1, 1);
+}
+
+.words {
+  overflow: hidden;
+}
+
+.firstWord, .secondWord, .thirdWord, .fourthWord, .fifthWord, .sixthWord, .seventhWord {
+  width:100%;
+  position: relative;
+  left: -2%;
+}
+
+.firstWordFlex, .secondWordFlex, .thirdWordFlex, .fourthWordFlex, .fifthWordFlex, .sixthWordFlex, .seventhWordFlex {
+  display: flex;
+  align-items: flex-start;
+}
+.secondWord, .fourthWord, .sixthWord {
+  margin-left: -100%;
+}
+
+.secondWord {
+  left: -2%;
+}
+
+.thirdWord {
+ left: -1.3%;
+}
+
+.fifthWord {
+  left: -7%;
+}
+
+.seventhWord {
+  left: 1%;
+}
+
+.firstWordFlex span, .secondWordFlex span, .thirdWordFlex span, .fourthWordFlex span, .fifthWordFlex span, .sixthWordFlex span, .seventhWordFlex span {
+  font-size: 5vw;
+  color: #252525;
+}
+
+.firstWordFlex .obch {
+  animation: obch1 29s infinite ease-in-out;
+}
+
+.secondWordFlex .obch {
+  animation: obch2 32.875s infinite ease-in-out;
+}
+
+.thirdWordFlex .obch {
+  animation: obch3 25.125s infinite ease-in-out;
+}
+
+.fourthWordFlex .obch {
+  animation: obch4 31.75s infinite ease-in-out;
+}
+
+.fifthWordFlex .obch {
+  animation: obch5 28.625s infinite ease-in-out;
+}
+
+.sixthWordFlex .obch {
+  animation: obch6 26.65s infinite ease-in-out;
+}
+
+.seventhWordFlex .obch {
+  animation: obch7 29.375s infinite ease-in-out;
+}
+
+.firstWordFlex .ph, .secondWordFlex .ph, .thirdWordFlex .ph, .fourthWordFlex .ph, .fifthWordFlex .ph, .sixthWordFlex .ph, .seventhWordFlex .ph {
+  display: inline-block;
+  width: 5vw;
+  padding-top: 0.6%;
+}
+
+.ph {
+  display: inline-block;
+}
+
+
+.firstWordFlex div svg, .secondWordFlex div svg, .thirdWordFlex div svg, .fourthWordFlex div svg, .fifthWordFlex div svg, .sixthWordFlex div svg, .seventhWordFlex div svg {
+  width: 4vw;
+  vertical-align: middle;
+}
+
+.firstWordFlex span, .firstWordFlex .ph, .secondWordFlex span, .secondWordFlex .ph, .thirdWordFlex span, .thirdWordFlex .ph, .fourthWordFlex span, .fourthWordFlex .ph, .fifthWordFlex span, .fifthWordFlex .ph, .sixthWordFlex span, .sixthWordFlex .ph, .seventhWordFlex span, .seventhWordFlex .ph {
+  display: inline-block;
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+}
+
+.obchFlex {
+  display: flex;
+}
+
+.obchFlex .mysp, .obchFlexx .ph {
+  margin-top: -2.2%;
+  margin-left: 0.6vw;
+  margin-right: 1.25vw;
+  display: inline-block;
+}
+
+
+@keyframes obch1{
+  from{transform: translate(0%, 0);}
+  50%{transform: translate(-360%, 0)}
+  to{transform: translate(0, 0);}
+}
+
+@keyframes obch2{
+  from{transform: translate(0%, 0);}
+  50%{transform: translate(280%, 0)}
+  to{transform: translate(0, 0);}
+}
+
+@keyframes obch3{
+  from{transform: translate(0, 0);}
+  50%{transform: translate(-325%, 0)}
+  to{transform: translate(0, 0);}
+}
+
+@keyframes obch4{
+  from{transform: translate(0%, 0);}
+  50%{transform: translate(230%, 0)}
+  to{transform: translate(0, 0);}
+}
+
+@keyframes obch5{
+  from{transform: translate(0, 0);}
+  50%{transform: translate(-270%, 0)}
+  to{transform: translate(0, 0);}
+}
+
+@keyframes obch6{
+  from{transform: translate(0, 0);}
+  50%{transform: translate(260%, 0)}
+  to{transform: translate(0, 0);}
+}
+
+@keyframes obch7{
+  from{transform: translate(0, 0);}
+  50%{transform: translate(-350%, 0)}
+  to{transform: translate(0, 0);}
+}
+
+.words {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.wordsFlex > div {
+  margin-bottom: 2vh;
+}
+
+
+@media (min-width: 560px) and (max-width: 1000px) {
+
+  .mainBlock {
+    height: 101vh;
+    .myBackgroundVideo {
+      height: 101vh;
+      width: 200vw;
+      top: 0;
+      left: -100vw;
+    }
+    .mainText {
+      width: 95%;
+      top: 60vh;
+
+      .firstP {
+        font-size: 8vw;
+        text-shadow: 4px 4px 4px black;
+      }
+
+      .secondP {
+        font-size: 4.5vw;
+        text-shadow: 2px 2px 2px black;
+      }
+    }
+  }
+
+  .allPerformances .mainPerformance {
+
+    .fbl {
+
+      .inf {
+        width: 75%;
+
+        .name {
+          font-size: 7vw;
+        }
+        .dop p {
+          font-size: 3vw;
+        }
+      }
+      .dEl {
+        width: 6vw;
+      }
+    }
+    .picNOther {
+
+      .el {
+        width: 6vw;
+        margin-top: -27%;
+      }
+      .premNDate {
+
+        .premiere {
+          border: 3px solid black;
+          border-radius: 30px;
+          width: 18vw;
+          max-height: 11.25vw;
+
+          p {
+            font-size: 3.75vw;
+            margin-top: -3px;
+            padding: 3px;
+          }
+        }
+
+        .date {
+          font-size: 7.5vw;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+  .promej {
+    height: 10vh;
+    padding-bottom: 0.25vh;
+
+    .promejFlex {
+
+      .circNtext {
+        width: 50%;
+        
+        .circNtextFlex {
+
+          .circ {
+            margin-bottom: 2.7%;
+
+            svg {
+              width: 2.7vw;
+            }
+          }
+          .text {
+            padding-left: 12px;
+
+            p {
+              font-size: 3.5vw;
+            }
+          }
+        }
+      }
+      .dateNcirc {
+
+        .dateNcircFlex {
+
+          .date {
+            font-size: 3vw;
+          }
+          .circ {
+            margin-bottom: 2.7%;
+            svg {
+              width: 2.7vw;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .firstFlex {
+
+    .date {
+      padding-left: 6px;
+      .dFlex {
+
+        .numb {
+          font-size: 3.8vw;
+        }
+
+        .nan {
+          font-size: 1.9vw;
+        }
+      }
+    }
+
+    .pic {
+      width: 33.5%;
+      padding-right: 1%;
+    }
+
+    .agNFlex {
+      
+      .agFlex {
+        
+
+        .inf {
+          margin-top: -19.5px;
+          max-width: 60%;
+
+          .oneMoreFlex {
+
+            .flex {
+
+              .notNames {
+                margin-right: 37.5px;
+
+                .au {
+                  margin-bottom: 12px;
+                }
+              }
+
+              .fa {
+                margin-bottom: 12px;
+              }
+
+              p {
+                font-size: 1.8vw;
+              }
+            }
+          }
+
+          .age {
+            padding-left: 15px;
+          }
+        }
+
+        .place {
+          border: 3px solid black;
+          border-radius: 20px;
+          padding: 6px 25px 6px 25px;
+
+          p {
+            font-size: 2vw;
+          } 
+        }
+      }
+    }
+  }
+
+  .inc, .dFlex, .inc2 {
+
+    font-size: 3.8vw;
+  }
+
+  .time, .age {
+    font-size: 1.8vw;
+  }
+
+  .thirdPer .pic, .fourthPer .pic, .seventhPer .pic, .eighthPer .pic {
+    margin-left: 1.05vw;
+  }
+
+  .fifthPer .pic, .sixthPer .pic, .twelfthPer .pic  {
+    margin-left: -1.05vw;
+  }
+
+  .firstPer, .secondPer, .thirdPer, .fourthPer, .fifthPer, .sixthPer, .seventhPer, .eighthPer, .ninethPer, .tenthPer, .eleventhPer, .twelfthPer {
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-width: 3px 0 3px 0;
+  }
+
+  .firstPer .clocksSvg, .secondPer .clocksSvg, .thirdPer .clocksSvg, .fourthPer .clocksSvg, .fifthPer .clocksSvg, .sixthPer .clocksSvg, .seventhPer .clocksSvg, .eighthPer .clocksSvg, .ninethPer .clocksSvg, .tenthPer .clocksSvg, .eleventhPer .clocksSvg, .twelfthPer .clocksSvg  {
+    top: 0.5vh;
+  }
+
+  .allPerformances .pic img {
+    border: 1.5px solid transparent;
+  }
+
+  .allPerformances .pic img:hover {
+    box-shadow:0 -6px 10.5px -4.5px #EFEBE1;
+  }
+
+  .firstPer .clocksSvg  {
+    width: 9.8%;
+    top: 0.25vh;
+  }
+  
+  .secondPer .clocksSvg {
+    width: 7.745%;
+    top: 0.25vh;
+  }
+  
+  .thirdPer .clocksSvg {
+    width: 10.25%;
+    top: 0.25vh;
+  }
+  
+  .fourthPer .clocksSvg {
+    width: 7.75%;
+    top: 0.25vh;
+  }
+  
+  .fifthPer .clocksSvg {
+    width: 9.03%;
+    top: 0.25vh;
+  }
+  
+  .sixthPer .clocksSvg {
+    width: 9.7%;
+    top: 0.25vh;
+  }
+  
+  .seventhPer .clocksSvg {
+    width: 9.85%;
+    top: 0.25vh;
+  }
+  
+  .eighthPer .clocksSvg {
+    width: 9.18%;
+    top: 0.25vh;
+  }
+  
+  .ninethPer .clocksSvg {
+    width: 11.86%;
+    top: 0.25vh;
+  }
+  
+  .tenthPer .clocksSvg {
+    width: 9.215%;
+    top: 0.25vh;
+  }
+  
+  .eleventhPer .clocksSvg {
+    width: 9.69%;
+    top: 0.25vh;
+  }
+  
+  .twelfthPer .clocksSvg {
+    width: 7.75%;
+    top: 0.25vh;
+  }
+
+  .thIs {
+    padding-top: 3.5vh;
+    padding-bottom: 5vh;
+
+    .thIs2 .text {
+
+      div {
+        font-size: 3vw;
+        top: 10%;
+        right: 39%;
+      }
+    }
+  }
+  .firstWordFlex span, .secondWordFlex span, .thirdWordFlex span, .fourthWordFlex span, .fifthWordFlex span, .sixthWordFlex span, .seventhWordFlex span {
+    font-size: 7.5vw;
+    color: black;
+  }
+
+  .firstWordFlex .ph, .secondWordFlex .ph, .thirdWordFlex .ph, .fourthWordFlex .ph, .fifthWordFlex .ph, .sixthWordFlex .ph, .seventhWordFlex .ph {
+    width: 7.5vw;
+  }
+
+  .firstWordFlex div svg, .secondWordFlex div svg, .thirdWordFlex div svg, .fourthWordFlex div svg, .fifthWordFlex div svg, .sixthWordFlex div svg, .seventhWordFlex div svg {
+    width: 6vw;
+  }
+
+  .obchFlex .mysp, .obchFlexx .ph {
+    margin-left: 0.9vw;
+    margin-right: 1.875vw;
+  }
+
+  @keyframes obch2{
+    from{transform: translate(0%, 0);}
+    50%{transform: translate(200%, 0)}
+    to{transform: translate(0, 0);}
+  }
+
+  @keyframes obch4{
+    from{transform: translate(0%, 0);}
+    50%{transform: translate(180%, 0)}
+    to{transform: translate(0, 0);}
+  }
+
+  @keyframes obch6{
+    from{transform: translate(0, 0);}
+    50%{transform: translate(210%, 0)}
+    to{transform: translate(0, 0);}
+  }
+
+  .wordsFlex > div {
+    margin-bottom: 2.5vh;
+  }
+}
+
+
+@media (min-width: 320px) and (max-width: 560px) {
+
+  .mainBlock {
+    height: 101vh;
+    width: 100%;
+    overflow: hidden;
+    
+    .myBackgroundVideo {
+      height: 101vh;
+      width: 280vw;
+      top: 0;
+      left: -180vw;
+      
+    }
+
+    .mainText {
+      top: 50vh;
+      width: 100%;
+      .firstP {
+        font-size: 8vw;
+        text-shadow: 6px 6px 6px black;
+      }
+
+      .secondP {
+        font-size: 5vw;
+        text-shadow: 3px 3px 3px black;
+      }
+    }
+  }
+
+  .allPerformances .mainPerformance {
+
+    .fbl {
+
+      .inf {
+        width: 100%;
+        margin-left: 20px;
+        margin-top: 25px;
+
+        .name {
+          font-size: 9vw;
+        }
+        .dop {
+          
+          p {
+            font-size: 3.5vw;
+            margin-top: 0;
+          }
+        }
+      }
+      .dEl {
+        position: absolute;
+        display: none;
+      }
+    }
+    .picNOther {
+      flex-direction: $dirCol;
+      .el {
+        width: 10vw;
+        margin-top: -77%;
+      }
+      .premNDate {
+        margin-right: 10px;
+        margin-top: 20px;
+        .premiere {
+          border: 3px solid black;
+          border-radius: 30px;
+          width: 25vw;
+          max-height: 11.25vw;
+
+          p {
+            font-size: 4.5vw;
+            margin-top: 3px;
+            padding: 1px;
+          }
+        }
+
+        .date {
+          font-size: 10vw;
+          margin-top: 5px;
+        }
+      }
+    }
+  }
+
+  .mainPerformance .picNOther .photo {
+    margin-top: 3%;
+    width: 90%;
+    margin-right: 25px;
+  }
+
+  .promej {
+    height: 7vh;
+    padding-bottom: 0.25vh;
+
+    .promejFlex {
+
+      .circNtext {
+        width: 50%;
+        
+        .circNtextFlex {
+
+          .circ {
+            margin-bottom: 2.7%;
+
+            svg {
+              width: 2.7vw;
+            }
+          }
+          .text {
+            padding-left: 12px;
+
+            p {
+              font-size: 3.5vw;
+            }
+          }
+        }
+      }
+      .dateNcirc {
+
+        .dateNcircFlex {
+
+          .date {
+            font-size: 3vw;
+          }
+          .circ {
+            margin-bottom: 2.7%;
+            svg {
+              width: 2.7vw;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .firstFlex {
+    flex-direction: $dirCol;
+    .date {
+      padding-left: 6px;
+      position: absolute;
+      display: none;
+    }
+
+    .pic {
+      width: 90%;
+      padding-right: 1%;
+      padding-left: 5%;
+    }
+
+    .agNFlex {
+      width: 90%;
+      margin-left: 5%;
+      .agFlex {
+        flex-direction: row;
+        
+
+        .inf {
+          margin-top: 9.5px;
+          max-width: 80%;
+
+          .oneMoreFlex {
+
+            .flex {
+
+              .notNames {
+                margin-right: 37.5px;
+
+                .au {
+                  margin-bottom: 12px;
+                }
+              }
+
+              .fa {
+                margin-bottom: 12px;
+              }
+
+              p {
+                font-size: 3vw;
+              }
+            }
+          }
+
+          .age {
+            padding-left: 15px;
+          }
+        }
+
+        .place {
+          border: 2px solid black;
+          border-radius: 20px;
+          padding: 4.5px 18px 4px 18px;
+
+          p {
+            font-size: 3vw;
+          } 
+        }
+      }
+    }
+  }
+
+  .inc, .dFlex, .inc2 {
+
+    font-size: 5.6vw;
+  }
+
+  .time, .age {
+    font-size: 3vw;
+  }
+
+  .thirdPer .pic, .fourthPer .pic, .seventhPer .pic, .eighthPer .pic, .fifthPer .pic, .sixthPer .pic, .twelfthPer .pic {
+    margin-left: -0.7vw;
+  }
+
+  .firstPer, .secondPer, .thirdPer, .fourthPer, .fifthPer, .sixthPer, .seventhPer, .eighthPer, .ninethPer, .tenthPer, .eleventhPer, .twelfthPer {
+    border: solid black;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-width: 1px 0 1px 0;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+  }
+
+  .firstPer .clocksSvg, .secondPer .clocksSvg, .thirdPer .clocksSvg, .fourthPer .clocksSvg, .fifthPer .clocksSvg, .sixthPer .clocksSvg, .seventhPer .clocksSvg, .eighthPer .clocksSvg, .ninethPer .clocksSvg, .tenthPer .clocksSvg, .eleventhPer .clocksSvg, .twelfthPer .clocksSvg  {
+    top: 0.5vh;
+  }
+
+  .allPerformances .pic img {
+    border: 1.5px solid transparent;
+  }
+
+  .allPerformances .pic img:hover {
+    box-shadow:0 -6px 10.5px -4.5px #EFEBE1;
+  }
+
+  .firstPer .clocksSvg  {
+    width: 9.8%;
+  }
+  
+  .secondPer .clocksSvg {
+    width: 7.66%;
+  }
+  
+  .thirdPer .clocksSvg {
+    width: 10.23%;
+  }
+  
+  .fourthPer .clocksSvg {
+    width: 9.63%;
+  }
+  
+  .fifthPer .clocksSvg {
+    width: 9.085%;
+  }
+  
+  .sixthPer .clocksSvg {
+    width: 9.7%;
+  }
+  
+  .seventhPer .clocksSvg {
+    width: 9.845%;
+  }
+  
+  .eighthPer .clocksSvg {
+    width: 9.237%;
+  }
+  
+  .ninethPer .clocksSvg {
+    width: 11.63%;
+  }
+  
+  .tenthPer .clocksSvg {
+    width: 9.26%;
+  }
+  
+  .eleventhPer .clocksSvg {
+    width: 9.7%;
+  }
+  
+  .twelfthPer .clocksSvg {
+    width: 7.36%;
+  }
+
+  .thIs {
+    padding-top: 1.5vh;
+    padding-bottom: 3vh;
+
+    .thIs2 {
+      .firPic {
+        width: 9vw;
+      }
+      .text {
+
+        div {
+          font-size: 3vw;
+          top: 10%;
+          right: 39%;
+        }
+      }
+      .secPic {
+        width: 9vw;
+      }
+    }
+  }
+
+  .firstWordFlex span, .secondWordFlex span, .thirdWordFlex span, .fourthWordFlex span, .fifthWordFlex span, .sixthWordFlex span, .seventhWordFlex span {
+    font-size: 8.625vw;
+    color: black;
+  }
+
+  .firstWordFlex .ph, .secondWordFlex .ph, .thirdWordFlex .ph, .fourthWordFlex .ph, .fifthWordFlex .ph, .sixthWordFlex .ph, .seventhWordFlex .ph {
+    width: 8.625vw;
+  }
+
+  .firstWordFlex div svg, .secondWordFlex div svg, .thirdWordFlex div svg, .fourthWordFlex div svg, .fifthWordFlex div svg, .sixthWordFlex div svg, .seventhWordFlex div svg {
+    width: 6.9vw;
+  }
+
+  .obchFlex .mysp, .obchFlexx .ph {
+    margin-left: 0.9vw;
+    margin-right: 1.875vw;
+  }
+
+  @keyframes obch2{
+    from{transform: translate(0%, 0);}
+    50%{transform: translate(160%, 0)}
+    to{transform: translate(0, 0);}
+  }
+
+  @keyframes obch4{
+    from{transform: translate(0%, 0);}
+    50%{transform: translate(150%, 0)}
+    to{transform: translate(0, 0);}
+  }
+
+  @keyframes obch6{
+    from{transform: translate(0, 0);}
+    50%{transform: translate(170%, 0)}
+    to{transform: translate(0, 0);}
+  }
+
+  .wordsFlex > div {
+    margin-bottom: 2.5vh;
+  }
+}
