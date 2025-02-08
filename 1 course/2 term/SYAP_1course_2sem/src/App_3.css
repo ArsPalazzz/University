@@ -1,0 +1,111 @@
+.phone {
+  /* margin-left: -60px; */
+  display: inline-block;
+  width: 450px;
+  margin-left: -120px;
+}
+.table_content td {
+  padding: 10px;
+}
+.mobile_field {
+  margin-top: -40px;
+  margin-bottom: -20px;
+}
+.product-table th,
+td {
+  padding: 20px;
+  font-size: 25px;
+}
+.product-table {
+  margin: auto;
+  border-collapse: collapse;
+  empty-cells: hide;
+}
+.product-table td {
+  border-bottom: 3px solid rgb(94, 88, 88);
+}
+.product-table th {
+  border-bottom: 4px solid rgb(156, 152, 152);
+  background-color: rgb(40, 33, 99);
+  transition: 0.4s;
+}
+.product-table th:hover {
+  background-color: red;
+}
+body {
+  background-color: black;
+  /* background-color: white; */
+  color: white;
+}
+form:hover {
+  background-color: rgb(44, 32, 148);
+}
+form h2 {
+  margin-bottom: 60px;
+  text-align: center;
+  font-variant: small-caps;
+  letter-spacing: 3px;
+}
+hr {
+  margin-top: -40px;
+  margin-bottom: 60px;
+}
+form {
+  background-color: gray;
+  margin: 40px auto;
+  width: 630px;
+  font-size: 1.2em;
+  padding: 20px;
+  box-shadow: 0 0 20px rgb(130, 14, 175);
+  border-radius: 3px;
+  border: 3px solid rgba(57, 0, 97, 0.644);
+  transition: 0.2s;
+}
+form div {
+  margin: 20px 15px;
+}
+label {
+  display: inline-block;
+  width: 250px;
+  font-weight: 600;
+}
+input[type="text"],
+input[type="email"] {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 1);
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.75);
+  border-radius: 5px;
+}
+input[type="submit"] {
+  margin-top: 20px;
+  font-size: 17px;
+  background-color: black;
+  box-shadow: 0 0 2px rgb(131, 116, 116);
+  color: white;
+  padding: 7px;
+  border-radius: 7px;
+  transition: 0.3s;
+}
+input[type="submit"]:hover {
+  background-color: rgb(21, 21, 173);
+}
+input[type="radio"] {
+  margin-left: -3px;
+}
+.button1 {
+  margin-left: 325px;
+}
+input[type="text"]:focus,
+input[type="email"]:focus {
+  background-color: black;
+}
+p {
+  display: inline-block;
+  margin-right: 15px;
+}
+select {
+  margin-left: -5px;
+}
+.product {
+  text-align: center;
+}

@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.cal {
+	
+	width: 210px;
+	border-radius: 2px;
+	align-items: center;
+	font-family: Roboto, sans-serif;
+	font-size: 20px;
+}
+
+.calHead {
+	display: flex;
+	flex-wrap: wrap;
+	background-color:  rgba(187, 65, 65, 0.6);
+	font-weight: bold;
+}
+
+.calBody {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: rgba(221, 221, 221, 0.6);
+}
+
+.month {
+	height: 60px;
+	width: 90px;
+	line-height: 60px;
+}
+
+.year {
+	height: 60px;
+	width: 40px;
+	line-height: 60px;
+    margin-left: 10px;
+}
+.cell_main{
+    border: 1px double black;
+    cursor: pointer;
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+}
+.cell {
+    
+	cursor: pointer;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+}
+.buts{
+    margin-top: 0px;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+.none {
+	color: rgba(0, 0, 0, 0.267);
+	background-color: rgba(0, 0, 0, 0.062);
+	cursor: default;
+}
+
+.curr {
+    border: 4px double black;
+	background: rgb(39, 174, 228);
+
+    cursor: pointer;
+	width: 22px;
+	height: 22px;
+	line-height: 22px;
+}
+
+.cell:hover {
+    background-color: blue;
+	/* background: rgba(0, 0, 0, 0.199); */
+}
+
+.checked {
+    /* background-color: blue; */
+	outline: 3px solid rgb(126, 90, 60);
+	outline-offset: -4px;
+}
+
+.noted {
+    /* background-color: blue; */
+	background-color: rgb(42, 185, 198);
+	
+}

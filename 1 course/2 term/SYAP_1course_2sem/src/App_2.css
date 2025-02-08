@@ -1,0 +1,82 @@
+body {
+  background-color: black;
+  color: aliceblue;
+}
+.content {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+hr {
+  width: 100px;
+  background-color: rgb(250, 37, 37);
+}
+.content__clock {
+  display: flex;
+  flex-direction: row;
+}
+.content__clock  img {
+  width: 100%;
+  margin-left: 0px;
+}
+.content__time {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content__time hr {
+  width: 300px;
+}
+.second {
+  display: none;
+  padding: 20px;
+  list-style-type: none;
+  position: absolute;
+  background-color: black;
+  margin-top: -30px;
+}
+.second li {
+  transition: 0.4s;
+  transform: scale(1);
+}
+.menu {
+  font-size: 25px;
+}
+ol li:hover {
+  background-color: rgb(159, 0, 0);
+}
+.menu:hover .second {
+  display: block;
+  margin: 20px 0 0 -20px;
+}
+.second li {
+  background-color: red;
+}
+.second li:hover {
+  background-color: rgb(159, 0, 0);
+  box-shadow: 0 0 3px purple;
+}
+.second li:hover span {
+  transform: scale(2);
+}
+ol {
+  background-color: red;
+  height: 40px;
+  padding: 20px;
+}
+ol li {
+  padding: 20px 30px;
+  display: inline;
+  transition: 0.5s;
+}
+a:link, a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+.content__menu .menu {
+  display: inline;
+}

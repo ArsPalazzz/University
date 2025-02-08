@@ -1,0 +1,27 @@
+.container{
+    text-align: center;
+    margin-top: 50px;
+
+}
+.countrySelect {
+    display: flex;
+    justify-content: center;
+    margin: 5px
+}
+
+.phoneInput {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.content{
+    display: flex;
+    align-items: center;
+}
+img{
+    margin-left: 5px;
+}
+label{
+    margin-right: 5px;
+}

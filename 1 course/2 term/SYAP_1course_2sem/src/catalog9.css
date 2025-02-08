@@ -1,0 +1,115 @@
+body{
+    background-color: cadetblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+.one_good {
+    width: 450px;
+    background: rgb(255, 255, 255);
+    border: 6px dashed #ffcc00;
+    border-collapse : collapse;
+    padding : 0;
+    margin-top: 20px;
+    display: grid;
+}
+
+.one_good img {
+    height: 200px;
+    width: 200px;
+    margin-right: 10px;
+}
+.wrapper {
+    display: flex;
+    flex-direction : row;
+
+}
+
+.text{
+    padding: 8px;
+}
+
+.goods {
+    margin: 10px;
+    display : grid;
+    grid-template-columns : repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap : 10px;
+}
+
+.prices {
+    display: flex;
+}
+
+.prices h3 {
+    color: rgb(83, 83, 83);
+    margin-left: 10px;
+    text-decoration : line-through;
+}
+
+.new {
+    text-align: center;
+    color: white;
+    animation: neww 4.5s ease-in-out infinite;
+    width: 50px;
+    font-style : italic;
+}
+
+@keyframes neww {
+    0% {
+        color :white;
+        background-color: red;
+    }
+    50% {
+        color: red;
+        background-color: white;
+    }
+    100%{
+        color:white;
+        background-color: red;
+    }
+}
+
+.description {
+    display : block;
+    padding: 8px;
+}
+
+.description-text {
+    display: block;
+    margin-top : 3px;
+    word-break : break-word;
+}
+
+h3,h2{
+    margin: 10px 0px 10px 0px;
+}
+
+.sorts {
+    text-align: center;
+    height: 30px;
+}
+
+.sorts button {
+    background-color : rgba(255, 255, 255, 0.95);
+    border: none;
+    color: black;
+    height: 100%;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.sorts button:hover {
+    cursor: pointer;
+    background-color : #ffd500;
+}
+
+.discount h2 {
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    font-style : italic;
+    text-align : center;
+}
+
+

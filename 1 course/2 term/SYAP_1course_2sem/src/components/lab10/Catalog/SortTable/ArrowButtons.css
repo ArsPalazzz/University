@@ -1,0 +1,29 @@
+.arrow{
+    width: 12px;
+    height: 12px;
+    border-top: 3px solid rgba(109, 107, 104, 0.51);
+    border-right: 3px solid  rgba(109, 107, 104, 0.51);
+}
+.arrow-bottom{
+    transform: rotate(135deg);
+}
+.arrow-top{
+    transform: rotate(-45deg);
+}
+.arrow:hover{
+    border-color: gold ;
+    cursor: pointer;
+}
+.arrow-button{
+    margin-bottom : -3px ;
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+.arrows{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+}

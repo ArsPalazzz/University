@@ -1,0 +1,36 @@
+.react_input_tel {
+     width: 250px;
+     height: 100px;
+     display: inline-block;
+}
+
+input[type="tel"] {
+     padding-left: 57px;
+     width: 250px;
+     height: 50px;
+}
+
+.select_flag {
+     position: absolute;
+     z-index: 99999;
+     width: 40px;
+     height: 20px;
+     cursor: pointer;
+}
+
+.input_flag {
+     background-repeat: no-repeat;
+     background-position: 10px 18px;
+     background-size: 25px;
+     width: 40px;
+     height: 50px;
+}
+
+.input_arrow {
+     background-image: url("C:\Users\demid\Desktop\React js\laba5\baseline_expand_more_black_24dp.png");
+     background-repeat: no-repeat;
+     background-position: 35px 8px;
+     background-size: 13px;
+     width: 50px;
+     height: 50px;
+}
