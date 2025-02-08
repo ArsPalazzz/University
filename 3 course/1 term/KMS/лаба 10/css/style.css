@@ -1,0 +1,175 @@
+/*шрифт Google Poppins*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+/* переменные CSS для цветов, которые будут использоваться */
+
+:root {
+    --white: #f9f9f9;
+    --darckBlue: #a7e712c0;
+    --navyBlue: #4596ffe5;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+
+/* variables*/
+
+
+/* сброс CSS, чтобы удалить настройки браузера по умолчанию для margin, 
+padding, box-sizing, text-decoration и list-style */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--white);
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/*Стилизация заголовка и логотипа*/
+
+.header {
+    background-color: var(--darckBlue);
+    box-shadow: 1px 1px 5px 0px var(--navyBlue);
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.logo {
+    display: inline-block;
+    color: var(--white);
+    font-size: 14px;
+    margin-left: 10px;
+    width: 60px;
+}
+
+
+/* Стилизация меню навигации */
+
+.nav {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: var(--darckBlue);
+    overflow: hidden;
+}
+
+.menu a {
+    display: block;
+    padding: 10px;
+    color: var(--white);
+}
+
+.menu a:hover {
+    background-color: var(--navyBlue);
+}
+
+.nav {
+    max-height: 0;
+    transition: max-height .5s ease-out;
+}
+
+
+/*   */
+
+.hamb {
+    cursor: pointer;
+    float: right;
+    padding: 20px 20px;
+}
+
+
+/*Стилизация для адаптационного меню*/
+
+.hamb-line {
+    background: var(--white);
+    display: block;
+    height: 1.5px;
+    position: relative;
+    width: 25px;
+}
+
+.hamb-line::before,
+.hamb-line::after {
+    background: var(--white);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+
+.hamb-line::before {
+    top: 5px;
+}
+
+.hamb-line::after {
+    top: -5px;
+}
+
+.side-menu {
+    display: none;
+    /* Hide checkbox */
+}
+
+
+/*Стилизация значка переключаемого меню*/
+
+.side-menu:checked~nav {
+    max-height: 100%;
+}
+
+.side-menu:checked~.hamb .hamb-line {
+    background: transparent;
+}
+
+.side-menu:checked~.hamb .hamb-line::before {
+    transform: rotate(-45deg);
+    top: 0;
+}
+
+.side-menu:checked~.hamb .hamb-line::after {
+    transform: rotate(45deg);
+    top: 0;
+}
+
+
+/*Добавление отзывчивости(помедения меню при разных размерах экрана)*/
+
+@media (min-width: 600px) {
+    .nav {
+        max-height: none;
+        top: 0;
+        position: relative;
+        float: right;
+        width: fit-content;
+    }
+    .menu li {
+        float: left;
+    }
+    .menu a:hover {
+        background-color: transparent;
+        color:  rgb(254, 216, 158);
+    }
+    .hamb {
+        display: none;
+    }
+}

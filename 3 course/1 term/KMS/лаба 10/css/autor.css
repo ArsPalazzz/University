@@ -1,0 +1,68 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Lora);
+
+h2 {
+  font-family: monospace;
+  color: #606060;
+}
+.ob_avtore {
+  font-family: "century schoolbook";
+  font-size: 3vh;
+  text-decoration-color: black;
+  text-align: center;
+}
+.position {
+  align-content: center;
+  top: 30vh;
+  left: 20vw;
+}
+.foto {
+  margin-top: 5%;
+  text-align: center; /* Выравнивание по центру */
+}
+.obavtore {
+  background: #d4b0b0;
+}
+
+.interest {
+  background: #f2efe6 url(images/shadow.png) no-repeat 0 100%;
+  /* Параметры фона */
+  padding: 10px; /* Поля */
+  font-size: 0.9em; /* Размер шрифта */
+}
+.interest h3 {
+  margin: 0 0 -10px; /* Отступы в заголовке */
+}
+
+.containerAuthor .myphoto {
+  width: 20vw;
+  height: 80vh;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.containerAuthor {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 1200px) {
+  .containerAuthor .myphoto {
+    width: 20vw;
+    height: 50vh;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  p {
+    font-size: 3vw;
+  }
+
+  .containerAuthor .myphoto {
+    width: 30vw;
+    height: 50vh;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
