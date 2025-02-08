@@ -1,0 +1,35 @@
+body {
+    background-image: url(car.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+}
+table {
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    border: 2px solid black;
+    border-spacing: 0ch;
+    border-collapse: collapse;
+}
+td,th {
+    border: 1px solid black;
+}
+h1,h2,h3 {
+    font-family: "Monotype Corsiva";
+    color: purple;
+  }
+.first {
+      color: red;
+      font-family: 'Times New Roman';
+      font-size: 18pt;
+  }
+.second {
+      color:yellow;
+      font-family: 'Times New Roman';
+      font-size: 20pt;
+}
+.third {
+      color: green;
+      font-family: 'Times New Roman';
+      font-size: 22pt;
+}

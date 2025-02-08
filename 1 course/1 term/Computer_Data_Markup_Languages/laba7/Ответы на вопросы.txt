@@ -1,0 +1,20 @@
+1)transform
+2)transform: skew(x,y)
+3)transform: translate(x,y)
+4)transform: rotate(..deg)
+5)transform: scale, transform: scaleX, transform: scaleY, transform: scaleZ
+6)perspective(..px)
+7)Сокращенное св-во для всех transition-...
+8)transition-duration: ..s
+9)Применение анимации к элементу; Настройка ключевых кадров
+10)Определяет тип и направление проигрывания ключевых кадров
+11)animation-iteration-count: infinite
+12)opacity: ..%
+13)@keyframes {
+from {..px; ..px}
+to {..px; ..px}
+}
+14)Количество циклов
+15)Анимация смены свойств элемента
+16)Масштабирование по оси X
+17)Масштабирование по оси Y

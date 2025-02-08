@@ -1,0 +1,62 @@
+nav a{
+   display: block;
+   width: 80px;
+   padding: 2px 5px 2px 5px;
+}
+body {
+    background-image: url("sun.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    border: 1px solid black;
+    margin: -2px;
+    background-color: yellow;
+    border-radius: 5px 5px 5px 5px;
+}
+img {
+    width: 60px;
+    height: 60px;
+    border: 2px solid white;
+}
+.container {
+    margin-top: 10px;
+}
+h3 {
+    font-weight: bold;
+    text-align: center;
+}
+.three.columns p {
+    font-size: 19px;
+}
+span {
+    animation: apokal 3s linear infinite alternate;
+}
+@keyframes apokal{
+    from {
+        color: red;
+    }
+    17% {
+        color: orange;
+    }
+    33% {
+        color: yellow;
+    }
+    50% {
+        color: green;
+    }
+    66% {
+        color: rgb(0, 225, 255);
+    }
+    80% {
+        color: blue;
+    }
+    to {
+        color: purple;
+    }
+}
+.row div h4 img {
+    height: 25px;
+}

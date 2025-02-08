@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Лабораторная работа №4</title>
+    <style>
+        body {
+            background-color: teal;
+            color: white;
+        }
+        h2 {
+            text-align: center;
+            text-shadow: 2px 2px 2px black;
+            font-size: 30px;
+        }
+        .FirstDiv {
+            background-color: steelblue;
+            margin: auto;
+            width: 50%;
+            padding: 10px;
+            border: 3px solid rgb(4, 80, 143);
+        }
+        .SecondDiv {
+            background-color: coral;
+            margin: auto;
+            width: 50%;
+            padding: 10px;
+            border: 3px solid rgb(250, 89, 31);
+        }
+        p {
+            font-size: 20px;
+            text-shadow: 1px 1px 1px black;
+            margin-bottom: 5px;
+        }
+        h5 {
+            font-size: 25px;
+            text-shadow: 1.5px 1.5px 1.5px black;
+            margin: 5px 5px 5px 0px;
+        }
+    </style>
+</head>
+<body>
+     <h2>Задание 2</h2>
+<div class="FirstDiv">
+     <script>
+        function Student(FirstName, LastName, physics, CompScie, maths) { //Создание конструктора
+            this.FirstName = FirstName; //создаем переменную, со значением параметра FirstName
+            this.LastName = LastName;
+            this.physics = physics;
+            this.CompScie = CompScie;
+            this.maths = maths;
+    this.FullName=function FullName() {
+        document.write("<p>Имя: " + this.FirstName + "<br>" + "Фамилия: " + this.LastName + "<br>");
+    }
+    this.average=function average() {
+        document.write("Средняя оценка: " + ((this.physics + this.CompScie + this.maths) / 3).toFixed(2) + "<br>");
+    }
+}
+    FirstStudent = new Student("Валерий", "Жмышенко", 9, 10, 8); //Создание экземпляра через оператор new
+    FirstStudent.FullName();
+    FirstStudent.average();
+    Student.prototype.year=this.year;
+    FirstStudent.year = 2001;
+    document.write("Год рождения: " + FirstStudent.year + "</p>");
+
+    SecondStudent = new Student("Настя", "Мирная", 4, 7, 5);
+    SecondStudent.FullName();
+    SecondStudent.average();
+    SecondStudent.year = 2002;
+    document.write("Год рождения: " + SecondStudent.year + "</p>")
+
+    ThirdStudent = new Student("Джорно", "Джованна", 8, 8, 9);
+    ThirdStudent.FullName();
+    ThirdStudent.average();
+    ThirdStudent.year = 2004;
+    document.write("Год рождения: " + ThirdStudent.year + "</p>");
+    document.write("</div>");
+
+
+    document.write("<h2>Задание 3.2</h2>");
+    document.write("<div class='SecondDiv'>");
+    document.write("<h5>Оператор In</h5>");
+    document.write("<p>Есть ли свойство FirstName у объекта Student? - " + ("FirstName" in FirstStudent) + "</p>"); //in - проверяет, имеется ли у объекта заданное свойство или метод
+    document.write("<h5>Оператор Instanceof</h5>");
+    document.write("<p>Является ли объект Student объектом Array? - " + (Student instanceof Array) + "<br>"); //instanceof - является ли наш объект одним из втроенных объектов
+    document.write("Является ли объект Student объектом String? - " + (Student instanceof String) + "<br>");
+    document.write("Является ли объект Student объектом Object? - " + (Student instanceof Object) + "</p>");
+    document.write("<h5>Оператор Typeof</h5>");
+    document.write("<p>Тип объекта Student - " + typeof Student + "<br>"); //typeof - возвращает строку, с типом нашего операнда
+    document.write("Тип свойства FirstName - " + typeof FirstStudent.FirstName + "<br>");
+    document.write("Тип свойства LastName - " + typeof FirstStudent.LastName + "<br>");
+    document.write("Тип свойства physics - " + typeof FirstStudent.physics + "<br>");
+    document.write("Тип свойства CompScie - " + typeof FirstStudent.CompScie + "<br>");
+    document.write("Тип свойства maths - " + typeof FirstStudent.maths + "</p>");
+    </script>
+</div>
+</body>
+</html>

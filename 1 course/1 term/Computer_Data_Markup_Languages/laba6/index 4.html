@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Задание 4</title>
+    <style>
+        div {
+            display: inline-block;
+            width: 150px;
+            height: 150px;
+            border: 2px solid black;
+            margin-right: 10px;
+        }
+        .firstDiv {
+            background-image: linear-gradient(180deg, blue,red); /* сверху вниз */
+        }
+        .secondDiv {
+            background-image: repeating-linear-gradient(45deg, blue 6px, blue 20px, red 20px, red 34px)
+        }
+        .thirdDiv {
+            background-image: radial-gradient(yellow, green);
+        }
+        .fourthDiv {
+            background-image: repeating-radial-gradient(green, green 13.5px, yellow 13.5px, yellow 27px)
+        }
+        .fifthDiv {
+            background-image: radial-gradient(yellow, green, transparent), linear-gradient(180deg, blue, rgb(172, 0, 172)); /* transparent - Чтобы видеть область позади нашего градиента */
+        }
+        .sixthDiv {
+            background-image: linear-gradient(90deg, yellow, green, transparent), linear-gradient(180deg, black 20%, gray 40%, white 70%, blue 75%, rgb(172, 0, 172));
+        }
+    </style>
+</head>
+<body>
+<div class="firstDiv"><!--clear - запрещает обтекание-->
+</div>
+<div class="secondDiv">
+</div>
+<div class="thirdDiv">
+</div>
+<div class="fourthDiv">
+</div>
+<div class="fifthDiv">
+</div>
+<div class="sixthDiv">
+</div>
+</body>
+</html>

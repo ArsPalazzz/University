@@ -1,0 +1,35 @@
+.dude {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    background-color:rgba(71, 61, 139, 0.623);
+    width: 40%;
+    padding: 10px;
+    border: 3mm ridge rgba(129, 38, 168, 0.6);
+}
+body {
+    background: url(back1.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+h2 {
+    font-family: cursive;
+    color: rgb(255, 67, 99);
+    text-shadow: black 2px 2px 2px;
+}
+p {
+  font-size: 135%;
+  color: yellow; 
+  font-family: monospace;
+}
+input {
+    border-radius: 15px;
+    background-color: rgb(219, 129, 159);
+    box-shadow: 2px 1px 2px black;
+    margin: 5px;
+    padding: 3px;
+    font-size: 14px;
+}
+input:hover {
+    background-color: rgb(223, 112, 149);
+}

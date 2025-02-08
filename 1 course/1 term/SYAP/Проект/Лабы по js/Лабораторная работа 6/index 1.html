@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>First</title>
+    <style>
+        body {
+            background-color: bisque;
+        }
+    </style>
+    <script>
+        function fun1() { // document - бращаемся к DOM, и получаем возможность взаимодействовать с содержимым
+            document.getElementById("aboutWindow").innerHTML += "Для каждого открытого окна браузер создает объект Window. Все объекты JavaScript, включая переменные и функции, хранятся в объекте window. Методы объекта: open() открывает новое окно, close() закрывает окно, alert() выводит окно оповещения."
+        } 
+        
+        function closeTheWindow() {
+  window.close(); 
+}
+    </script>
+</head>
+<body>
+<input type="button" value="Text" onclick="fun1()">
+<input type="button" value="Закрыть" onclick="closeTheWindow()">
+<p id="aboutWindow"></p>
+</body>
+</html>

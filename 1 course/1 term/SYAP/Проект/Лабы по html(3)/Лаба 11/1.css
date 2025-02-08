@@ -1,0 +1,45 @@
+﻿SPECIALIZATION {
+    display: block;
+    text-align: center;
+    
+    margin-top: 12pt;
+    font-size: 15pt
+}
+
+NAME {
+    font-style: italic;
+    text-align: center
+}
+
+TIME {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+EXAM {
+    display: block;
+    text-align: center;
+}
+
+DEPARTMENT {
+    display: block;
+    text-align: center;
+}
+
+ALL {
+    display: block;
+    margin: 50px 100px;
+    border-style: solid;
+    border-color: #8C0088
+}
+SPECIALITIES {
+    display: block;
+}
+FACULTY {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 2px solid purple;
+    
+}

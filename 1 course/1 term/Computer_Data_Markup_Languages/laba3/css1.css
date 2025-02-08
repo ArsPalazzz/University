@@ -1,0 +1,63 @@
+@font-face { /*@font-face - это правило */
+    font-family: Caveat;
+    src: url(Fonts/Caveat.woff); 
+ }
+
+@font-face {
+    font-family: Exo2;
+    src: url(Fonts/Exo2.woff);
+}
+
+@font-face {
+    font-family: Comfortaa;
+    src: url(Fonts/Comfortaa.woff);
+}
+h1 {
+    color: black;
+    font-family: Caveat;
+    margin-bottom: 0; /* нижний отступ h1 равен 0 */
+    text-align: center;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 45px;
+    text-shadow: 2px 2px 2px green;
+   
+}
+h2 {
+    font-family: Exo2;
+    margin-bottom: 1.2em;
+    margin-top: 0.2rem;
+    text-align: left;
+    text-indent: 25px; /* абзацный отступ */
+}   
+p {
+    font-family: Comfortaa;
+    text-indent: 25px;
+    text-align: justify;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 200%; /* межстрочный отступ */
+    font-size: 20px;   
+}
+p::first-letter {
+    font-weight: bold;
+    font-size: 45px;
+    color: white;
+    background-color: hsla(275, 100%, 10%, 1);
+}
+ol li {
+    list-style-type: none; /* убираем маркеры списка */
+    counter-increment: item; /* counter-increment - увеличение счетчика */
+}
+ol li::before {
+    content: counter(item, upper-roman)"."; /* content - замена элемента маркера; counter - отображение значения счетчика */
+    color: blue;
+}
+ol li {
+    font-family: Comfortaa;
+    color: black;
+    font-size: 20px;
+}
+.keyFigures {
+    margin-bottom: 0;
+}

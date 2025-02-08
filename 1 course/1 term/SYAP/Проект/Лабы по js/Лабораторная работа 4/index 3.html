@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Лабораторная работа №4</title>
+    <style>
+        h2 {
+            text-align: center;
+            font-size: 30px;
+            text-shadow: 2px 2px 2px black;
+        }
+        body {
+            color: white;
+            background-color: slategray;
+        }
+        div {
+            background-color: seagreen;
+            width: 50%;
+            margin: auto;
+            padding: 5px 5px 5px 10px;
+            border: 3px solid rgb(5, 77, 36);
+        }
+        p {
+            font-size: 20px;
+            text-shadow: 1px 1px 1px black;
+            line-height: 140%;
+        }
+    </style>
+</head>
+<body>
+    <h2>Задание 3</h2>
+    <div>
+    <script>
+        let arr2 = ["pow", "pop", "push", "shift", "round", "floor", "sline", "sort"];
+        document.write("<p>Исходный массив: " + arr2.join() + "<br>");//метод join нужен для объединения всех элементов массива
+        delete arr2[3]; //удаляем элемент массива под номером 3
+        document.write("Полученный массив: " + arr2.join() + "<br>");
+        document.write("Имеется ли у массива второй элемент? - " + (2 in arr2) + "<br>"); //проверяет наличие у массива второго элемента
+        function return5() {
+            return 5; //завершает выполнение функции и возвращает значение 5
+        }
+        document.write("Тип массива arr2 - " + typeof arr2 + "<br>"); //выводит тип arr2
+        document.write("Тип функции - " + typeof return5 + "</p>"); //выводит тип return5
+    </script>
+    </div>
+</body>
+</html>

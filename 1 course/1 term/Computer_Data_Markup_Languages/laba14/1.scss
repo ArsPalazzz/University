@@ -1,0 +1,34 @@
+textPath {
+    font-size: 36px;
+}
+
+#svg1 {
+    margin-left: 800px;
+    background-color: aqua;
+    margin-bottom: 100px;
+}
+
+.col-1 {
+    fill: green;
+    transform: translateX(100px) translateY(-100px) rotate(30deg);
+}
+
+.col-2 {
+    fill: blueviolet;
+    transform: translateX(400px) translateY(-200px) rotate(45deg);
+}
+
+.col-3 {
+    fill: burlywood;
+    transform: translateX(300px) translateY(-200px) rotate(60deg);
+}
+
+.col-4 {
+    fill: crimson;
+    transform: translateX(750px) translateY(-200px) rotate(75deg);
+}
+
+.col-5 {
+    fill: darkgoldenrod;
+    transform: translateX(850px) translateY(-300px) rotate(90deg);
+}

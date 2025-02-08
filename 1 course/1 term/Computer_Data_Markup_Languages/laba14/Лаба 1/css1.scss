@@ -1,0 +1,33 @@
+$font_col1: blue;
+$font_col2: red;
+$font_col3: pink;
+
+body {
+    background-image: url(back.jpg);
+    h3 {
+        font-family:"Lucida Console";
+        font-size: 150%;
+    }
+    h1 {
+        color: $font_col1;
+        text-align: center;
+        font-size: 250%;
+    }
+    .firstP {
+        font-size: 120%;
+        color: $font_col2;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .secondP {
+        font-size: 100%;
+        color: $font_col3;
+        font-family: "Comic Sans MS";
+    }
+    .thirdP {
+        @extend h1;
+    }
+    .forTd {
+        text-align: center;
+        height: 50px;
+    }
+}

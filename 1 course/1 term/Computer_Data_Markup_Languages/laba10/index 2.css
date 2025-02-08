@@ -1,0 +1,70 @@
+@media (min-width: 560px) {
+    .nav2 {
+     display: none;
+    }
+    .nav1 ul li {
+        list-style-type: none;
+        display: inline-block;
+        border: 1px solid black;
+        background-color: rgb(0, 196, 0);
+        padding: 5px;
+        margin-left: -4px;
+    }
+    .nav1 a {
+        color: white;
+        text-shadow: 1px 1px 1px black;
+        text-decoration: none;
+    }
+    .nav1 li:hover {
+        background-color: rgb(3, 143, 3);
+    }
+}
+@media (max-width: 560px) {
+    .nav1 {
+        display: none;
+    }
+    .nav2>nav>ul>li {
+        list-style-type: none;
+        display: block;
+        border: 1px solid black;
+        background-color: orange;
+        width: 150px;
+        height: 30px;
+        padding: 4px 4px 0px 6px;
+        font-size: 20px;
+    }
+    .hidePls li {
+        list-style-type: none;
+        background-color: rgb(0, 162, 255);
+        border: 1px solid black;
+        width: 125px;
+        height: 43px;
+        margin-top: -1px;
+        padding: 2px 2px 2px 5px;
+        margin-left: -47px;
+        font-size: 15px;
+        margin-top: -6.2px;
+    }
+    .hidePls a {
+        width: 125px;
+        height: 40px;
+        text-decoration: none;
+        color: white;
+        text-shadow: 1px 1px 1px black;
+        margin-top: 15px;
+        
+    }
+    .nav2 .hidePls {
+        display: none;
+    }
+    .nav2 li:hover .hidePls{
+        display: inline-block;
+        margin-top: 15px;
+    }
+    .nav2 .hidePls li:hover {
+        background-color: rgb(3, 110, 172);
+    }
+    .nav2>nav>ul>li:hover {
+        background-color: rgb(214, 140, 3);
+    }
+}

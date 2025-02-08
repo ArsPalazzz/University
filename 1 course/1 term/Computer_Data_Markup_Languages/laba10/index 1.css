@@ -1,0 +1,35 @@
+.containerMain {
+    display: flex;
+    align-content: space-between; /* align-content - как будут располагаться flex-элементы, занимающие несколько строк; первый эл в начале, последний в конце*/
+    justify-content: center;
+    align-items: center; /* выравнивание ячеек  */
+    flex-direction: column; /* чтобы по колоночкам размещалось */
+}
+.container1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    text-align: center;
+}
+.div1 {
+    display: flex;
+    flex-flow: column wrap;/* flex-direction и flex-wrap */
+    padding: 2px;
+    width: 304px;
+    text-align: center;
+}
+.container2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.div2 {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 5px 4px 0px 4px;
+    padding: 2px;
+    width: 100px;
+    text-align: center;
+    padding: 1px 9px 1px 9px;
+}

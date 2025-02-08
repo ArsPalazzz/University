@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Second</title>
+    <style>
+        body {
+            background-color: darkgray;
+        }
+        table {
+            border: 5px black solid;
+            border-collapse: collapse;
+        }
+        td {
+            border: 2px black solid;
+            padding: 7px;
+        }
+    </style>
+    <script>
+            document.write("<table>");
+            document.write("<tr><td>Свойство</td><td>Значение</td></tr>");
+            // navigator - узнать, какой браузер используется
+            document.write("<tr><td>1)navigator.userAgent</td><td>" + navigator.userAgent + "</td></tr>"); // userAgent - почти вся информация о браузере
+            document.write("<tr><td>2)navigator.appVersion</td><td>" + navigator.appVersion + "</td></tr>"); 
+            document.write("<tr><td>3)navigator.appName</td><td>" + navigator.appName + "</td></tr>");
+            document.write("<tr><td>4)navigator.appCodeName</td><td>" + navigator.appCodeName+ "</td></tr>"); // кодовое название браузера
+            document.write("<tr><td>5)navigator.platform</td><td>" + navigator.platform+ "</td></tr>");
+            document.write("<tr><td>6)navigator.javaEnabled</td><td>" + navigator.javaEnabled() + "</td></tr>");
+             // screen - информация об экране
+            document.write("<tr><td>7)screen.width и screen.height</td><td>" + "Ширина: " + screen.width + "; " + "Высота: " + screen.height + "</td></tr>");
+            document.write("<tr><td>8)screen.colorDepth</td><td>" + screen.colorDepth + "</td></tr>");
+            // history - список URL, которые были посещены в данном окне
+            document.write("<tr><td>9)history.length</td><td>" + history.length + "</td></tr>");
+            // location - позволяет узнать информацию о URL текущего документа
+            document.write("<tr><td>10)location.href</td><td>" + location.href + "</td></tr>"); // URL загруженного документа целиком
+            document.write("<tr><td>11)location.pathname</td><td>" + location.pathname + "</td></tr>"); //путь к загруженному документу
+            document.write("<tr><td>12)location.host</td><td>" + location.host + "</td></tr>"); // имя домена загруженного документа
+    </script>
+</head>
+<body>
+</body>
+</html>

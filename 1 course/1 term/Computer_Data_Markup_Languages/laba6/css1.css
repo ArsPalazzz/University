@@ -1,0 +1,79 @@
+@font-face {
+    src: url(Fonts/Comfortaa.woff);
+    font-family: Comfortaa;
+}
+@font-face {
+    src: url(Fonts/Exo2.woff);
+    font-family: Exo2;
+}
+h3 {
+    text-indent: 20px;
+    font-family: Exo2;
+    font-size: 150%;
+ }
+h1 {
+    color: rgb(82, 82, 252);
+    text-align: center;
+    font-size: 250%;
+    text-shadow: 2px 2px 2px black;
+}
+.FirstP {
+    font-family: Comfortaa;
+}
+.SecondP {
+    font-family: "Comic Sans MS";
+}
+ul li {
+    list-style: none;
+    background-image: url(roflan.png);
+    background-repeat: no-repeat; /* space - полностью заполняет, если не получается, то добавляет пространство между изображениями (не растягивает) */
+    padding-left: 25px; /* round - полностью заполняет, если не получается, то добавляет пространство между изображениями (растягивает) */
+    margin-bottom: 3px;
+}
+table {
+    border-spacing: 0;
+    margin: auto;
+    text-align: center;
+    border: 3px solid black;
+    width: 80%;
+    border-collapse: collapse;
+}
+body {
+    background-color: aqua;
+    background-image: url(logo.png);
+    background-attachment: fixed;
+    background-position: right 10px top 30px; /* устанавливает расположение изображения, если задано background-repeat: no-repeat */
+    background-size: 200px; /* background-origin - определяет размер области, которая будет использоваться фоновым изображение (область расположения фона)(сдвигает изображение/фон) */
+    background-repeat: no-repeat; /*background-clip - определяет как цвет фона или фоновое изображение будут выводиться под границами блока (обрезает изображение/фон) */
+}
+.pic1 {
+    float: left;
+    margin-right: 10px;;
+    width: 300px;
+    height: 480px;
+}
+.pic2 {
+    float: right;
+    margin-left: 10px;
+    width: 430px;
+    height: 455px;
+}
+tr {
+    height: 50px;
+}
+td, th {
+    border: 2px solid black;
+}
+p {
+    text-indent: 20px;
+}
+.photos {
+    border: 5px solid black;
+    float: right;
+    background-color: wheat;
+    padding: 15px 20px 15px 0px;
+    margin-right: 130px;
+}
+span {
+    font-weight: bold;
+}

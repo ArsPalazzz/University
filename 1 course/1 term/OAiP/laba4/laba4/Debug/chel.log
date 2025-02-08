@@ -1,0 +1,3 @@
+﻿  chel.cpp
+D:\Visual Studio\Files\chel\chel.cpp(142,11): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  chel.vcxproj -> D:\Visual Studio\Files\chel\Debug\chel.exe

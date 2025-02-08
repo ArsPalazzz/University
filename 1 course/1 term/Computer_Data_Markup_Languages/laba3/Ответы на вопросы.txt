@@ -1,0 +1,30 @@
+1. Псевдоэлемент в CSS — это ключевое слово, добавляемое к селектору, которое позволяет стилизовать определённую часть выбранного элемента
+2. Псевдокласс в CSS — это ключевое слово, добавленное к селектору, которое определяет его особое состояние
+3. first letter псевдоэлемент
+4. text-indent
+5. letter-spacing, word-spacing или margin-top: 0; и margin-botton: 0;
+6. text-transform : uppercase/lowercase/capitalize ;
+7. font-variant : small-caps;
+8. text-shadow : ..px ..px ..px color;
+9. li {
+      list-style-type : none;
+      }
+   li::before {
+      color: ...;
+      content: counter(item, decimal/upper-roman)".";
+10. text-align : left/right/center ;
+11. @font-face {
+       font-family: Название шрифта;
+       src: url(путь к файлу .woff);
+       }
+12. woff, svg. Зависит от браузера, svg - для сафари, woff - для остальных браузеров
+13. first-letter, first-line, before, after
+14. list-style-image: url(Путь к изображению);
+15. px, pt, em, rem, %
+16. line-height : ...;
+17. font-style: italic;
+    font-weight: bold;
+18. font-family
+19. font-size
+20. letter-spacing - межсимвольный интервал
+    word-spacing - интервал между словами

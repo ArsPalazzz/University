@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Index 1</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+      body {
+        background-color: aqua;
+      }
+    </style>
+    <script>
+function openTheWindow() {
+  window.open("index 1.html"); // window - глобальный объект
+}
+function openNewWindow() {
+  window.open("index 2.html");
+}
+    </script>
+</head>
+<body>
+<h1>Главная страница</h1>
+<h2>Задание 1</h2>
+<input type="button" value="Открыть окно" onclick="openTheWindow()">
+<h2>Задание 2</h2>
+<input type="button" value="Открыть новое окно" onclick="openNewWindow()">
+</body>
+</html>

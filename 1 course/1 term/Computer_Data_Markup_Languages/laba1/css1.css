@@ -1,0 +1,31 @@
+h3 {
+    font-family:Lucida Console;
+    font-size: 150%;
+ }
+body {
+    background-image: url(back.jpg);
+}
+h1 {
+    color: blue;
+    text-align: center;
+    font-size: 250%;
+}
+.smart {
+    font-size: 120%;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ok {
+    font-size: 100%;
+    color: green;
+    font-family: Comic Sans MS;
+}
+.notok {
+    font-size: 90%;
+    color: purple;
+    font-family: Courier New;
+}
+.hah {
+    text-align: center;
+    height: 50px;
+}

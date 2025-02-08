@@ -1,0 +1,27 @@
+.grid div {
+    display: inline-block;
+}
+img {
+    width: 307px;
+    height: 173px;
+}
+h2 {
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+body {
+    background-image: url("back.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 340px 340px 340px 340px;
+    grid-template-rows: 220px 220px;
+    grid-gap: 10px;
+    margin-left: 40px;
+}
+figcaption {
+    text-align: center;
+}

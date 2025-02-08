@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Задание 3</title>
+    <style>
+        @font-face { /* static - обычное положение нашего элемента относительно других элементов */
+            src: url("Exo2.woff");
+            font-family: Exo2; /* relative - обычное положение нашего элемента относительно других элементов, но еще его можно передвигать */
+        }  
+nav ul { 
+ margin:0;
+ padding:0;
+ list-style-type:none; /* не обязан */
+/* absolute - элемент вырывается из обычного положения и как бы зависает в воздухе, а пространство, в котором он был, перестает восприниматься браузером(можно фиксировать относительно родительского элемента) */
+ }
+nav>ul>li { 
+ float:left; /* не обязан */
+ width:190px;
+ position: relative; /* чтобы второй список появлялся */
+}
+nav li a { /* fixed - как и absolute, но фиксируется только по окну браузера(а еще при скролле не пропадает) */
+ display: block;
+ background: yellow;/* sticky - как и static, но когда верхняя граница браузера доходит до нашего элемента, у элемента появляются свойства как у relative */
+ border: 1px dashed black;
+ padding: 8px;
+ text-decoration: none;
+ background-color: lightsalmon;
+}
+nav li .second {
+ display: none; /* обычно скрыт */
+ position: absolute;
+ top: 100%;
+ left:0; /* не обязан */
+}
+nav li:hover .second{
+ display: block; /* при наведении показывается */
+}
+nav li li {
+ width:120px;
+ font-family: Exo2;
+}
+span {
+    display: inline-block;
+    background-color: yellow;
+    width: 190px;
+    font-size: 16px;
+    padding: 8px 5px 8px 7px;
+    border: 1px solid black;
+    font-family: Exo2;
+}
+    </style>
+</head>
+<body>
+<nav>
+    <ul>
+        <li><span>Меню</span>
+        <ul class="second">
+        <li><a href="../Лаба 4/index 4.html">Форма</a></li>
+        <li><a href="../Лаба 4/index 3.html">Шахматная доска</a></li>
+        <li><a href="../Лаба 6/index 3.html">Фотогалерея</a></li>
+        </ul>
+        </li>
+        </ul>
+</nav>
+</body>
+</html>

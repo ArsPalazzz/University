@@ -1,0 +1,255 @@
+/* Задание 1 */
+.forOne {
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+.forOne > img {
+    width: 240px;
+    height: 240px;
+    margin-left: 40px;
+}
+.firstImg {
+    transition: transform 0.3s linear; 
+}
+.firstImg:hover {
+    transform: scale(0.5);
+}
+.secondImg {
+    transform: rotate(45deg);
+}
+.thirdImg {
+    transform: translate(50px);
+}
+.fourthImg {
+    transition: transform 0.3s linear;
+}
+.fourthImg:hover {
+    transform: skew(-20deg);
+}
+/* Задание 2 */
+.forTwo {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.forTwo > div {
+display: inline-block;
+background-color: yellow;
+width: 254px;
+height: 254px;
+margin-right: 50px;
+}
+div > img {
+width: 240px;
+height: 240px;
+padding: 8px;
+}
+.firstTwoImg {
+    margin-left: 170px;
+    transform: perspective(400px) rotateX(30deg);
+}
+.secondTwoImg {
+    transform: perspective(400px) rotateY(40deg);
+}
+.thirdTwoImg {
+    transform: perspective(400px) rotateX(30deg);
+}
+.fourthTwoImg {
+    transform: perspective(400px) rotateY(-40deg);
+}
+/* Задание 3 */
+.text {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    padding: 5px;
+    border: 5px solid orange;
+}
+.text > p {
+    font-size: 26px;
+    animation: textColor 20s linear infinite;
+    margin-top: 0px;
+}
+@keyframes textColor{
+from {
+    color: red;
+} 
+16% {
+    color: orange;
+}
+33% {
+    color: yellow;
+}
+49% {
+    color: green;
+}
+66% {
+    color: rgb(0, 225, 255);
+}
+82% {
+    color: blue;
+}
+to {
+    color: purple;
+}
+}
+/* Задание 4 */
+.forFour {
+    animation: photos 5s linear infinite alternate;
+    width: 600px;
+    height: 450px;
+    border: 5px solid black;
+}
+@keyframes photos {
+    from {
+       background-image: url(negr2.jpg);
+       background-repeat: no-repeat;
+       background-size: 100%;
+    }
+    25% {
+        background-image: url(genshin2.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    50% {
+        background-image: url(sosiska2.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    75% {
+        background-image: url(dogman2.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    to {
+        background-image: url(luftwaffeMarch2.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+/* Задание 5 */
+.forFive img {
+    width: 270px;
+    height: 202.5px;
+}
+.oneImg {
+    animation: horiz 5s linear infinite;
+    position: relative;
+}
+.twoImg {
+    animation: vert 5s linear infinite;
+    position: relative;
+}
+.threeImg {
+    animation: rand 5s linear infinite;
+    position: relative;
+}
+.fourImg {
+    animation: sqr 5s linear infinite;
+    position: relative;
+}
+@keyframes horiz {
+    from {left: 0}
+    50% {left: 200px}
+    to {left: 0}
+}
+@keyframes vert {
+    from {top: 0}
+    50% {top: -200px}
+    to {top: 0}
+}
+@keyframes rand {
+    from {left: 0; top: 0}
+    25% {left: 150px; top: 0}
+    50% {left: 350px; top: 150px}
+    75% {left: 0; top: 150px}
+    to {left: 0; top: 0}
+}
+@keyframes sqr {
+    from {left: 0; top: 0}
+    25% {left: 150px; top: 0}
+    50% {left: 150px; top: 150px}
+    75% {left: 0; top: 150px}
+    to {left: 0; top: 0} 
+}
+/* Задание 6 */
+h1 {
+    text-align: center;
+    animation: opacity 10s linear infinite reverse;
+}
+@keyframes opacity {
+    from {opacity: 0%;}
+    80% {opacity: 80%;}
+    to {opacity: 0%;}
+}
+/* Доп */
+body {
+    background-color: lightskyblue;
+}
+hr {
+    border: none;
+    border-top: 4px solid black;
+    text-align: center;
+    overflow: visible;
+}
+.clubs:after {
+    content: "♣";
+    font-size: 35px;
+    padding: 0 4px;
+    position: relative;
+    top: -24px;
+    background-color: lightskyblue;
+}
+.hearts:after {
+    content: "♥";
+    font-size: 35px;
+    padding: 0 4px;
+    position: relative;
+    color: red;
+    top: -24px;
+    background-color: lightskyblue;
+}
+.spades:after {
+    content: "♠";
+    font-size: 35px;
+    padding: 0 4px;
+    position: relative;
+    top: -24px;
+    background-color: lightskyblue;
+}
+.diamonds:after {
+    content: "♦";
+    font-size: 35px;
+    padding: 0 4px;
+    position: relative;
+    color: red;
+    top: -24px;
+    background-color: lightskyblue;
+}
+/* Начало */
+ul {
+    list-style-type: none;
+    float: right;
+    background-color: lightpink;
+    padding: 7px;
+    border: 7px rgb(190, 1, 228) ridge;   
+}
+ul a {
+    display: block;
+    font-size: 30px;
+}
+.firstA {
+    text-decoration: none;
+    color: red;
+} 
+.secondA:visited {
+    color: #8B0000;
+}  
+.thirdA:hover {
+    color: green;
+}  
+.fourthA:active {
+    color: rgb(184, 134, 11);
+}    
+.forh1 {
+    margin-left: 280px;
+}  

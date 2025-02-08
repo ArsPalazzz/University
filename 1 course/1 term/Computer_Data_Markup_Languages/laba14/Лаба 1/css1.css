@@ -1,0 +1,32 @@
+body {
+  background-image: url(back.jpg);
+}
+
+body h3 {
+  font-family: "Lucida Console";
+  font-size: 150%;
+}
+
+body h1, body .thirdP {
+  color: blue;
+  text-align: center;
+  font-size: 250%;
+}
+
+body .firstP {
+  font-size: 120%;
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body .secondP {
+  font-size: 100%;
+  color: pink;
+  font-family: "Comic Sans MS";
+}
+
+body .forTd {
+  text-align: center;
+  height: 50px;
+}
+/*# sourceMappingURL=css1.css.map */

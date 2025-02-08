@@ -1,0 +1,246 @@
+@font-face {
+    src: url("fonts/Portico Rounded.otf");
+    font-family: "portRound";
+}
+@font-face {
+    src: url("fonts/692_Arciform.otf");
+    font-family: "Arciform";
+}
+@font-face {
+    src: url("fonts/Exo2.woff");
+    font-family: "exo2";
+}
+@font-face {
+    src: url("fonts/AmidalaFontRegular.ttf");
+    font-family: "amidala";
+}
+@font-face {
+    src: url("fonts/BitterRegular.woff");
+    font-family: "bitter";
+}
+html {
+    scroll-behavior: smoothx;
+}
+body {
+    background-image: linear-gradient(to right bottom, rgb(255, 0, 255), rgb(0, 255, 242));
+    background-size: 100%;
+    background-attachment: fixed;
+}
+h3 {
+    font-family: "Arciform";
+    font-variant: small-caps;
+    position: absolute;
+    color: orange;
+    font-size: 45px;
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 2px;
+    margin-left: 15px;
+    margin-top: -5px;
+    position: fixed;
+}
+h3 a {
+    text-decoration: none;
+}
+h3 a:link {
+    color: orange;
+}
+h3 a:visited {
+    color: orange;
+}
+.finger {
+    display: inline-block;
+    margin-left: 450px;
+    margin-top: -50px;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    transition: transform 0.2s linear;
+}
+.finger:hover {
+    transform: translateY(30px);
+}
+h2 {
+   font-family: "portRound";
+   color: white;
+   text-shadow: 3px 3px 3px black;
+   font-size: 33px;
+}
+.firsth2 {
+    margin-left: 520px;
+    margin-top: -76px;
+}
+.firsth2:hover {
+    transform: -50px;
+}
+.secondh2 {
+    margin-left: 800px;
+    margin-top: -65px;
+}
+.secondh2:hover {
+    transform: 50px;
+}
+.firstDiv {
+    width: 950px;
+    height: 900px;
+}
+.secondDiv {
+    width: 1300px;
+    margin-left: 80px;
+    text-align: justify;
+}
+.secondDiv img {
+    width: 360px;
+    height: 480px;
+    float: left;
+    margin-right: 20px;
+}
+.secondDiv p {
+    font-family: "bitter";
+    font-size: 28.5px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    text-indent: 40px;
+}
+.jsNhtml a {
+    color: black;
+}
+.js {
+    border: 3px solid black;
+    background-color: yellow;
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+    display: inline-block;
+    transition: background-color 1s linear;
+    transition: border 1s linear;
+    transition: color 0.8s linear;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.js p {
+   
+    padding-left: 10px;
+}
+.js1p {
+    text-decoration: underline;
+}
+.jsNhtml {
+    margin-left: 80px;
+    margin-top: 90px;
+    display: grid;
+    grid-template-rows: 110px 110px;
+    grid-template-columns: 30px 300px;
+    grid-gap: 10px;
+}
+.htmlNcss {
+    border: 3px solid black;
+    background-color: rgb(0, 153, 255);
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+    display: inline-block;
+    transition: background-color 1s linear;
+    transition: border 1s linear;
+    transition: color 0.8s linear;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.line {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: black;
+    border-radius: 15px;
+}
+.htmlNcss p {
+    padding-left: 10px;
+}
+.html1p {
+    text-decoration: underline;
+}
+.js1p, .html1p {
+    font-family: "portRound";
+}
+.js2p, .html2p {
+    font-family: "bitter";
+    padding-top: 10px;
+    font-weight: bold;
+}
+.plus, .inst {
+    width: 40px;
+    height: 40px; 
+    display: block; 
+    margin-top: 20px; 
+    cursor: pointer;
+}
+.vk {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin-top: 80px;
+    cursor: pointer;
+}
+.plus:hover, .vk:hover, .inst:hover {
+    transform: scale(1.5);
+}
+.header {
+    margin-left: 1400px;
+    margin-top: 30px;
+    position: fixed;
+}
+.js:hover {
+    background-color: black;
+    border: 3px solid yellow;
+    color: yellow;
+}
+.htmlNcss:hover {
+    background-color: black;
+    border: 3px solid rgb(0, 153, 255);
+    color: rgb(0, 153, 255);
+}
+.footer {
+    margin-top: 50px;
+    margin-left: -8px;
+    margin-bottom: -15px;
+    width: 1519px;
+}
+.footerPart1 {
+    background-color: rgb(0, 7, 71);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.footerPart2 {
+    background-color: rgb(0, 3, 29);
+}
+.footer p {
+    color: white;
+    font-family: "bitter";
+    text-shadow: 1px 1px 1px black;
+}
+.footerPart1 div {
+    display: inline-block;
+}
+.footerPart1n1, .footerPart1n2 {
+    width: 250px;
+    padding-right: 50px;
+    vertical-align: top;
+}
+.footerPart1n3 {
+    width: 300px;
+    padding-right: 50px;
+    vertical-align: top;
+}
+.footerPart1n1 {
+    padding-left: 345px;
+}
+.footerPart2 {
+    margin-top: -16px;
+}
+.footerPart2 p {
+    padding: 15px 0 15px 650px;
+}

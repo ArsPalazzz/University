@@ -1,0 +1,8 @@
+﻿  laba6.cpp
+D:\Visual Studio\Files\laba6\laba6.cpp(120,10): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+D:\Visual Studio\Files\laba6\laba6.cpp(124,9): warning C4305: =: усечение из "double" в "float"
+D:\Visual Studio\Files\laba6\laba6.cpp(130,9): warning C4305: =: усечение из "double" в "float"
+D:\Visual Studio\Files\laba6\laba6.cpp(137,14): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Visual Studio\Files\laba6\laba6.cpp(138,17): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Visual Studio\Files\laba6\laba6.cpp(139,8): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  laba6.vcxproj -> D:\Visual Studio\Files\laba6\Debug\laba6.exe

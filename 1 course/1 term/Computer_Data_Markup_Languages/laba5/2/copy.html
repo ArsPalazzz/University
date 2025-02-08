@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Блочная модель</title>
+    <style>
+        body {
+            background-image: url(white.jpg);
+        }
+        div {
+            display: inline-block;
+            font-size: 40px;
+            margin: 10px 2px 10px 2px;
+            padding: 15px;
+            text-align: center;
+        }
+        .one {
+            border: 10px red outset;
+        }
+        .two {
+            border: 10px rgb(3, 202, 3) dashed;
+        }
+        .three {
+            border: 10px dotted blue;
+        }
+        .four {
+            border: 10px double rgb(0, 247, 255);
+        }
+        .five {
+            border: 10px ridge rgb(255, 0, 255);
+        }
+        .six {
+            border: 10px inset yellow;
+        }
+        .seven {
+            border: 10px solid black;
+        }
+        img, strong, em {
+            padding: 5px;
+            margin: 5px;
+            background-color: #FFA500;
+            border: 2px solid #FF4500;
+        }
+        .firstP {
+           width: 400px;
+           margin: auto;
+           border: 2px solid #FF7F50;
+        }
+        .secondP {
+            margin-top: 2px;
+            border: 5px solid red;
+            border-radius: 20px/40px;
+            box-shadow: inset rgba(0,0,0,.5) 2px 2px 8px 8px;
+            overflow: auto;
+            padding: 8px;
+        }
+        .thirdP {
+            padding: 8px;
+            border: 5px solid #FF6347;
+        }
+    </style>
+</head>
+<body>
+<div class="one">R</div>
+<div class="two">G</div>
+<div class="three">B</div>
+<div class="four">C</div>
+<div class="five">M</div>
+<div class="six">Y</div>
+<div class="seven">K</div>
+<p class="firstP"><img src="meg.jpg"></p>
+<p class="secondP">Что вы здесь делаете?<strong>Эта страничка только для крутых</strong></p>
+<p class="thirdP">ААААА крокодилы бегемоты<em>ААААА обезьяны кашалоты</em></p>
+</body>
+</html>

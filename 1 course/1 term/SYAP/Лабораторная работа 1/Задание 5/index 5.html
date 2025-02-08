@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Heading</title>
+        <meta charset="utf-8">
+    </head>
+    <body bgcolor="black">
+        <script type="text/javascript">
+        function fun1() //fun это объект
+        {
+           let x=prompt("Введите первое число"); //все переменные это объекты
+           let y=prompt("Введите второе число");
+        if(x>y) {
+          alert("x больше, чем y");
+        }
+        else if(x<y) {
+          alert("x меньше, чем y");
+        }
+          else { 
+          alert("x равен y"); 
+          } //onlick это событие
+      }
+        </script> 
+    <input type="button" value="Старт" onclick="fun1()"> 
+    </body> 
+</html>

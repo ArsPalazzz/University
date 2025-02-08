@@ -1,0 +1,24 @@
+﻿<?xmlversion "1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="XSLTFile2.xslt"?>
+<ALL>
+	<STUDENTS>
+		<STUDENT>
+			<NAME>Палазник Арсений</NAME>
+			<MATH>10</MATH>
+			<PHYS>2</PHYS>
+			<IT>8</IT>
+		</STUDENT>
+		<STUDENT>
+			<NAME>Александра Повшок</NAME>
+			<MATH>8</MATH>
+			<PHYS>10</PHYS>
+			<IT>2</IT>
+		</STUDENT>
+		<STUDENT>
+			<NAME>Владислав Вакуленчик</NAME>
+			<MATH>2</MATH>
+			<PHYS>8</PHYS>
+			<IT>10</IT>
+		</STUDENT>
+	</STUDENTS>
+</ALL>

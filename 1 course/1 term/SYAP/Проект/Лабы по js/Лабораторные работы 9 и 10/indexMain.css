@@ -1,0 +1,73 @@
+body{
+    background-image: url("back.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+}
+img{
+    width: 200px;
+}
+#mytext,#myimg{
+    position: absolute;
+}
+h2{
+   text-align: center; 
+}
+.h3DvigImg{
+ margin-top: 190px;
+ margin-bottom: 7px;
+
+}
+h3.h3Menu{
+    margin-top:0px;
+}
+#animimg1, #animimg2{
+    position: absolute;
+    width: 200px;
+}
+.boimg{
+    margin-top: 190px;
+    margin-bottom: 50px;
+}
+#animimg2{
+    top:80;
+    left:80;
+}
+#graf{
+    margin-top: 190px;
+    margin-bottom: 10px;
+}
+fieldset{
+    background-image: linear-gradient(45deg, orange 20%, yellow);
+    border-radius: 10px;
+    border: 2px solid red;
+}
+#button, #funccolor{
+    background-color: rgb(255, 251, 251);
+    border-radius: 5px;
+    border: 2px dotted rgb(255, 255, 255);
+    color:black;
+}
+
+#nav{
+    text-align: center;
+}
+.menu-item{
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    margin: 10px;
+    padding: 5px;
+}
+
+.submenu{
+    background: #FFC618 ;
+    position: absolute;
+    cursor: pointer;
+    height: 40px;
+    width: 110;
+}
+a{
+    text-decoration: none;
+    color:white;
+}

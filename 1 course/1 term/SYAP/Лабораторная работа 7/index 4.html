@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Задание 4</title>
+    <script>
+        function fun1() {
+            let allRadio = document.getElementsByClassName("one");
+            let selRadio = [];
+            for (let i = 0; i < allRadio.length; i++) {
+                if (allRadio[i].checked) {
+                    document.getElementById("container").innerHTML += "<li>" + allRadio[i].value + "</li>";
+                }
+            }
+        }
+    </script>
+    <style>
+        .forCheckbox label {
+            width: 60px;
+            font-weight: bold;
+        }
+
+        body {
+            background-image: url("back2.jpg");
+            background-size: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <h2>Что такое функция?</h2>
+        <p class="forCheckbox">
+            <input type="radio" class="one" name="forName1" value="1)Еда - неправильный ответ"><label>1)Еда</label>
+            <input type="radio" class="one" name="forName1" value="2)Объект - правильный ответ"><label>2)Объект</label>
+            <input type="radio" class="one" name="forName1" value="3)Что-то из химии - неправильный ответ"><label>3)Что-то из химии</label>
+            <input type="radio" class="one" name="forName1" value="4)Кто я? - неправильный ответ"><label>4)Кто я?</label>
+        </p>
+        <h2>Умер ли Райан Гослинг в конце Драйва?</h2>
+        <p>
+            <input type="radio" class="one" name="forName2"
+                value="1)Да не умер он в конце драйва - правильный ответ"><label>1)Да не умер он в конце драйва</label>
+            <input type="radio" class="one" name="forName2" value="2)Да - неправильный ответ"><label>2)Да</label>
+            <input type="radio" class="one" name="forName2"
+                value="3)Супа айдол де кса рон домени та тьен - неправильный ответ"><label>3)Супа айдол де кса рон
+                домени та тьен</label>
+        </p>
+        <h2>Never gonna give you up?</h2>
+        <p>
+            <input type="radio" class="one" name="forName3" value="1)Desert you - неправильный ответ"><label>1)Desert
+                you</label>
+            <input type="radio" class="one" name="forName3"
+                value="2)Never gonna run around and - неправильный ответ"><label>2)Never gonna run around and</label>
+            <input type="radio" class="one" name="forName3"
+                value="3)Never gonna let you down - правильный ответ"><label>3)Never gonna let you down</label>
+        </p>
+    </form>
+    <h2>Результат: </h2>
+    <input type="button" value="Нажмите, чтобы узнать результат" onclick="fun1()">
+    <ul id="container"></ul>
+</body>
+
+</html>

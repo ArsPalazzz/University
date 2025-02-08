@@ -1,0 +1,45 @@
+@font-face {
+    font-family: Comfortaa;
+    src: url(Fonts/Comfortaa.woff);
+}
+body {
+    background-image: url(back.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+div {
+    background-color: rgba(153, 50, 204, 0.521);
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: ridge rgb(207, 18, 207) 3mm;
+    padding: 15px;
+}
+h2 {
+    color: rgb(166, 255, 0);
+    font-family: cursive;
+    font-size: 150%;
+    text-shadow: black 2px 2px 2px;
+}
+p {
+    font-family: Comfortaa;
+    color: yellow;
+    font-size: 120%;
+    text-shadow: black 1px 1px 1px;
+}
+input {
+    background-color: rgb(0, 217, 255);
+    border-radius: 15px;
+    padding: 7px;
+    margin-top: 5px;
+    box-shadow: 2px 1px 2px black;
+    font-size: 14px;
+    font-variant: small-caps;
+}
+input:hover {
+    background-color: black;
+    color: yellow;
+    box-shadow: inset 2px 2px 2px 2px red;
+    border-radius:  20px 40px;
+}

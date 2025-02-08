@@ -1,0 +1,16 @@
+1. p, div, h1-h6, hr, nav
+2. audio, a, span, strong, img, input, label
+3. display: block
+4.1 display: inline
+4.2 margin: ..px ..px ..px ..px
+5. г.смещ, в. смещ, разм, расш, цвет
+6. margin: auto
+7. margin, width, height, padding
+8.1 border-style/color/width
+8.2 width + 2(margin + padding + border) 
+9. border-box: padding, border расширяют наш блок, но с border-box общие размеры нашего блока не увеличатся, зато изменится блок с содержимым
+   content-box - исп. по умолчанию, блок с контентом всегда будет неизменным
+10. content-box, padding-box, border-box
+11. исп. когда размеры содержимого блока больше, чем width и height
+12.верхняя граница желтая, правая - красная, нижняя - зеленая, левая - синяя
+13. border-right-width

@@ -1,0 +1,31 @@
+﻿   <?xmlversion "1.0" encoding="utf-8"?>
+   <?xml-stylesheet type="text/css" href="1.css"?>
+<ALL>
+	<FACULTY>Факультет информационных технологий</FACULTY>
+	<SPECIALITIES>
+		<SPECIALITY>
+			<NAME>Специальность: ИСИТ</NAME>
+			<TIME>Срок обучения: 4 года</TIME>
+			<EXAM>Количество экзаменов: 5</EXAM>
+			<DEPARTMENT>Выпускающая кафедра: Кафедра информационных систем и технологий</DEPARTMENT>
+		</SPECIALITY>
+		<SPECIALITY>
+			<NAME>Специальность: ПОИТ</NAME>
+			<TIME>Срок обучения: 4 года</TIME>
+			<EXAM>Количество экзаменов: 5</EXAM>
+			<DEPARTMENT>Выпускающая кафедра: Кафедра программной инженерии</DEPARTMENT>
+		</SPECIALITY>
+		<SPECIALITY>
+			<NAME>Специальность: ДЭЙВИ</NAME>
+			<TIME>Срок обучения: 4 года</TIME>
+			<EXAM>Количество экзаменов: 5</EXAM>
+			<DEPARTMENT>Выпускающая кафедра: Кафедра информатики и дизайна</DEPARTMENT>
+		</SPECIALITY>
+		<SPECIALITY>
+			<NAME>Специальность: ПОИМБС</NAME>
+			<TIME>Срок обучения: 4 года</TIME>
+			<EXAM>Количество экзаменов: 5</EXAM>
+			<DEPARTMENT>Выпускающая кафедра: Кафедра программной инженерии</DEPARTMENT>
+		</SPECIALITY>
+	</SPECIALITIES>
+</ALL>

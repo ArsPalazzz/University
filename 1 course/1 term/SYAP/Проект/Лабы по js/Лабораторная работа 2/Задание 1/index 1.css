@@ -1,0 +1,33 @@
+body {
+    background-image: url(bg1.jpg);
+    background-attachment: fixed; /*background-att. -  определ., зафикс. ли фон в видимой области
+    fixed фиксир. эту область*/
+}
+.dude {
+    width: 40%; 
+    background-color: rgba(221, 160, 221, 0.637);
+    padding: 15px; /* расст от прямоугольника до границы */ 
+    text-align: center; 
+    margin-left: auto; 
+    margin-right: auto;
+    border: 3mm ridge rgba(170, 50, 220, .6);   
+}
+input {
+    background-color: bisque;
+    box-shadow: 2px 2px 2px black;
+    margin: 7px; /* расст между кнопками */
+    padding: 4px;
+    font-size: 15px;
+    border-radius: 15px;
+}
+input:hover{ /* псевдокласс :hover срабатывает, когда пользователь наводит на элемент мышью, но не обязательно активирует его*/
+    background-color: rgb(253, 201, 137);                   
+}
+h2 {
+    font-family: cursive;
+    text-shadow: black 0.5px 0.5px 0.5px;
+}
+p {
+ font-size: 135%; 
+ font-family: monospace;
+}

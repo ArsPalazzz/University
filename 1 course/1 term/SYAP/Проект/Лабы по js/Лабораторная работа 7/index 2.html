@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Задание 2</title>
+    <style>
+        body {
+            background-image: url("back1.1.png");
+            background-size: 100%;
+        }
+        form {
+            width: 30%;
+            margin: auto;
+        }
+        fieldset {
+            background-color: gray;
+            border: 2px solid black;
+        }
+        legend {
+            font-size: 17px;
+            font-weight: bold;
+            background-color: black;
+            color: gray;
+        }
+        textarea {
+            display: block;
+            width: 160px;
+            height: 47px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        label {
+            display: inline-block;
+            width: 140px;
+        }
+        .forBold {
+            font-weight: bold;
+        }
+        .forRadio label {
+            width: 15px;
+        }
+        .forCheckbox label {
+            width: 60px;
+            font-weight: bold;
+        }
+        .sub {
+            display: block;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        /* Для js */
+        h2 {
+            text-align: center;
+            text-decoration: line-through;
+            color: red;
+        }
+    </style>
+     <script>
+        function fun1() {
+            let allCheckboxes = document.getElementsByClassName("checkbox"); //все чекбоксы
+            let checkboxesInArr = []; //массив с выбранными чекбоксами
+            for (let i = 0; i < allCheckboxes.length; i++) { //к-во всех чекбоксов
+                if (allCheckboxes[i].checked) { //выбранные чекбоксы[i]
+                    checkboxesInArr.push(allCheckboxes[i].value);//помещаем в массив значения этих чекбоксов
+                }
+            }
+            document.write("<h2>" + document.forms[0].elements[1].value + "</h2>Студент " + document.forms[0].lastName.value + " " + document.forms[0].firstName.value + ", специальность " + document.forms[0].spec.value + ", курс " + document.forms[0].course.value + ", должен сдавать следующие предметы:</p><p>" + checkboxesInArr.join("<br>") + "</p>");
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Задание 2</legend>
+            <textarea name="tArea">Факультет Информационных Технологий</textarea>
+            <p><label for="lastName" name="lastName">Ваша фамилия: </label><input type="text" id="lastName" value="Палазник"></p>
+            <p><label for="firstName" name="firstName">Ваше имя: </label><input type="text" id="firstName" value="Арсений"></p>
+            <p class="forBold">Специальность <select name="spec">
+                <option>ИCиТ</option>
+                <option>ПОИТ</option>
+                <option>ПОИБМС</option>
+                <option>ДЭВИ</option>
+            </select></p>
+            <br>
+            <p class="forBold">Курс</p>
+            <p class="forRadio">
+                <input type="radio" name="course" value="1" checked><label>1</label>
+                <input type="radio" name="course" value="2"><label>2</label>
+                <input type="radio" name="course" value="3"><label>3</label>
+                <input type="radio" name="course" value="4"><label>4</label>
+           </p>
+           <p class="forBold">Предметы</p>
+           <p class="forCheckbox">
+            <input type="checkbox" name="subjects" value="ОИТ" class="checkbox"></input><label>ОИТ</label>
+            <input type="checkbox" name="subjects" value="ОАиП" class="checkbox" checked></input><label>ОАиП</label>
+            <input type="checkbox" name="subjects" value="СЯП" class="checkbox" checked></input><label>СЯП</label>
+            <input type="checkbox" name="subjects" value="Физика" class="checkbox"></input><label>Физика</label>
+            <input type="checkbox" name="subjects" value="Бел. яз." class="checkbox"></input><label>Бел. яз.</label>
+           </p>
+           <input type="submit" value="submit">
+           <input type="reset" value="reset">
+           <br>
+           <input type="submit" value="Напечатать" onclick="fun1()" class="sub">
+        </fieldset>
+    </form>
+</body>
+</html>

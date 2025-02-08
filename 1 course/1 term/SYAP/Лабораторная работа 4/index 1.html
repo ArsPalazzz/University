@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Лабораторная работа №4</title>
+    <style>
+        h2 {
+            text-align: center;
+            font-size: 30px;
+            text-shadow: 2px 2px 2px black;
+        }
+        p {
+            font-size: 20px;
+            text-shadow: 1px 1px 1px black;
+        }
+        body {
+            background-color: rgb(97, 38, 139);
+            color: white;
+        }
+        .FirstDiv {
+            background-color: salmon;
+            width: 750px;
+            margin: auto;
+            padding: 5px 5px 5px 15px;
+            border: rgb(255, 81, 62) 3px solid;
+        }
+        .SecondDiv {
+            background-color: skyblue;
+            width: 750px;
+            margin: auto;
+            padding: 5px 5px 5px 15px;
+            border: rgb(23, 114, 150) 3px solid;
+        }
+        h5 {
+            font-size: 25px;
+            text-shadow: 1.5px 1.5px 1.5px black;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Задание 1</h2>
+<script>
+    function Gruppa(n,spec,kolich) { //Создание функции с параметрами //Создание конструктора
+    this.n=n; //создаем переменную, со значением параметра n
+    this.spec=spec; //this это ключевое слово, через которое мы можем взаимодействовать с определенными параметрами
+    this.kolich=kolich;
+    this.add_stud=function add_stud(k) { //Метод (добавить в группу k студентов)
+ this.kolich = this.kolich + k;
+ document.write("<p>В группу " + this.n + " добавили "+ k + " студента.</p>"); 
+}
+    this.sub_stud=function sub_stud(k) {
+ this.kolich = this.kolich - k;
+  document.write("<p>Из группы " + this.n + " отчислили " + k + " студента.</p>");
+    }   
+}  
+gr2=new Gruppa(2, "ИСиТ", 25); //Создание экземпляра через оператор new
+document.write("<div class='FirstDiv'>");
+document.write("<p>Номер группы: " + gr2.n + " .Номер специальности: " + gr2.spec + " Количество студентов: " + gr2.kolich + "</p>");
+gr2.add_stud(4); //Вызов метода созданного объекта (добавить 4 студента)
+gr2.sub_stud(2);
+//C помощью prototype добавим объекту свойство kurs, 
+//экземпляры объекта будут иметь это свойство
+Gruppa.prototype.kurs=this.kurs;
+gr2.kurs=2;
+document.write("<p>Номер группы: " + gr2.n + " .Номер специальности: " + gr2.spec + " .Количество студентов: " + gr2.kolich + " .Курс: " + gr2.kurs + "</p><br>");
+
+gr3=new Gruppa(4, "ПОИТ", 27);
+document.write("<p>Номер группы: " + gr3.n + " .Номер специальности: " + gr3.spec + " .Количество студентов: " + gr3.kolich + "</p>");
+gr3.add_stud(2);
+gr3.sub_stud(3);
+gr3.kurs=1;
+document.write("<p>Номер группы: " + gr3.n + " .Номер специальности: " + gr3.spec + " .Количество студентов: " + gr3.kolich + " .Курс: " + gr3.kurs + "</p><br>");
+
+gr4=new Gruppa(9, "ДЭиВИ", 30);
+document.write("<p>Номер группы: " + gr4.n + " .Номер специальности: " + gr4.spec + " .Количество студентов: " + gr4.kolich + "</p>");
+gr4.add_stud(3);
+gr4.sub_stud(2);
+gr4.kurs=2;
+document.write("<p>Номер группы: " + gr4.n + " .Номер специальности: " + gr4.spec + " .Количество студентов: " + gr4.kolich + " .Курс: " + gr4.kurs + "</p>");
+document.write("</div><br>");
+
+
+document.write("<h2>Задание 3.1</h2>");
+document.write("<div class='SecondDiv'>");
+document.write("<h5>Оператор In</h5>");
+document.write("<p>Есть ли свойство n в экземпляре gr2 объекта Gruppa? - " + ("n" in gr2) + "</p>"); //in - проверяет, имеется ли у объекта заданное свойство или метод
+document.write("<h5>Оператор Instanceof</h5>");
+document.write("<p>Является ли объект Gruppa объектом Array? - " + (Gruppa instanceof Array) + "<br>"); //instanceof - является ли наш объект одним из втроенных объектов
+document.write("Является ли объект Gruppa объектом String? - " + (Gruppa instanceof String) + "<br>");
+document.write("Является ли объект Gruppa объектом Object? - " + (Gruppa instanceof Object) + "</p>");
+document.write("<h5>Оператор Typeof</h5>");
+document.write("<p>Тип объекта Gruppa - " + typeof Gruppa + "<br>"); //typeof - возвращает строку, с типом нашего операнда
+document.write("Тип свойства n - " + typeof gr2.n + "<br>");
+document.write("Тип свойства spec - " + typeof gr2.spec + "<br>");
+document.write("Тип свойства kolich - " + typeof gr2.kolich + "<br>");
+document.write("Тип свойства kurs - " + typeof gr2.kurs + "</p>");
+document.write("</div>");
+</script>
+</body>
+</html>
