@@ -1,0 +1,7 @@
+﻿  ConsoleApplication1.cpp
+D:\Study\2 сем\ОАиП\ConsoleApplication1\ConsoleApplication1.cpp(20,42): error C2664: "void callfun(char *,int (__cdecl *)(char *))": невозможно преобразовать аргумент 1 из "const char [15]" в "char *"
+D:\Study\2 сем\ОАиП\ConsoleApplication1\ConsoleApplication1.cpp(20,10): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
+D:\Study\2 сем\ОАиП\ConsoleApplication1\ConsoleApplication1.cpp(13,6): message : см. объявление "callfun"
+D:\Study\2 сем\ОАиП\ConsoleApplication1\ConsoleApplication1.cpp(21,42): error C2664: "void callfun(char *,int (__cdecl *)(char *))": невозможно преобразовать аргумент 1 из "const char [15]" в "char *"
+D:\Study\2 сем\ОАиП\ConsoleApplication1\ConsoleApplication1.cpp(21,10): message : При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
+D:\Study\2 сем\ОАиП\ConsoleApplication1\ConsoleApplication1.cpp(13,6): message : см. объявление "callfun"

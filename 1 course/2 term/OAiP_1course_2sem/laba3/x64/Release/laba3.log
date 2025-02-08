@@ -1,0 +1,8 @@
+﻿  laba3(10.1).cpp
+  laba3(10.2).cpp
+D:\Study\ОАиП\laba3\laba3(10.2).cpp(10,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  Создание кода
+  Compiler switch has changed, fall back to full compilation.
+  All 142 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  laba3.vcxproj -> D:\Study\ОАиП\laba3\x64\Release\laba3.exe

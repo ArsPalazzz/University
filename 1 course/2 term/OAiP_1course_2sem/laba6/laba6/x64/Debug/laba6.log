@@ -1,0 +1,7 @@
+﻿  zad12.cpp
+D:\Study\ОАиП\laba6\laba6\zad12.cpp(116,25): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+D:\Study\ОАиП\laba6\laba6\zad12.cpp(134,16): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+D:\Study\ОАиП\laba6\laba6\zad12.cpp(150,20): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+  zad16.cpp
+  Создание кода...
+  laba6.vcxproj -> D:\Study\ОАиП\laba6\x64\Debug\laba6.exe

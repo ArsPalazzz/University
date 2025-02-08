@@ -1,0 +1,8 @@
+﻿  dop2.cpp
+  dop3.cpp
+D:\Study\СД\laba2\dop3.cpp(6,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  Создание кода
+  Compiler switch has changed, fall back to full compilation.
+  All 7 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  laba2.vcxproj -> D:\Study\СД\laba2\x64\Release\laba2.exe

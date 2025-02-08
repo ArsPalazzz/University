@@ -1,0 +1,4 @@
+﻿  MyQueue.cpp
+D:\Study\ОАиП\laba8\MyQueue.cpp(139): warning C4715: findMax: значение возвращается не при всех путях выполнения
+D:\Study\ОАиП\laba8\MyQueue.cpp(163): warning C4715: findMin: значение возвращается не при всех путях выполнения
+  laba8.vcxproj -> D:\Study\ОАиП\laba8\x64\Debug\laba8.exe

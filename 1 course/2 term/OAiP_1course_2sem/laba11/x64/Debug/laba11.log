@@ -1,0 +1,3 @@
+﻿  laba11.cpp
+D:\Study\ОАиП\laba11\laba11.cpp(32,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  laba11.vcxproj -> D:\Study\ОАиП\laba11\x64\Debug\laba11.exe

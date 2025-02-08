@@ -1,0 +1,7 @@
+﻿  proectStack.cpp
+D:\Study\ОАиП\laba7\proectStack.cpp(136,6): warning C4101: a: неиспользованная локальная переменная
+  Создание кода
+  Previous IPDB not found, fall back to full compilation.
+  All 161 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  laba7.vcxproj -> D:\Study\ОАиП\laba7\x64\Release\laba7.exe

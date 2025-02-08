@@ -1,0 +1,15 @@
+﻿  laba9.cpp
+D:\Study\СД\laba9\laba9.cpp(245,3): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Study\СД\laba9\laba9.cpp(245,69): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Study\СД\laba9\laba9.cpp(308,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+D:\Study\СД\laba9\laba9.cpp(341,973): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\Study\СД\laba9\laba9.cpp(344,1100): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\Study\СД\laba9\laba9.cpp(347,1375): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\Study\СД\laba9\laba9.cpp(350,1353): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\Study\СД\laba9\laba9.cpp(353,742): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\Study\СД\laba9\laba9.cpp(366,11): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "int **"
+D:\Study\СД\laba9\laba9.cpp(366,11): warning C4313: printf: конфликт "%d" в строке формата с аргументом 1 типа "int **"
+D:\Study\СД\laba9\laba9.cpp(367,11): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "int **"
+D:\Study\СД\laba9\laba9.cpp(367,11): warning C4313: printf: конфликт "%d" в строке формата с аргументом 1 типа "int **"
+D:\Study\СД\laba9\laba9.cpp(314,10): warning C4101: i2: неиспользованная локальная переменная
+  laba9.vcxproj -> D:\Study\СД\laba9\x64\Debug\laba9.exe

@@ -1,0 +1,5 @@
+﻿  dop2.cpp
+  dop3.cpp
+D:\Study\СД\laba7\dop3.cpp(3,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  Создание кода...
+  laba7.vcxproj -> D:\Study\СД\laba7\x64\Debug\laba7.exe

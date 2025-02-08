@@ -1,0 +1,9 @@
+﻿  fck.cpp
+D:\Study\СД\laba4\fck.cpp(298,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+D:\Study\СД\laba4\fck.cpp(328,973): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\Study\СД\laba4\fck.cpp(331,1100): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\Study\СД\laba4\fck.cpp(334,1375): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\Study\СД\laba4\fck.cpp(337,1353): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\Study\СД\laba4\fck.cpp(340,742): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\Study\СД\laba4\fck.cpp(304,10): warning C4101: i2: неиспользованная локальная переменная
+  laba4.vcxproj -> D:\Study\СД\laba4\x64\Debug\laba4.exe

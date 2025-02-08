@@ -1,0 +1,8 @@
+﻿  Lab_12.cpp
+D:\Study\ОАиП\laba12\Lab_12\Lab_12.cpp(15,15): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Study\ОАиП\laba12\Lab_12\Lab_12.cpp(22,15): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Study\ОАиП\laba12\Lab_12\Lab_12.cpp(80,37): warning C4018: >: несоответствие типов со знаком и без знака
+D:\Study\ОАиП\laba12\Lab_12\Lab_12.cpp(103,31): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Study\ОАиП\laba12\Lab_12\Lab_12.cpp(117,26): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Study\ОАиП\laba12\Lab_12\Lab_12.cpp(123): warning C4715: BHeap::GetNumOfLevels: значение возвращается не при всех путях выполнения
+  Lab_12.vcxproj -> D:\Study\ОАиП\laba12\Debug\Lab_12.exe
