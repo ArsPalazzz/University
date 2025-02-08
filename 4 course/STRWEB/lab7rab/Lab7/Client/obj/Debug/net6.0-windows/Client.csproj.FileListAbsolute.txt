@@ -1,0 +1,95 @@
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Client\bin\Debug\net6.0-windows\Client.exe
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Client\bin\Debug\net6.0-windows\Client.deps.json
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Client\bin\Debug\net6.0-windows\Client.runtimeconfig.json
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Client\bin\Debug\net6.0-windows\Client.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Client\bin\Debug\net6.0-windows\Client.pdb
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Client\obj\Debug\net6.0-windows\Client.Form1.resources
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Client\obj\Debug\net6.0-windows\Client.csproj.GenerateResource.cache
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Client\obj\Debug\net6.0-windows\Client.GeneratedMSBuildEditorConfig.editorconfig
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Client\obj\Debug\net6.0-windows\Client.AssemblyInfoInputs.cache
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Client\obj\Debug\net6.0-windows\Client.AssemblyInfo.cs
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Client\obj\Debug\net6.0-windows\Client.csproj.CoreCompileInputs.cache
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Client\obj\Debug\net6.0-windows\Client.sourcelink.json
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Client\obj\Debug\net6.0-windows\Client.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Client\obj\Debug\net6.0-windows\refint\Client.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Client\obj\Debug\net6.0-windows\Client.pdb
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Client\obj\Debug\net6.0-windows\Client.genruntimeconfig.cache
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Client\obj\Debug\net6.0-windows\ref\Client.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Client\bin\Debug\net6.0-windows\Client.exe
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Client\bin\Debug\net6.0-windows\Client.deps.json
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Client\bin\Debug\net6.0-windows\Client.runtimeconfig.json
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Client\bin\Debug\net6.0-windows\Client.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Client\bin\Debug\net6.0-windows\Client.pdb
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Client\obj\Debug\net6.0-windows\Client.Form1.resources
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Client\obj\Debug\net6.0-windows\Client.csproj.GenerateResource.cache
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Client\obj\Debug\net6.0-windows\Client.GeneratedMSBuildEditorConfig.editorconfig
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Client\obj\Debug\net6.0-windows\Client.AssemblyInfoInputs.cache
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Client\obj\Debug\net6.0-windows\Client.AssemblyInfo.cs
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Client\obj\Debug\net6.0-windows\Client.csproj.CoreCompileInputs.cache
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Client\obj\Debug\net6.0-windows\Client.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Client\obj\Debug\net6.0-windows\refint\Client.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Client\obj\Debug\net6.0-windows\Client.pdb
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Client\obj\Debug\net6.0-windows\Client.genruntimeconfig.cache
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Client\obj\Debug\net6.0-windows\ref\Client.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Client\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Client\obj\Debug\net6.0-windows\Client.csproj.AssemblyReference.cache
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Client\obj\Debug\net6.0-windows\Client.csproj.Up2Date
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\Client.exe
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\Client.deps.json
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\Client.runtimeconfig.json
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\Client.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\Client.pdb
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\Microsoft.Data.Edm.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\Microsoft.Data.OData.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\Microsoft.Data.Services.Client.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\System.Spatial.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\de\Microsoft.Data.Edm.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\es\Microsoft.Data.Edm.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\fr\Microsoft.Data.Edm.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\it\Microsoft.Data.Edm.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\ja\Microsoft.Data.Edm.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\ko\Microsoft.Data.Edm.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\ru\Microsoft.Data.Edm.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\de\Microsoft.Data.OData.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\es\Microsoft.Data.OData.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\fr\Microsoft.Data.OData.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\it\Microsoft.Data.OData.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\ja\Microsoft.Data.OData.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\ko\Microsoft.Data.OData.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\ru\Microsoft.Data.OData.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\de\Microsoft.Data.Services.Client.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\es\Microsoft.Data.Services.Client.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\fr\Microsoft.Data.Services.Client.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\it\Microsoft.Data.Services.Client.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\ja\Microsoft.Data.Services.Client.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\ko\Microsoft.Data.Services.Client.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\ru\Microsoft.Data.Services.Client.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\de\System.Spatial.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\es\System.Spatial.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\fr\System.Spatial.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\it\System.Spatial.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\ja\System.Spatial.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\ko\System.Spatial.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\ru\System.Spatial.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\zh-Hans\System.Spatial.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\bin\Debug\net6.0-windows\zh-Hant\System.Spatial.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\obj\Debug\net6.0-windows\Client.csproj.AssemblyReference.cache
+D:\Study\STRWEB\lab7rab\Lab7\Client\obj\Debug\net6.0-windows\Client.Form1.resources
+D:\Study\STRWEB\lab7rab\Lab7\Client\obj\Debug\net6.0-windows\Client.csproj.GenerateResource.cache
+D:\Study\STRWEB\lab7rab\Lab7\Client\obj\Debug\net6.0-windows\Client.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\STRWEB\lab7rab\Lab7\Client\obj\Debug\net6.0-windows\Client.AssemblyInfoInputs.cache
+D:\Study\STRWEB\lab7rab\Lab7\Client\obj\Debug\net6.0-windows\Client.AssemblyInfo.cs
+D:\Study\STRWEB\lab7rab\Lab7\Client\obj\Debug\net6.0-windows\Client.csproj.CoreCompileInputs.cache
+D:\Study\STRWEB\lab7rab\Lab7\Client\obj\Debug\net6.0-windows\Client.csproj.Up2Date
+D:\Study\STRWEB\lab7rab\Lab7\Client\obj\Debug\net6.0-windows\Client.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\obj\Debug\net6.0-windows\refint\Client.dll
+D:\Study\STRWEB\lab7rab\Lab7\Client\obj\Debug\net6.0-windows\Client.pdb
+D:\Study\STRWEB\lab7rab\Lab7\Client\obj\Debug\net6.0-windows\Client.genruntimeconfig.cache
+D:\Study\STRWEB\lab7rab\Lab7\Client\obj\Debug\net6.0-windows\ref\Client.dll

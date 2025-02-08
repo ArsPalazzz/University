@@ -1,0 +1,173 @@
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\Host.exe.config
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\Host.exe
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\Host.pdb
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\SyndicationServiceLibrary.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\Newtonsoft.Json.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\Microsoft.Data.Services.Client.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\Microsoft.Data.Edm.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\Microsoft.Data.OData.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\System.Spatial.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\SyndicationServiceLibrary.pdb
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\SyndicationServiceLibrary.dll.config
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\Newtonsoft.Json.xml
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\Microsoft.Data.Services.Client.xml
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\Microsoft.Data.Edm.xml
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\Microsoft.Data.OData.xml
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\System.Spatial.xml
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\de\Microsoft.Data.OData.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\es\Microsoft.Data.OData.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\it\Microsoft.Data.OData.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\de\System.Spatial.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\es\System.Spatial.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\fr\System.Spatial.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\it\System.Spatial.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\ja\System.Spatial.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\ko\System.Spatial.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\ru\System.Spatial.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\zh-Hans\System.Spatial.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\bin\Debug\zh-Hant\System.Spatial.resources.dll
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\obj\Debug\Host.csproj.AssemblyReference.cache
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\obj\Debug\Host.csproj.CoreCompileInputs.cache
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\obj\Debug\Host.csproj.Up2Date
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\obj\Debug\Host.exe
+E:\Course4\7sem\ПWS (Смелов)\Lab7\Host\obj\Debug\Host.pdb
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\Host.exe.config
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\Host.exe
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\Host.pdb
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\SyndicationServiceLibrary.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\Newtonsoft.Json.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\Microsoft.Data.Services.Client.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\Microsoft.Data.Edm.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\Microsoft.Data.OData.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\System.Spatial.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\SyndicationServiceLibrary.pdb
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\SyndicationServiceLibrary.dll.config
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\Newtonsoft.Json.xml
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\Microsoft.Data.Services.Client.xml
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\Microsoft.Data.Edm.xml
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\Microsoft.Data.OData.xml
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\System.Spatial.xml
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\de\Microsoft.Data.OData.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\es\Microsoft.Data.OData.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\it\Microsoft.Data.OData.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\de\System.Spatial.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\es\System.Spatial.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\fr\System.Spatial.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\it\System.Spatial.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\ja\System.Spatial.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\ko\System.Spatial.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\ru\System.Spatial.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\zh-Hans\System.Spatial.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\bin\Debug\zh-Hant\System.Spatial.resources.dll
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\obj\Debug\Host.csproj.AssemblyReference.cache
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\obj\Debug\Host.csproj.CoreCompileInputs.cache
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\obj\Debug\Host.csproj.Up2Date
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\obj\Debug\Host.exe
+E:\7sem\СМЕЛОВ СЕРВИСЫ\Lab7\Host\obj\Debug\Host.pdb
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\Host.exe.config
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\Host.exe
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\Host.pdb
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\SyndicationServiceLibrary.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\EntityFramework.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\Newtonsoft.Json.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\Microsoft.Data.Services.Client.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\Microsoft.Data.Edm.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\Microsoft.Data.OData.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\System.Spatial.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\SyndicationServiceLibrary.pdb
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\SyndicationServiceLibrary.dll.config
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\EntityFramework.xml
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\Newtonsoft.Json.xml
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\Microsoft.Data.Services.Client.xml
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\Microsoft.Data.Edm.xml
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\Microsoft.Data.OData.xml
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\System.Spatial.xml
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\de\Microsoft.Data.OData.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\es\Microsoft.Data.OData.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\it\Microsoft.Data.OData.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\de\System.Spatial.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\es\System.Spatial.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\fr\System.Spatial.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\it\System.Spatial.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\ja\System.Spatial.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\ko\System.Spatial.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\ru\System.Spatial.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\zh-Hans\System.Spatial.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\bin\Debug\zh-Hant\System.Spatial.resources.dll
+D:\Study\STRWEB\lab7rab\Lab7\Host\obj\Debug\Host.csproj.AssemblyReference.cache
+D:\Study\STRWEB\lab7rab\Lab7\Host\obj\Debug\Host.csproj.CoreCompileInputs.cache
+D:\Study\STRWEB\lab7rab\Lab7\Host\obj\Debug\Host.csproj.Up2Date
+D:\Study\STRWEB\lab7rab\Lab7\Host\obj\Debug\Host.exe
+D:\Study\STRWEB\lab7rab\Lab7\Host\obj\Debug\Host.pdb

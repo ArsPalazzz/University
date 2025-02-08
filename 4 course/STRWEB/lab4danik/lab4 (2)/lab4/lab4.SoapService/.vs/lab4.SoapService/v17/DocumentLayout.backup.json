@@ -1,0 +1,317 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\lab4.SoapService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{15471529-DFDE-478F-9B4F-D3A661D86BEC}|..\\AJAX\\AJAX.csproj|d:\\study\\strweb\\lab4danik\\lab4 (2)\\lab4\\ajax\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{728AC78F-EAE6-4B9E-9ED9-C948AF5F043F}|..\\WindowsFormsApp1\\WindowsFormsApp1.csproj|d:\\study\\strweb\\lab4danik\\lab4 (2)\\lab4\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51878CEB-D561-4EEF-930B-F1FC061D9210}|..\\WebFormsProxy\\WebFormsProxy.csproj|d:\\study\\strweb\\lab4danik\\lab4 (2)\\lab4\\webformsproxy\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51878CEB-D561-4EEF-930B-F1FC061D9210}|..\\WebFormsProxy\\WebFormsProxy.csproj|d:\\study\\strweb\\lab4danik\\lab4 (2)\\lab4\\webformsproxy\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51878CEB-D561-4EEF-930B-F1FC061D9210}|..\\WebFormsProxy\\WebFormsProxy.csproj|d:\\study\\strweb\\lab4danik\\lab4 (2)\\lab4\\webformsproxy\\simplex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A190297-557C-4F41-97BA-772A170D5069}|..\\lab4.WinForm\\lab4.WinForm.csproj|d:\\study\\strweb\\lab4danik\\lab4 (2)\\lab4\\lab4.winform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15471529-DFDE-478F-9B4F-D3A661D86BEC}|..\\AJAX\\AJAX.csproj|d:\\study\\strweb\\lab4danik\\lab4 (2)\\lab4\\ajax\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15471529-DFDE-478F-9B4F-D3A661D86BEC}|..\\AJAX\\AJAX.csproj|d:\\study\\strweb\\lab4danik\\lab4 (2)\\lab4\\ajax\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15471529-DFDE-478F-9B4F-D3A661D86BEC}|..\\AJAX\\AJAX.csproj|d:\\study\\strweb\\lab4danik\\lab4 (2)\\lab4\\ajax\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A190297-557C-4F41-97BA-772A170D5069}|..\\lab4.WinForm\\lab4.WinForm.csproj|d:\\study\\strweb\\lab4danik\\lab4 (2)\\lab4\\lab4.winform\\simplexproxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A190297-557C-4F41-97BA-772A170D5069}|..\\lab4.WinForm\\lab4.WinForm.csproj|d:\\study\\strweb\\lab4danik\\lab4 (2)\\lab4\\lab4.winform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C95FA9A-9FEE-4CD8-A45B-E370DB6AD5D6}|lab4.SoapService.csproj|D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\lab4.SoapService\\services\\simplex.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C95FA9A-9FEE-4CD8-A45B-E370DB6AD5D6}|lab4.SoapService.csproj|solutionrelative:services\\simplex.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C95FA9A-9FEE-4CD8-A45B-E370DB6AD5D6}|lab4.SoapService.csproj|D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\lab4.SoapService\\services\\simplex.asmx||{FB9167C9-D3B8-4EDA-8083-9AF6B6F6DA62}",
+      "RelativeMoniker": "D:0:0:{6C95FA9A-9FEE-4CD8-A45B-E370DB6AD5D6}|lab4.SoapService.csproj|solutionrelative:services\\simplex.asmx||{FB9167C9-D3B8-4EDA-8083-9AF6B6F6DA62}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C95FA9A-9FEE-4CD8-A45B-E370DB6AD5D6}|lab4.SoapService.csproj|D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\lab4.SoapService\\services\\simplex.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6C95FA9A-9FEE-4CD8-A45B-E370DB6AD5D6}|lab4.SoapService.csproj|solutionrelative:services\\simplex.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{728AC78F-EAE6-4B9E-9ED9-C948AF5F043F}|..\\WindowsFormsApp1\\WindowsFormsApp1.csproj|d:\\study\\strweb\\lab4danik\\lab4 (2)\\lab4\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A190297-557C-4F41-97BA-772A170D5069}|..\\lab4.WinForm\\lab4.WinForm.csproj|d:\\study\\strweb\\lab4danik\\lab4 (2)\\lab4\\lab4.winform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C95FA9A-9FEE-4CD8-A45B-E370DB6AD5D6}|lab4.SoapService.csproj|D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\lab4.SoapService\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{6C95FA9A-9FEE-4CD8-A45B-E370DB6AD5D6}|lab4.SoapService.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C95FA9A-9FEE-4CD8-A45B-E370DB6AD5D6}|lab4.SoapService.csproj|D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\lab4.SoapService\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{6C95FA9A-9FEE-4CD8-A45B-E370DB6AD5D6}|lab4.SoapService.csproj|solutionrelative:packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51878CEB-D561-4EEF-930B-F1FC061D9210}|..\\WebFormsProxy\\WebFormsProxy.csproj|d:\\study\\strweb\\lab4danik\\lab4 (2)\\lab4\\webformsproxy\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WebForm1.aspx",
+              "DocumentMoniker": "D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\WebFormsProxy\\WebForm1.aspx",
+              "RelativeDocumentMoniker": "..\\WebFormsProxy\\WebForm1.aspx",
+              "ToolTip": "D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\WebFormsProxy\\WebForm1.aspx",
+              "RelativeToolTip": "..\\WebFormsProxy\\WebForm1.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-27T22:26:33.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\lab4.WinForm\\Form1.cs",
+              "RelativeDocumentMoniker": "..\\lab4.WinForm\\Form1.cs",
+              "ToolTip": "D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\lab4.WinForm\\Form1.cs",
+              "RelativeToolTip": "..\\lab4.WinForm\\Form1.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T20:14:43.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Simplex.cs",
+              "DocumentMoniker": "D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\WebFormsProxy\\Simplex.cs",
+              "RelativeDocumentMoniker": "..\\WebFormsProxy\\Simplex.cs",
+              "ToolTip": "D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\WebFormsProxy\\Simplex.cs",
+              "RelativeToolTip": "..\\WebFormsProxy\\Simplex.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAAB4AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T05:56:44.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WebForm1.aspx.cs",
+              "DocumentMoniker": "D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\WebFormsProxy\\WebForm1.aspx.cs",
+              "RelativeDocumentMoniker": "..\\WebFormsProxy\\WebForm1.aspx.cs",
+              "ToolTip": "D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\WebFormsProxy\\WebForm1.aspx.cs",
+              "RelativeToolTip": "..\\WebFormsProxy\\WebForm1.aspx.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T06:19:21.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SimplexProxy.cs",
+              "DocumentMoniker": "D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\lab4.WinForm\\SimplexProxy.cs",
+              "RelativeDocumentMoniker": "..\\lab4.WinForm\\SimplexProxy.cs",
+              "ToolTip": "D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\lab4.WinForm\\SimplexProxy.cs",
+              "RelativeToolTip": "..\\lab4.WinForm\\SimplexProxy.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T22:52:43.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\AJAX\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "..\\AJAX\\Views\\Home\\About.cshtml",
+              "ToolTip": "D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\AJAX\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "..\\AJAX\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T22:59:34.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\AJAX\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "..\\AJAX\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\AJAX\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "..\\AJAX\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T22:59:35.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\AJAX\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\AJAX\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\AJAX\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "..\\AJAX\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T22:59:36.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\WindowsFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "..\\WindowsFormsApp1\\Form1.cs",
+              "ToolTip": "D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\WindowsFormsApp1\\Form1.cs",
+              "RelativeToolTip": "..\\WindowsFormsApp1\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T20:54:57.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\AJAX\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "..\\AJAX\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\AJAX\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "..\\AJAX\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T22:27:19.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\lab4.WinForm\\Program.cs",
+              "RelativeDocumentMoniker": "..\\lab4.WinForm\\Program.cs",
+              "ToolTip": "D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\lab4.WinForm\\Program.cs",
+              "RelativeToolTip": "..\\lab4.WinForm\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T19:31:47.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Simplex.asmx.cs [Design]",
+              "DocumentMoniker": "D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\lab4.SoapService\\Services\\Simplex.asmx.cs",
+              "RelativeDocumentMoniker": "Services\\Simplex.asmx.cs",
+              "ToolTip": "D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\lab4.SoapService\\Services\\Simplex.asmx.cs [Design]",
+              "RelativeToolTip": "Services\\Simplex.asmx.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T20:59:16.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Simplex.asmx.cs",
+              "DocumentMoniker": "D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\lab4.SoapService\\Services\\Simplex.asmx.cs",
+              "RelativeDocumentMoniker": "Services\\Simplex.asmx.cs",
+              "ToolTip": "D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\lab4.SoapService\\Services\\Simplex.asmx.cs",
+              "RelativeToolTip": "Services\\Simplex.asmx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T06:23:44.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Simplex.asmx",
+              "DocumentMoniker": "D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\lab4.SoapService\\Services\\Simplex.asmx",
+              "RelativeDocumentMoniker": "Services\\Simplex.asmx",
+              "ToolTip": "D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\lab4.SoapService\\Services\\Simplex.asmx",
+              "RelativeToolTip": "Services\\Simplex.asmx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003504|",
+              "WhenOpened": "2024-12-27T20:59:19.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\WindowsFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "..\\WindowsFormsApp1\\Form1.cs",
+              "ToolTip": "D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\WindowsFormsApp1\\Form1.cs [Design]",
+              "RelativeToolTip": "..\\WindowsFormsApp1\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T20:37:58.447Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\WebFormsProxy\\Web.config",
+              "RelativeDocumentMoniker": "..\\WebFormsProxy\\Web.config",
+              "ToolTip": "D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\WebFormsProxy\\Web.config",
+              "RelativeToolTip": "..\\WebFormsProxy\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-27T06:21:55.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\lab4.WinForm\\Form1.cs",
+              "RelativeDocumentMoniker": "..\\lab4.WinForm\\Form1.cs",
+              "ToolTip": "D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\lab4.WinForm\\Form1.cs [Design]",
+              "RelativeToolTip": "..\\lab4.WinForm\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T19:31:52.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "packages.config",
+              "DocumentMoniker": "D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\lab4.SoapService\\packages.config",
+              "RelativeDocumentMoniker": "packages.config",
+              "ToolTip": "D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\lab4.SoapService\\packages.config",
+              "RelativeToolTip": "packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-27T07:09:38.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\lab4.SoapService\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "D:\\Study\\STRWEB\\lab4danik\\lab4 (2)\\lab4\\lab4.SoapService\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-27T07:09:39.483Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

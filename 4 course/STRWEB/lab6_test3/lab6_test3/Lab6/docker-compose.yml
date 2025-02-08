@@ -1,0 +1,14 @@
+version: '3.9'
+services:
+  mssql-db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: mssql-db
+    environment:
+      ACCEPT_EULA: "Y" # Принимаем лицензионное соглашение
+      SA_PASSWORD: "12345678Sa" # Пароль для пользователя "SA"
+    ports:
+      - "1433:1433" # Проброс порта для подключения к базе данных
+    volumes:
+      - mssql-data:/var/opt/mssql
+volumes:
+  mssql-data:

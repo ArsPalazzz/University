@@ -1,0 +1,56 @@
+D:\1POIT\4\PWS\lab5\lab5\bin\Debug\lab5.dll.config
+D:\1POIT\4\PWS\lab5\lab5\bin\Debug\lab5.dll
+D:\1POIT\4\PWS\lab5\lab5\bin\Debug\lab5.pdb
+D:\1POIT\4\PWS\lab5\lab5\obj\Debug\lab5.csproj.AssemblyReference.cache
+D:\1POIT\4\PWS\lab5\lab5\obj\Debug\lab5.csproj.CoreCompileInputs.cache
+D:\1POIT\4\PWS\lab5\lab5\obj\Debug\lab5.dll
+D:\1POIT\4\PWS\lab5\lab5\obj\Debug\lab5.pdb
+E:\crianis\4-course\7 sem\PWS\lab5\lab5\bin\Debug\lab5.dll.config
+E:\crianis\4-course\7 sem\PWS\lab5\lab5\bin\Debug\lab5.dll
+E:\crianis\4-course\7 sem\PWS\lab5\lab5\bin\Debug\lab5.pdb
+E:\crianis\4-course\7 sem\PWS\lab5\lab5\obj\Debug\lab5.csproj.AssemblyReference.cache
+E:\crianis\4-course\7 sem\PWS\lab5\lab5\obj\Debug\lab5.csproj.CoreCompileInputs.cache
+E:\crianis\4-course\7 sem\PWS\lab5\lab5\obj\Debug\lab5.dll
+E:\crianis\4-course\7 sem\PWS\lab5\lab5\obj\Debug\lab5.pdb
+E:\4course\7sem\ПWS (Смелов)\Lab5\lab5\bin\Debug\lab5.dll.config
+E:\4course\7sem\ПWS (Смелов)\Lab5\lab5\bin\Debug\lab5.dll
+E:\4course\7sem\ПWS (Смелов)\Lab5\lab5\bin\Debug\lab5.pdb
+E:\4course\7sem\ПWS (Смелов)\Lab5\lab5\obj\Debug\lab5.csproj.AssemblyReference.cache
+E:\4course\7sem\ПWS (Смелов)\Lab5\lab5\obj\Debug\lab5.csproj.CoreCompileInputs.cache
+E:\4course\7sem\ПWS (Смелов)\Lab5\lab5\obj\Debug\lab5.dll
+E:\4course\7sem\ПWS (Смелов)\Lab5\lab5\obj\Debug\lab5.pdb
+W:\7sem\+\example_labs_web_danya\Lab5\lab5\bin\Debug\lab5.dll.config
+W:\7sem\+\example_labs_web_danya\Lab5\lab5\bin\Debug\lab5.dll
+W:\7sem\+\example_labs_web_danya\Lab5\lab5\bin\Debug\lab5.pdb
+W:\7sem\+\example_labs_web_danya\Lab5\lab5\obj\Debug\lab5.csproj.AssemblyReference.cache
+W:\7sem\+\example_labs_web_danya\Lab5\lab5\obj\Debug\lab5.csproj.CoreCompileInputs.cache
+W:\7sem\+\example_labs_web_danya\Lab5\lab5\obj\Debug\lab5.dll
+W:\7sem\+\example_labs_web_danya\Lab5\lab5\obj\Debug\lab5.pdb
+W:\7sem\+\example_labs_web_vanya\Lab5\lab5\bin\Debug\lab5.dll.config
+W:\7sem\+\example_labs_web_vanya\Lab5\lab5\bin\Debug\lab5.dll
+W:\7sem\+\example_labs_web_vanya\Lab5\lab5\bin\Debug\lab5.pdb
+W:\7sem\+\example_labs_web_vanya\Lab5\lab5\obj\Debug\lab5.csproj.AssemblyReference.cache
+W:\7sem\+\example_labs_web_vanya\Lab5\lab5\obj\Debug\lab5.csproj.CoreCompileInputs.cache
+W:\7sem\+\example_labs_web_vanya\Lab5\lab5\obj\Debug\lab5.dll
+W:\7sem\+\example_labs_web_vanya\Lab5\lab5\obj\Debug\lab5.pdb
+D:\Универ\7 семестр\СТРВП\lab5_test1\Lab5\lab5\bin\Debug\lab5.dll.config
+D:\Универ\7 семестр\СТРВП\lab5_test1\Lab5\lab5\bin\Debug\lab5.dll
+D:\Универ\7 семестр\СТРВП\lab5_test1\Lab5\lab5\bin\Debug\lab5.pdb
+D:\Универ\7 семестр\СТРВП\lab5_test1\Lab5\lab5\obj\Debug\lab5.csproj.AssemblyReference.cache
+D:\Универ\7 семестр\СТРВП\lab5_test1\Lab5\lab5\obj\Debug\lab5.csproj.CoreCompileInputs.cache
+D:\Универ\7 семестр\СТРВП\lab5_test1\Lab5\lab5\obj\Debug\lab5.dll
+D:\Универ\7 семестр\СТРВП\lab5_test1\Lab5\lab5\obj\Debug\lab5.pdb
+C:\Users\user\Desktop\Lab5_test1\Lab5\lab5\bin\Debug\lab5.dll.config
+C:\Users\user\Desktop\Lab5_test1\Lab5\lab5\bin\Debug\lab5.dll
+C:\Users\user\Desktop\Lab5_test1\Lab5\lab5\bin\Debug\lab5.pdb
+C:\Users\user\Desktop\Lab5_test1\Lab5\lab5\obj\Debug\lab5.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Lab5_test1\Lab5\lab5\obj\Debug\lab5.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Lab5_test1\Lab5\lab5\obj\Debug\lab5.dll
+C:\Users\user\Desktop\Lab5_test1\Lab5\lab5\obj\Debug\lab5.pdb
+D:\Study\STRWEB\lab5\Lab5_test1\Lab5\lab5\bin\Debug\lab5.dll.config
+D:\Study\STRWEB\lab5\Lab5_test1\Lab5\lab5\bin\Debug\lab5.dll
+D:\Study\STRWEB\lab5\Lab5_test1\Lab5\lab5\bin\Debug\lab5.pdb
+D:\Study\STRWEB\lab5\Lab5_test1\Lab5\lab5\obj\Debug\lab5.csproj.AssemblyReference.cache
+D:\Study\STRWEB\lab5\Lab5_test1\Lab5\lab5\obj\Debug\lab5.csproj.CoreCompileInputs.cache
+D:\Study\STRWEB\lab5\Lab5_test1\Lab5\lab5\obj\Debug\lab5.dll
+D:\Study\STRWEB\lab5\Lab5_test1\Lab5\lab5\obj\Debug\lab5.pdb

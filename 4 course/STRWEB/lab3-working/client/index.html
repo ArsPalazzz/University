@@ -1,0 +1,459 @@
+<!-- TODO: edit, global like -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student REST API Client</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: "Roboto", sans-serif;
+        background: linear-gradient(to bottom right, #2c3e50, #bdc3c7);
+        color: #2c3e50;
+        padding: 30px;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 30px;
+        color: #34495e;
+        text-shadow: 2px 2px #ecf0f1;
+      }
+
+      .form-container {
+        background: rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(10px);
+        padding: 25px;
+        border-radius: 15px;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        margin: 20px auto;
+        max-width: 800px;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        text-align: left;
+      }
+
+      label {
+        font-weight: bold;
+        margin-bottom: 5px;
+        font-size: 1.1rem;
+        color: #34495e;
+      }
+
+      input[type="text"],
+      input[type="number"],
+      select {
+        padding: 12px;
+        border: 1px solid #bdc3c7;
+        border-radius: 8px;
+        font-size: 1rem;
+        width: 100%;
+        margin-bottom: 10px;
+        background: #ecf0f1;
+        color: #2c3e50;
+        transition: border 0.3s ease;
+      }
+
+      input[type="text"]:focus,
+      input[type="number"]:focus,
+      select:focus {
+        border: 1px solid #3498db;
+        outline: none;
+      }
+
+      button {
+        padding: 12px 20px;
+        border: none;
+        border-radius: 8px;
+        background: #2980b9;
+        color: white;
+        font-weight: bold;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background 0.3s ease;
+      }
+
+      button:hover {
+        background: #1c5980;
+      }
+
+      table {
+        width: 100%;
+        margin-top: 20px;
+        border-spacing: 0;
+        overflow: hidden;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+
+      th,
+      td {
+        padding: 12px;
+        text-align: left;
+      }
+
+      th {
+        background-color: #2980b9;
+        color: white;
+        text-transform: uppercase;
+        font-size: 1rem;
+      }
+
+      td {
+        color: #34495e;
+        font-size: 0.95rem;
+      }
+
+      tr:nth-child(even) {
+        background-color: rgba(220, 220, 220, 0.3);
+      }
+
+      tr:hover {
+        background-color: rgba(41, 128, 185, 0.2);
+      }
+
+      .filter-group {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-between;
+      }
+
+      .filter-group input,
+      .filter-group select {
+        flex: 1 1 calc(50% - 20px);
+      }
+
+      .filter-group label {
+        margin-bottom: 5px;
+        display: block;
+        color: #2c3e50;
+      }
+
+      h2 {
+        font-size: 1.8rem;
+        color: #34495e;
+        margin-bottom: 20px;
+        text-shadow: 1px 1px #ecf0f1;
+      }
+      .section-container {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Manage Student List</h1>
+
+    <div class="form-container">
+      <h2>Add/Edit Student</h2>
+      <form id="student-form">
+        <input type="hidden" id="student-id" />
+        <label for="student-name">Full Name:</label>
+        <input type="text" id="student-name" required />
+        <label for="student-phone">Phone:</label>
+        <input type="text" id="student-phone" required />
+        <button type="submit">Save</button>
+        <button type="button" onclick="clearForm()">Clear</button>
+      </form>
+    </div>
+
+    <div class="form-container">
+      <h2>Filter and Sort Students</h2>
+      <form id="filter-form">
+        <div class="filter-group">
+          <label for="format">Format:</label>
+          <select id="format">
+            <option value="json">JSON</option>
+            <option value="xml">XML</option>
+          </select>
+          <label>Columns:</label>
+          <div id="columns">
+            <label><input type="checkbox" value="ID" checked /> ID</label>
+            <label><input type="checkbox" value="Name" checked /> Name</label>
+            <label><input type="checkbox" value="Phone" checked /> Phone</label>
+          </div>
+          <div class="section-container">
+            <label for="limit">Limit:</label>
+            <input type="number" id="limit" min="1" value="10" />
+          </div>
+
+          <div class="section-container">
+            <label for="offset">Offset:</label>
+            <input type="number" id="offset" min="0" value="0" />
+          </div>
+          <div class="section-container">
+            <label for="sort">Sort by:</label>
+            <select id="sort">
+              <option value="ID">ID</option>
+              <option value="NAME">Name</option>
+            </select>
+          </div>
+          <div class="section-container">
+            <label for="min-id">Min ID:</label>
+            <input type="number" id="min-id" />
+          </div>
+          <div class="section-container">
+            <label for="max-id">Max ID:</label>
+            <input type="number" id="max-id" />
+          </div>
+          <div class="section-container">
+            <label for="like">Filter by Name:</label>
+            <input type="text" id="like" />
+          </div>
+          <div class="section-container">
+            <label for="globalike">Global Search:</label>
+            <input
+              type="text"
+              id="globalike"
+              placeholder="e.g., part of ID or Name"
+            />
+          </div>
+        </div>
+        <button type="submit">Apply</button>
+      </form>
+    </div>
+
+    <h2>Student List</h2>
+    <table id="students-table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Full Name</th>
+          <th>Phone</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <script>
+      const baseUrl = "http://localhost:44367/api/students";
+
+      function displayError(error) {
+        console.error("Error:", error);
+        prompt(
+          `Error details (copy and paste) ${error.error}:`,
+          `${error.links.self}`
+        );
+      }
+
+      function getAcceptHeader() {
+        const format = document.getElementById("format").value;
+        return format === "xml" ? "application/xml" : "application/json";
+      }
+
+      async function getStudents(params) {
+        const query = new URLSearchParams(params).toString();
+        const url = `${baseUrl}?${query}`;
+        try {
+          const response = await fetch(url, {
+            headers: { Accept: getAcceptHeader() },
+          });
+          if (response.ok) {
+            const format = document.getElementById("format").value;
+            const students =
+              format === "json" ? await response.json() : await response.text();
+            displayStudents(students, format);
+          } else {
+            displayError(await response.json());
+          }
+        } catch (error) {
+          console.error("Request error:", error);
+        }
+      }
+
+      function displayStudents(students, format) {
+        const tableBody = document.querySelector("#students-table tbody");
+        tableBody.innerHTML = "";
+
+        if (format === "json") {
+          students?.data?.forEach((student) => {
+            const row = document.createElement("tr");
+            row.innerHTML = `
+                        <td>${student.ID || "-"}</td>
+                        <td>${student.Name || "-"}</td>
+                        <td>${student.Phone || "-"}</td>
+                        <td>
+                            <button onclick="editStudent('${
+                              student.ID
+                            }')">Edit</button>
+                            <button onclick="deleteStudent('${
+                              student.ID
+                            }')">Delete</button>
+                        </td>
+                    `;
+            tableBody.appendChild(row);
+          });
+        } else {
+          const parser = new DOMParser();
+          const xmlDoc = parser.parseFromString(students, "application/xml");
+          const studentElements = xmlDoc.getElementsByTagName("Student");
+
+          Array.from(studentElements).forEach((student) => {
+            const row = document.createElement("tr");
+            row.innerHTML = `
+                        <td>${
+                          student.getElementsByTagName("ID")[0]?.textContent ||
+                          "-"
+                        }</td>
+                        <td>${
+                          student.getElementsByTagName("Name")[0]
+                            ?.textContent || "-"
+                        }</td>
+                        <td>${
+                          student.getElementsByTagName("Phone")[0]
+                            ?.textContent || "-"
+                        }</td>
+                        <td>
+                            <button onclick="editStudent('${
+                              student.getElementsByTagName("ID")[0]?.textContent
+                            }')">Edit</button>
+                            <button onclick="deleteStudent('${
+                              student.getElementsByTagName("ID")[0]?.textContent
+                            }')">Delete</button>
+                        </td>
+                    `;
+            tableBody.appendChild(row);
+          });
+        }
+      }
+
+      async function saveStudent(event) {
+        event.preventDefault();
+        const id = document.getElementById("student-id").value;
+        const name = document.getElementById("student-name").value;
+        const phone = document.getElementById("student-phone").value;
+
+        const studentData = { Name: name, Phone: phone };
+        const method = id ? "PUT" : "POST";
+        const url = id ? `${baseUrl}/${id}` : baseUrl;
+
+        try {
+          const response = await fetch(url, {
+            method,
+            headers: {
+              "Content-Type": "application/json",
+              Accept: getAcceptHeader(),
+            },
+            body: JSON.stringify(studentData),
+          });
+          if (response.ok) {
+            clearForm();
+            applyFilters();
+          } else {
+            displayError(await response.json());
+          }
+        } catch (error) {
+          console.error("Request error:", error);
+        }
+      }
+
+      async function deleteStudent(id) {
+        const url = `${baseUrl}/${id}`;
+        if (!confirm("Are you sure you want to delete this student?")) return;
+
+        try {
+          const response = await fetch(url, {
+            method: "DELETE",
+            headers: { Accept: getAcceptHeader() },
+          });
+          if (response.ok) {
+            applyFilters();
+          } else {
+            displayError(await response.json());
+          }
+        } catch (error) {
+          console.error("Request error:", error);
+        }
+      }
+
+      function editStudent(id) {
+        const format = document.getElementById("format").value;
+        fetch(`${baseUrl}/${id}`, { headers: { Accept: getAcceptHeader() } })
+          .then((response) => {
+            if (format === "json") {
+              return response.json();
+            } else if (format === "xml") {
+              return response.text();
+            }
+          })
+          .then((data) => {
+            if (format === "json") {
+              const student = data.data;
+              document.getElementById("student-id").value = student.ID;
+              document.getElementById("student-name").value = student.Name;
+              document.getElementById("student-phone").value = student.Phone;
+            } else if (format === "xml") {
+              const parser = new DOMParser();
+              const xmlDoc = parser.parseFromString(data, "application/xml");
+              const student = xmlDoc.getElementsByTagName("Student")[0];
+              document.getElementById("student-id").value =
+                student.getElementsByTagName("ID")[0].textContent;
+              document.getElementById("student-name").value =
+                student.getElementsByTagName("Name")[0].textContent;
+              document.getElementById("student-phone").value =
+                student.getElementsByTagName("Phone")[0].textContent;
+            }
+          })
+          .catch((error) => {
+            console.error("Request error:", error);
+          });
+      }
+
+      function clearForm() {
+        document.getElementById("student-id").value = "";
+        document.getElementById("student-name").value = "";
+        document.getElementById("student-phone").value = "";
+      }
+
+      function getSelectedColumns() {
+        const checkboxes = document.querySelectorAll(
+          '#columns input[type="checkbox"]:checked'
+        );
+        return Array.from(checkboxes)
+          .map((checkbox) => checkbox.value)
+          .join(",");
+      }
+
+      function applyFilters() {
+        const params = {
+          limit: document.getElementById("limit").value,
+          offset: document.getElementById("offset").value,
+          sort: document.getElementById("sort").value,
+          like: document.getElementById("like").value,
+          minid: document.getElementById("min-id").value,
+          maxid: document.getElementById("max-id").value,
+          columns: getSelectedColumns(),
+          globalike: document.getElementById("globalike").value,
+        };
+        getStudents(params);
+      }
+
+      document
+        .getElementById("student-form")
+        .addEventListener("submit", saveStudent);
+      document
+        .getElementById("filter-form")
+        .addEventListener("submit", (event) => {
+          event.preventDefault();
+          applyFilters();
+        });
+
+      applyFilters(); // Initial fetch
+    </script>
+  </body>
+</html>

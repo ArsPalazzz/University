@@ -1,0 +1,250 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\STRWEB\\lab3-working\\server\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|d:\\study\\strweb\\lab3-working\\server\\lab3\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|solutionrelative:lab3\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|D:\\Study\\STRWEB\\lab3-working\\server\\lab3\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|solutionrelative:lab3\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|D:\\Study\\STRWEB\\lab3-working\\server\\lab3\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|solutionrelative:lab3\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|D:\\Study\\STRWEB\\lab3-working\\server\\lab3\\areas\\helppage\\controllers\\helpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|solutionrelative:lab3\\areas\\helppage\\controllers\\helpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|D:\\Study\\STRWEB\\lab3-working\\server\\lab3\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|solutionrelative:lab3\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|D:\\Study\\STRWEB\\lab3-working\\server\\lab3\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|solutionrelative:lab3\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|D:\\Study\\STRWEB\\lab3-working\\server\\lab3\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|solutionrelative:lab3\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|D:\\Study\\STRWEB\\lab3-working\\server\\lab3\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|solutionrelative:lab3\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|D:\\Study\\STRWEB\\lab3-working\\server\\lab3\\controllers\\errorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|solutionrelative:lab3\\controllers\\errorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|D:\\Study\\STRWEB\\lab3-working\\server\\lab3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|solutionrelative:lab3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|D:\\Study\\STRWEB\\lab3-working\\server\\lab3\\areas\\helppage\\xmldocumentationprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|solutionrelative:lab3\\areas\\helppage\\xmldocumentationprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|D:\\Study\\STRWEB\\lab3-working\\server\\lab3\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|solutionrelative:lab3\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|D:\\Study\\STRWEB\\lab3-working\\server\\lab3\\context\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|solutionrelative:lab3\\context\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|D:\\Study\\STRWEB\\lab3-working\\server\\lab3\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7A67257-6A81-47BA-A1D5-02C124872EC4}|lab3\\lab3.csproj|solutionrelative:lab3\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\Study\\STRWEB\\lab3-working\\server\\lab3\\Views\\Web.config",
+              "RelativeDocumentMoniker": "lab3\\Views\\Web.config",
+              "ToolTip": "D:\\Study\\STRWEB\\lab3-working\\server\\lab3\\Views\\Web.config",
+              "RelativeToolTip": "lab3\\Views\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-09T15:35:51.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HelpController.cs",
+              "DocumentMoniker": "D:\\Study\\STRWEB\\lab3-working\\server\\lab3\\Areas\\HelpPage\\Controllers\\HelpController.cs",
+              "RelativeDocumentMoniker": "lab3\\Areas\\HelpPage\\Controllers\\HelpController.cs",
+              "ToolTip": "D:\\Study\\STRWEB\\lab3-working\\server\\lab3\\Areas\\HelpPage\\Controllers\\HelpController.cs",
+              "RelativeToolTip": "lab3\\Areas\\HelpPage\\Controllers\\HelpController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T15:12:58.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "D:\\Study\\STRWEB\\lab3-working\\server\\lab3\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "lab3\\Controllers\\StudentsController.cs",
+              "ToolTip": "D:\\Study\\STRWEB\\lab3-working\\server\\lab3\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "lab3\\Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAMwBAAAAAAAAAAAswOMBAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T16:29:29.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ErrorsController.cs",
+              "DocumentMoniker": "D:\\Study\\STRWEB\\lab3-working\\server\\lab3\\Controllers\\ErrorsController.cs",
+              "RelativeDocumentMoniker": "lab3\\Controllers\\ErrorsController.cs",
+              "ToolTip": "D:\\Study\\STRWEB\\lab3-working\\server\\lab3\\Controllers\\ErrorsController.cs",
+              "RelativeToolTip": "lab3\\Controllers\\ErrorsController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwDUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T21:37:14.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\Study\\STRWEB\\lab3-working\\server\\lab3\\Web.config",
+              "RelativeDocumentMoniker": "lab3\\Web.config",
+              "ToolTip": "D:\\Study\\STRWEB\\lab3-working\\server\\lab3\\Web.config",
+              "RelativeToolTip": "lab3\\Web.config",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-30T05:18:31.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FilterConfig.cs",
+              "DocumentMoniker": "D:\\Study\\STRWEB\\lab3-working\\server\\lab3\\App_Start\\FilterConfig.cs",
+              "RelativeDocumentMoniker": "lab3\\App_Start\\FilterConfig.cs",
+              "ToolTip": "D:\\Study\\STRWEB\\lab3-working\\server\\lab3\\App_Start\\FilterConfig.cs",
+              "RelativeToolTip": "lab3\\App_Start\\FilterConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T03:34:57.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "D:\\Study\\STRWEB\\lab3-working\\server\\lab3\\Global.asax.cs",
+              "RelativeDocumentMoniker": "lab3\\Global.asax.cs",
+              "ToolTip": "D:\\Study\\STRWEB\\lab3-working\\server\\lab3\\Global.asax.cs",
+              "RelativeToolTip": "lab3\\Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T03:32:07.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "D:\\Study\\STRWEB\\lab3-working\\server\\lab3\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "lab3\\App_Start\\RouteConfig.cs",
+              "ToolTip": "D:\\Study\\STRWEB\\lab3-working\\server\\lab3\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "lab3\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T03:35:01.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "D:\\Study\\STRWEB\\lab3-working\\server\\lab3\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "lab3\\App_Start\\BundleConfig.cs",
+              "ToolTip": "D:\\Study\\STRWEB\\lab3-working\\server\\lab3\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "lab3\\App_Start\\BundleConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T03:34:48.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Study\\STRWEB\\lab3-working\\server\\lab3\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "lab3\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Study\\STRWEB\\lab3-working\\server\\lab3\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "lab3\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T03:35:46.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "XmlDocumentationProvider.cs",
+              "DocumentMoniker": "D:\\Study\\STRWEB\\lab3-working\\server\\lab3\\Areas\\HelpPage\\XmlDocumentationProvider.cs",
+              "RelativeDocumentMoniker": "lab3\\Areas\\HelpPage\\XmlDocumentationProvider.cs",
+              "ToolTip": "D:\\Study\\STRWEB\\lab3-working\\server\\lab3\\Areas\\HelpPage\\XmlDocumentationProvider.cs",
+              "RelativeToolTip": "lab3\\Areas\\HelpPage\\XmlDocumentationProvider.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T15:12:41.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StudentDbContext.cs",
+              "DocumentMoniker": "D:\\Study\\STRWEB\\lab3-working\\server\\lab3\\Context\\StudentDbContext.cs",
+              "RelativeDocumentMoniker": "lab3\\Context\\StudentDbContext.cs",
+              "ToolTip": "D:\\Study\\STRWEB\\lab3-working\\server\\lab3\\Context\\StudentDbContext.cs",
+              "RelativeToolTip": "lab3\\Context\\StudentDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T05:49:17.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "D:\\Study\\STRWEB\\lab3-working\\server\\lab3\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "lab3\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "D:\\Study\\STRWEB\\lab3-working\\server\\lab3\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "lab3\\App_Start\\WebApiConfig.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T03:35:11.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\Study\\STRWEB\\lab3-working\\server\\lab3\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "lab3\\Models\\Student.cs",
+              "ToolTip": "D:\\Study\\STRWEB\\lab3-working\\server\\lab3\\Models\\Student.cs",
+              "RelativeToolTip": "lab3\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T16:19:08.693Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

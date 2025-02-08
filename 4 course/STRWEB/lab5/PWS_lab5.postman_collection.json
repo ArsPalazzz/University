@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "a97e3e21-650a-4be6-8c94-824d98b2177f",
+		"name": "PWS_lab5",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29574644"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"a1\": { \"S\": \"Test\", \"K\": 5, \"F\": 2.5 },\r\n    \"a2\": { \"S\": \"Sum\", \"K\": 10, \"F\": 3.5 }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8733/Design_Time_Addresses/lab5/WCFSiplex/rest/Sum",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8733",
+					"path": [
+						"Design_Time_Addresses",
+						"lab5",
+						"WCFSiplex",
+						"rest",
+						"Sum"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
