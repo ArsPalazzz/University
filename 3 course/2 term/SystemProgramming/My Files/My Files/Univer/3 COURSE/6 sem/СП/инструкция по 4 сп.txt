@@ -1,0 +1,35 @@
+делаем махинации из readme.md
+(также понадобится моя первая лаба (ее кинуть в D:\Универ\6 семестр\СП или в коде самим поменять путь) или ваша (но тогда не факт что заработает))
+
+рекомендую саму 4 лабу кинуть в D:\
+1) регаем в cmd от админа
+cd /d D:
+cd D:\My Files\Univer\3 COURSE\6 sem\СП\lab4\x64\Debug
+regsvr32 OS13_HTCOM.dll
+
+билдим HTCOM, HTCOM_LIB
+
+2) создаем хранилища 
+D:\My Files\Univer\3 COURSE\6 sem\СП\lab4\x64\Debug>OS13_CREATE 2000 3 4 4 HTSpace.ht
+D:\My Files\Univer\3 COURSE\6 sem\СП\lab4\x64\Debug>OS13_CREATE 2000 3 4 4 HTSpace2.ht
+
+стартуем их
+D:\My Files\Univer\3 COURSE\6 sem\СП\lab4\x64\Debug>OS13_START HTSpace.ht Stop
+// ласт параметр (Stop) указывает имя мьютекса через который будем закрывать хранилище в след. задании через Stop
+D:\My Files\Univer\3 COURSE\6 sem\СП\lab4\x64\Debug>OS13_START HTSpace2.ht Stop2
+// указываем другое имя мьютекса
+
+3) запускаем 2-4 задания (тут пример для 2 задания)
+D:\My Files\Univer\3 COURSE\6 sem\СП\lab4\x64\Debug>OS_0402 HTSpace.ht Stop
+D:\My Files\Univer\3 COURSE\6 sem\СП\lab4\x64\Debug>OS_0402 HTSpace2.ht Stop2
+
+4) когда показали 2-4 задания - стопим 
+D:\My Files\Univer\3 COURSE\6 sem\СП\lab4\x64\Debug>OS13_STOP Stop
+показываем что застопилось только одно из хранилищ (с мьютексом Stop)
+
+5) этот степ показывать только если попросят 
+показываем что COM не працуе без регистрации -- в консоли от админа
+D:\My Files\Univer\3 COURSE\6 sem\СП\lab4\x64\Debug>regsvr32 /u OS13_HTCOM.dll
+
+6) пытаемся стартануть и проверяем что выскочила ошибка
+

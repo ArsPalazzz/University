@@ -1,0 +1,10 @@
+﻿  pch.cpp
+  CA.cpp
+  CFactory.cpp
+  Comdll.cpp
+  dllmain.cpp
+  Registry.cpp
+D:\Study\SystemProgramming\lab3\Lab12\OS12_COM\Registry.cpp(152,24): warning C4267: аргумент: преобразование из "size_t" в "DWORD"; возможна потеря данных
+  Создание кода...
+     Создается библиотека D:\Study\SystemProgramming\lab3\Lab12\x64\Debug\OS12_COM.lib и объект D:\Study\SystemProgramming\lab3\Lab12\x64\Debug\OS12_COM.exp
+  OS12_COM.vcxproj -> D:\Study\SystemProgramming\lab3\Lab12\x64\Debug\OS12_COM.dll

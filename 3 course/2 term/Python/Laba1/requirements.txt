@@ -1,0 +1,10 @@
+pandas
+matplotlib
+numpy
+scipy
+IPython
+scikit-learn
+mglearn
+graphviz
+pydotplus
+Pillow

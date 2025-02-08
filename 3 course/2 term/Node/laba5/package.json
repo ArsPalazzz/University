@@ -1,0 +1,16 @@
+{
+  "name": "laba5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "m06_PAV2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "nodemailer": "^6.9.13"
+  }
+}

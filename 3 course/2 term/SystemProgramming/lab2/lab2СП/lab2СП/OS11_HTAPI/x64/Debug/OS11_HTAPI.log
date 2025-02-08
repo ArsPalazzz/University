@@ -1,0 +1,20 @@
+﻿  pch.cpp
+  dllmain.cpp
+  Element.cpp
+D:\Study\SystemProgramming\lab2\lab2СП\lab2СП\OS11_HTAPI\Element.h(17,3): warning C4091: __declspec(dllexport): пропускается слева от "ht::Element", когда ни одна переменная не объявлена
+  HT.cpp
+D:\Study\SystemProgramming\lab2\lab2СП\lab2СП\OS11_HTAPI\Element.h(17,3): warning C4091: __declspec(dllexport): пропускается слева от "ht::Element", когда ни одна переменная не объявлена
+D:\Study\SystemProgramming\lab2\lab2СП\lab2СП\OS11_HTAPI\HT.h(44,3): warning C4091: __declspec(dllexport): пропускается слева от "ht::HtHandle", когда ни одна переменная не объявлена
+D:\Study\SystemProgramming\lab2\lab2СП\lab2СП\OS11_HTAPI\HT.cpp(507,4): warning C4297: ht::close: ожидается, что функция не будет выдавать исключения, но она это делает
+D:\Study\SystemProgramming\lab2\lab2СП\lab2СП\OS11_HTAPI\HT.cpp(507,4): message : для функции указан атрибут __declspec(nothrow), throw(), noexcept(true) или noexcept
+D:\Study\SystemProgramming\lab2\lab2СП\lab2СП\OS11_HTAPI\HT.cpp(510,4): warning C4297: ht::close: ожидается, что функция не будет выдавать исключения, но она это делает
+D:\Study\SystemProgramming\lab2\lab2СП\lab2СП\OS11_HTAPI\HT.cpp(510,4): message : для функции указан атрибут __declspec(nothrow), throw(), noexcept(true) или noexcept
+D:\Study\SystemProgramming\lab2\lab2СП\lab2СП\OS11_HTAPI\HT.cpp(513,4): warning C4297: ht::close: ожидается, что функция не будет выдавать исключения, но она это делает
+D:\Study\SystemProgramming\lab2\lab2СП\lab2СП\OS11_HTAPI\HT.cpp(513,4): message : для функции указан атрибут __declspec(nothrow), throw(), noexcept(true) или noexcept
+D:\Study\SystemProgramming\lab2\lab2СП\lab2СП\OS11_HTAPI\HT.cpp(516,4): warning C4297: ht::close: ожидается, что функция не будет выдавать исключения, но она это делает
+D:\Study\SystemProgramming\lab2\lab2СП\lab2СП\OS11_HTAPI\HT.cpp(516,4): message : для функции указан атрибут __declspec(nothrow), throw(), noexcept(true) или noexcept
+D:\Study\SystemProgramming\lab2\lab2СП\lab2СП\OS11_HTAPI\HT.cpp(519,4): warning C4297: ht::close: ожидается, что функция не будет выдавать исключения, но она это делает
+D:\Study\SystemProgramming\lab2\lab2СП\lab2СП\OS11_HTAPI\HT.cpp(519,4): message : для функции указан атрибут __declspec(nothrow), throw(), noexcept(true) или noexcept
+  Создание кода...
+     Создается библиотека D:\Study\SystemProgramming\lab2\lab2СП\lab2СП\x64\Debug\OS11_HTAPI.lib и объект D:\Study\SystemProgramming\lab2\lab2СП\lab2СП\x64\Debug\OS11_HTAPI.exp
+  OS11_HTAPI.vcxproj -> D:\Study\SystemProgramming\lab2\lab2СП\lab2СП\x64\Debug\OS11_HTAPI.dll

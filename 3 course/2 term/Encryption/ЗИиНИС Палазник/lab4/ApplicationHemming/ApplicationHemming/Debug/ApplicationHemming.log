@@ -1,0 +1,6 @@
+﻿D:\VS при уст\vs\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (ApplicationHemming.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  HemmingUtils.cpp
+  main.cpp
+D:\Study\Encryption\lab4\ApplicationHemming\ApplicationHemming\main.cpp(23,18): warning C4244: инициализация: преобразование "std::streamoff" в "long", возможна потеря данных
+  Создание кода...
+  ApplicationHemming.vcxproj -> D:\Study\Encryption\lab4\ApplicationHemming\Debug\HemmingUtils.exe

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Chat</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-image: url("https://static-prod.adweek.com/wp-content/uploads/2022/07/Messenger-Our-Places-Chat-Theme-Hero.png.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .container {
+        width: 500px;
+        border: 2px solid #2ecc71;
+        border-radius: 15px;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #2ecc71;
+        font-size: 28px;
+      }
+
+      main {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+      }
+
+      #username {
+        padding: 10px 15px;
+        border: 2px solid #2ecc71;
+        border-radius: 8px;
+        font-size: 16px;
+        width: 74%;
+        box-sizing: border-box;
+      }
+
+      button {
+        padding: 12px 20px;
+        border: none;
+        border-radius: 8px;
+        background-color: #2ecc71;
+        color: #fff;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+      }
+
+      #leaveButton {
+        background-color: #cc2e2e;
+        width: 100%;
+        margin-top: 10px;
+      }
+
+      button:disabled {
+        background-color: #ccc;
+        cursor: not-allowed;
+      }
+
+      #messages-container {
+        height: 250px;
+        overflow-y: auto;
+        border-bottom: 2px solid #2ecc71;
+        margin-bottom: 30px;
+        margin-top: 10px;
+      }
+
+      #messages {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      li {
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 8px;
+        background-color: #f0f0f0;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      #message {
+        width: 74%;
+        padding: 12px;
+        border: 2px solid #2ecc71;
+        border-radius: 8px;
+        font-size: 16px;
+      }
+
+      #sendButton:hover {
+        background-color: #29b765;
+      }
+
+      #leaveButton:disabled {
+        background-color: #ccc;
+      }
+
+      #leaveButton:hover {
+        background-color: #9f2323;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Chat</h1>
+      <main>
+        <input type="text" id="username" placeholder="Enter your name" />
+        <button id="joinButton" onclick="joinChat()">Join Chat</button>
+      </main>
+      <div id="messages-container">
+        <ul id="messages"></ul>
+      </div>
+      <div style="display: flex; gap: 8px; align-items: center">
+        <input id="message" autocomplete="off" disabled />
+        <button id="sendButton" onclick="sendMessage()" disabled>Send</button>
+      </div>
+
+      <button id="leaveButton" onclick="leaveChat()" disabled>
+        Leave Chat
+      </button>
+    </div>
+
+    <script src="https://cdn.socket.io/4.1.2/socket.io.min.js"></script>
+    <script>
+      let socket;
+      let messageListener;
+
+      const sendMessage = () => {
+        let message = document.getElementById("message").value.trim();
+        if (message) {
+          socket.emit("message", message);
+          document.getElementById("message").value = "";
+        }
+      };
+
+      function joinChat() {
+        let username = document.getElementById("username").value.trim();
+
+        if (username) {
+          socket = io("http://localhost:4000");
+
+          socket.on("connect", () => {
+            socket.emit("joinRoom", { username });
+            document.getElementById("message").removeAttribute("disabled");
+            document.getElementById("sendButton").removeAttribute("disabled");
+            document.getElementById("leaveButton").removeAttribute("disabled");
+            document
+              .getElementById("joinButton")
+              .setAttribute("disabled", "disabled");
+
+            messageListener = (data) => {
+              console.log("Message from the server:", data);
+
+              let messages = document.getElementById("messages");
+              messages.innerHTML += `<li>${data.user}: ${data.text}</li>`;
+              messages.scrollTop = messages.scrollHeight;
+            };
+            socket.on("message", messageListener);
+          });
+        } else {
+          alert("Please enter your name before joining the chat.");
+        }
+      }
+
+      function leaveChat() {
+        socket.emit("leaveRoom");
+        document.getElementById("message").setAttribute("disabled", "disabled");
+        document
+          .getElementById("sendButton")
+          .setAttribute("disabled", "disabled");
+        document
+          .getElementById("leaveButton")
+          .setAttribute("disabled", "disabled");
+        document.getElementById("joinButton").removeAttribute("disabled");
+
+        if (messageListener) {
+          socket.off("message", messageListener);
+        }
+      }
+    </script>
+  </body>
+</html>

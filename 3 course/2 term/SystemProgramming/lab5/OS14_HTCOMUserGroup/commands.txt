@@ -1,0 +1,35 @@
+lusrmgr.msc
+
+cd /d D:\Study\SystemProgramming\lab5\OS14_HTCOMUserGroup\x64\Debug
+regsvr32 /i OS14_HTCOM.dll
+runas /user:HTUser01 cmd
+
+
+cd /d D:\Study\SystemProgramming\lab5\OS14_HTCOMUserGroup\x64\Debug
+OS14_CREATE.exe 30 4 4 4 "../HT/test.ht" HT
+
+С логином и паролем: OS14_START.exe testa.ht HTUser03 123
+Без: OS14_START.exe testa.ht HT
+
+1) OS14_CREATE.exe 30 4 4 4 test.ht HT
+2) OS14_START.exe test.ht HT
+3) OS14_02.exe test.ht HT
+4) OS14_03.exe test.ht HT
+5) OS14_04.exe test.ht HT
+6) OS14_STOP.exe test.ht HT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-->regsvr32 /u OS14_HTCOM.dll

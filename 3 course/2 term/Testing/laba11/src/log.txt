@@ -1,0 +1,57 @@
+
+2024-05-07T07:32:13.382Z: Book Peppa pig was written in search bar
+2024-05-07T07:32:14.927Z: Book picked in catalog
+2024-05-07T07:32:15.013Z: Book added to cart
+2024-05-07T07:32:29.036Z: Book Peppa pig was written in search bar
+2024-05-07T07:32:30.439Z: Book picked in catalog
+2024-05-07T07:32:30.593Z: Book added to cart
+2024-05-07T07:32:34.651Z: Amount of books increased
+2024-05-07T07:32:52.141Z: Book Peppa pig was written in search bar
+2024-05-07T07:32:52.844Z: Book picked in catalog
+2024-05-07T07:32:52.956Z: Book added to cart
+2024-05-07T07:32:57.003Z: Amount of books increased
+2024-05-07T07:32:59.058Z: Book removed from cart
+2024-05-07T07:33:11.772Z: Book Peppa pig was written in search bar
+2024-05-07T07:33:13.019Z: Book picked in catalog
+2024-05-07T07:33:13.150Z: Book added to cart
+2024-05-07T07:33:17.210Z: Amount of books increased
+2024-05-07T07:33:19.275Z: Book removed from cart
+2024-05-07T07:33:21.355Z: Book recovered in cart
+2024-05-07T07:33:37.297Z: Book Peppa pig was written in search bar
+2024-05-07T07:33:38.693Z: Book picked in catalog
+2024-05-07T07:33:38.840Z: Book added to cart
+2024-05-07T07:33:42.935Z: Books filtered by word JoJo
+2024-05-07T07:33:58.474Z: Stationery button was clicked
+2024-05-07T07:33:58.489Z: Second pagination button was clicked
+2024-05-07T07:34:01.504Z: Third pagination button was clicked
+2024-05-07T07:34:17.334Z: Login button was clicked
+2024-05-07T07:34:17.677Z: Login field filled with MugOfDrux
+2024-05-07T07:34:17.792Z: Pasword field filled with Qwerty123
+2024-05-07T07:34:19.037Z: Sign in button was clicked
+2024-05-07T07:34:29.289Z: Registry button was clicked
+2024-05-07T07:34:29.669Z: Login register field filled with MugOfDrux
+2024-05-07T07:34:29.897Z: Email register field filled with palaznika609@gmail.com
+2024-05-07T07:34:30.094Z: Password register field filled with Qwerty123
+2024-05-07T07:34:30.253Z: Password confirm register field filled with Qwerty123
+2024-05-07T07:34:30.400Z: Name register field filled with Arseniy
+2024-05-07T07:34:30.554Z: Phone register field filled with 375441111111
+2024-05-07T07:34:37.082Z: Submit registration button was clicked
+2024-05-07T07:34:50.682Z: Markdown button was clicked
+2024-05-07T07:34:50.835Z: From cost field filled with 20
+2024-05-07T07:34:50.984Z: To cost field filled with 30
+2024-05-07T07:34:52.160Z: Apply filters button was clicked
+2024-05-07T07:35:06.902Z: Markdown button was clicked
+2024-05-07T07:35:07.072Z: From cost field filled with 20
+2024-05-07T07:35:07.224Z: To cost field filled with 30
+2024-05-07T07:35:08.303Z: Apply filters button was clicked
+2024-05-07T07:35:12.764Z: Reset filters button was clicked
+2024-05-07T07:39:14.109Z: Book Peppa pig was written in search bar
+2024-05-07T07:39:15.103Z: Book picked in catalog
+2024-05-07T07:39:15.212Z: Book added to cart
+2024-05-07T07:39:19.303Z: Amount of books increased
+2024-05-07T07:39:21.401Z: Book removed from cart
+2024-05-07T07:39:23.536Z: Book recovered in cart
+2024-05-07T07:39:40.248Z: Book Peppa pig was written in search bar
+2024-05-07T07:39:41.890Z: Book picked in catalog
+2024-05-07T07:39:41.978Z: Book added to cart
+2024-05-07T07:39:46.101Z: Books filtered by word JoJo

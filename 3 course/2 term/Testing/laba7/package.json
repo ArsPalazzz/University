@@ -1,0 +1,21 @@
+{
+  "name": "laba7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "triangleDeterminer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^5.1.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^10.4.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0"
+  }
+}
