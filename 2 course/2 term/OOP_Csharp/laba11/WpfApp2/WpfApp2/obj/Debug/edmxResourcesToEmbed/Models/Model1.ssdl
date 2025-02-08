@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище CourseDBModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CourseTable">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idDiscipline" Type="int" Nullable="false" />
+    <Property Name="idStudent" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" />
+    <Property Name="Lector" Type="nvarchar(max)" />
+    <Property Name="Surname" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="DISCIPLINE">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="QuantityHours" Type="int" Nullable="false" />
+    <Property Name="Lector" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Quantity" Type="int" Nullable="false" />
+    <Property Name="IsSelected" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Surname" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Age" Type="int" Nullable="false" />
+    <Property Name="IsSelected" Type="bit" />
+  </EntityType>
+  <Association Name="FK__CourseTab__idDis__4D94879B">
+    <End Role="DISCIPLINE" Type="Self.DISCIPLINE" Multiplicity="1" />
+    <End Role="CourseTable" Type="Self.CourseTable" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DISCIPLINE">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CourseTable">
+        <PropertyRef Name="idDiscipline" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CourseTab__idStu__4E88ABD4">
+    <End Role="Student" Type="Self.Student" Multiplicity="1" />
+    <End Role="CourseTable" Type="Self.CourseTable" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CourseTable">
+        <PropertyRef Name="idStudent" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище CourseDBModelContainer">
+    <EntitySet Name="CourseTable" EntityType="Self.CourseTable" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DISCIPLINE" EntityType="Self.DISCIPLINE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Student" EntityType="Self.Student" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__CourseTab__idDis__4D94879B" Association="Self.FK__CourseTab__idDis__4D94879B">
+      <End Role="DISCIPLINE" EntitySet="DISCIPLINE" />
+      <End Role="CourseTable" EntitySet="CourseTable" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CourseTab__idStu__4E88ABD4" Association="Self.FK__CourseTab__idStu__4E88ABD4">
+      <End Role="Student" EntitySet="Student" />
+      <End Role="CourseTable" EntitySet="CourseTable" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

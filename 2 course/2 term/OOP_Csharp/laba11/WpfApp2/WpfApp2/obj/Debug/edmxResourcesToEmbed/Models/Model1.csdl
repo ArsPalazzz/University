@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CourseDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CourseTable">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idDiscipline" Type="Int32" Nullable="false" />
+    <Property Name="idStudent" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="DISCIPLINE" Relationship="Self.FK__CourseTab__idDis__4D94879B" FromRole="CourseTable" ToRole="DISCIPLINE" />
+    <NavigationProperty Name="Student" Relationship="Self.FK__CourseTab__idStu__4E88ABD4" FromRole="CourseTable" ToRole="Student" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Lector" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Surname" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="DISCIPLINE">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="QuantityHours" Type="Int32" Nullable="false" />
+    <Property Name="Lector" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <Property Name="IsSelected" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="CourseTable" Relationship="Self.FK__CourseTab__idDis__4D94879B" FromRole="DISCIPLINE" ToRole="CourseTable" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Surname" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Age" Type="Int32" Nullable="false" />
+    <Property Name="IsSelected" Type="Boolean" />
+    <NavigationProperty Name="CourseTable" Relationship="Self.FK__CourseTab__idStu__4E88ABD4" FromRole="Student" ToRole="CourseTable" />
+  </EntityType>
+  <Association Name="FK__CourseTab__idDis__4D94879B">
+    <End Role="DISCIPLINE" Type="Self.DISCIPLINE" Multiplicity="1" />
+    <End Role="CourseTable" Type="Self.CourseTable" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DISCIPLINE">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CourseTable">
+        <PropertyRef Name="idDiscipline" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CourseTab__idStu__4E88ABD4">
+    <End Role="Student" Type="Self.Student" Multiplicity="1" />
+    <End Role="CourseTable" Type="Self.CourseTable" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CourseTable">
+        <PropertyRef Name="idStudent" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CourseDBEntities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CourseTable" EntityType="Self.CourseTable" />
+    <EntitySet Name="DISCIPLINE" EntityType="Self.DISCIPLINE" />
+    <EntitySet Name="Student" EntityType="Self.Student" />
+    <AssociationSet Name="FK__CourseTab__idDis__4D94879B" Association="Self.FK__CourseTab__idDis__4D94879B">
+      <End Role="DISCIPLINE" EntitySet="DISCIPLINE" />
+      <End Role="CourseTable" EntitySet="CourseTable" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CourseTab__idStu__4E88ABD4" Association="Self.FK__CourseTab__idStu__4E88ABD4">
+      <End Role="Student" EntitySet="Student" />
+      <End Role="CourseTable" EntitySet="CourseTable" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

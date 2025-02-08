@@ -1,0 +1,208 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style x:Key="ButtonStyle" TargetType="Button">
+        <Setter Property="Background" Value="#AF3246" />
+        <Setter Property="Foreground" Value="White" />
+        <Style.Triggers>
+            <MultiTrigger>
+                <MultiTrigger.Conditions>
+                    <Condition Property="IsMouseOver" Value="True" />
+                    <Condition Property="IsPressed" Value="True" />
+                </MultiTrigger.Conditions>
+                <MultiTrigger.Setters>
+                    <Setter Property="FontSize" Value="14" />
+                    <Setter Property="Foreground" Value="Red" />
+                </MultiTrigger.Setters>
+            </MultiTrigger>
+
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter Property="FontSize" Value="14" />
+                <Setter Property="Foreground" Value="Gray" />
+            </Trigger>
+            <DataTrigger Binding="{Binding ElementName=checkBoxDis, Path=IsChecked}" Value="True">
+                <Setter Property="IsEnabled" Value="False" />
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="FilterStyle" TargetType="Button">
+        <Setter Property="Background" Value="#AF3246" />
+        <Setter Property="Foreground" Value="White" />
+
+    </Style>
+
+    <Style x:Key="TextBlockStyle" TargetType="TextBlock">
+
+        <Setter Property="Foreground" Value="White" />
+
+    </Style>
+
+    <Style x:Key="WinBg" TargetType="ListBox">
+        <Setter Property="Background" Value="#FF171717" />
+
+    </Style>
+
+    <Style x:Key="GridBg" TargetType="Grid">
+        <Setter Property="Background" Value="#201C44" />
+
+    </Style>
+
+    <Style x:Key="TabControlStyle" TargetType="TabControl">
+        <Setter Property="Background" >
+            <Setter.Value>
+                <SolidColorBrush Color="#FF171717"/>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    
+   
+
+    <Style x:Key="specialCarAnimation" TargetType="Image">
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="False">
+                <Setter Property="Margin" Value="-20,0,0,0" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="SearchStyle" TargetType="Border">
+        <Setter Property="Background" >
+            <Setter.Value>
+                <SolidColorBrush Color="#1B1A26"/>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="HeaderStyle" TargetType="Grid">
+        <Setter Property="Background" >
+            <Setter.Value>
+                <SolidColorBrush Color="#3A3755"/>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="TabItemBg" TargetType="TabItem">
+
+        <Setter Property="Background" >
+            <Setter.Value>
+                <SolidColorBrush Color="#FF171717"/>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="Foreground" Value="#6C6C6C" />
+    </Style>
+
+    <Style x:Key="MainBgStyle" TargetType="{x:Type Control}">
+        <Setter Property="Background">
+            <Setter.Value>
+                <SolidColorBrush Opacity="0.9" Color="#FFE3E3E3" />
+            </Setter.Value>
+        </Setter>
+    </Style>
+   
+    <Style x:Key="EditBgStyle" TargetType="Grid">
+        <Setter Property="Background">
+            <Setter.Value>
+                <SolidColorBrush Opacity="0.9" Color="#2d2b40" />
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="wraaa" TargetType="WrapPanel">
+        <Setter Property="Background">
+            <Setter.Value>
+                <SolidColorBrush Opacity="0.9" Color="#FF484848" />
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="settingsStyle" TargetType="WrapPanel">
+        <Setter Property="Background">
+            <Setter.Value>
+                <SolidColorBrush Color="#201C44" />
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="SettingsBtn" TargetType="Button">
+        <Setter Property="Width" Value="130" />
+        <Setter Property="Height" Value="35" />
+    </Style>
+    <Style x:Key="SettingsTxtBlck" TargetType="TextBlock">
+        <Setter Property="Margin" Value="0,0,0,10" />
+        <Setter Property="TextAlignment" Value="Center" />
+    </Style>
+    <Style x:Key="AddItemBtn" TargetType="TextBlock">
+        <Setter Property="Margin" Value="20,10,0,0" />
+        <Setter Property="FontSize" Value="18" />
+        <Setter Property="Foreground" Value="White" />
+    </Style>
+    <Style x:Key="AddItemTxtBox" TargetType="TextBox">
+        <Setter Property="Margin" Value="20,5,0,0" />
+        <Setter Property="FontSize" Value="16" />
+        <Setter Property="Foreground" Value="Black" />
+    </Style>
+    <Style x:Key="RatingRadioBox" TargetType="RadioButton">
+        <Setter Property="VerticalContentAlignment" Value="Center" />
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="Foreground" Value="White" />
+        <Setter Property="GroupName" Value="Rating" />
+        <Setter Property="Margin" Value="20,0,0,0" />
+    </Style>
+
+
+    <Style x:Key="WindowFilterStyle" TargetType="Window">
+        <Setter Property="Background" Value="#252435" />
+    </Style>
+
+    <Style x:Key="AddBgStyle" TargetType="Grid">
+        <Setter Property="Background"  >
+            <Setter.Value>
+                <SolidColorBrush Color="#2d2b40" Opacity="0.9"/>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="importImageStyle" TargetType="Button">
+        <Setter Property="Background" >
+            <Setter.Value>
+                <SolidColorBrush Color="#4C4870"/>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="Foreground" >
+            <Setter.Value>
+                <SolidColorBrush Color="White"/>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+    <ControlTemplate x:Key="ButtonTemplate" TargetType="Button">
+        <Border
+                BorderBrush="Transparent"
+                BorderThickness="1"
+                CornerRadius="5"
+                TextBlock.Foreground="#C7C7C7">
+            <Border.Background>
+                <SolidColorBrush Color="#3E3C52" />
+            </Border.Background>
+            <ContentPresenter
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    RecognizesAccessKey="True" />
+        </Border>
+    </ControlTemplate>
+
+    <ControlTemplate x:Key="TextBoxTemplate" TargetType="TextBox">
+        <TextBox
+             
+            BorderBrush="black"
+            Margin="10,0"
+               Height="30"
+            MinWidth="240"
+                
+                TextBlock.Foreground="White">
+            <TextBox.Background>
+                <SolidColorBrush Color="#4C4870" />
+            </TextBox.Background>
+
+        </TextBox>
+    </ControlTemplate>
+
+
+</ResourceDictionary>

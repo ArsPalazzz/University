@@ -1,0 +1,168 @@
+D:\OOP_4sem\lab_8\lab_8\bin\Debug\lab_8.exe.config
+D:\OOP_4sem\lab_8\lab_8\bin\Debug\lab_8.exe
+D:\OOP_4sem\lab_8\lab_8\bin\Debug\lab_8.pdb
+D:\OOP_4sem\lab_8\lab_8\bin\Debug\Ado.dll
+D:\OOP_4sem\lab_8\lab_8\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\OOP_4sem\lab_8\lab_8\bin\Debug\Microsoft.Extensions.Configuration.dll
+D:\OOP_4sem\lab_8\lab_8\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\OOP_4sem\lab_8\lab_8\bin\Debug\Microsoft.Extensions.Configuration.Json.dll
+D:\OOP_4sem\lab_8\lab_8\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\OOP_4sem\lab_8\lab_8\bin\Debug\Microsoft.Extensions.FileProviders.Physical.dll
+D:\OOP_4sem\lab_8\lab_8\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\OOP_4sem\lab_8\lab_8\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\OOP_4sem\lab_8\lab_8\bin\Debug\Newtonsoft.Json.dll
+D:\OOP_4sem\lab_8\lab_8\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\OOP_4sem\lab_8\lab_8\bin\Debug\System.Data.SqlClient.dll
+D:\OOP_4sem\lab_8\lab_8\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\OOP_4sem\lab_8\lab_8\bin\Debug\System.Reflection.TypeExtensions.dll
+D:\OOP_4sem\lab_8\lab_8\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\OOP_4sem\lab_8\lab_8\bin\Debug\System.Security.AccessControl.dll
+D:\OOP_4sem\lab_8\lab_8\bin\Debug\System.Security.Permissions.dll
+D:\OOP_4sem\lab_8\lab_8\bin\Debug\System.Security.Principal.Windows.dll
+D:\OOP_4sem\lab_8\lab_8\bin\Debug\Microsoft.Extensions.Configuration.xml
+D:\OOP_4sem\lab_8\lab_8\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\OOP_4sem\lab_8\lab_8\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.xml
+D:\OOP_4sem\lab_8\lab_8\bin\Debug\Microsoft.Extensions.Configuration.Json.xml
+D:\OOP_4sem\lab_8\lab_8\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\OOP_4sem\lab_8\lab_8\bin\Debug\Microsoft.Extensions.FileProviders.Physical.xml
+D:\OOP_4sem\lab_8\lab_8\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.xml
+D:\OOP_4sem\lab_8\lab_8\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\OOP_4sem\lab_8\lab_8\bin\Debug\Newtonsoft.Json.xml
+D:\OOP_4sem\lab_8\lab_8\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\OOP_4sem\lab_8\lab_8\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\OOP_4sem\lab_8\lab_8\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\OOP_4sem\lab_8\lab_8\bin\Debug\System.Security.AccessControl.xml
+D:\OOP_4sem\lab_8\lab_8\bin\Debug\System.Security.Permissions.xml
+D:\OOP_4sem\lab_8\lab_8\bin\Debug\System.Security.Principal.Windows.xml
+D:\OOP_4sem\lab_8\lab_8\obj\Debug\lab_8.csproj.AssemblyReference.cache
+D:\OOP_4sem\lab_8\lab_8\obj\Debug\lab_8.csproj.SuggestedBindingRedirects.cache
+D:\OOP_4sem\lab_8\lab_8\obj\Debug\lab_8.exe.config
+D:\OOP_4sem\lab_8\lab_8\obj\Debug\MainWindow.g.cs
+D:\OOP_4sem\lab_8\lab_8\obj\Debug\PhotoViewer.g.cs
+D:\OOP_4sem\lab_8\lab_8\obj\Debug\App.g.cs
+D:\OOP_4sem\lab_8\lab_8\obj\Debug\lab_8_MarkupCompile.cache
+D:\OOP_4sem\lab_8\lab_8\obj\Debug\lab_8_MarkupCompile.lref
+D:\OOP_4sem\lab_8\lab_8\obj\Debug\MainWindow.baml
+D:\OOP_4sem\lab_8\lab_8\obj\Debug\PhotoViewer.baml
+D:\OOP_4sem\lab_8\lab_8\obj\Debug\lab_8.g.resources
+D:\OOP_4sem\lab_8\lab_8\obj\Debug\lab_8.Properties.Resources.resources
+D:\OOP_4sem\lab_8\lab_8\obj\Debug\lab_8.csproj.GenerateResource.cache
+D:\OOP_4sem\lab_8\lab_8\obj\Debug\lab_8.csproj.CoreCompileInputs.cache
+D:\OOP_4sem\lab_8\lab_8\obj\Debug\lab_8.csproj.CopyComplete
+D:\OOP_4sem\lab_8\lab_8\obj\Debug\lab_8.exe
+D:\OOP_4sem\lab_8\lab_8\obj\Debug\lab_8.pdb
+D:\OOP_4sem\lab_8\lab_8\obj\Debug\Window1.g.cs
+D:\OOP_4sem\lab_8\lab_8\obj\Debug\Window1.baml
+D:\OOP_4sem\lab_8\lab_8\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\bin\Debug\lab_8.exe.config
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\bin\Debug\lab_8.exe
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\bin\Debug\lab_8.pdb
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\bin\Debug\Ado.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\bin\Debug\Microsoft.Extensions.Configuration.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\bin\Debug\Microsoft.Extensions.Configuration.Json.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\bin\Debug\Microsoft.Extensions.FileProviders.Physical.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\bin\Debug\Microsoft.Extensions.Primitives.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\bin\Debug\Newtonsoft.Json.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\bin\Debug\System.Configuration.ConfigurationManager.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\bin\Debug\System.Data.SqlClient.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\bin\Debug\System.Reflection.TypeExtensions.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\bin\Debug\System.Security.AccessControl.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\bin\Debug\System.Security.Permissions.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\bin\Debug\System.Security.Principal.Windows.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\bin\Debug\Microsoft.Extensions.Configuration.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\bin\Debug\Microsoft.Extensions.Configuration.Json.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\bin\Debug\Microsoft.Extensions.FileProviders.Physical.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\bin\Debug\Microsoft.Extensions.Primitives.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\bin\Debug\Newtonsoft.Json.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\bin\Debug\System.Configuration.ConfigurationManager.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\bin\Debug\System.Security.AccessControl.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\bin\Debug\System.Security.Permissions.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\bin\Debug\System.Security.Principal.Windows.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\obj\Debug\lab_8.csproj.AssemblyReference.cache
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\obj\Debug\lab_8.csproj.SuggestedBindingRedirects.cache
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\obj\Debug\lab_8.exe.config
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\obj\Debug\MainWindow.g.cs
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\obj\Debug\PhotoViewer.g.cs
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\obj\Debug\Window1.g.cs
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\obj\Debug\App.g.cs
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\obj\Debug\lab_8_MarkupCompile.cache
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\obj\Debug\lab_8_MarkupCompile.lref
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\obj\Debug\MainWindow.baml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\obj\Debug\PhotoViewer.baml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\obj\Debug\Window1.baml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\obj\Debug\lab_8.g.resources
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\obj\Debug\lab_8.Properties.Resources.resources
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\obj\Debug\lab_8.csproj.GenerateResource.cache
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\obj\Debug\lab_8.csproj.CoreCompileInputs.cache
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\obj\Debug\lab_8.csproj.CopyComplete
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\obj\Debug\lab_8.exe
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 8\lab_8\lab_8\obj\Debug\lab_8.pdb
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\bin\Debug\lab_8.exe.config
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\bin\Debug\lab_8.exe
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\bin\Debug\lab_8.pdb
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\bin\Debug\Ado.dll
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\bin\Debug\Microsoft.Extensions.Configuration.dll
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\bin\Debug\Microsoft.Extensions.Configuration.Json.dll
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\bin\Debug\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\bin\Debug\Newtonsoft.Json.dll
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\bin\Debug\System.Data.SqlClient.dll
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\bin\Debug\System.Reflection.TypeExtensions.dll
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\bin\Debug\System.Security.AccessControl.dll
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\bin\Debug\System.Security.Permissions.dll
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\bin\Debug\System.Security.Principal.Windows.dll
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\bin\Debug\Microsoft.Extensions.Configuration.xml
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.xml
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\bin\Debug\Microsoft.Extensions.Configuration.Json.xml
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\bin\Debug\Microsoft.Extensions.FileProviders.Physical.xml
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.xml
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\bin\Debug\Newtonsoft.Json.xml
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\bin\Debug\System.Security.AccessControl.xml
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\bin\Debug\System.Security.Permissions.xml
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\bin\Debug\System.Security.Principal.Windows.xml
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\obj\Debug\lab_8.csproj.AssemblyReference.cache
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\obj\Debug\lab_8.csproj.SuggestedBindingRedirects.cache
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\obj\Debug\lab_8.exe.config
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\obj\Debug\MainWindow.g.cs
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\obj\Debug\PhotoViewer.g.cs
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\obj\Debug\Window1.g.cs
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\obj\Debug\App.g.cs
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\obj\Debug\lab_8_MarkupCompile.cache
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\obj\Debug\lab_8_MarkupCompile.lref
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\obj\Debug\MainWindow.baml
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\obj\Debug\PhotoViewer.baml
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\obj\Debug\Window1.baml
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\obj\Debug\lab_8.g.resources
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\obj\Debug\lab_8.Properties.Resources.resources
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\obj\Debug\lab_8.csproj.GenerateResource.cache
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\obj\Debug\lab_8.csproj.CoreCompileInputs.cache
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\obj\Debug\lab_8.csproj.CopyComplete
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\obj\Debug\lab_8.exe
+D:\Study\ООПиП (Экз)\laba8\lab_8\lab_8\obj\Debug\lab_8.pdb

@@ -1,0 +1,133 @@
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45\Lab45\bin\Debug\Lab45.exe.config
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45\Lab45\bin\Debug\Lab45.exe
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45\Lab45\bin\Debug\Lab45.pdb
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45\Lab45\obj\Debug\Lab45.csproj.AssemblyReference.cache
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45\Lab45\obj\Debug\Lab45.csproj.SuggestedBindingRedirects.cache
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45\Lab45\obj\Debug\MainWindow.g.cs
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45\Lab45\obj\Debug\App.g.cs
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45\Lab45\obj\Debug\Lab45_MarkupCompile.cache
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45\Lab45\obj\Debug\Lab45_MarkupCompile.lref
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45\Lab45\obj\Debug\MainWindow.baml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45\Lab45\obj\Debug\Lab45.g.resources
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45\Lab45\obj\Debug\Lab45.Properties.Resources.resources
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45\Lab45\obj\Debug\Lab45.csproj.GenerateResource.cache
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45\Lab45\obj\Debug\Lab45.csproj.CoreCompileInputs.cache
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45\Lab45\obj\Debug\Lab45.exe
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45\Lab45\obj\Debug\Lab45.pdb
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45\Lab45\obj\Debug\Resources\rusLang.baml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45\Lab45\bin\Debug\Newtonsoft.Json.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45\Lab45\bin\Debug\Newtonsoft.Json.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45\Lab45\obj\Debug\Lab45.csproj.CopyComplete
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45\Lab45\obj\Debug\Resources\engLang.baml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45\Lab45\obj\Debug\App.baml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45\Lab45\obj\Debug\Resources\LightCyanTheme.baml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-2\Lab45\bin\Debug\Lab45.exe.config
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-2\Lab45\bin\Debug\Lab45.exe
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-2\Lab45\bin\Debug\Lab45.pdb
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-2\Lab45\bin\Debug\Newtonsoft.Json.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-2\Lab45\bin\Debug\Newtonsoft.Json.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-2\Lab45\obj\Debug\Lab45.csproj.AssemblyReference.cache
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-2\Lab45\obj\Debug\Lab45.csproj.SuggestedBindingRedirects.cache
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-2\Lab45\obj\Debug\Resources\engLang.baml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-2\Lab45\obj\Debug\Resources\LightCyanTheme.baml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-2\Lab45\obj\Debug\Resources\rusLang.baml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-2\Lab45\obj\Debug\MainWindow.g.cs
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-2\Lab45\obj\Debug\App.g.cs
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-2\Lab45\obj\Debug\Lab45_MarkupCompile.cache
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-2\Lab45\obj\Debug\Lab45_MarkupCompile.lref
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-2\Lab45\obj\Debug\App.baml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-2\Lab45\obj\Debug\MainWindow.baml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-2\Lab45\obj\Debug\Lab45.g.resources
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-2\Lab45\obj\Debug\Lab45.Properties.Resources.resources
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-2\Lab45\obj\Debug\Lab45.csproj.GenerateResource.cache
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-2\Lab45\obj\Debug\Lab45.csproj.CoreCompileInputs.cache
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-2\Lab45\obj\Debug\Lab45.csproj.CopyComplete
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-2\Lab45\obj\Debug\Lab45.exe
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-2\Lab45\obj\Debug\Lab45.pdb
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-2\Lab45\obj\Debug\AddItem.g.cs
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-2\Lab45\obj\Debug\AddItem.baml
+E:\Владик\Университет\4 семестр\ооп\лаба 4-5\Lab45-2\Lab45\obj\Debug\Lab45.csproj.AssemblyReference.cache
+E:\Владик\Университет\4 семестр\ооп\лаба 4-5\Lab45-2\Lab45\obj\Debug\Lab45.csproj.SuggestedBindingRedirects.cache
+E:\Владик\Университет\4 семестр\ооп\лаба 4-5\Lab45-2\Lab45\obj\Debug\Resources\engLang.baml
+E:\Владик\Университет\4 семестр\ооп\лаба 4-5\Lab45-2\Lab45\obj\Debug\Resources\LightCyanTheme.baml
+E:\Владик\Университет\4 семестр\ооп\лаба 4-5\Lab45-2\Lab45\obj\Debug\Resources\rusLang.baml
+E:\Владик\Университет\4 семестр\ооп\лаба 4-5\Lab45-2\Lab45\obj\Debug\AddItem.g.cs
+E:\Владик\Университет\4 семестр\ооп\лаба 4-5\Lab45-2\Lab45\obj\Debug\MainWindow.g.cs
+E:\Владик\Университет\4 семестр\ооп\лаба 4-5\Lab45-2\Lab45\obj\Debug\App.g.cs
+E:\Владик\Университет\4 семестр\ооп\лаба 4-5\Lab45-2\Lab45\obj\Debug\Lab45_MarkupCompile.cache
+E:\Владик\Университет\4 семестр\ооп\лаба 4-5\Lab45-2\Lab45\obj\Debug\Lab45_MarkupCompile.lref
+E:\Владик\Университет\4 семестр\ооп\лаба 4-5\Lab45-2\Lab45\obj\Debug\Lab45.exe
+E:\Владик\Университет\4 семестр\ооп\лаба 4-5\Lab45-2\Lab45\obj\Debug\Lab45.pdb
+E:\Владик\Университет\4 семестр\ооп\лаба 4-5\Lab45-2\Lab45\bin\Debug\Lab45.exe.config
+E:\Владик\Университет\4 семестр\ооп\лаба 4-5\Lab45-2\Lab45\bin\Debug\Lab45.exe
+E:\Владик\Университет\4 семестр\ооп\лаба 4-5\Lab45-2\Lab45\bin\Debug\Lab45.pdb
+E:\Владик\Университет\4 семестр\ооп\лаба 4-5\Lab45-2\Lab45\bin\Debug\Newtonsoft.Json.dll
+E:\Владик\Университет\4 семестр\ооп\лаба 4-5\Lab45-2\Lab45\bin\Debug\Newtonsoft.Json.xml
+E:\Владик\Университет\4 семестр\ооп\лаба 4-5\Lab45-2\Lab45\obj\Debug\App.baml
+E:\Владик\Университет\4 семестр\ооп\лаба 4-5\Lab45-2\Lab45\obj\Debug\AddItem.baml
+E:\Владик\Университет\4 семестр\ооп\лаба 4-5\Lab45-2\Lab45\obj\Debug\MainWindow.baml
+E:\Владик\Университет\4 семестр\ооп\лаба 4-5\Lab45-2\Lab45\obj\Debug\Lab45.g.resources
+E:\Владик\Университет\4 семестр\ооп\лаба 4-5\Lab45-2\Lab45\obj\Debug\Lab45.Properties.Resources.resources
+E:\Владик\Университет\4 семестр\ооп\лаба 4-5\Lab45-2\Lab45\obj\Debug\Lab45.csproj.GenerateResource.cache
+E:\Владик\Университет\4 семестр\ооп\лаба 4-5\Lab45-2\Lab45\obj\Debug\Lab45.csproj.CoreCompileInputs.cache
+E:\Владик\Университет\4 семестр\ооп\лаба 4-5\Lab45-2\Lab45\obj\Debug\Lab45.csproj.CopyComplete
+E:\Владик\Университет\4 семестр\ооп\лаба 4-5\Lab45-2\Lab45\obj\Debug\EditItem.g.cs
+E:\Владик\Университет\4 семестр\ооп\лаба 4-5\Lab45-2\Lab45\obj\Debug\EditItem.baml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-3\Lab45\bin\Debug\Lab45.exe.config
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-3\Lab45\bin\Debug\Lab45.exe
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-3\Lab45\bin\Debug\Lab45.pdb
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-3\Lab45\bin\Debug\Newtonsoft.Json.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-3\Lab45\bin\Debug\Newtonsoft.Json.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-3\Lab45\obj\Debug\Lab45.csproj.AssemblyReference.cache
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-3\Lab45\obj\Debug\Lab45.csproj.SuggestedBindingRedirects.cache
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-3\Lab45\obj\Debug\Resources\engLang.baml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-3\Lab45\obj\Debug\Resources\LightCyanTheme.baml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-3\Lab45\obj\Debug\Resources\rusLang.baml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-3\Lab45\obj\Debug\AddItem.g.cs
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-3\Lab45\obj\Debug\EditItem.g.cs
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-3\Lab45\obj\Debug\MainWindow.g.cs
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-3\Lab45\obj\Debug\App.g.cs
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-3\Lab45\obj\Debug\Lab45_MarkupCompile.cache
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-3\Lab45\obj\Debug\Lab45_MarkupCompile.lref
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-3\Lab45\obj\Debug\App.baml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-3\Lab45\obj\Debug\AddItem.baml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-3\Lab45\obj\Debug\EditItem.baml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-3\Lab45\obj\Debug\MainWindow.baml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-3\Lab45\obj\Debug\Lab45.g.resources
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-3\Lab45\obj\Debug\Lab45.Properties.Resources.resources
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-3\Lab45\obj\Debug\Lab45.csproj.GenerateResource.cache
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-3\Lab45\obj\Debug\Lab45.csproj.CoreCompileInputs.cache
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-3\Lab45\obj\Debug\Lab45.csproj.CopyComplete
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-3\Lab45\obj\Debug\Lab45.exe
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-3\Lab45\obj\Debug\Lab45.pdb
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-3\Lab45\obj\Debug\FilterItems.g.cs
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 4-5\Lab45-3\Lab45\obj\Debug\FilterItems.baml
+D:\Study\ООПиП (Экз)\Lab45-3\Lab45-3\Lab45\bin\Debug\Lab45.exe.config
+D:\Study\ООПиП (Экз)\Lab45-3\Lab45-3\Lab45\bin\Debug\Lab45.exe
+D:\Study\ООПиП (Экз)\Lab45-3\Lab45-3\Lab45\bin\Debug\Lab45.pdb
+D:\Study\ООПиП (Экз)\Lab45-3\Lab45-3\Lab45\bin\Debug\Newtonsoft.Json.dll
+D:\Study\ООПиП (Экз)\Lab45-3\Lab45-3\Lab45\bin\Debug\Newtonsoft.Json.xml
+D:\Study\ООПиП (Экз)\Lab45-3\Lab45-3\Lab45\obj\Debug\Lab45.csproj.AssemblyReference.cache
+D:\Study\ООПиП (Экз)\Lab45-3\Lab45-3\Lab45\obj\Debug\Lab45.csproj.SuggestedBindingRedirects.cache
+D:\Study\ООПиП (Экз)\Lab45-3\Lab45-3\Lab45\obj\Debug\Resources\engLang.baml
+D:\Study\ООПиП (Экз)\Lab45-3\Lab45-3\Lab45\obj\Debug\Resources\LightCyanTheme.baml
+D:\Study\ООПиП (Экз)\Lab45-3\Lab45-3\Lab45\obj\Debug\Resources\rusLang.baml
+D:\Study\ООПиП (Экз)\Lab45-3\Lab45-3\Lab45\obj\Debug\AddItem.g.cs
+D:\Study\ООПиП (Экз)\Lab45-3\Lab45-3\Lab45\obj\Debug\EditItem.g.cs
+D:\Study\ООПиП (Экз)\Lab45-3\Lab45-3\Lab45\obj\Debug\FilterItems.g.cs
+D:\Study\ООПиП (Экз)\Lab45-3\Lab45-3\Lab45\obj\Debug\MainWindow.g.cs
+D:\Study\ООПиП (Экз)\Lab45-3\Lab45-3\Lab45\obj\Debug\App.g.cs
+D:\Study\ООПиП (Экз)\Lab45-3\Lab45-3\Lab45\obj\Debug\Lab45_MarkupCompile.cache
+D:\Study\ООПиП (Экз)\Lab45-3\Lab45-3\Lab45\obj\Debug\Lab45_MarkupCompile.lref
+D:\Study\ООПиП (Экз)\Lab45-3\Lab45-3\Lab45\obj\Debug\App.baml
+D:\Study\ООПиП (Экз)\Lab45-3\Lab45-3\Lab45\obj\Debug\AddItem.baml
+D:\Study\ООПиП (Экз)\Lab45-3\Lab45-3\Lab45\obj\Debug\EditItem.baml
+D:\Study\ООПиП (Экз)\Lab45-3\Lab45-3\Lab45\obj\Debug\FilterItems.baml
+D:\Study\ООПиП (Экз)\Lab45-3\Lab45-3\Lab45\obj\Debug\MainWindow.baml
+D:\Study\ООПиП (Экз)\Lab45-3\Lab45-3\Lab45\obj\Debug\Lab45.g.resources
+D:\Study\ООПиП (Экз)\Lab45-3\Lab45-3\Lab45\obj\Debug\Lab45.Properties.Resources.resources
+D:\Study\ООПиП (Экз)\Lab45-3\Lab45-3\Lab45\obj\Debug\Lab45.csproj.GenerateResource.cache
+D:\Study\ООПиП (Экз)\Lab45-3\Lab45-3\Lab45\obj\Debug\Lab45.csproj.CoreCompileInputs.cache
+D:\Study\ООПиП (Экз)\Lab45-3\Lab45-3\Lab45\obj\Debug\Lab45.csproj.CopyComplete
+D:\Study\ООПиП (Экз)\Lab45-3\Lab45-3\Lab45\obj\Debug\Lab45.exe
+D:\Study\ООПиП (Экз)\Lab45-3\Lab45-3\Lab45\obj\Debug\Lab45.pdb

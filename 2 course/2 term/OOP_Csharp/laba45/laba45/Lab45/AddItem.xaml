@@ -1,0 +1,213 @@
+﻿<Window
+    x:Class="Lab45.AddItem"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Lab45"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="AddItem"
+    Width="800"
+    Height="450"
+    Loaded="AddItem_Loaded"
+    mc:Ignorable="d">
+    <Window.Background>
+        <ImageBrush ImageSource="./Assets/background.jpg" />
+    </Window.Background>
+    <Grid HorizontalAlignment="Center" Style="{DynamicResource AddBgStyle}">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition Height="0.45*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.5*" />
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="200"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock 
+            Text="{DynamicResource h_Add}"
+            Grid.ColumnSpan="3"
+            Grid.Row="0"
+            FontSize="28"
+            HorizontalAlignment="Center"
+            Foreground="White"
+            FontWeight="Medium"
+            />
+        <Grid Grid.Row="1" Grid.Column="1">
+            <TextBox
+             Background="#4C4870"
+            BorderBrush="black"
+            Margin="10,0"
+            x:Name="titleInput"
+           
+            Height="30"
+            MinWidth="240"
+     />
+        </Grid>
+      
+
+        <Image
+            VerticalAlignment="Top"
+                x:Name="ProductsPhoto"
+                Grid.Row="1"
+                Grid.RowSpan="5"
+                Grid.Column="2"
+                Margin="0,10" />
+
+        <TextBox
+            Background="#4C4870"
+            BorderBrush="black"
+            Margin="10,0"
+            x:Name="articleInput"
+            Grid.Row="2"
+            Grid.Column="1"
+            Height="30" />
+
+        <TextBox
+            Background="#4C4870"
+            x:Name="costInput"
+             BorderBrush="black"
+            Grid.Row="3"
+            Grid.Column="1"
+            Height="30"
+             Margin="10,0" />
+
+
+
+        <Grid Grid.Row="4" Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.5*" />
+                
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+            <Button
+                 Background="#4C4870"
+            BorderBrush="black"
+            Foreground="White"
+                x:Name="selectPhoto"
+                Grid.Row="0"
+                Grid.Column="0"
+                Height="30"
+                Margin="10,0"
+                Click="OpenExplorer"
+                Content="{DynamicResource b_Img}" />
+           
+        </Grid>
+
+        <TextBox
+            Background="#4C4870"
+            x:Name="songsInput"
+             BorderBrush="black"
+            Grid.Row="5"
+            Grid.Column="1"
+            Height="30"
+             Margin="10,0" />
+        <ComboBox
+            x:Name="comboboxInput"
+            Grid.Row="6"
+            Grid.Column="1"
+            Height="30"
+             Margin="10,0"
+            FontSize="14"
+            SelectedIndex="0">
+            <ComboBoxItem Content="Pop" />
+            <ComboBoxItem Content="Rock" />
+            <ComboBoxItem Content="Alternative rock" />
+            <ComboBoxItem Content="Hip hop" />
+            <ComboBoxItem Content="Comedy-rock" />
+            <ComboBoxItem Content="Horror-punk" />
+        </ComboBox>
+
+        <TextBox
+            Background="#4C4870"
+            x:Name="yearInput"
+             BorderBrush="black"
+            Grid.Row="7"
+            Grid.Column="1"
+            Height="30"
+             Margin="10,0" />
+
+        <!--<StackPanel
+            Grid.Row="5"
+            Grid.Column="2"
+            Margin="0,0,10,0"
+            Orientation="Horizontal">
+            <RadioButton
+                x:Name="radiobtn1"
+                Content="1"
+                IsChecked="True"
+                Style="{DynamicResource RatingRadioBox}" />
+            <RadioButton
+                x:Name="radiobtn2"
+                Content="2"
+                Style="{DynamicResource RatingRadioBox}" />
+            <RadioButton
+                x:Name="radiobtn3"
+                Content="3"
+                Style="{DynamicResource RatingRadioBox}" />
+            <RadioButton
+                x:Name="radiobtn4"
+                Content="4"
+                Style="{DynamicResource RatingRadioBox}" />
+            <RadioButton
+                x:Name="radiobtn5"
+                Content="5"
+                Style="{DynamicResource RatingRadioBox}" />
+        </StackPanel>-->
+
+        
+        <Button
+            Grid.Row="8"
+            Grid.ColumnSpan="3"
+            Click="Power_TextChanged"
+            Content="{DynamicResource btn_submit}" />
+
+        <Label
+            Height="30"
+             Grid.Row="1"
+            Content="{DynamicResource h_Tab6}"
+            Foreground="White" />
+        <Label
+            Grid.Row="2"
+            Height="30"
+            Content="{DynamicResource h_Tab10}"
+            Foreground="White" />
+
+        <Label
+            Grid.Row="3"
+            Height="30"
+            Content="{DynamicResource h_Tab7}"
+            Foreground="White" />
+        <Label
+            Grid.Row="4"
+            Height="30"
+            Content="{DynamicResource h_Tab8}"
+            Foreground="White" />
+        <Label
+            Grid.Row="5"
+            Height="30"
+            Content="{DynamicResource b_Songs}"
+            Foreground="White" />
+        <Label
+            Grid.Row="6"
+            Height="30"
+            Content="{DynamicResource b_Genre}"
+            Foreground="White" />
+        <Label
+            Grid.Row="7"
+            Height="30"
+            Content="{DynamicResource b_Year}"
+            Foreground="White" />
+
+    </Grid>
+</Window>

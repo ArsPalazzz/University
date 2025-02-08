@@ -1,0 +1,137 @@
+﻿<Window
+    x:Class="WpfApp2.Views.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:WpfApp2.ViewModels"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <Window.Resources>
+        <local:MyMultiValueConverter x:Key="MyMultiValueConverter" />
+    </Window.Resources>
+    <Window.DataContext>
+        <local:MainViewModel />
+    </Window.DataContext>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition Width="Auto" MinWidth="317" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.1*" />
+            <RowDefinition Height="0.5*" />
+            <RowDefinition Height="0.5*" />
+            <RowDefinition Height="0.2*" />
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Grid.Column="0">
+            <TextBlock
+                Margin="10,0,0,0"
+                VerticalAlignment="Bottom"
+                FontSize="18"
+                FontWeight="SemiBold"
+                Text="Disciplines" />
+        </Grid>
+        <Grid Grid.Row="0" Grid.Column="1">
+            <TextBlock
+                Margin="0,0,0,0"
+                VerticalAlignment="Bottom"
+                FontSize="18"
+                FontWeight="SemiBold"
+                Text="Students" />
+        </Grid>
+        <DataGrid
+            Name="DisciplinesGrid"
+            Grid.Row="1"
+            AutoGenerateColumns="False"
+            IsReadOnly="True"
+            ItemsSource="{Binding Disciplines}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Id}" Header="Id" />
+                <DataGridTextColumn Binding="{Binding Name}" Header="Name" />
+                <DataGridTextColumn Binding="{Binding QuantityHours}" Header="Hours" />
+                <DataGridTextColumn Binding="{Binding Lector}" Header="Lector" />
+                <DataGridTextColumn Binding="{Binding Quantity}" Header="Quantity" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <StackPanel
+            Grid.Row="1"
+            Grid.RowSpan="2"
+            Grid.Column="1">
+            <Button Command="{Binding AddToStudentCommand}" Content="Add Student to Course">
+                <Button.CommandParameter>
+                    <MultiBinding Converter="{StaticResource MyMultiValueConverter}">
+                        <Binding ElementName="DisciplinesGrid" Path="SelectedItem" />
+                        <Binding ElementName="StudentGrid" Path="SelectedItem" />
+                    </MultiBinding>
+                </Button.CommandParameter>
+            </Button>
+            <Button
+                Command="{Binding RemoveFromStudentCommand}"
+                CommandParameter="{Binding SelectedItem, ElementName=CourseTableGrid}"
+                Content="Remove Student from Course" />
+            <DataGrid
+                Name="StudentGrid"
+                AutoGenerateColumns="False"
+                IsReadOnly="True"
+                ItemsSource="{Binding Student}">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding Id}" Header="Id" />
+                    <DataGridTextColumn Binding="{Binding Name}" Header="Name" />
+                    <DataGridTextColumn Binding="{Binding Surname}" Header="Surname" />
+                    <DataGridTextColumn Binding="{Binding Age}" Header="Age" />
+                </DataGrid.Columns>
+            </DataGrid>
+
+        </StackPanel>
+
+        <DataGrid
+            Name="CourseTableGrid"
+            Grid.Row="2"
+            AutoGenerateColumns="False"
+            IsReadOnly="True"
+            ItemsSource="{Binding CourseTable}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Id}" Header="Id" />
+                <DataGridTextColumn Binding="{Binding idDiscipline}" Header="idDiscipline" />
+                <DataGridTextColumn Binding="{Binding idStudent}" Header="idStudent" />
+                <DataGridTextColumn Binding="{Binding Name}" Header="Name" />
+                <DataGridTextColumn Binding="{Binding Lector}" Header="Lector" />
+                <DataGridTextColumn Binding="{Binding Surname}" Header="Surname" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <StackPanel
+            Grid.Row="3"
+            Grid.ColumnSpan="2"
+            Orientation="Horizontal">
+            <Button
+                Height="40"
+                Margin="10,0,0,0"
+                Padding="20,5"
+                Command="{Binding AddDiscCommand}"
+                Content="Add Discipline" />
+            <Button
+                Height="40"
+                Margin="20,0,0,0"
+                Padding="20,5"
+                Command="{Binding RemoveFromDisciplineCommand}"
+                CommandParameter="{Binding SelectedItem, ElementName=DisciplinesGrid}"
+                Content="Delete Discipline" />
+            <Button
+                Height="40"
+                Margin="20,0,0,0"
+                Padding="20,5"
+                Command="{Binding AddStudentCommand}"
+                Content="Add Student" />
+            <Button
+                Height="40"
+                Margin="20,0,0,0"
+                Padding="20,5"
+                Command="{Binding RemoveStudentCommand}"
+                CommandParameter="{Binding SelectedItem, ElementName=StudentGrid}"
+                Content="Delete Student" />
+        </StackPanel>
+    </Grid>
+</Window>

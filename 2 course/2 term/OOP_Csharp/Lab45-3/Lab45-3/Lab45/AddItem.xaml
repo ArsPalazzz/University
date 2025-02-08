@@ -1,0 +1,199 @@
+﻿<Window
+    x:Class="Lab45.AddItem"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Lab45"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="AddItem"
+    Width="800"
+    Height="450"
+    Loaded="AddItem_Loaded"
+    mc:Ignorable="d">
+    <Window.Background>
+        <ImageBrush ImageSource="./Assets/space-bg5.jpg" />
+    </Window.Background>
+    <Grid HorizontalAlignment="Center" Style="{DynamicResource CyanBgStyle3}">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition Height="0.25*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <TextBox
+            x:Name="titleInput"
+            Grid.Column="1"
+            Height="30"
+            Margin="0,0,15,0" />
+
+        <TextBox
+            x:Name="powerInput"
+            Grid.Row="1"
+            Grid.Column="1"
+            Height="30"
+            Margin="0,0,15,0" />
+
+
+
+        <Grid Grid.Row="2" Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.5*" />
+                <ColumnDefinition Width="0.5*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+            <Button
+                x:Name="selectPhoto"
+                Grid.Row="0"
+                Grid.Column="0"
+                Height="30"
+                Margin="0,0,10,0"
+                Click="OpenExplorer"
+                Content="Выберите файл" />
+            <Image
+                x:Name="ProductsPhoto"
+                Grid.Row="0"
+                Grid.Column="1"
+                Margin="0,0,10,0" />
+        </Grid>
+
+
+        <ComboBox
+            x:Name="comboboxInput"
+            Grid.Row="3"
+            Grid.Column="2"
+            Height="30"
+            Margin="0,0,10,0"
+            FontSize="14"
+            SelectedIndex="0">
+            <ComboBoxItem Content="Sedan" />
+            <ComboBoxItem Content="Universal" />
+            <ComboBoxItem Content="Convertible" />
+            <ComboBoxItem Content="Coupe" />
+        </ComboBox>
+
+        <StackPanel
+            Grid.Row="4"
+            Grid.Column="2"
+            Margin="0,0,10,0"
+            Orientation="Horizontal">
+            <RadioButton
+                x:Name="radiobtn1"
+                Content="1"
+                IsChecked="True"
+                Style="{DynamicResource RatingRadioBox}" />
+            <RadioButton
+                x:Name="radiobtn2"
+                Content="2"
+                Style="{DynamicResource RatingRadioBox}" />
+            <RadioButton
+                x:Name="radiobtn3"
+                Content="3"
+                Style="{DynamicResource RatingRadioBox}" />
+            <RadioButton
+                x:Name="radiobtn4"
+                Content="4"
+                Style="{DynamicResource RatingRadioBox}" />
+            <RadioButton
+                x:Name="radiobtn5"
+                Content="5"
+                Style="{DynamicResource RatingRadioBox}" />
+        </StackPanel>
+
+
+        <Button
+            Grid.Row="5"
+            Grid.ColumnSpan="2"
+            Click="Power_TextChanged"
+            Content="{DynamicResource btn_submit}" />
+
+        <Label
+            Height="30"
+            Content="{DynamicResource h_Tab6}"
+            Foreground="White" />
+        <Label
+            Grid.Row="1"
+            Height="30"
+            Content="{DynamicResource h_Tab7}"
+            Foreground="White" />
+        <Label
+            Grid.Row="2"
+            Height="30"
+            Content="{DynamicResource h_Tab8}"
+            Foreground="White" />
+        <Label
+            Grid.Row="3"
+            Height="30"
+            Content="{DynamicResource h_Tab9}"
+            Foreground="White" />
+        <Label
+            Grid.Row="4"
+            Height="30"
+            Content="{DynamicResource b_Rating}"
+            Foreground="White" />
+        <!--<StackPanel Orientation="Horizontal">
+                <WrapPanel Margin="0,0,20,0" Orientation="Vertical">
+                    <StackPanel>
+                        <TextBlock Style="{DynamicResource AddItemBtn}" Text="Название товара" />
+                        <TextBox x:Name="ItemTitle" Style="{DynamicResource AddItemTxtBox}" />
+
+                    </StackPanel>
+
+                    <StackPanel>
+                        <TextBlock Style="{DynamicResource AddItemBtn}" Text="Категория" />
+                        <ComboBox
+                            Margin="20,0,0,0"
+                            FontSize="16"
+                            SelectedIndex="0">
+                            <ComboBoxItem Content="Sedan" />
+                            <ComboBoxItem Content="Universal" />
+                            <ComboBoxItem Content="Convertible" />
+                        </ComboBox>
+                    </StackPanel>
+
+                    <StackPanel>
+                        <TextBlock Style="{DynamicResource AddItemBtn}" Text="Рейтинг" />
+                        <StackPanel Orientation="Horizontal">
+                            <RadioButton
+                                Content="1"
+                                IsChecked="True"
+                                Style="{DynamicResource RatingRadioBox}" />
+                            <RadioButton Content="2" Style="{DynamicResource RatingRadioBox}" />
+                            <RadioButton Content="3" Style="{DynamicResource RatingRadioBox}" />
+                        </StackPanel>
+                    </StackPanel>
+
+                    <StackPanel>
+                        <TextBlock Style="{DynamicResource AddItemBtn}" Text="Стоимость" />
+                        <TextBox x:Name="ItemCost" Style="{DynamicResource AddItemTxtBox}" />
+                    </StackPanel>
+
+                    <StackPanel>
+                        <TextBlock Style="{DynamicResource AddItemBtn}" Text="Количество" />
+                        <TextBox Style="{DynamicResource AddItemTxtBox}" />
+                    </StackPanel>
+
+                    <StackPanel>
+                        <TextBlock Style="{DynamicResource AddItemBtn}" Text="Изображение" />
+                        <TextBox x:Name="ImgPathTxtBox" Style="{DynamicResource AddItemTxtBox}" />
+                    </StackPanel>
+
+                    <Button
+                        Margin="20,20,0,0"
+                        Content="Отправить"
+                        FontSize="16" />
+
+                </WrapPanel>
+            </StackPanel>-->
+
+    </Grid>
+</Window>

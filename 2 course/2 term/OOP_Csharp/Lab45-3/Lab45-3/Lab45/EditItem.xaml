@@ -1,0 +1,143 @@
+﻿<Window
+    x:Class="Lab45.EditItem"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Lab45"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="EditItem"
+    Width="800"
+    Height="450"
+    Loaded="EditItem_Loaded"
+    mc:Ignorable="d">
+    <Window.Background>
+        <ImageBrush ImageSource="./Assets/space-bg5.jpg" />
+    </Window.Background>
+    <Grid HorizontalAlignment="Center" Style="{DynamicResource CyanBgStyle3}">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition Height="0.25*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <TextBox
+            x:Name="titleInput"
+            Grid.Column="1"
+            Height="30"
+            Margin="0,0,15,0" />
+
+        <TextBox
+            x:Name="powerInput"
+            Grid.Row="1"
+            Grid.Column="1"
+            Height="30"
+            Margin="0,0,15,0" />
+
+
+        <Grid Grid.Row="2" Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.5*" />
+                <ColumnDefinition Width="0.5*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+            <Button
+                x:Name="selectPhoto"
+                Grid.Row="0"
+                Grid.Column="0"
+                Height="30"
+                Margin="0,0,10,0"
+                Click="OpenExplorer"
+                Content="Выберите файл" />
+            <Image
+                x:Name="ProductsPhoto"
+                Grid.Row="0"
+                Grid.Column="1"
+                Margin="0,0,10,0" />
+        </Grid>
+
+        <ComboBox
+            x:Name="comboboxInput"
+            Grid.Row="3"
+            Grid.Column="2"
+            Height="30"
+            Margin="0,0,0,0"
+            FontSize="14"
+            SelectedIndex="0">
+            <ComboBoxItem Content="Sedan" />
+            <ComboBoxItem Content="Universal" />
+            <ComboBoxItem Content="Convertible" />
+            <ComboBoxItem Content="Coupe" />
+        </ComboBox>
+
+        <StackPanel
+            Grid.Row="4"
+            Grid.Column="2"
+            Orientation="Horizontal">
+            <RadioButton
+                x:Name="radiobtn1"
+                Content="1"
+                IsChecked="True"
+                Style="{DynamicResource RatingRadioBox}" />
+            <RadioButton
+                x:Name="radiobtn2"
+                Content="2"
+                Style="{DynamicResource RatingRadioBox}" />
+            <RadioButton
+                x:Name="radiobtn3"
+                Content="3"
+                Style="{DynamicResource RatingRadioBox}" />
+            <RadioButton
+                x:Name="radiobtn4"
+                Content="4"
+                Style="{DynamicResource RatingRadioBox}" />
+            <RadioButton
+                x:Name="radiobtn5"
+                Content="5"
+                Style="{DynamicResource RatingRadioBox}" />
+        </StackPanel>
+
+
+        <Button
+            Grid.Row="5"
+            Grid.ColumnSpan="2"
+            Click="Power_TextChanged"
+            Content="Отправить" />
+
+        <Label
+            Height="30"
+            Content="Модель авто"
+            Foreground="White" />
+        <Label
+            Grid.Row="1"
+            Height="30"
+            Content="Стоимость($)"
+            Foreground="White" />
+        <Label
+            Grid.Row="2"
+            Height="30"
+            Content="Изображение"
+            Foreground="White" />
+        <Label
+            Grid.Row="3"
+            Height="30"
+            Content="Категория"
+            Foreground="White" />
+        <Label
+            Grid.Row="4"
+            Height="30"
+            Content="Рейтинг"
+            Foreground="White" />
+
+
+    </Grid>
+</Window>

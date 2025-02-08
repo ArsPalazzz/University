@@ -1,0 +1,243 @@
+﻿<Window
+    x:Class="lab9.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="clr-namespace:lab9"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:lab9"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    Background="AliceBlue"
+    ResizeMode="NoResize"
+    WindowStartupLocation="CenterScreen"
+    WindowStyle="None"
+    mc:Ignorable="d">
+
+    <Window.Resources>
+        <local:Validate x:Key="val" Number="1234" />
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="1.8*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="3*" />
+        </Grid.RowDefinitions>
+        <controls:UserControl1
+            x:Name="ctrl1"
+            Grid.Row="0"
+            Grid.Column="0"
+            CurrentNumber="0">
+            <controls:UserControl1.Triggers>
+                <EventTrigger RoutedEvent="controls:UserControl1.Loaded">
+                    <BeginStoryboard>
+                        <Storyboard TargetProperty="CurrentNumber">
+                            <Int32Animation
+                                From="0"
+                                To="500"
+                                Duration="0:0:5" />
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </controls:UserControl1.Triggers>
+        </controls:UserControl1>
+        <Grid
+            Grid.Row="1"
+            Grid.Column="0"
+            Background="MintCream"
+            DataContext="{StaticResource val}">
+            
+            <controls:UserControl2 Margin="10,5,10,74" Secret="{Binding Number}" />
+            <TextBox
+                Width="200"
+                Height="50"
+                Margin="0,265,0,0"
+                VerticalAlignment="Top"
+                Text="{Binding Number}" />
+        </Grid>
+
+        <Grid
+            Grid.Row="0"
+            Grid.Column="1"
+            Background="Beige">
+            <Button
+                Width="140"
+                Height="50"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Command="local:Commands.Visible"
+                Content="Скрыть/Показать"
+                FontSize="14" />
+
+        </Grid>
+        <StackPanel x:Name="stackHide" Grid.Row="1" Grid.Column="1" Background="Bisque">
+            <Grid ButtonBase.Click="Grid_Click">
+                <StackPanel ButtonBase.Click="StackPanel_Click" HorizontalAlignment="Left">
+                    <Button
+                        Width="160"
+                        Height="25"
+                        Margin="10"
+                        Click="Button_Click"
+                        Content="Поднимающиеся события" />
+                    <StackPanel Margin="10,0">
+                        <TextBlock
+                            Name="txt1"
+                            Margin="2"
+                            FontSize="12"
+                            Text="Первый TextBlock" />
+                        <TextBlock
+                            Name="txt2"
+                            Margin="2"
+                            FontSize="12"
+                            Text="Второй TextBlock" />
+                        <TextBlock
+                            Name="txt3"
+                            Margin="2"
+                            FontSize="12"
+                            Text="Третий TextBlock" />
+                    </StackPanel>
+
+                    
+                </StackPanel>
+            </Grid>
+            <Grid PreviewMouseDown="Control_MouseDown">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <StackPanel
+                    HorizontalAlignment="Left"
+                    Grid.Row="0"
+                    VerticalAlignment="Center"
+                    PreviewMouseDown="Control_MouseDown">
+                    <Button
+                        Width="160"
+                        Height="25"
+                        Margin="10"
+                        Content="Опускающиеся события"
+                        PreviewMouseDown="Control_MouseDown" />
+                </StackPanel>
+                <TextBlock
+                    x:Name="textBlock1"
+                    Grid.Row="1"
+                    Padding="10" />
+            </Grid>
+        </StackPanel>
+        <!--<Grid
+            x:Name="grid4"
+            Grid.Row="1"
+            Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Column="0" Background="Aqua">
+                <TextBlock
+                    Width="90"
+                    Height="100"
+                    Margin="0,0,0,40"
+                    Text="Bubbling event" />
+                <StackPanel
+                    Margin="0,0,0,40"
+                    VerticalAlignment="Center"
+                    MouseDown="Button_MouseDown">
+                    <Button
+                        Width="100"
+                        Height="50"
+                        MouseDown="Button_MouseDown">
+                        <Rectangle
+                            Width="20"
+                            Height="20"
+                            Fill="Orange"
+                            MouseDown="Button_MouseDown"
+                            Opacity="0.5" />
+                    </Button>
+                </StackPanel>
+                <ScrollViewer
+                    Height="140"
+                    VerticalAlignment="Bottom"
+                    VerticalScrollBarVisibility="Hidden">
+                    <TextBlock
+                        x:Name="bubbleTextBlock"
+                        Background="Aquamarine"
+                        FontSize="10"
+                        TextWrapping="Wrap" />
+                </ScrollViewer>
+            </Grid>
+            <Grid Grid.Column="1" Background="Aqua">
+                <TextBlock
+                    Width="90"
+                    Height="100"
+                    Margin="0,0,0,40"
+                    Text="Tunneling event" />
+                <StackPanel
+                    Margin="0,0,0,40"
+                    VerticalAlignment="Center"
+                    PreviewMouseDown="Button_PreviewMouseDown">
+                    <Button
+                        Grid.Column="1"
+                        Width="100"
+                        Height="50"
+                        PreviewMouseDown="Button_PreviewMouseDown">
+                        <Rectangle
+                            Width="20"
+                            Height="20"
+                            Fill="blue"
+                            PreviewMouseDown="Button_PreviewMouseDown" />
+                    </Button>
+                </StackPanel>
+                <ScrollViewer
+                    Height="140"
+                    VerticalAlignment="Bottom"
+                    VerticalScrollBarVisibility="Hidden">
+                    <TextBlock
+                        x:Name="tunnelingTextBlock"
+                        Background="Aquamarine"
+                        FontSize="10"
+                        TextWrapping="Wrap" />
+                </ScrollViewer>
+            </Grid>
+            <Grid Grid.Column="2" Background="Aqua">
+                <TextBlock
+                    Width="90"
+                    Height="100"
+                    Margin="0,0,0,40"
+                    Text="Direct event" />
+                <StackPanel
+                    Margin="0,0,0,40"
+                    VerticalAlignment="Center"
+                    MouseDown="Button_MouseDownDirect">
+                    <Button
+                        Grid.Column="2"
+                        Width="100"
+                        Height="50"
+                        MouseDown="Button_MouseDownDirect">
+                        <Rectangle
+                            Width="20"
+                            Height="20"
+                            Fill="Orchid"
+                            MouseDown="Button_MouseDownDirect" />
+                    </Button>
+                </StackPanel>
+                <ScrollViewer
+                    Height="140"
+                    VerticalAlignment="Bottom"
+                    VerticalScrollBarVisibility="Hidden">
+                    <TextBlock
+                        x:Name="directTextBlock"
+                        Background="Aquamarine"
+                        FontSize="10"
+                        TextWrapping="Wrap" />
+                </ScrollViewer>
+            </Grid>
+
+
+        </Grid>-->
+    </Grid>
+</Window>

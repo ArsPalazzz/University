@@ -1,0 +1,318 @@
+﻿<Window
+    x:Class="WpfApp2.Insert"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:WpfApp2"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="View"
+    Width="450 "
+    Height="760"
+    Background="#FF92DFC0"
+    WindowStartupLocation="CenterScreen"
+    mc:Ignorable="d">
+    <Grid>
+        <Label
+            Margin="0,10,0,0"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top"
+            Content="INSERT DATA"
+            FontSize="48"
+            FontWeight="Bold"
+            Foreground="#FF505050" />
+        <Label
+            Margin="33,118,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Content="FIRST NAME"
+            FontSize="18"
+            FontWeight="Bold"
+            Foreground="#FF505050" />
+        <TextBox
+            x:Name="firstNameTextBox"
+            Width="148"
+            Height="33"
+            Margin="33,152,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            VerticalContentAlignment="Center"
+            Background="Gainsboro"
+            BorderBrush="Black"
+            FontSize="16"
+            TextWrapping="Wrap" />
+        <Label
+            Margin="33,188,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Content="MIDDLE NAME"
+            FontSize="18"
+            FontWeight="Bold"
+            Foreground="#FF505050" />
+        <TextBox
+            x:Name="middleNameTextBox"
+            Width="148"
+            Height="33"
+            Margin="33,222,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            VerticalContentAlignment="Center"
+            Background="Gainsboro"
+            BorderBrush="Black"
+            FontSize="16"
+            TextWrapping="Wrap" />
+        <Label
+            Margin="33,258,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Content="LAST NAME"
+            FontSize="18"
+            FontWeight="Bold"
+            Foreground="#FF505050" />
+        <TextBox
+            x:Name="lastNameTextBox"
+            Width="148"
+            Height="33"
+            Margin="33,292,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            VerticalContentAlignment="Center"
+            Background="Gainsboro"
+            BorderBrush="Black"
+            FontSize="16"
+            TextWrapping="Wrap" />
+        <Label
+            Margin="33,330,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Content="AGE"
+            FontSize="18"
+            FontWeight="Bold"
+            Foreground="#FF505050" />
+        <TextBox
+            x:Name="ageTextBox"
+            Width="148"
+            Height="33"
+            Margin="33,364,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            VerticalContentAlignment="Center"
+            Background="Gainsboro"
+            BorderBrush="Black"
+            FontSize="16"
+            TextWrapping="Wrap" />
+        <Label
+            Margin="269,118,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Content="STREET"
+            FontSize="18"
+            FontWeight="Bold"
+            Foreground="#FF505050" />
+        <TextBox
+            x:Name="streetTextBox"
+            Width="148"
+            Height="33"
+            Margin="269,152,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            VerticalContentAlignment="Center"
+            Background="Gainsboro"
+            BorderBrush="Black"
+            FontSize="16"
+            TextWrapping="Wrap" />
+        <Label
+            Margin="269,188,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Content="HOUSE"
+            FontSize="18"
+            FontWeight="Bold"
+            Foreground="#FF505050" />
+        <TextBox
+            x:Name="houseTextBox"
+            Width="148"
+            Height="33"
+            Margin="269,222,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            VerticalContentAlignment="Center"
+            Background="Gainsboro"
+            BorderBrush="Black"
+            FontSize="16"
+            TextWrapping="Wrap" />
+        <Label
+            Margin="269,258,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Content="BUILD"
+            FontSize="18"
+            FontWeight="Bold"
+            Foreground="#FF505050" />
+        <TextBox
+            x:Name="buildTextBox"
+            Width="148"
+            Height="33"
+            Margin="269,292,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            VerticalContentAlignment="Center"
+            Background="Gainsboro"
+            BorderBrush="Black"
+            FontSize="16"
+            TextWrapping="Wrap" />
+        <Label
+            Margin="269,330,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Content="FLAT"
+            FontSize="18"
+            FontWeight="Bold"
+            Foreground="#FF505050" />
+        <TextBox
+            x:Name="flatTextBox"
+            Width="148"
+            Height="33"
+            Margin="269,364,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            VerticalContentAlignment="Center"
+            Background="Gainsboro"
+            BorderBrush="Black"
+            FontSize="16"
+            TextWrapping="Wrap" />
+        <Label
+            Margin="33,400,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Content="PHONE"
+            FontSize="18"
+            FontWeight="Bold"
+            Foreground="#FF505050" />
+        <TextBox
+            x:Name="phoneTextBox"
+            Width="148"
+            Height="33"
+            Margin="33,434,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            VerticalContentAlignment="Center"
+            Background="Gainsboro"
+            BorderBrush="Black"
+            FontSize="16"
+            TextWrapping="Wrap" />
+        <Label
+            Margin="269,400,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Content="SERIAL"
+            FontSize="18"
+            FontWeight="Bold"
+            Foreground="#FF505050" />
+        <TextBox
+            x:Name="serialTextBox"
+            Width="148"
+            Height="33"
+            Margin="269,434,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            VerticalContentAlignment="Center"
+            Background="Gainsboro"
+            BorderBrush="Black"
+            FontSize="16"
+            TextWrapping="Wrap" />
+        <Label
+            Margin="33,468,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Content="COUNTRY"
+            FontSize="18"
+            FontWeight="Bold"
+            Foreground="#FF505050" />
+        <TextBox
+            x:Name="countryTextBox"
+            Width="148"
+            Height="33"
+            Margin="33,502,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            VerticalContentAlignment="Center"
+            Background="Gainsboro"
+            BorderBrush="Black"
+            FontSize="16"
+            TextWrapping="Wrap" />
+        <Label
+            Margin="269,468,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Content="NUMBER"
+            FontSize="18"
+            FontWeight="Bold"
+            Foreground="#FF505050" />
+        <TextBox
+            x:Name="numberTextBox"
+            Width="148"
+            Height="33"
+            Margin="269,502,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            VerticalContentAlignment="Center"
+            Background="Gainsboro"
+            BorderBrush="Black"
+            FontSize="16"
+            TextWrapping="Wrap" />
+        <Label
+            Margin="33,538,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Content="CITY"
+            FontSize="18"
+            FontWeight="Bold"
+            Foreground="#FF505050" />
+        <TextBox
+            x:Name="cityTextBox"
+            Width="148"
+            Height="33"
+            Margin="33,572,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            VerticalContentAlignment="Center"
+            Background="Gainsboro"
+            BorderBrush="Black"
+            FontSize="16"
+            TextWrapping="Wrap" />
+        <Label
+            Margin="269,538,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Content="PHOTO"
+            FontSize="18"
+            FontWeight="Bold"
+            Foreground="#FF505050" />
+        <Button
+            Width="236"
+            Height="75"
+            Margin="0,623,0,0"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top"
+            Background="#FFC8E3B2"
+            BorderBrush="Black"
+            Click="insertButton_Click"
+            Content="INSERT"
+            FontSize="36"
+            FontWeight="Bold"
+            Foreground="#FF505050" />
+        <Button
+            x:Name="imgButton"
+            Width="148"
+            Height="33"
+            Margin="269,572,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            BorderBrush="Black"
+            Click="imgButton_Click"
+            Content="UPLOAD"
+            FontSize="16"
+            FontWeight="Bold"
+            Foreground="#FF505050" />
+    </Grid>
+</Window>

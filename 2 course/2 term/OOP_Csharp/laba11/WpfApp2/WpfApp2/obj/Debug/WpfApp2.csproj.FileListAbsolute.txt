@@ -1,0 +1,214 @@
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe.config
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\WpfApp2.pdb
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\EntityFramework.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\EntityFramework.SqlServer.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Bcl.HashCode.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Data.SqlClient.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.EntityFrameworkCore.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.Configuration.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.Logging.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.Options.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.Primitives.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Identity.Client.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.IdentityModel.Logging.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Newtonsoft.Json.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\System.Buffers.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\System.Collections.Immutable.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\System.ComponentModel.Annotations.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\System.Memory.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\System.Numerics.Vectors.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\EntityFramework.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\EntityFramework.SqlServer.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Bcl.HashCode.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Data.SqlClient.pdb
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Data.SqlClient.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.EntityFrameworkCore.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.Configuration.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.Logging.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.Options.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.Primitives.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Identity.Client.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.IdentityModel.Logging.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\Newtonsoft.Json.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\System.Buffers.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\System.Collections.Immutable.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\System.Memory.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\System.Numerics.Vectors.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\ru\EntityFramework.resources.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.SuggestedBindingRedirects.cache
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\obj\Debug\App.g.cs
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\obj\Debug\WpfApp2_Content.g.cs
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\obj\Debug\WpfApp2.g.resources
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.CopyComplete
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\obj\Debug\WpfApp2.exe
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\obj\Debug\WpfApp2.pdb
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\obj\Debug\AddItem.g.cs
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\obj\Debug\AddItem.baml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\obj\Debug\Views\MainWindow.g.cs
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\obj\Debug\Views\MainWindow.baml
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\obj\Debug\AddStudent.g.cs
+E:\Универ\Лабораторные работы\4 семестр\ООП\лаба 11\WpfApp2\WpfApp2\obj\Debug\AddStudent.baml
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe.config
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\WpfApp2.pdb
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\EntityFramework.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\EntityFramework.SqlServer.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Bcl.HashCode.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Data.SqlClient.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.Configuration.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.Options.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Identity.Client.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.IdentityModel.Logging.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Newtonsoft.Json.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\System.Buffers.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\System.Collections.Immutable.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\System.Memory.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\System.Numerics.Vectors.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\EntityFramework.xml
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\EntityFramework.SqlServer.xml
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Bcl.HashCode.xml
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Data.SqlClient.pdb
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Data.SqlClient.xml
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.EntityFrameworkCore.xml
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.xml
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.Configuration.xml
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.Options.xml
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.Identity.Client.xml
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.IdentityModel.Logging.xml
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\Newtonsoft.Json.xml
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\System.Buffers.xml
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\System.Collections.Immutable.xml
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\System.Memory.xml
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\System.Numerics.Vectors.xml
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\ru\EntityFramework.resources.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.SuggestedBindingRedirects.cache
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\obj\Debug\AddItem.g.cs
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\obj\Debug\AddStudent.g.cs
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\obj\Debug\Views\MainWindow.g.cs
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\obj\Debug\App.g.cs
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\obj\Debug\WpfApp2_Content.g.cs
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\obj\Debug\AddItem.baml
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\obj\Debug\AddStudent.baml
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\obj\Debug\Views\MainWindow.baml
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\obj\Debug\WpfApp2.g.resources
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.CopyComplete
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\obj\Debug\WpfApp2.exe
+D:\Study\ООПиП (Экз)\laba11\WpfApp2\WpfApp2\obj\Debug\WpfApp2.pdb

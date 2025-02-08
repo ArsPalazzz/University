@@ -1,0 +1,308 @@
+D:\ООП\CS labs 2 sem\Bank\Bank\bin\Debug\Bank.exe.config
+D:\ООП\CS labs 2 sem\Bank\Bank\bin\Debug\Bank.exe
+D:\ООП\CS labs 2 sem\Bank\Bank\bin\Debug\Bank.pdb
+D:\ООП\CS labs 2 sem\Bank\Bank\obj\Debug\Bank.csproj.AssemblyReference.cache
+D:\ООП\CS labs 2 sem\Bank\Bank\obj\Debug\Bank.Form1.resources
+D:\ООП\CS labs 2 sem\Bank\Bank\obj\Debug\Bank.Properties.Resources.resources
+D:\ООП\CS labs 2 sem\Bank\Bank\obj\Debug\Bank.csproj.GenerateResource.cache
+D:\ООП\CS labs 2 sem\Bank\Bank\obj\Debug\Bank.csproj.CoreCompileInputs.cache
+D:\ООП\CS labs 2 sem\Bank\Bank\obj\Debug\Bank.exe
+D:\ООП\CS labs 2 sem\Bank\Bank\obj\Debug\Bank.pdb
+D:\ООП\CS labs 2 sem\Bank\Bank\bin\Debug\Newtonsoft.Json.dll
+D:\ООП\CS labs 2 sem\Bank\Bank\bin\Debug\Newtonsoft.Json.xml
+D:\ООП\CS labs 2 sem\Bank\Bank\obj\Debug\Bank.csproj.CopyComplete
+D:\ООП\CS labs 2 sem\Bank\Bank\obj\Debug\Bank.Form2.resources
+D:\ООП\CS labs 2 sem\Bank — копия\Bank\bin\Debug\Bank.exe.config
+D:\ООП\CS labs 2 sem\Bank — копия\Bank\bin\Debug\Bank.exe
+D:\ООП\CS labs 2 sem\Bank — копия\Bank\bin\Debug\Bank.pdb
+D:\ООП\CS labs 2 sem\Bank — копия\Bank\bin\Debug\Newtonsoft.Json.dll
+D:\ООП\CS labs 2 sem\Bank — копия\Bank\bin\Debug\System.ComponentModel.Annotations.dll
+D:\ООП\CS labs 2 sem\Bank — копия\Bank\bin\Debug\Newtonsoft.Json.xml
+D:\ООП\CS labs 2 sem\Bank — копия\Bank\obj\Debug\Bank.csproj.AssemblyReference.cache
+D:\ООП\CS labs 2 sem\Bank — копия\Bank\obj\Debug\Bank.Properties.Resources.resources
+D:\ООП\CS labs 2 sem\Bank — копия\Bank\obj\Debug\Bank.csproj.GenerateResource.cache
+D:\ООП\CS labs 2 sem\Bank — копия\Bank\obj\Debug\Bank.csproj.CoreCompileInputs.cache
+D:\ООП\CS labs 2 sem\Bank — копия\Bank\obj\Debug\Bank.csproj.CopyComplete
+D:\ООП\CS labs 2 sem\Bank — копия\Bank\obj\Debug\Bank.exe
+D:\ООП\CS labs 2 sem\Bank — копия\Bank\obj\Debug\Bank.pdb
+D:\ООП\CS labs 2 sem\Bank — копия\Bank\obj\Debug\Bank.FormMain.resources
+D:\ООП\CS labs 2 sem\Bank — копия\Bank\obj\Debug\Bank.FormRegistration.resources
+D:\ООП\CS labs 2 sem\Bank — копия\Bank\obj\Debug\Bank.FormSearchForNumber.resources
+D:\ООП\CS labs 2 sem\Bank — копия\Bank\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ООП\CS labs 2 sem\Bank — копия\Bank\bin\Debug\System.Buffers.dll
+D:\ООП\CS labs 2 sem\Bank — копия\Bank\bin\Debug\System.Memory.dll
+D:\ООП\CS labs 2 sem\Bank — копия\Bank\bin\Debug\System.Numerics.Vectors.dll
+D:\ООП\CS labs 2 sem\Bank — копия\Bank\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\ООП\CS labs 2 sem\Bank — копия\Bank\bin\Debug\System.Text.Encodings.Web.dll
+D:\ООП\CS labs 2 sem\Bank — копия\Bank\bin\Debug\System.Text.Json.dll
+D:\ООП\CS labs 2 sem\Bank — копия\Bank\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\ООП\CS labs 2 sem\Bank — копия\Bank\bin\Debug\System.ValueTuple.dll
+D:\ООП\CS labs 2 sem\Bank — копия\Bank\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\ООП\CS labs 2 sem\Bank — копия\Bank\bin\Debug\System.Buffers.xml
+D:\ООП\CS labs 2 sem\Bank — копия\Bank\bin\Debug\System.Memory.xml
+D:\ООП\CS labs 2 sem\Bank — копия\Bank\bin\Debug\System.Numerics.Vectors.xml
+D:\ООП\CS labs 2 sem\Bank — копия\Bank\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\ООП\CS labs 2 sem\Bank — копия\Bank\bin\Debug\System.Text.Encodings.Web.xml
+D:\ООП\CS labs 2 sem\Bank — копия\Bank\bin\Debug\System.Text.Json.xml
+D:\ООП\CS labs 2 sem\Bank — копия\Bank\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\ООП\CS labs 2 sem\Bank — копия\Bank\bin\Debug\System.ValueTuple.xml
+C:\Users\Daniil\Downloads\Bank — копия\Bank\bin\Debug\Bank.exe.config
+C:\Users\Daniil\Downloads\Bank — копия\Bank\bin\Debug\Bank.exe
+C:\Users\Daniil\Downloads\Bank — копия\Bank\bin\Debug\Bank.pdb
+C:\Users\Daniil\Downloads\Bank — копия\Bank\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Daniil\Downloads\Bank — копия\Bank\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Daniil\Downloads\Bank — копия\Bank\bin\Debug\System.Buffers.dll
+C:\Users\Daniil\Downloads\Bank — копия\Bank\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\Daniil\Downloads\Bank — копия\Bank\bin\Debug\System.Memory.dll
+C:\Users\Daniil\Downloads\Bank — копия\Bank\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Daniil\Downloads\Bank — копия\Bank\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Daniil\Downloads\Bank — копия\Bank\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Daniil\Downloads\Bank — копия\Bank\bin\Debug\System.Text.Json.dll
+C:\Users\Daniil\Downloads\Bank — копия\Bank\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Daniil\Downloads\Bank — копия\Bank\bin\Debug\System.ValueTuple.dll
+C:\Users\Daniil\Downloads\Bank — копия\Bank\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Daniil\Downloads\Bank — копия\Bank\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Daniil\Downloads\Bank — копия\Bank\bin\Debug\System.Buffers.xml
+C:\Users\Daniil\Downloads\Bank — копия\Bank\bin\Debug\System.Memory.xml
+C:\Users\Daniil\Downloads\Bank — копия\Bank\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Daniil\Downloads\Bank — копия\Bank\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Daniil\Downloads\Bank — копия\Bank\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Daniil\Downloads\Bank — копия\Bank\bin\Debug\System.Text.Json.xml
+C:\Users\Daniil\Downloads\Bank — копия\Bank\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Daniil\Downloads\Bank — копия\Bank\bin\Debug\System.ValueTuple.xml
+C:\Users\Daniil\Downloads\Bank — копия\Bank\obj\Debug\Bank.csproj.AssemblyReference.cache
+C:\Users\Daniil\Downloads\Bank — копия\Bank\obj\Debug\Bank.csproj.SuggestedBindingRedirects.cache
+C:\Users\Daniil\Downloads\Bank — копия\Bank\obj\Debug\Bank.FormMain.resources
+C:\Users\Daniil\Downloads\Bank — копия\Bank\obj\Debug\Bank.FormRegistration.resources
+C:\Users\Daniil\Downloads\Bank — копия\Bank\obj\Debug\Bank.FormSearchForNumber.resources
+C:\Users\Daniil\Downloads\Bank — копия\Bank\obj\Debug\Bank.Properties.Resources.resources
+C:\Users\Daniil\Downloads\Bank — копия\Bank\obj\Debug\Bank.csproj.GenerateResource.cache
+C:\Users\Daniil\Downloads\Bank — копия\Bank\obj\Debug\Bank.csproj.CoreCompileInputs.cache
+C:\Users\Daniil\Downloads\Bank — копия\Bank\obj\Debug\Bank.csproj.CopyComplete
+C:\Users\Daniil\Downloads\Bank — копия\Bank\obj\Debug\Bank.exe
+C:\Users\Daniil\Downloads\Bank — копия\Bank\obj\Debug\Bank.pdb
+D:\ООП\Шышарп\Bank — копия\Bank\bin\Debug\Bank.exe.config
+D:\ООП\Шышарп\Bank — копия\Bank\bin\Debug\Bank.exe
+D:\ООП\Шышарп\Bank — копия\Bank\bin\Debug\Bank.pdb
+D:\ООП\Шышарп\Bank — копия\Bank\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ООП\Шышарп\Bank — копия\Bank\bin\Debug\Newtonsoft.Json.dll
+D:\ООП\Шышарп\Bank — копия\Bank\bin\Debug\System.Buffers.dll
+D:\ООП\Шышарп\Bank — копия\Bank\bin\Debug\System.ComponentModel.Annotations.dll
+D:\ООП\Шышарп\Bank — копия\Bank\bin\Debug\System.Memory.dll
+D:\ООП\Шышарп\Bank — копия\Bank\bin\Debug\System.Numerics.Vectors.dll
+D:\ООП\Шышарп\Bank — копия\Bank\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\ООП\Шышарп\Bank — копия\Bank\bin\Debug\System.Text.Encodings.Web.dll
+D:\ООП\Шышарп\Bank — копия\Bank\bin\Debug\System.Text.Json.dll
+D:\ООП\Шышарп\Bank — копия\Bank\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\ООП\Шышарп\Bank — копия\Bank\bin\Debug\System.ValueTuple.dll
+D:\ООП\Шышарп\Bank — копия\Bank\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\ООП\Шышарп\Bank — копия\Bank\bin\Debug\Newtonsoft.Json.xml
+D:\ООП\Шышарп\Bank — копия\Bank\bin\Debug\System.Buffers.xml
+D:\ООП\Шышарп\Bank — копия\Bank\bin\Debug\System.Memory.xml
+D:\ООП\Шышарп\Bank — копия\Bank\bin\Debug\System.Numerics.Vectors.xml
+D:\ООП\Шышарп\Bank — копия\Bank\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\ООП\Шышарп\Bank — копия\Bank\bin\Debug\System.Text.Encodings.Web.xml
+D:\ООП\Шышарп\Bank — копия\Bank\bin\Debug\System.Text.Json.xml
+D:\ООП\Шышарп\Bank — копия\Bank\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\ООП\Шышарп\Bank — копия\Bank\bin\Debug\System.ValueTuple.xml
+D:\ООП\Шышарп\Bank — копия\Bank\obj\Debug\Bank.csproj.AssemblyReference.cache
+D:\ООП\Шышарп\Bank — копия\Bank\obj\Debug\Bank.FormMain.resources
+D:\ООП\Шышарп\Bank — копия\Bank\obj\Debug\Bank.FormRegistration.resources
+D:\ООП\Шышарп\Bank — копия\Bank\obj\Debug\Bank.FormSearchForNumber.resources
+D:\ООП\Шышарп\Bank — копия\Bank\obj\Debug\Bank.Properties.Resources.resources
+D:\ООП\Шышарп\Bank — копия\Bank\obj\Debug\Bank.csproj.GenerateResource.cache
+D:\ООП\Шышарп\Bank — копия\Bank\obj\Debug\Bank.csproj.CoreCompileInputs.cache
+D:\ООП\Шышарп\Bank — копия\Bank\obj\Debug\Bank.csproj.CopyComplete
+D:\ООП\Шышарп\Bank — копия\Bank\obj\Debug\Bank.exe
+D:\ООП\Шышарп\Bank — копия\Bank\obj\Debug\Bank.pdb
+D:\ООП\Шышарп\Bank — копия\Bank\obj\Debug\Bank.FormSearchForFullName.resources
+D:\ООП\Шышарп\Bank — копия\Bank\obj\Debug\Bank.FormSearchForContribType.resources
+D:\ООП\Шышарп\Bank — копия\Bank\obj\Debug\Bank.FormSearchForBalance.resources
+D:\ООП\CS labs 2 sem\Lab3_Bank\Bank\bin\Debug\Bank.exe.config
+D:\ООП\CS labs 2 sem\Lab3_Bank\Bank\bin\Debug\Bank.exe
+D:\ООП\CS labs 2 sem\Lab3_Bank\Bank\bin\Debug\Bank.pdb
+D:\ООП\CS labs 2 sem\Lab3_Bank\Bank\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ООП\CS labs 2 sem\Lab3_Bank\Bank\bin\Debug\Newtonsoft.Json.dll
+D:\ООП\CS labs 2 sem\Lab3_Bank\Bank\bin\Debug\System.Buffers.dll
+D:\ООП\CS labs 2 sem\Lab3_Bank\Bank\bin\Debug\System.ComponentModel.Annotations.dll
+D:\ООП\CS labs 2 sem\Lab3_Bank\Bank\bin\Debug\System.Memory.dll
+D:\ООП\CS labs 2 sem\Lab3_Bank\Bank\bin\Debug\System.Numerics.Vectors.dll
+D:\ООП\CS labs 2 sem\Lab3_Bank\Bank\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\ООП\CS labs 2 sem\Lab3_Bank\Bank\bin\Debug\System.Text.Encodings.Web.dll
+D:\ООП\CS labs 2 sem\Lab3_Bank\Bank\bin\Debug\System.Text.Json.dll
+D:\ООП\CS labs 2 sem\Lab3_Bank\Bank\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\ООП\CS labs 2 sem\Lab3_Bank\Bank\bin\Debug\System.ValueTuple.dll
+D:\ООП\CS labs 2 sem\Lab3_Bank\Bank\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\ООП\CS labs 2 sem\Lab3_Bank\Bank\bin\Debug\Newtonsoft.Json.xml
+D:\ООП\CS labs 2 sem\Lab3_Bank\Bank\bin\Debug\System.Buffers.xml
+D:\ООП\CS labs 2 sem\Lab3_Bank\Bank\bin\Debug\System.Memory.xml
+D:\ООП\CS labs 2 sem\Lab3_Bank\Bank\bin\Debug\System.Numerics.Vectors.xml
+D:\ООП\CS labs 2 sem\Lab3_Bank\Bank\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\ООП\CS labs 2 sem\Lab3_Bank\Bank\bin\Debug\System.Text.Encodings.Web.xml
+D:\ООП\CS labs 2 sem\Lab3_Bank\Bank\bin\Debug\System.Text.Json.xml
+D:\ООП\CS labs 2 sem\Lab3_Bank\Bank\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\ООП\CS labs 2 sem\Lab3_Bank\Bank\bin\Debug\System.ValueTuple.xml
+D:\ООП\CS labs 2 sem\Lab3_Bank\Bank\obj\Debug\Bank.csproj.AssemblyReference.cache
+D:\ООП\CS labs 2 sem\Lab3_Bank\Bank\obj\Debug\Bank.FormMain.resources
+D:\ООП\CS labs 2 sem\Lab3_Bank\Bank\obj\Debug\Bank.FormRegistration.resources
+D:\ООП\CS labs 2 sem\Lab3_Bank\Bank\obj\Debug\Bank.FormSearchForBalance.resources
+D:\ООП\CS labs 2 sem\Lab3_Bank\Bank\obj\Debug\Bank.FormSearchForContribType.resources
+D:\ООП\CS labs 2 sem\Lab3_Bank\Bank\obj\Debug\Bank.FormSearchForFullName.resources
+D:\ООП\CS labs 2 sem\Lab3_Bank\Bank\obj\Debug\Bank.FormSearchForNumber.resources
+D:\ООП\CS labs 2 sem\Lab3_Bank\Bank\obj\Debug\Bank.Properties.Resources.resources
+D:\ООП\CS labs 2 sem\Lab3_Bank\Bank\obj\Debug\Bank.csproj.GenerateResource.cache
+D:\ООП\CS labs 2 sem\Lab3_Bank\Bank\obj\Debug\Bank.csproj.CoreCompileInputs.cache
+D:\ООП\CS labs 2 sem\Lab3_Bank\Bank\obj\Debug\Bank.csproj.CopyComplete
+D:\ООП\CS labs 2 sem\Lab3_Bank\Bank\obj\Debug\Bank.exe
+D:\ООП\CS labs 2 sem\Lab3_Bank\Bank\obj\Debug\Bank.pdb
+D:\ООП\CS labs 2 sem\Lab4_Bank\Bank\bin\Debug\Bank.exe.config
+D:\ООП\CS labs 2 sem\Lab4_Bank\Bank\bin\Debug\Bank.exe
+D:\ООП\CS labs 2 sem\Lab4_Bank\Bank\bin\Debug\Bank.pdb
+D:\ООП\CS labs 2 sem\Lab4_Bank\Bank\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ООП\CS labs 2 sem\Lab4_Bank\Bank\bin\Debug\Newtonsoft.Json.dll
+D:\ООП\CS labs 2 sem\Lab4_Bank\Bank\bin\Debug\System.Buffers.dll
+D:\ООП\CS labs 2 sem\Lab4_Bank\Bank\bin\Debug\System.ComponentModel.Annotations.dll
+D:\ООП\CS labs 2 sem\Lab4_Bank\Bank\bin\Debug\System.Memory.dll
+D:\ООП\CS labs 2 sem\Lab4_Bank\Bank\bin\Debug\System.Numerics.Vectors.dll
+D:\ООП\CS labs 2 sem\Lab4_Bank\Bank\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\ООП\CS labs 2 sem\Lab4_Bank\Bank\bin\Debug\System.Text.Encodings.Web.dll
+D:\ООП\CS labs 2 sem\Lab4_Bank\Bank\bin\Debug\System.Text.Json.dll
+D:\ООП\CS labs 2 sem\Lab4_Bank\Bank\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\ООП\CS labs 2 sem\Lab4_Bank\Bank\bin\Debug\System.ValueTuple.dll
+D:\ООП\CS labs 2 sem\Lab4_Bank\Bank\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\ООП\CS labs 2 sem\Lab4_Bank\Bank\bin\Debug\Newtonsoft.Json.xml
+D:\ООП\CS labs 2 sem\Lab4_Bank\Bank\bin\Debug\System.Buffers.xml
+D:\ООП\CS labs 2 sem\Lab4_Bank\Bank\bin\Debug\System.Memory.xml
+D:\ООП\CS labs 2 sem\Lab4_Bank\Bank\bin\Debug\System.Numerics.Vectors.xml
+D:\ООП\CS labs 2 sem\Lab4_Bank\Bank\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\ООП\CS labs 2 sem\Lab4_Bank\Bank\bin\Debug\System.Text.Encodings.Web.xml
+D:\ООП\CS labs 2 sem\Lab4_Bank\Bank\bin\Debug\System.Text.Json.xml
+D:\ООП\CS labs 2 sem\Lab4_Bank\Bank\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\ООП\CS labs 2 sem\Lab4_Bank\Bank\bin\Debug\System.ValueTuple.xml
+D:\ООП\CS labs 2 sem\Lab4_Bank\Bank\obj\Debug\Bank.csproj.AssemblyReference.cache
+D:\ООП\CS labs 2 sem\Lab4_Bank\Bank\obj\Debug\Bank.FormMain.resources
+D:\ООП\CS labs 2 sem\Lab4_Bank\Bank\obj\Debug\Bank.FormRegistration.resources
+D:\ООП\CS labs 2 sem\Lab4_Bank\Bank\obj\Debug\Bank.FormSearchForBalance.resources
+D:\ООП\CS labs 2 sem\Lab4_Bank\Bank\obj\Debug\Bank.FormSearchForContribType.resources
+D:\ООП\CS labs 2 sem\Lab4_Bank\Bank\obj\Debug\Bank.FormSearchForFullName.resources
+D:\ООП\CS labs 2 sem\Lab4_Bank\Bank\obj\Debug\Bank.FormSearchForNumber.resources
+D:\ООП\CS labs 2 sem\Lab4_Bank\Bank\obj\Debug\Bank.Properties.Resources.resources
+D:\ООП\CS labs 2 sem\Lab4_Bank\Bank\obj\Debug\Bank.csproj.GenerateResource.cache
+D:\ООП\CS labs 2 sem\Lab4_Bank\Bank\obj\Debug\Bank.csproj.CoreCompileInputs.cache
+D:\ООП\CS labs 2 sem\Lab4_Bank\Bank\obj\Debug\Bank.csproj.CopyComplete
+D:\ООП\CS labs 2 sem\Lab4_Bank\Bank\obj\Debug\Bank.exe
+D:\ООП\CS labs 2 sem\Lab4_Bank\Bank\obj\Debug\Bank.pdb
+E:\Универ\Лабораторные работы\4 семестр\ООП\pol\Lab\Lab3_Bank\Bank\bin\Debug\Bank.exe.config
+E:\Универ\Лабораторные работы\4 семестр\ООП\pol\Lab\Lab3_Bank\Bank\bin\Debug\Bank.exe
+E:\Универ\Лабораторные работы\4 семестр\ООП\pol\Lab\Lab3_Bank\Bank\bin\Debug\Bank.pdb
+E:\Универ\Лабораторные работы\4 семестр\ООП\pol\Lab\Lab3_Bank\Bank\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\pol\Lab\Lab3_Bank\Bank\bin\Debug\Newtonsoft.Json.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\pol\Lab\Lab3_Bank\Bank\bin\Debug\System.Buffers.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\pol\Lab\Lab3_Bank\Bank\bin\Debug\System.ComponentModel.Annotations.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\pol\Lab\Lab3_Bank\Bank\bin\Debug\System.Memory.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\pol\Lab\Lab3_Bank\Bank\bin\Debug\System.Numerics.Vectors.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\pol\Lab\Lab3_Bank\Bank\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\pol\Lab\Lab3_Bank\Bank\bin\Debug\System.Text.Encodings.Web.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\pol\Lab\Lab3_Bank\Bank\bin\Debug\System.Text.Json.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\pol\Lab\Lab3_Bank\Bank\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\pol\Lab\Lab3_Bank\Bank\bin\Debug\System.ValueTuple.dll
+E:\Универ\Лабораторные работы\4 семестр\ООП\pol\Lab\Lab3_Bank\Bank\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\pol\Lab\Lab3_Bank\Bank\bin\Debug\Newtonsoft.Json.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\pol\Lab\Lab3_Bank\Bank\bin\Debug\System.Buffers.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\pol\Lab\Lab3_Bank\Bank\bin\Debug\System.Memory.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\pol\Lab\Lab3_Bank\Bank\bin\Debug\System.Numerics.Vectors.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\pol\Lab\Lab3_Bank\Bank\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\pol\Lab\Lab3_Bank\Bank\bin\Debug\System.Text.Encodings.Web.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\pol\Lab\Lab3_Bank\Bank\bin\Debug\System.Text.Json.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\pol\Lab\Lab3_Bank\Bank\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\pol\Lab\Lab3_Bank\Bank\bin\Debug\System.ValueTuple.xml
+E:\Универ\Лабораторные работы\4 семестр\ООП\pol\Lab\Lab3_Bank\Bank\obj\Debug\Bank.csproj.AssemblyReference.cache
+E:\Универ\Лабораторные работы\4 семестр\ООП\pol\Lab\Lab3_Bank\Bank\obj\Debug\Bank.csproj.SuggestedBindingRedirects.cache
+E:\Универ\Лабораторные работы\4 семестр\ООП\pol\Lab\Lab3_Bank\Bank\obj\Debug\Bank.FormMain.resources
+E:\Универ\Лабораторные работы\4 семестр\ООП\pol\Lab\Lab3_Bank\Bank\obj\Debug\Bank.FormRegistration.resources
+E:\Универ\Лабораторные работы\4 семестр\ООП\pol\Lab\Lab3_Bank\Bank\obj\Debug\Bank.FormSearchForBalance.resources
+E:\Универ\Лабораторные работы\4 семестр\ООП\pol\Lab\Lab3_Bank\Bank\obj\Debug\Bank.FormSearchForContribType.resources
+E:\Универ\Лабораторные работы\4 семестр\ООП\pol\Lab\Lab3_Bank\Bank\obj\Debug\Bank.FormSearchForFullName.resources
+E:\Универ\Лабораторные работы\4 семестр\ООП\pol\Lab\Lab3_Bank\Bank\obj\Debug\Bank.FormSearchForNumber.resources
+E:\Универ\Лабораторные работы\4 семестр\ООП\pol\Lab\Lab3_Bank\Bank\obj\Debug\Bank.Properties.Resources.resources
+E:\Универ\Лабораторные работы\4 семестр\ООП\pol\Lab\Lab3_Bank\Bank\obj\Debug\Bank.csproj.GenerateResource.cache
+E:\Универ\Лабораторные работы\4 семестр\ООП\pol\Lab\Lab3_Bank\Bank\obj\Debug\Bank.csproj.CoreCompileInputs.cache
+E:\Универ\Лабораторные работы\4 семестр\ООП\pol\Lab\Lab3_Bank\Bank\obj\Debug\Bank.csproj.CopyComplete
+E:\Универ\Лабораторные работы\4 семестр\ООП\pol\Lab\Lab3_Bank\Bank\obj\Debug\Bank.exe
+E:\Универ\Лабораторные работы\4 семестр\ООП\pol\Lab\Lab3_Bank\Bank\obj\Debug\Bank.pdb
+D:\Study\ООПиП\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\Bank.exe.config
+D:\Study\ООПиП\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\Bank.exe
+D:\Study\ООПиП\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\Bank.pdb
+D:\Study\ООПиП\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Study\ООПиП\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\Newtonsoft.Json.dll
+D:\Study\ООПиП\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\System.Buffers.dll
+D:\Study\ООПиП\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Study\ООПиП\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\System.Memory.dll
+D:\Study\ООПиП\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\System.Numerics.Vectors.dll
+D:\Study\ООПиП\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Study\ООПиП\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\System.Text.Encodings.Web.dll
+D:\Study\ООПиП\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\System.Text.Json.dll
+D:\Study\ООПиП\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Study\ООПиП\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\System.ValueTuple.dll
+D:\Study\ООПиП\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Study\ООПиП\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\Newtonsoft.Json.xml
+D:\Study\ООПиП\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\System.Buffers.xml
+D:\Study\ООПиП\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\System.Memory.xml
+D:\Study\ООПиП\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\System.Numerics.Vectors.xml
+D:\Study\ООПиП\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Study\ООПиП\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\System.Text.Encodings.Web.xml
+D:\Study\ООПиП\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\System.Text.Json.xml
+D:\Study\ООПиП\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Study\ООПиП\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\System.ValueTuple.xml
+D:\Study\ООПиП\лаба32\Lab3_Bank\Lab3_Bank\Bank\obj\Debug\Bank.csproj.AssemblyReference.cache
+D:\Study\ООПиП\лаба32\Lab3_Bank\Lab3_Bank\Bank\obj\Debug\Bank.csproj.SuggestedBindingRedirects.cache
+D:\Study\ООПиП\лаба32\Lab3_Bank\Lab3_Bank\Bank\obj\Debug\Bank.FormMain.resources
+D:\Study\ООПиП\лаба32\Lab3_Bank\Lab3_Bank\Bank\obj\Debug\Bank.FormRegistration.resources
+D:\Study\ООПиП\лаба32\Lab3_Bank\Lab3_Bank\Bank\obj\Debug\Bank.FormSearchForBalance.resources
+D:\Study\ООПиП\лаба32\Lab3_Bank\Lab3_Bank\Bank\obj\Debug\Bank.FormSearchForContribType.resources
+D:\Study\ООПиП\лаба32\Lab3_Bank\Lab3_Bank\Bank\obj\Debug\Bank.FormSearchForFullName.resources
+D:\Study\ООПиП\лаба32\Lab3_Bank\Lab3_Bank\Bank\obj\Debug\Bank.FormSearchForNumber.resources
+D:\Study\ООПиП\лаба32\Lab3_Bank\Lab3_Bank\Bank\obj\Debug\Bank.Properties.Resources.resources
+D:\Study\ООПиП\лаба32\Lab3_Bank\Lab3_Bank\Bank\obj\Debug\Bank.csproj.GenerateResource.cache
+D:\Study\ООПиП\лаба32\Lab3_Bank\Lab3_Bank\Bank\obj\Debug\Bank.csproj.CoreCompileInputs.cache
+D:\Study\ООПиП\лаба32\Lab3_Bank\Lab3_Bank\Bank\obj\Debug\Bank.csproj.CopyComplete
+D:\Study\ООПиП\лаба32\Lab3_Bank\Lab3_Bank\Bank\obj\Debug\Bank.exe
+D:\Study\ООПиП\лаба32\Lab3_Bank\Lab3_Bank\Bank\obj\Debug\Bank.pdb
+D:\Study\OOP (Exam)\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\Bank.exe.config
+D:\Study\OOP (Exam)\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\Bank.exe
+D:\Study\OOP (Exam)\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\Bank.pdb
+D:\Study\OOP (Exam)\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Study\OOP (Exam)\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\Newtonsoft.Json.dll
+D:\Study\OOP (Exam)\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\System.Buffers.dll
+D:\Study\OOP (Exam)\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Study\OOP (Exam)\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\System.Memory.dll
+D:\Study\OOP (Exam)\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\System.Numerics.Vectors.dll
+D:\Study\OOP (Exam)\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Study\OOP (Exam)\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\System.Text.Encodings.Web.dll
+D:\Study\OOP (Exam)\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\System.Text.Json.dll
+D:\Study\OOP (Exam)\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Study\OOP (Exam)\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\System.ValueTuple.dll
+D:\Study\OOP (Exam)\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Study\OOP (Exam)\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\Newtonsoft.Json.xml
+D:\Study\OOP (Exam)\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\System.Buffers.xml
+D:\Study\OOP (Exam)\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\System.Memory.xml
+D:\Study\OOP (Exam)\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\System.Numerics.Vectors.xml
+D:\Study\OOP (Exam)\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Study\OOP (Exam)\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\System.Text.Encodings.Web.xml
+D:\Study\OOP (Exam)\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\System.Text.Json.xml
+D:\Study\OOP (Exam)\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Study\OOP (Exam)\лаба32\Lab3_Bank\Lab3_Bank\Bank\bin\Debug\System.ValueTuple.xml
+D:\Study\OOP (Exam)\лаба32\Lab3_Bank\Lab3_Bank\Bank\obj\Debug\Bank.csproj.AssemblyReference.cache
+D:\Study\OOP (Exam)\лаба32\Lab3_Bank\Lab3_Bank\Bank\obj\Debug\Bank.csproj.SuggestedBindingRedirects.cache
+D:\Study\OOP (Exam)\лаба32\Lab3_Bank\Lab3_Bank\Bank\obj\Debug\Bank.FormMain.resources
+D:\Study\OOP (Exam)\лаба32\Lab3_Bank\Lab3_Bank\Bank\obj\Debug\Bank.FormRegistration.resources
+D:\Study\OOP (Exam)\лаба32\Lab3_Bank\Lab3_Bank\Bank\obj\Debug\Bank.FormSearchForBalance.resources
+D:\Study\OOP (Exam)\лаба32\Lab3_Bank\Lab3_Bank\Bank\obj\Debug\Bank.FormSearchForContribType.resources
+D:\Study\OOP (Exam)\лаба32\Lab3_Bank\Lab3_Bank\Bank\obj\Debug\Bank.FormSearchForFullName.resources
+D:\Study\OOP (Exam)\лаба32\Lab3_Bank\Lab3_Bank\Bank\obj\Debug\Bank.FormSearchForNumber.resources
+D:\Study\OOP (Exam)\лаба32\Lab3_Bank\Lab3_Bank\Bank\obj\Debug\Bank.Properties.Resources.resources
+D:\Study\OOP (Exam)\лаба32\Lab3_Bank\Lab3_Bank\Bank\obj\Debug\Bank.csproj.GenerateResource.cache
+D:\Study\OOP (Exam)\лаба32\Lab3_Bank\Lab3_Bank\Bank\obj\Debug\Bank.csproj.CoreCompileInputs.cache
+D:\Study\OOP (Exam)\лаба32\Lab3_Bank\Lab3_Bank\Bank\obj\Debug\Bank.csproj.CopyComplete
+D:\Study\OOP (Exam)\лаба32\Lab3_Bank\Lab3_Bank\Bank\obj\Debug\Bank.exe
+D:\Study\OOP (Exam)\лаба32\Lab3_Bank\Lab3_Bank\Bank\obj\Debug\Bank.pdb
