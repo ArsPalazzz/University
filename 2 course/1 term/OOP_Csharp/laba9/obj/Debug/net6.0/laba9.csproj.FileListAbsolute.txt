@@ -1,0 +1,29 @@
+D:\Study\ООПиП(Экзамен)\laba9\bin\Debug\net6.0\laba9.exe
+D:\Study\ООПиП(Экзамен)\laba9\bin\Debug\net6.0\laba9.deps.json
+D:\Study\ООПиП(Экзамен)\laba9\bin\Debug\net6.0\laba9.runtimeconfig.json
+D:\Study\ООПиП(Экзамен)\laba9\bin\Debug\net6.0\laba9.dll
+D:\Study\ООПиП(Экзамен)\laba9\bin\Debug\net6.0\laba9.pdb
+D:\Study\ООПиП(Экзамен)\laba9\obj\Debug\net6.0\laba9.csproj.AssemblyReference.cache
+D:\Study\ООПиП(Экзамен)\laba9\obj\Debug\net6.0\laba9.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\ООПиП(Экзамен)\laba9\obj\Debug\net6.0\laba9.AssemblyInfoInputs.cache
+D:\Study\ООПиП(Экзамен)\laba9\obj\Debug\net6.0\laba9.AssemblyInfo.cs
+D:\Study\ООПиП(Экзамен)\laba9\obj\Debug\net6.0\laba9.csproj.CoreCompileInputs.cache
+D:\Study\ООПиП(Экзамен)\laba9\obj\Debug\net6.0\laba9.dll
+D:\Study\ООПиП(Экзамен)\laba9\obj\Debug\net6.0\refint\laba9.dll
+D:\Study\ООПиП(Экзамен)\laba9\obj\Debug\net6.0\laba9.pdb
+D:\Study\ООПиП(Экзамен)\laba9\obj\Debug\net6.0\laba9.genruntimeconfig.cache
+D:\Study\ООПиП(Экзамен)\laba9\obj\Debug\net6.0\ref\laba9.dll
+D:\BSTU\2nd course\1sem\OOP_Csharp_2course_1sem\laba9\bin\Debug\net6.0\laba9.exe
+D:\BSTU\2nd course\1sem\OOP_Csharp_2course_1sem\laba9\bin\Debug\net6.0\laba9.deps.json
+D:\BSTU\2nd course\1sem\OOP_Csharp_2course_1sem\laba9\bin\Debug\net6.0\laba9.runtimeconfig.json
+D:\BSTU\2nd course\1sem\OOP_Csharp_2course_1sem\laba9\bin\Debug\net6.0\laba9.dll
+D:\BSTU\2nd course\1sem\OOP_Csharp_2course_1sem\laba9\bin\Debug\net6.0\laba9.pdb
+D:\BSTU\2nd course\1sem\OOP_Csharp_2course_1sem\laba9\obj\Debug\net6.0\laba9.GeneratedMSBuildEditorConfig.editorconfig
+D:\BSTU\2nd course\1sem\OOP_Csharp_2course_1sem\laba9\obj\Debug\net6.0\laba9.AssemblyInfoInputs.cache
+D:\BSTU\2nd course\1sem\OOP_Csharp_2course_1sem\laba9\obj\Debug\net6.0\laba9.AssemblyInfo.cs
+D:\BSTU\2nd course\1sem\OOP_Csharp_2course_1sem\laba9\obj\Debug\net6.0\laba9.csproj.CoreCompileInputs.cache
+D:\BSTU\2nd course\1sem\OOP_Csharp_2course_1sem\laba9\obj\Debug\net6.0\laba9.dll
+D:\BSTU\2nd course\1sem\OOP_Csharp_2course_1sem\laba9\obj\Debug\net6.0\refint\laba9.dll
+D:\BSTU\2nd course\1sem\OOP_Csharp_2course_1sem\laba9\obj\Debug\net6.0\laba9.pdb
+D:\BSTU\2nd course\1sem\OOP_Csharp_2course_1sem\laba9\obj\Debug\net6.0\laba9.genruntimeconfig.cache
+D:\BSTU\2nd course\1sem\OOP_Csharp_2course_1sem\laba9\obj\Debug\net6.0\ref\laba9.dll

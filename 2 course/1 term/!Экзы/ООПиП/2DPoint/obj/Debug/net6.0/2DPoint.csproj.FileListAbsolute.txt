@@ -1,0 +1,15 @@
+D:\Study\!Экзы\ООПиП\2DPoint\bin\Debug\net6.0\2DPoint.exe
+D:\Study\!Экзы\ООПиП\2DPoint\bin\Debug\net6.0\2DPoint.deps.json
+D:\Study\!Экзы\ООПиП\2DPoint\bin\Debug\net6.0\2DPoint.runtimeconfig.json
+D:\Study\!Экзы\ООПиП\2DPoint\bin\Debug\net6.0\2DPoint.dll
+D:\Study\!Экзы\ООПиП\2DPoint\bin\Debug\net6.0\2DPoint.pdb
+D:\Study\!Экзы\ООПиП\2DPoint\obj\Debug\net6.0\2DPoint.csproj.AssemblyReference.cache
+D:\Study\!Экзы\ООПиП\2DPoint\obj\Debug\net6.0\2DPoint.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\!Экзы\ООПиП\2DPoint\obj\Debug\net6.0\2DPoint.AssemblyInfoInputs.cache
+D:\Study\!Экзы\ООПиП\2DPoint\obj\Debug\net6.0\2DPoint.AssemblyInfo.cs
+D:\Study\!Экзы\ООПиП\2DPoint\obj\Debug\net6.0\2DPoint.csproj.CoreCompileInputs.cache
+D:\Study\!Экзы\ООПиП\2DPoint\obj\Debug\net6.0\2DPoint.dll
+D:\Study\!Экзы\ООПиП\2DPoint\obj\Debug\net6.0\refint\2DPoint.dll
+D:\Study\!Экзы\ООПиП\2DPoint\obj\Debug\net6.0\2DPoint.pdb
+D:\Study\!Экзы\ООПиП\2DPoint\obj\Debug\net6.0\2DPoint.genruntimeconfig.cache
+D:\Study\!Экзы\ООПиП\2DPoint\obj\Debug\net6.0\ref\2DPoint.dll

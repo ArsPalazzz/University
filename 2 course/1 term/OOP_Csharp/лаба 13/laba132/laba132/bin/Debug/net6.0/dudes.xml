@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dudes>
+  <dude lastname="Жиляк">
+    <firstname>Надежда Александровна</firstname>
+    <old>47</old>
+  </dude>
+  <dude lastname="Белодед">
+    <firstname>Николай Иванович</firstname>
+    <old>66</old>
+  </dude>
+  <dude lastname="Барковский">
+    <firstname>Евгений Борисович</firstname>
+    <old>32</old>
+  </dude>
+</dudes>

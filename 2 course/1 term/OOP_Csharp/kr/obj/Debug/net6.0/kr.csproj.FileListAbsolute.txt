@@ -1,0 +1,15 @@
+D:\Study\ОИБ(Зачет)\лаба 8\kr\obj\Debug\net6.0\kr.csproj.AssemblyReference.cache
+D:\Study\ОИБ(Зачет)\лаба 8\kr\obj\Debug\net6.0\kr.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\ОИБ(Зачет)\лаба 8\kr\obj\Debug\net6.0\kr.AssemblyInfoInputs.cache
+D:\Study\ОИБ(Зачет)\лаба 8\kr\obj\Debug\net6.0\kr.AssemblyInfo.cs
+D:\Study\ОИБ(Зачет)\лаба 8\kr\obj\Debug\net6.0\kr.csproj.CoreCompileInputs.cache
+D:\Study\ОИБ(Зачет)\лаба 8\kr\bin\Debug\net6.0\kr.exe
+D:\Study\ОИБ(Зачет)\лаба 8\kr\bin\Debug\net6.0\kr.deps.json
+D:\Study\ОИБ(Зачет)\лаба 8\kr\bin\Debug\net6.0\kr.runtimeconfig.json
+D:\Study\ОИБ(Зачет)\лаба 8\kr\bin\Debug\net6.0\kr.dll
+D:\Study\ОИБ(Зачет)\лаба 8\kr\bin\Debug\net6.0\kr.pdb
+D:\Study\ОИБ(Зачет)\лаба 8\kr\obj\Debug\net6.0\kr.dll
+D:\Study\ОИБ(Зачет)\лаба 8\kr\obj\Debug\net6.0\refint\kr.dll
+D:\Study\ОИБ(Зачет)\лаба 8\kr\obj\Debug\net6.0\kr.pdb
+D:\Study\ОИБ(Зачет)\лаба 8\kr\obj\Debug\net6.0\kr.genruntimeconfig.cache
+D:\Study\ОИБ(Зачет)\лаба 8\kr\obj\Debug\net6.0\ref\kr.dll

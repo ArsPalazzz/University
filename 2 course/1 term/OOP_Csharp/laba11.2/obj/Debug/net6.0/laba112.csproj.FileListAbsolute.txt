@@ -1,0 +1,15 @@
+D:\Study\ООПиП(Экзамен)\laba112\bin\Debug\net6.0\laba112.exe
+D:\Study\ООПиП(Экзамен)\laba112\bin\Debug\net6.0\laba112.deps.json
+D:\Study\ООПиП(Экзамен)\laba112\bin\Debug\net6.0\laba112.runtimeconfig.json
+D:\Study\ООПиП(Экзамен)\laba112\bin\Debug\net6.0\laba112.dll
+D:\Study\ООПиП(Экзамен)\laba112\bin\Debug\net6.0\laba112.pdb
+D:\Study\ООПиП(Экзамен)\laba112\obj\Debug\net6.0\laba112.csproj.AssemblyReference.cache
+D:\Study\ООПиП(Экзамен)\laba112\obj\Debug\net6.0\laba112.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\ООПиП(Экзамен)\laba112\obj\Debug\net6.0\laba112.AssemblyInfoInputs.cache
+D:\Study\ООПиП(Экзамен)\laba112\obj\Debug\net6.0\laba112.AssemblyInfo.cs
+D:\Study\ООПиП(Экзамен)\laba112\obj\Debug\net6.0\laba112.csproj.CoreCompileInputs.cache
+D:\Study\ООПиП(Экзамен)\laba112\obj\Debug\net6.0\laba112.dll
+D:\Study\ООПиП(Экзамен)\laba112\obj\Debug\net6.0\refint\laba112.dll
+D:\Study\ООПиП(Экзамен)\laba112\obj\Debug\net6.0\laba112.pdb
+D:\Study\ООПиП(Экзамен)\laba112\obj\Debug\net6.0\laba112.genruntimeconfig.cache
+D:\Study\ООПиП(Экзамен)\laba112\obj\Debug\net6.0\ref\laba112.dll

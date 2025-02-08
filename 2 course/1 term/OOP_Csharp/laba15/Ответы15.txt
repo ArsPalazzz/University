@@ -1,0 +1,126 @@
+1. Что такое TPL? Как и для чего используется тип Task
+Библиотека параллельных задач TPL (Task Parallel Library)
+позволяет распараллелить задачи и выполнять их сразу на нескольких процессорах (для создания многопоточных приложений).
+Task описывает отдельную продолжительную операцию, которая запускается асинхронно в одном из потоков из пула потоков (можно запускать синхронно в текущем потоке) – подобна потокам, 
+но абстракция более высокого уровня.
+
+2. Почему эффект от распараллеливания наблюдается на большом количестве элементов?
+Так как это сильнее нагружает процессор.
+
+3. В чем основные достоинства работы с задачами по сравнению с потокми?
+Отсутствуют данные ограничения класса Thread:
+►1) отсутствует механизм продолжений 
+►2) затруднено получение значение результата из потока 
+►3) повышенный расход памяти и замедление работы приложения
+
+4. Приведите три способа создания и/или запуска Task?
+Первый способ)
+
+Task task1 = new Task(() => { i++; Console.WriteLine("Task 1 finished"); }); 
+
+Второй способ)
+Task task2 = Task.Factory.StartNew(() => { ++i; Console.WriteLine("Task 2 finished"); });
+
+Третий способ)
+Task task3 = Task.Run(() => { ++i; Console.WriteLine("Task 3 finished"); });
+
+5. Как и для чего используют методы Wait(), WaitAll() и WaitAny()?
+Используются для ожидания окончания выполнения одного, всех и ожидание получения сигнала какими-либо элементами заданного массива.
+
+6. Приведите пример синхронного запуска Task?
+ var syncTask = new Task<long>(() => {
+            Console.WriteLine("Task {0} (syncTask) executing on Thread {1}",
+                               Task.CurrentId,
+                               Thread.CurrentThread.ManagedThreadId);
+            long sum = 0;
+            for (int ctr = 1; ctr <= 1000000; ctr++)
+                sum += ctr;
+            return sum;
+        });
+syncTask.RunSynchronously();
+
+7. Как создать задачу с возвратом результата?
+Func<int> func = () => { Thread.Sleep(1000); return ++i; };
+ Task<int> task = new Task<int>(func); 
+Console.WriteLine(task.Status);        // Created 
+task.Start(); Console.WriteLine(task.Status);        // WaitingToRun 
+task.Wait(); Console.WriteLine(task.Result);        // 14 
+Console.WriteLine("Main finished");
+
+8. Как обработать исключение, если оно произошло при выполнении Task?
+
+Task task5 = Task.Run(() => 
+{ throw new Exception(); }); 
+try { task5.Wait(); } 
+catch (AggregateException ex) 
+{ 
+var message = ex.InnerException.Message;
+Console.WriteLine(message); 
+}
+
+9. Что такое CancellationToken и как с его помощью отменить выполнение задач?
+Структура CancellationToken - токен отмены
+Использование:
+CancellationTokenSource tokenSource = new CancellationTokenSource(); // используем  токен в двух задачах 
+new Task(method, tokenSource.Token).Start(); 
+new Task(method, tokenSource.Token).Start(); 
+//  отменяем  задачи 
+tokenSource.Cancel();
+
+10. Как организовать задачу продолжения (continuation task) ?
+Task task6 = Task.Run(() => Console.Write("Doing.."));
+Task task7 = task6.ContinueWith(t => Console.Write("continuation"));
+
+11. Как и для чего используется объект ожидания при создании задач продолжения?
+Объект ожидания – это любой объект, имеющий методы OnCompleted() и GetResult() и свойство IsCompleted
+Чтобы выполнять какие-то действия после окончания определенного метода в другом потоке.
+
+12. Поясните назначение класса System.Threading.Tasks.Parallel?
+Предоставляет поддержку параллельных циклов и областей.
+ParallelКласс обеспечивает параллельные замены данных на основе библиотеки для таких распространенных операций, 
+как циклы for, для каждого цикла и выполнения набора инструкций.
+
+13. Приведите пример задачи с Parallel.For(int, int, Action<int>)
+Parallel.For(1, 10, z=> { int r = 1; for (int y = 1; y <= 10; y++) { r *= z; } })
+
+Parallel.For(1, 10, (int z, ParallelLoopState pd) => { Console.WriteLine(z); int r = 1; for (int y = 1; y <= 10; y++) { r *= z; }
+}); Console.WriteLine("Stop");
+
+ParallelLoopResult result = Parallel.For(1, 10, Factorial);
+if (!result.IsCompleted) Console.WriteLine("Выполнение цикла завершено на итерации {0}", result.LowestBreakIteration);
+
+14. Приведите пример задачи с Parallel.ForEach
+ParallelLoopResult listFact = Parallel.ForEach<int> (new List<int>() { 1, 3, 5, 8 }, Factorial);
+
+Parallel.ForEach(Directory.GetFiles(path, "*.jpg"), image => Process(image));
+
+15. Приведите пример с Parallel.Invoke()
+Parallel.Invoke( () =>    new WebClient().DownloadFile("http://www.belstu.by", "start.html"), () => new WebClient().DownloadFile("http://www.go.by", "go.html"));
+
+16. Как с использованием CancellationToken отменить параллельные операции?
+CancellationTokenSource tokenSource = new CancellationTokenSource(); // используем  токен в двух задачах 
+new Task(method, tokenSource.Token).Start(); 
+new Task(method, tokenSource.Token).Start(); 
+//  отменяем  задачи 
+tokenSource.Cancel();
+
+17. Для чего используют BlockingCollection<T>, в чем ее особенность?
+Класс BlockingCollection<T> - реализация шаблона «поставщик - потребитель»
+Модель делегирования (упр-раб) 
+ fork-join Invoke 
+Сеть с равноправными узлами 
+ TPL   For   Foreach PLINQ 
+Конвейер  Аснихронные задачи LongRunning 
+Модель «Производитель -потребитель»
+
+18. Как используя async и await организовать асинхронное выполенение метода?
+  // определение асинхронного метода
+        static async void FactorialAsync()
+        {
+            Console.WriteLine("Начало метода FactorialAsync"); // выполняется синхронно
+            await Task.Run(()=>Factorial());                // выполняется асинхронно
+            Console.WriteLine("Конец метода FactorialAsync");
+        }
+методы с модификатором async   называются асинхронные функции 
+при вызове они не блокируют поток
+с помощью await можно приостановить выполнение, пока нужный метод не завершится

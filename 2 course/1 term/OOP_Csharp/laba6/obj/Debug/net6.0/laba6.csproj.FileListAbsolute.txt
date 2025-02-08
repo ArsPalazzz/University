@@ -1,0 +1,15 @@
+D:\Study\ООПиП(Экзамен)\laba6\obj\Debug\net6.0\laba6.csproj.AssemblyReference.cache
+D:\Study\ООПиП(Экзамен)\laba6\obj\Debug\net6.0\laba6.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\ООПиП(Экзамен)\laba6\obj\Debug\net6.0\laba6.AssemblyInfoInputs.cache
+D:\Study\ООПиП(Экзамен)\laba6\obj\Debug\net6.0\laba6.AssemblyInfo.cs
+D:\Study\ООПиП(Экзамен)\laba6\obj\Debug\net6.0\laba6.csproj.CoreCompileInputs.cache
+D:\Study\ООПиП(Экзамен)\laba6\bin\Debug\net6.0\laba6.exe
+D:\Study\ООПиП(Экзамен)\laba6\bin\Debug\net6.0\laba6.deps.json
+D:\Study\ООПиП(Экзамен)\laba6\bin\Debug\net6.0\laba6.runtimeconfig.json
+D:\Study\ООПиП(Экзамен)\laba6\bin\Debug\net6.0\laba6.dll
+D:\Study\ООПиП(Экзамен)\laba6\bin\Debug\net6.0\laba6.pdb
+D:\Study\ООПиП(Экзамен)\laba6\obj\Debug\net6.0\laba6.dll
+D:\Study\ООПиП(Экзамен)\laba6\obj\Debug\net6.0\refint\laba6.dll
+D:\Study\ООПиП(Экзамен)\laba6\obj\Debug\net6.0\laba6.pdb
+D:\Study\ООПиП(Экзамен)\laba6\obj\Debug\net6.0\laba6.genruntimeconfig.cache
+D:\Study\ООПиП(Экзамен)\laba6\obj\Debug\net6.0\ref\laba6.dll

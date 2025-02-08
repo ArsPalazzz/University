@@ -1,0 +1,972 @@
+Current class:	laba11.Reflector
+Current assembly name:	laba11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+=	=	=	=========	=	=	=
+
+Public methods:
+
+=	=	=	=========	=	=	=
+
+Fields and Props:
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+
+=	=	=	=========	=	=	=
+
+Interfaces:
+
+=	=	=	=========	=	=	=
+
+Methods with parametr currentClassName:
+
+=	=	=	=========	=	=	=
+
+Current class:	laba11.Reflector
+Current assembly name:	laba11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+=	=	=	=========	=	=	=
+
+Public methods:
+
+=	=	=	=========	=	=	=
+
+Fields and Props:
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+
+=	=	=	=========	=	=	=
+
+Interfaces:
+
+=	=	=	=========	=	=	=
+
+Methods with parametr currentClassName:
+
+=	=	=	=========	=	=	=
+
+Current class:	laba11.Reflector
+Current assembly name:	laba11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+=	=	=	=========	=	=	=
+
+Public methods:
+
+=	=	=	=========	=	=	=
+
+Fields and Props:
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+
+=	=	=	=========	=	=	=
+
+Interfaces:
+
+=	=	=	=========	=	=	=
+
+Methods with parametr currentClassName:
+
+=	=	=	=========	=	=	=
+
+Current class:	laba11.Reflector
+Current assembly name:	laba11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+=	=	=	=========	=	=	=
+
+Public methods:
+
+=	=	=	=========	=	=	=
+
+Fields and Props:
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+
+=	=	=	=========	=	=	=
+
+Interfaces:
+
+=	=	=	=========	=	=	=
+
+Methods with parametr currentClassName:
+
+=	=	=	=========	=	=	=
+
+Current class:	laba11.Reflector
+Current assembly name:	laba11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+=	=	=	=========	=	=	=
+
+Public methods:
+
+=	=	=	=========	=	=	=
+
+Fields and Props:
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+
+=	=	=	=========	=	=	=
+
+Interfaces:
+
+=	=	=	=========	=	=	=
+
+Methods with parametr currentClassName:
+
+=	=	=	=========	=	=	=
+
+Current class:	laba11.Reflector
+Current assembly name:	laba11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+=	=	=	=========	=	=	=
+
+Public methods:
+
+=	=	=	=========	=	=	=
+
+Fields and Props:
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+
+=	=	=	=========	=	=	=
+
+Interfaces:
+
+=	=	=	=========	=	=	=
+
+Methods with parametr currentClassName:
+
+=	=	=	=========	=	=	=
+
+Current class:	laba11.Reflector
+Current assembly name:	laba11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+=	=	=	=========	=	=	=
+
+Public methods:
+
+=	=	=	=========	=	=	=
+
+Fields and Props:
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+
+=	=	=	=========	=	=	=
+
+Interfaces:
+
+=	=	=	=========	=	=	=
+
+Methods with parametr currentClassName:
+
+=	=	=	=========	=	=	=
+
+Current class:	laba11.Reflector
+Current assembly name:	laba11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+=	=	=	=========	=	=	=
+
+Public methods:
+
+=	=	=	=========	=	=	=
+
+Fields and Props:
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+
+=	=	=	=========	=	=	=
+
+Interfaces:
+
+=	=	=	=========	=	=	=
+
+Methods with parametr currentClassName:
+
+=	=	=	=========	=	=	=
+
+Current class:	laba11.Reflector
+Current assembly name:	laba11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+=	=	=	=========	=	=	=
+
+Public methods:
+
+=	=	=	=========	=	=	=
+
+Fields and Props:
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+
+=	=	=	=========	=	=	=
+
+Interfaces:
+
+=	=	=	=========	=	=	=
+
+Methods with parametr currentClassName:
+
+=	=	=	=========	=	=	=
+
+Current class:	laba11.Reflector
+Current assembly name:	laba11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+=	=	=	=========	=	=	=
+
+Public methods:
+
+=	=	=	=========	=	=	=
+
+Fields and Props:
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+
+=	=	=	=========	=	=	=
+
+Interfaces:
+
+=	=	=	=========	=	=	=
+
+Methods with parametr currentClassName:
+
+=	=	=	=========	=	=	=
+
+Current class:	laba11.Reflector
+Current assembly name:	laba11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+=	=	=	=========	=	=	=
+
+Public methods:
+
+=	=	=	=========	=	=	=
+
+Fields and Props:
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+
+=	=	=	=========	=	=	=
+
+Interfaces:
+
+=	=	=	=========	=	=	=
+
+Methods with parametr currentClassName:
+
+=	=	=	=========	=	=	=
+
+Current class:	laba11.Reflector
+Current assembly name:	laba11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+=	=	=	=========	=	=	=
+
+Public methods:
+
+=	=	=	=========	=	=	=
+
+Fields and Props:
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+
+=	=	=	=========	=	=	=
+
+Interfaces:
+
+=	=	=	=========	=	=	=
+
+Methods with parametr currentClassName:
+
+=	=	=	=========	=	=	=
+
+Current class:	laba11.Reflector
+Current assembly name:	laba11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+=	=	=	=========	=	=	=
+
+Public methods:
+
+=	=	=	=========	=	=	=
+
+Fields and Props:
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+
+=	=	=	=========	=	=	=
+
+Interfaces:
+
+=	=	=	=========	=	=	=
+
+Methods with parametr currentClassName:
+
+=	=	=	=========	=	=	=
+
+Current class:	laba11.Reflector
+Current assembly name:	laba11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+=	=	=	=========	=	=	=
+
+Public methods:
+
+=	=	=	=========	=	=	=
+
+Fields and Props:
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+
+=	=	=	=========	=	=	=
+
+Interfaces:
+
+=	=	=	=========	=	=	=
+
+Methods with parametr currentClassName:
+
+=	=	=	=========	=	=	=
+
+Current class:	laba11.Reflector
+Current assembly name:	laba11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+=	=	=	=========	=	=	=
+
+Public methods:
+
+=	=	=	=========	=	=	=
+
+Fields and Props:
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+
+=	=	=	=========	=	=	=
+
+Interfaces:
+
+=	=	=	=========	=	=	=
+
+Methods with parametr currentClassName:
+
+=	=	=	=========	=	=	=
+
+Current class:	laba11.Reflector
+Current assembly name:	laba11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+=	=	=	=========	=	=	=
+
+Public methods:
+
+=	=	=	=========	=	=	=
+
+Fields and Props:
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+
+=	=	=	=========	=	=	=
+
+Interfaces:
+
+=	=	=	=========	=	=	=
+
+Methods with parametr currentClassName:
+
+=	=	=	=========	=	=	=
+
+Current class:	laba11.Reflector
+Current assembly name:	laba11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+=	=	=	=========	=	=	=
+
+Public methods:
+
+=	=	=	=========	=	=	=
+
+Fields and Props:
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+
+=	=	=	=========	=	=	=
+
+Interfaces:
+
+=	=	=	=========	=	=	=
+
+Methods with parametr currentClassName:
+
+=	=	=	=========	=	=	=
+
+Current class:	laba11.Reflector
+Current assembly name:	laba11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+=	=	=	=========	=	=	=
+
+Public methods:
+
+=	=	=	=========	=	=	=
+
+Fields and Props:
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+
+=	=	=	=========	=	=	=
+
+Interfaces:
+
+=	=	=	=========	=	=	=
+
+Methods with parametr currentClassName:
+
+=	=	=	=========	=	=	=
+
+Current class:	laba11.Reflector
+Current assembly name:	laba11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+=	=	=	=========	=	=	=
+
+Public methods:
+
+=	=	=	=========	=	=	=
+
+Fields and Props:
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+
+=	=	=	=========	=	=	=
+
+Interfaces:
+
+=	=	=	=========	=	=	=
+
+Methods with parametr currentClassName:
+
+=	=	=	=========	=	=	=
+
+Current class:	laba11.Reflector
+Current assembly name:	laba11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+=	=	=	=========	=	=	=
+
+Public methods:
+
+=	=	=	=========	=	=	=
+
+Fields and Props:
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+
+=	=	=	=========	=	=	=
+
+Interfaces:
+
+=	=	=	=========	=	=	=
+
+Methods with parametr currentClassName:
+
+=	=	=	=========	=	=	=
+
+Current class:	laba11.Reflector
+Current assembly name:	laba11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+=	=	=	=========	=	=	=
+
+Public methods:
+
+=	=	=	=========	=	=	=
+
+Fields and Props:
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+
+=	=	=	=========	=	=	=
+
+Interfaces:
+
+=	=	=	=========	=	=	=
+
+Methods with parametr currentClassName:
+
+=	=	=	=========	=	=	=
+
+Current class:	laba11.Reflector
+Current assembly name:	laba11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+=	=	=	=========	=	=	=
+
+Public methods:
+
+=	=	=	=========	=	=	=
+
+Fields and Props:
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+
+=	=	=	=========	=	=	=
+
+Interfaces:
+
+=	=	=	=========	=	=	=
+
+Methods with parametr currentClassName:
+
+=	=	=	=========	=	=	=
+
+Current class:	laba11.Reflector
+Current assembly name:	laba11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+=	=	=	=========	=	=	=
+
+Public methods:
+
+=	=	=	=========	=	=	=
+
+Fields and Props:
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+
+=	=	=	=========	=	=	=
+
+Interfaces:
+
+=	=	=	=========	=	=	=
+
+Methods with parametr currentClassName:
+
+=	=	=	=========	=	=	=
+
+Current class:	laba11.Reflector
+Current assembly name:	laba11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+=	=	=	=========	=	=	=
+
+Public methods:
+
+=	=	=	=========	=	=	=
+
+Fields and Props:
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+
+=	=	=	=========	=	=	=
+
+Interfaces:
+
+=	=	=	=========	=	=	=
+
+Methods with parametr currentClassName:
+
+=	=	=	=========	=	=	=
+
+Current class:	laba11.Reflector
+Current assembly name:	laba11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+=	=	=	=========	=	=	=
+
+Public methods:
+
+=	=	=	=========	=	=	=
+
+Fields and Props:
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+
+=	=	=	=========	=	=	=
+
+Interfaces:
+
+=	=	=	=========	=	=	=
+
+Methods with parametr currentClassName:
+
+=	=	=	=========	=	=	=
+
+Current class:	laba11.Reflector
+Current assembly name:	laba11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+=	=	=	=========	=	=	=
+
+Public methods:
+
+=	=	=	=========	=	=	=
+
+Fields and Props:
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+
+=	=	=	=========	=	=	=
+
+Interfaces:
+
+=	=	=	=========	=	=	=
+
+Methods with parametr currentClassName:
+
+=	=	=	=========	=	=	=
+
+Current class:	laba11.Reflector
+Current assembly name:	laba11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+=	=	=	=========	=	=	=
+
+Public methods:
+
+=	=	=	=========	=	=	=
+
+Fields and Props:
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+
+=	=	=	=========	=	=	=
+
+Interfaces:
+
+=	=	=	=========	=	=	=
+
+Methods with parametr currentClassName:
+
+=	=	=	=========	=	=	=
+
+Current class:	laba11.Reflector
+Current assembly name:	laba11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+=	=	=	=========	=	=	=
+
+Public methods:
+
+=	=	=	=========	=	=	=
+
+Fields and Props:
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+
+=	=	=	=========	=	=	=
+
+Interfaces:
+
+=	=	=	=========	=	=	=
+
+Methods with parametr currentClassName:
+
+=	=	=	=========	=	=	=
+
+Current class:	laba11.Reflector
+Current assembly name:	laba11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+=	=	=	=========	=	=	=
+
+Public methods:
+
+=	=	=	=========	=	=	=
+
+Fields and Props:
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+
+=	=	=	=========	=	=	=
+
+Interfaces:
+
+=	=	=	=========	=	=	=
+
+Methods with parametr currentClassName:
+
+=	=	=	=========	=	=	=
+
+Current class:	laba11.Reflector
+Current assembly name:	laba11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+=	=	=	=========	=	=	=
+
+Public methods:
+
+=	=	=	=========	=	=	=
+
+Fields and Props:
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+
+=	=	=	=========	=	=	=
+
+Interfaces:
+
+=	=	=	=========	=	=	=
+
+Methods with parametr currentClassName:
+
+=	=	=	=========	=	=	=
+
+Current class:	laba11.Reflector
+Current assembly name:	laba11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+=	=	=	=========	=	=	=
+
+Public methods:
+
+=	=	=	=========	=	=	=
+
+Fields and Props:
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+
+=	=	=	=========	=	=	=
+
+Interfaces:
+
+=	=	=	=========	=	=	=
+
+Methods with parametr currentClassName:
+
+=	=	=	=========	=	=	=
+
+Current class:	laba11.Reflector
+Current assembly name:	laba11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+=	=	=	=========	=	=	=
+
+Public methods:
+
+=	=	=	=========	=	=	=
+
+Fields and Props:
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+
+=	=	=	=========	=	=	=
+
+Interfaces:
+
+=	=	=	=========	=	=	=
+
+Methods with parametr currentClassName:
+
+=	=	=	=========	=	=	=
+
+Current class:	laba11.Reflector
+Current assembly name:	laba11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+=	=	=	=========	=	=	=
+
+Public methods:
+
+=	=	=	=========	=	=	=
+
+Fields and Props:
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+
+=	=	=	=========	=	=	=
+
+Interfaces:
+
+=	=	=	=========	=	=	=
+
+Methods with parametr currentClassName:
+
+=	=	=	=========	=	=	=
+
+Current class:	laba11.Reflector
+Current assembly name:	laba11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+=	=	=	=========	=	=	=
+
+Public methods:
+
+=	=	=	=========	=	=	=
+
+Fields and Props:
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+
+=	=	=	=========	=	=	=
+
+Interfaces:
+
+=	=	=	=========	=	=	=
+
+Methods with parametr currentClassName:
+
+=	=	=	=========	=	=	=
+
+Current class:	laba11.Reflector
+Current assembly name:	laba11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+=	=	=	=========	=	=	=
+
+Public methods:
+
+=	=	=	=========	=	=	=
+
+Fields and Props:
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+
+=	=	=	=========	=	=	=
+
+Interfaces:
+
+=	=	=	=========	=	=	=
+
+Methods with parametr currentClassName:
+
+=	=	=	=========	=	=	=
+
+Current class:	laba11.Reflector
+Current assembly name:	laba11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+=	=	=	=========	=	=	=
+
+Public methods:
+
+=	=	=	=========	=	=	=
+
+Fields and Props:
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.FieldInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+System.Reflection.PropertyInfo[]
+
+=	=	=	=========	=	=	=
+
+Interfaces:
+
+=	=	=	=========	=	=	=
+
+Methods with parametr currentClassName:
+
+=	=	=	=========	=	=	=
+

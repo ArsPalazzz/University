@@ -1,0 +1,30 @@
+E:\Универ\Лабораторные работы\3 семестр\ООП\лаба 14\lab14\lab14\obj\Debug\net6.0\lab14.csproj.AssemblyReference.cache
+E:\Универ\Лабораторные работы\3 семестр\ООП\лаба 14\lab14\lab14\obj\Debug\net6.0\lab14.GeneratedMSBuildEditorConfig.editorconfig
+E:\Универ\Лабораторные работы\3 семестр\ООП\лаба 14\lab14\lab14\obj\Debug\net6.0\lab14.AssemblyInfoInputs.cache
+E:\Универ\Лабораторные работы\3 семестр\ООП\лаба 14\lab14\lab14\obj\Debug\net6.0\lab14.AssemblyInfo.cs
+E:\Универ\Лабораторные работы\3 семестр\ООП\лаба 14\lab14\lab14\obj\Debug\net6.0\lab14.csproj.CoreCompileInputs.cache
+E:\Универ\Лабораторные работы\3 семестр\ООП\лаба 14\lab14\lab14\bin\Debug\net6.0\lab14.exe
+E:\Универ\Лабораторные работы\3 семестр\ООП\лаба 14\lab14\lab14\bin\Debug\net6.0\lab14.deps.json
+E:\Универ\Лабораторные работы\3 семестр\ООП\лаба 14\lab14\lab14\bin\Debug\net6.0\lab14.runtimeconfig.json
+E:\Универ\Лабораторные работы\3 семестр\ООП\лаба 14\lab14\lab14\bin\Debug\net6.0\lab14.dll
+E:\Универ\Лабораторные работы\3 семестр\ООП\лаба 14\lab14\lab14\bin\Debug\net6.0\lab14.pdb
+E:\Универ\Лабораторные работы\3 семестр\ООП\лаба 14\lab14\lab14\obj\Debug\net6.0\lab14.dll
+E:\Универ\Лабораторные работы\3 семестр\ООП\лаба 14\lab14\lab14\obj\Debug\net6.0\refint\lab14.dll
+E:\Универ\Лабораторные работы\3 семестр\ООП\лаба 14\lab14\lab14\obj\Debug\net6.0\lab14.pdb
+E:\Универ\Лабораторные работы\3 семестр\ООП\лаба 14\lab14\lab14\obj\Debug\net6.0\lab14.genruntimeconfig.cache
+E:\Универ\Лабораторные работы\3 семестр\ООП\лаба 14\lab14\lab14\obj\Debug\net6.0\ref\lab14.dll
+D:\Study\ООПиП(Экзамен)\laba14.3\лаба 14\lab14\lab14\bin\Debug\net6.0\lab14.exe
+D:\Study\ООПиП(Экзамен)\laba14.3\лаба 14\lab14\lab14\bin\Debug\net6.0\lab14.deps.json
+D:\Study\ООПиП(Экзамен)\laba14.3\лаба 14\lab14\lab14\bin\Debug\net6.0\lab14.runtimeconfig.json
+D:\Study\ООПиП(Экзамен)\laba14.3\лаба 14\lab14\lab14\bin\Debug\net6.0\lab14.dll
+D:\Study\ООПиП(Экзамен)\laba14.3\лаба 14\lab14\lab14\bin\Debug\net6.0\lab14.pdb
+D:\Study\ООПиП(Экзамен)\laba14.3\лаба 14\lab14\lab14\obj\Debug\net6.0\lab14.csproj.AssemblyReference.cache
+D:\Study\ООПиП(Экзамен)\laba14.3\лаба 14\lab14\lab14\obj\Debug\net6.0\lab14.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\ООПиП(Экзамен)\laba14.3\лаба 14\lab14\lab14\obj\Debug\net6.0\lab14.AssemblyInfoInputs.cache
+D:\Study\ООПиП(Экзамен)\laba14.3\лаба 14\lab14\lab14\obj\Debug\net6.0\lab14.AssemblyInfo.cs
+D:\Study\ООПиП(Экзамен)\laba14.3\лаба 14\lab14\lab14\obj\Debug\net6.0\lab14.csproj.CoreCompileInputs.cache
+D:\Study\ООПиП(Экзамен)\laba14.3\лаба 14\lab14\lab14\obj\Debug\net6.0\lab14.dll
+D:\Study\ООПиП(Экзамен)\laba14.3\лаба 14\lab14\lab14\obj\Debug\net6.0\refint\lab14.dll
+D:\Study\ООПиП(Экзамен)\laba14.3\лаба 14\lab14\lab14\obj\Debug\net6.0\lab14.pdb
+D:\Study\ООПиП(Экзамен)\laba14.3\лаба 14\lab14\lab14\obj\Debug\net6.0\lab14.genruntimeconfig.cache
+D:\Study\ООПиП(Экзамен)\laba14.3\лаба 14\lab14\lab14\obj\Debug\net6.0\ref\lab14.dll

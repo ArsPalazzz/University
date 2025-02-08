@@ -1,0 +1,15 @@
+D:\Study\!Экзы\ООПиП\varikPatsei\bin\Debug\net6.0\varikPatsei.exe
+D:\Study\!Экзы\ООПиП\varikPatsei\bin\Debug\net6.0\varikPatsei.deps.json
+D:\Study\!Экзы\ООПиП\varikPatsei\bin\Debug\net6.0\varikPatsei.runtimeconfig.json
+D:\Study\!Экзы\ООПиП\varikPatsei\bin\Debug\net6.0\varikPatsei.dll
+D:\Study\!Экзы\ООПиП\varikPatsei\bin\Debug\net6.0\varikPatsei.pdb
+D:\Study\!Экзы\ООПиП\varikPatsei\obj\Debug\net6.0\varikPatsei.csproj.AssemblyReference.cache
+D:\Study\!Экзы\ООПиП\varikPatsei\obj\Debug\net6.0\varikPatsei.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\!Экзы\ООПиП\varikPatsei\obj\Debug\net6.0\varikPatsei.AssemblyInfoInputs.cache
+D:\Study\!Экзы\ООПиП\varikPatsei\obj\Debug\net6.0\varikPatsei.AssemblyInfo.cs
+D:\Study\!Экзы\ООПиП\varikPatsei\obj\Debug\net6.0\varikPatsei.csproj.CoreCompileInputs.cache
+D:\Study\!Экзы\ООПиП\varikPatsei\obj\Debug\net6.0\varikPatsei.dll
+D:\Study\!Экзы\ООПиП\varikPatsei\obj\Debug\net6.0\refint\varikPatsei.dll
+D:\Study\!Экзы\ООПиП\varikPatsei\obj\Debug\net6.0\varikPatsei.pdb
+D:\Study\!Экзы\ООПиП\varikPatsei\obj\Debug\net6.0\varikPatsei.genruntimeconfig.cache
+D:\Study\!Экзы\ООПиП\varikPatsei\obj\Debug\net6.0\ref\varikPatsei.dll

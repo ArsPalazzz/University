@@ -1,0 +1,30 @@
+E:\Универ\Лабораторные работы\3 семестр\ООП\лаба 15\lab15\lab15\bin\Debug\net6.0\lab15.exe
+E:\Универ\Лабораторные работы\3 семестр\ООП\лаба 15\lab15\lab15\bin\Debug\net6.0\lab15.deps.json
+E:\Универ\Лабораторные работы\3 семестр\ООП\лаба 15\lab15\lab15\bin\Debug\net6.0\lab15.runtimeconfig.json
+E:\Универ\Лабораторные работы\3 семестр\ООП\лаба 15\lab15\lab15\bin\Debug\net6.0\lab15.dll
+E:\Универ\Лабораторные работы\3 семестр\ООП\лаба 15\lab15\lab15\bin\Debug\net6.0\lab15.pdb
+E:\Универ\Лабораторные работы\3 семестр\ООП\лаба 15\lab15\lab15\obj\Debug\net6.0\lab15.csproj.AssemblyReference.cache
+E:\Универ\Лабораторные работы\3 семестр\ООП\лаба 15\lab15\lab15\obj\Debug\net6.0\lab15.GeneratedMSBuildEditorConfig.editorconfig
+E:\Универ\Лабораторные работы\3 семестр\ООП\лаба 15\lab15\lab15\obj\Debug\net6.0\lab15.AssemblyInfoInputs.cache
+E:\Универ\Лабораторные работы\3 семестр\ООП\лаба 15\lab15\lab15\obj\Debug\net6.0\lab15.AssemblyInfo.cs
+E:\Универ\Лабораторные работы\3 семестр\ООП\лаба 15\lab15\lab15\obj\Debug\net6.0\lab15.csproj.CoreCompileInputs.cache
+E:\Универ\Лабораторные работы\3 семестр\ООП\лаба 15\lab15\lab15\obj\Debug\net6.0\lab15.dll
+E:\Универ\Лабораторные работы\3 семестр\ООП\лаба 15\lab15\lab15\obj\Debug\net6.0\refint\lab15.dll
+E:\Универ\Лабораторные работы\3 семестр\ООП\лаба 15\lab15\lab15\obj\Debug\net6.0\lab15.pdb
+E:\Универ\Лабораторные работы\3 семестр\ООП\лаба 15\lab15\lab15\obj\Debug\net6.0\lab15.genruntimeconfig.cache
+E:\Универ\Лабораторные работы\3 семестр\ООП\лаба 15\lab15\lab15\obj\Debug\net6.0\ref\lab15.dll
+D:\Study\ООПиП(Экзамен)\laba15\lab15\lab15\bin\Debug\net6.0\lab15.exe
+D:\Study\ООПиП(Экзамен)\laba15\lab15\lab15\bin\Debug\net6.0\lab15.deps.json
+D:\Study\ООПиП(Экзамен)\laba15\lab15\lab15\bin\Debug\net6.0\lab15.runtimeconfig.json
+D:\Study\ООПиП(Экзамен)\laba15\lab15\lab15\bin\Debug\net6.0\lab15.dll
+D:\Study\ООПиП(Экзамен)\laba15\lab15\lab15\bin\Debug\net6.0\lab15.pdb
+D:\Study\ООПиП(Экзамен)\laba15\lab15\lab15\obj\Debug\net6.0\lab15.csproj.AssemblyReference.cache
+D:\Study\ООПиП(Экзамен)\laba15\lab15\lab15\obj\Debug\net6.0\lab15.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\ООПиП(Экзамен)\laba15\lab15\lab15\obj\Debug\net6.0\lab15.AssemblyInfoInputs.cache
+D:\Study\ООПиП(Экзамен)\laba15\lab15\lab15\obj\Debug\net6.0\lab15.AssemblyInfo.cs
+D:\Study\ООПиП(Экзамен)\laba15\lab15\lab15\obj\Debug\net6.0\lab15.csproj.CoreCompileInputs.cache
+D:\Study\ООПиП(Экзамен)\laba15\lab15\lab15\obj\Debug\net6.0\lab15.dll
+D:\Study\ООПиП(Экзамен)\laba15\lab15\lab15\obj\Debug\net6.0\refint\lab15.dll
+D:\Study\ООПиП(Экзамен)\laba15\lab15\lab15\obj\Debug\net6.0\lab15.pdb
+D:\Study\ООПиП(Экзамен)\laba15\lab15\lab15\obj\Debug\net6.0\lab15.genruntimeconfig.cache
+D:\Study\ООПиП(Экзамен)\laba15\lab15\lab15\obj\Debug\net6.0\ref\lab15.dll

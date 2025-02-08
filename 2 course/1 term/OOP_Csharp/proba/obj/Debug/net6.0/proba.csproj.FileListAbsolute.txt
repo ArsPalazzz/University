@@ -1,0 +1,15 @@
+D:\Study\ООПиП(Экзамен)\proba\obj\Debug\net6.0\proba.csproj.AssemblyReference.cache
+D:\Study\ООПиП(Экзамен)\proba\obj\Debug\net6.0\proba.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\ООПиП(Экзамен)\proba\obj\Debug\net6.0\proba.AssemblyInfoInputs.cache
+D:\Study\ООПиП(Экзамен)\proba\obj\Debug\net6.0\proba.AssemblyInfo.cs
+D:\Study\ООПиП(Экзамен)\proba\obj\Debug\net6.0\proba.csproj.CoreCompileInputs.cache
+D:\Study\ООПиП(Экзамен)\proba\bin\Debug\net6.0\proba.exe
+D:\Study\ООПиП(Экзамен)\proba\bin\Debug\net6.0\proba.deps.json
+D:\Study\ООПиП(Экзамен)\proba\bin\Debug\net6.0\proba.runtimeconfig.json
+D:\Study\ООПиП(Экзамен)\proba\bin\Debug\net6.0\proba.dll
+D:\Study\ООПиП(Экзамен)\proba\bin\Debug\net6.0\proba.pdb
+D:\Study\ООПиП(Экзамен)\proba\obj\Debug\net6.0\proba.dll
+D:\Study\ООПиП(Экзамен)\proba\obj\Debug\net6.0\refint\proba.dll
+D:\Study\ООПиП(Экзамен)\proba\obj\Debug\net6.0\proba.pdb
+D:\Study\ООПиП(Экзамен)\proba\obj\Debug\net6.0\proba.genruntimeconfig.cache
+D:\Study\ООПиП(Экзамен)\proba\obj\Debug\net6.0\ref\proba.dll

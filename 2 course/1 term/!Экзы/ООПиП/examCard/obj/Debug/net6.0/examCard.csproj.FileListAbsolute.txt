@@ -1,0 +1,15 @@
+D:\Study\!Экзы\ООПиП\examCard\bin\Debug\net6.0\examCard.exe
+D:\Study\!Экзы\ООПиП\examCard\bin\Debug\net6.0\examCard.deps.json
+D:\Study\!Экзы\ООПиП\examCard\bin\Debug\net6.0\examCard.runtimeconfig.json
+D:\Study\!Экзы\ООПиП\examCard\bin\Debug\net6.0\examCard.dll
+D:\Study\!Экзы\ООПиП\examCard\bin\Debug\net6.0\examCard.pdb
+D:\Study\!Экзы\ООПиП\examCard\obj\Debug\net6.0\examCard.csproj.AssemblyReference.cache
+D:\Study\!Экзы\ООПиП\examCard\obj\Debug\net6.0\examCard.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\!Экзы\ООПиП\examCard\obj\Debug\net6.0\examCard.AssemblyInfoInputs.cache
+D:\Study\!Экзы\ООПиП\examCard\obj\Debug\net6.0\examCard.AssemblyInfo.cs
+D:\Study\!Экзы\ООПиП\examCard\obj\Debug\net6.0\examCard.csproj.CoreCompileInputs.cache
+D:\Study\!Экзы\ООПиП\examCard\obj\Debug\net6.0\examCard.dll
+D:\Study\!Экзы\ООПиП\examCard\obj\Debug\net6.0\refint\examCard.dll
+D:\Study\!Экзы\ООПиП\examCard\obj\Debug\net6.0\examCard.pdb
+D:\Study\!Экзы\ООПиП\examCard\obj\Debug\net6.0\examCard.genruntimeconfig.cache
+D:\Study\!Экзы\ООПиП\examCard\obj\Debug\net6.0\ref\examCard.dll

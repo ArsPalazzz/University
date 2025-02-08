@@ -1,0 +1,5 @@
+﻿  laba8.cpp
+D:\Study\КС(Экзамен)\laba8\laba8.cpp(98,19): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+D:\Study\КС(Экзамен)\laba8\laba8.cpp(57,12): warning C4101: mod: неиспользованная локальная переменная
+D:\Study\КС(Экзамен)\laba8\laba8.cpp(57,7): warning C4101: bin: неиспользованная локальная переменная
+  laba8.vcxproj -> D:\Study\КС(Экзамен)\laba8\x64\Debug\laba8.exe

@@ -1,0 +1,10 @@
+D:\Study\КС(Экзамен)\laba5\obj\Debug\net6.0\laba5.csproj.AssemblyReference.cache
+D:\Study\КС(Экзамен)\laba5\obj\Debug\net6.0\laba5.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\КС(Экзамен)\laba5\obj\Debug\net6.0\laba5.AssemblyInfoInputs.cache
+D:\Study\КС(Экзамен)\laba5\obj\Debug\net6.0\laba5.AssemblyInfo.cs
+D:\Study\КС(Экзамен)\laba5\obj\Debug\net6.0\laba5.csproj.CoreCompileInputs.cache
+D:\Study\ООПиП(Экзамен)\лаба 5\laba5\obj\Debug\net6.0\laba5.csproj.AssemblyReference.cache
+D:\Study\ООПиП(Экзамен)\лаба 5\laba5\obj\Debug\net6.0\laba5.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\ООПиП(Экзамен)\лаба 5\laba5\obj\Debug\net6.0\laba5.AssemblyInfoInputs.cache
+D:\Study\ООПиП(Экзамен)\лаба 5\laba5\obj\Debug\net6.0\laba5.AssemblyInfo.cs
+D:\Study\ООПиП(Экзамен)\лаба 5\laba5\obj\Debug\net6.0\laba5.csproj.CoreCompileInputs.cache

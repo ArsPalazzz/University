@@ -1,0 +1,7 @@
+use UNIVER
+
+SELECT top(1)
+	   (SELECT AVG(PROGRESS.NOTE) FROM PROGRESS where SUBJECT like 'нюХо') [нюХо],
+	   (SELECT AVG(PROGRESS.NOTE) FROM PROGRESS where SUBJECT like 'ад') [ад],
+	   (SELECT AVG(PROGRESS.NOTE) FROM PROGRESS where SUBJECT like 'ясад') [ясад]
+FROM PROGRESS;

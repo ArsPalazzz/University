@@ -1,0 +1,15 @@
+D:\Study\!Экзы\ООПиП\someString\bin\Debug\net6.0\someString.exe
+D:\Study\!Экзы\ООПиП\someString\bin\Debug\net6.0\someString.deps.json
+D:\Study\!Экзы\ООПиП\someString\bin\Debug\net6.0\someString.runtimeconfig.json
+D:\Study\!Экзы\ООПиП\someString\bin\Debug\net6.0\someString.dll
+D:\Study\!Экзы\ООПиП\someString\bin\Debug\net6.0\someString.pdb
+D:\Study\!Экзы\ООПиП\someString\obj\Debug\net6.0\someString.csproj.AssemblyReference.cache
+D:\Study\!Экзы\ООПиП\someString\obj\Debug\net6.0\someString.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\!Экзы\ООПиП\someString\obj\Debug\net6.0\someString.AssemblyInfoInputs.cache
+D:\Study\!Экзы\ООПиП\someString\obj\Debug\net6.0\someString.AssemblyInfo.cs
+D:\Study\!Экзы\ООПиП\someString\obj\Debug\net6.0\someString.csproj.CoreCompileInputs.cache
+D:\Study\!Экзы\ООПиП\someString\obj\Debug\net6.0\someString.dll
+D:\Study\!Экзы\ООПиП\someString\obj\Debug\net6.0\refint\someString.dll
+D:\Study\!Экзы\ООПиП\someString\obj\Debug\net6.0\someString.pdb
+D:\Study\!Экзы\ООПиП\someString\obj\Debug\net6.0\someString.genruntimeconfig.cache
+D:\Study\!Экзы\ООПиП\someString\obj\Debug\net6.0\ref\someString.dll
