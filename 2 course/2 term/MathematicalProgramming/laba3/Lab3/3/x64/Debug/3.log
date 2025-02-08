@@ -1,0 +1,8 @@
+﻿  stdafx.cpp
+  3.cpp
+  Combi.cpp
+  Salesman.cpp
+D:\Study\МП\laba3\Lab3\3\Salesman.cpp(58,8): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+D:\Study\МП\laba3\Lab3\3\Salesman.cpp(66,16): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+  Создание кода...
+  3.vcxproj -> D:\Study\МП\laba3\Lab3\x64\Debug\3.exe
